@@ -216,7 +216,7 @@
 //Start Head markings
 
 /datum/sprite_accessory/tajaran_head_marking
-	icon = 'icons/mob/species/tajaran/tajaran_head_marking.dmi'
+	icon = 'icons/mob/species/tajaran/tajaran_head_markings.dmi'
 	body_zone = BODY_ZONE_HEAD
 	secondary_color = TRUE
 
@@ -266,10 +266,10 @@
 
 //Leg stuff, no better place to put it, no point in a legs.dm file
 
-/datum/sprite_accessory/legs 	//legs are a special case, they aren't actually sprite_accessories but are updated with them.
+/datum/sprite_accessory/tajaran_legs 	//legs are a special case, they aren't actually sprite_accessories but are updated with them.
 	icon = null					//These datums exist for selecting legs on preference, and little else
 
-/datum/sprite_accessory/legs/none
+/datum/sprite_accessory/tajaran_legs/none
 	name = "Normal Legs"
 
 // /datum/sprite_accessory/legs/digitigrade_lizard

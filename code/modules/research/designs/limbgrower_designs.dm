@@ -133,6 +133,22 @@
 	build_path = /obj/item/organ/tongue/lizard
 	category = list("initial",SPECIES_LIZARD)
 
+/datum/design/tajaran_tail
+	name = "Tajaran Tail"
+	id = "tajtail"
+	build_type = LIMBGROWER
+	reagents_list = list(/datum/reagent/medicine/synthflesh = 20)
+	build_path = /obj/item/organ/tail/tajaran/fake
+	category = list("initial",SPECIES_TAJARAN)
+
+/datum/design/tajaran_tongue
+	name = "Forked Tongue"
+	id = "tajtongue"
+	build_type = LIMBGROWER
+	reagents_list = list(/datum/reagent/medicine/synthflesh = 10)
+	build_path = /obj/item/organ/tongue/tajaran
+	category = list("initial",SPECIES_TAJARAN)
+
 //  someday this will get uncommented
 // /datum/design/monkey_tail
 // 	name = "Monkey Tail"

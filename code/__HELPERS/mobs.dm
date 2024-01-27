@@ -122,6 +122,7 @@
 		"tail_human" = "None",
 		"tail_lizard" = pick(GLOB.tails_list_lizard),
 		"tail_elzu" = pick(GLOB.tails_list_elzu),
+		"tail_tajaran" = pick(GLOB.tajaran_tails_list),
 		"vox_head_quills" = pick(GLOB.vox_head_quills_list),
 		"vox_neck_quills" = pick(GLOB.vox_neck_quills_list),
 		"wings" = "None",

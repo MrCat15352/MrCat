@@ -15,11 +15,11 @@
 	attack_sound = 'sound/weapons/slash.ogg'
 	miss_sound = 'sound/weapons/slashmiss.ogg'
 	meat = /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/lizard //Needs draw sprite meat
-	heatmod = 0.8
-	coldmod = 1.2
-	bodytemp_normal = HUMAN_BODYTEMP_NORMAL + 30
-	bodytemp_heat_damage_limit = HUMAN_BODYTEMP_HEAT_DAMAGE_LIMIT - 10
-	bodytemp_cold_damage_limit = HUMAN_BODYTEMP_COLD_DAMAGE_LIMIT + 30
+//	heatmod = 0.8
+//	coldmod = 1.2
+//	bodytemp_normal = HUMAN_BODYTEMP_NORMAL + 30
+//	bodytemp_heat_damage_limit = HUMAN_BODYTEMP_HEAT_DAMAGE_LIMIT - 10
+//	bodytemp_cold_damage_limit = HUMAN_BODYTEMP_COLD_DAMAGE_LIMIT + 30
 	mutanttongue = /obj/item/organ/tongue/tajaran
 	species_language_holder = /datum/language_holder/tajaran
 	loreblurb = "The Tajaran race is a species of feline-like bipeds hailing from the planet of Ahdomai in the \
@@ -31,14 +31,14 @@
 	ass_image = 'icons/ass/asscat.png'
 
 	bodytype = BODYTYPE_TAJARAN
-/*
+
 	species_chest = /obj/item/bodypart/chest/tajaran
 	species_head = /obj/item/bodypart/head/tajaran
 	species_l_arm = /obj/item/bodypart/l_arm/tajaran
 	species_r_arm = /obj/item/bodypart/r_arm/tajaran
 	species_l_leg = /obj/item/bodypart/leg/left/tajaran
 	species_r_leg = /obj/item/bodypart/leg/right/tajaran
-*/
+
 
 /datum/species/kepori/random_name(gender,unique,lastname) //hhhhhssssss
 	if(unique)

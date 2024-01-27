@@ -47,6 +47,14 @@
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/elzu_horns,GLOB.elzu_horns_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/elzu, GLOB.tails_list_elzu)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tails_animated/elzu, GLOB.animated_tails_list_elzu)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_body_markings, GLOB.tajaran_body_markings_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tails, GLOB.tajaran_tails_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tails_animated, GLOB.tajaran_animated_tails_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_face_markings, GLOB.tajaran_face_markings_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_hairs, GLOB.tajaran_hairs_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_ears, GLOB.tajaran_ears_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_head_marking, GLOB.tajaran_head_markings)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_legs, GLOB.tajaran_legs_list)
 
 	//Species
 	for(var/spath in subtypesof(/datum/species))

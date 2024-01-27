@@ -152,3 +152,40 @@
 		H.dna.species.mutant_bodyparts -= "tail_human"
 		color = H.hair_color
 		H.update_body()
+
+/obj/item/organ/tail/tajaran
+	name = "\improper Tajaran tail"
+	desc = "A severed Tajaran's tail."
+	icon_state = "severedlizard"
+	color = "#661111"
+	tail_type = "Smooth"
+	var/spines = "None"
+
+/obj/item/organ/tail/tajaran/Initialize()
+	. = ..()
+	color = "#"+ random_color()
+
+/obj/item/organ/tail/tajaran/Insert(mob/living/carbon/human/H, special = 0, drop_if_replaced = TRUE)
+	..()
+	if(istype(H))
+		// Checks here are necessary so it wouldn't overwrite the tail of a lizard it spawned in
+		if(!("tail_tajaran" in H.dna.species.mutant_bodyparts))
+			if(!H.dna.features["tail_tajaran"])
+				H.dna.features["tail_tajaran"] = tail_type
+				H.dna.species.mutant_bodyparts |= "tail_tajaran"
+			else
+				H.dna.species.mutant_bodyparts["tail_tajaran"] = H.dna.features["tail_tajaran"]
+
+		H.update_body()
+
+/obj/item/organ/tail/tajaran/Remove(mob/living/carbon/human/H,  special = 0)
+	..()
+	if(istype(H))
+		H.dna.species.mutant_bodyparts -= "tail_tajaran"
+		color = "#" + H.dna.features["mcolor"]
+		tail_type = H.dna.features["tail_tajaran"]
+		H.update_body()
+
+/obj/item/organ/tail/tajaran/fake
+	name = "fabricated tajaran tail"
+	desc = "A fabricated severed tajaran tail. This one's made of synthflesh."
