@@ -21,7 +21,8 @@
 		/datum/language/moffic,
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
-		/datum/language/ratvar
+		/datum/language/ratvar,
+		/datum/language/tajaran
 	))
 
 /obj/item/organ/tongue/Initialize(mapload)
@@ -116,7 +117,8 @@
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
 		/datum/language/buzzwords,
-		/datum/language/ratvar
+		/datum/language/ratvar,
+		/datum/language/tajaran
 	))
 
 /obj/item/organ/tongue/fly/handle_speech(datum/source, list/speech_args)
@@ -256,7 +258,8 @@
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
 		/datum/language/calcic,
-		/datum/language/ratvar
+		/datum/language/ratvar,
+		/datum/language/tajaran
 	))
 
 /obj/item/organ/tongue/bone/Initialize()
@@ -338,6 +341,7 @@
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
 		/datum/language/ratvar,
+		/datum/language/tajaran
 	))
 
 /obj/item/organ/tongue/ethereal/Initialize(mapload)
@@ -362,7 +366,8 @@
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
 		/datum/language/ratvar,
-		/datum/language/slime
+		/datum/language/slime,
+		/datum/language/tajaran
 	))
 
 /obj/item/organ/tongue/slime/Initialize(mapload)
@@ -385,7 +390,8 @@
 		/datum/language/moffic,
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
-		/datum/language/buzzwords
+		/datum/language/buzzwords,
+		/datum/language/tajaran
 	))
 
 /obj/item/organ/tongue/moth/Initialize(mapload)
@@ -434,7 +440,8 @@
 		/datum/language/moffic,
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
-		/datum/language/teceti_unified
+		/datum/language/teceti_unified,
+		/datum/language/tajaran
 	))
 
 /obj/item/organ/tongue/kepori/Initialize(mapload)
@@ -457,8 +464,20 @@
 		/datum/language/moffic,
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
-		/datum/language/vox_pidgin
+		/datum/language/vox_pidgin,
+		/datum/language/tajaran
 	))
+
+/obj/item/organ/tongue/tajaran
+	name = "Siik'tajr"
+	desc = "The traditionally employed tongue of Ahdomai, composed of expressive yowls and chirps. Native to the Tajaran."
+	say_mod = "mrowls"
+	taste_sensitivity = 10 // combined nose + tongue, extra sensitive
+	modifies_speech = TRUE
+
+/obj/item/organ/tongue/tajaran/handle_speech(datum/source, list/speech_args)
+	if(speech_args[SPEECH_LANGUAGE] == /datum/language/tajaran)
+		return
 
 /obj/item/organ/tongue/vox/Initialize(mapload)
 	. = ..()
