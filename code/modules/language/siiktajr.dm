@@ -5,8 +5,6 @@
 	ask_verb = "mrowls"
 	exclaim_verb = "yowls"
 	key = "j"
-	icon = 'icons/misc/language.dmi'
-	icon_state = "animal"
 	flags = TONGUELESS_SPEECH | LANGUAGE_HIDE_ICON_IF_NOT_UNDERSTOOD
 	syllables = list(
 		"rr", "rr", "tajr", "kir", "raj", "kii", "mir", "kra", "ahk", "nal", "vah", "khaz", "jri", "ran", "darr",
@@ -14,5 +12,5 @@
 		"sanu", "dra", "ii'r", "ka", "aasi", "far", "wa", "baq", "ara", "qara", "zir", "sam", "mak", "hrar", "nja",
 		"rir", "khan", "jun", "dar", "rik", "kah", "hal", "ket", "jurl", "mah", "tul", "cresh", "azu", "ragh"
 	)
-	icon_state = "tajaran"
 	default_priority = 90
+	icon_state = "animal"
