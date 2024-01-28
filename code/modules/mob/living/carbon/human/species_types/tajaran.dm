@@ -40,7 +40,16 @@
 	species_l_leg = /obj/item/bodypart/leg/left/tajaran
 	species_r_leg = /obj/item/bodypart/leg/right/tajaran
 
-/datum/species/tajaran/random_name(gender,unique,lastname) //hhhhhssssss ПЕРЕДЕЛАТЬ
+	species_robotic_chest = /obj/item/bodypart/chest/robot/tajaran
+	species_robotic_head = /obj/item/bodypart/head/robot/tajaran
+	species_robotic_l_arm = /obj/item/bodypart/l_arm/robot/surplus/tajaran
+	species_robotic_r_arm = /obj/item/bodypart/r_arm/robot/surplus/tajaran
+	species_robotic_l_leg = /obj/item/bodypart/leg/left/robot/surplus/tajaran
+	species_robotic_r_leg = /obj/item/bodypart/leg/right/robot/surplus/tajaran
+
+	robotic_eyes = /obj/item/organ/eyes/robotic/tajaran
+
+/datum/species/tajaran/random_name(gender,unique,lastname)
 	if(unique)
 		return random_unique_tajaran_name()
 	return tajaran_name()

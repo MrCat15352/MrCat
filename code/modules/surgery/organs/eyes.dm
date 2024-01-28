@@ -148,6 +148,9 @@
 /obj/item/organ/eyes/robotic/lizard
 	eye_icon_state = "eyes_synth"
 
+/obj/item/organ/eyes/robotic/tajaran
+	eye_icon_state = "eyes_synth"
+
 /obj/item/organ/eyes/robotic/emp_act(severity)
 	. = ..()
 	if(!owner || . & EMP_PROTECT_SELF)
