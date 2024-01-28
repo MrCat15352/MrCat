@@ -5,8 +5,8 @@
 	default_color = "424242"
 	species_traits = list(LIPS)
 	inherent_traits = list(TRAIT_NIGHT_VISION)
-	mutant_bodyparts = list("tajaran_body", "tajaran_tail")
-	default_features = list("mcolor" = "0F0", "tajaran_tail" = "tajtail", "face_markings" = "None", "body_markings" = "None", "body_size" = "Normal")
+	mutant_bodyparts = list("tajaran_body_markings", "tajaran_face_markings", "tajaran_tail", "tajaran_hairs", "tajaran_ears", "tajaran_head_marking", "tajaran_legs")
+	default_features = list("mcolor" = "0F0", "tajaran_body_markings" = "None", "tajaran_face_markings" = "None", "tajaran_tail" = "Long", "tajaran_hairs" = "None", "tajaran_ears" = "Plain", "tajaran_head_marking" = "None", "tajaran_legs" = "Normal Legs", "body_size" = "Normal")
 	mutanttongue = /obj/item/organ/tongue/tajaran
 	mutant_organs = list(/obj/item/organ/tail/tajaran)
 	disliked_food = VEGETABLES | FRUIT | GRAIN | GROSS

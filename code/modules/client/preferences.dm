@@ -122,7 +122,14 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"elzu_horns" = "None",
 							"elzu_tail" = "None",
 							"flavor_text" = "",
-							"body_size" = "Normal"
+							"body_size" = "Normal",
+							"tajaran_body_markings" = "None",
+							"tajaran_face_markings" = "None",
+							"tajaran_tail" = "Long",
+							"tajaran_hairs" = "None",
+							"tajaran_ears" = "Plain",
+							"tajaran_head_marking" = "None",
+							"tajaran_legs" = "Normal Legs"
 						)
 	var/list/randomise = list(
 							RANDOM_UNDERWEAR = TRUE,
