@@ -1,3 +1,4 @@
+//Copy-pasted kepori and lizard stuff
 /datum/species/tajaran
 	name = "\improper tajaran"
 	id = SPECIES_TAJARAN

@@ -76,6 +76,14 @@
 	tastes = list("meat" = 4, "scales" = 1)
 	foodtype = MEAT | RAW | GORE
 
+/obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/tajaran
+	icon_state = "tajaranmeat"
+	desc = "Delicious cat damage."
+	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/plain/human/tajaran
+	filling_color = "#8e2323"
+	tastes = list("meat" = 4, "scales" = 1)
+	foodtype = MEAT | RAW | GORE
+
 /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/plant
 	icon_state = "plantmeat"
 	desc = "All the joys of healthy eating with all the fun of cannibalism."
