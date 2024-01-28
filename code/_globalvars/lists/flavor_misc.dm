@@ -27,13 +27,13 @@ GLOBAL_LIST_EMPTY(legs_list)
 GLOBAL_LIST_EMPTY(animated_spines_list)
 	//tajaran Bits
 GLOBAL_LIST_EMPTY(tajaran_body_markings_list)
-GLOBAL_LIST_EMPTY(tajaran_tails_list)
-GLOBAL_LIST_EMPTY(tajaran_animated_tails_list)
+GLOBAL_LIST_EMPTY(tajaran_tail_list)
+GLOBAL_LIST_EMPTY(tajaran_animated_tail_list)
 GLOBAL_LIST_EMPTY(tajaran_face_markings_list)
 GLOBAL_LIST_EMPTY(tajaran_ears_list)
 GLOBAL_LIST_EMPTY(tajaran_hairs_list)
 GLOBAL_LIST_EMPTY(tajaran_legs_list)
-GLOBAL_LIST_EMPTY(tajaran_head_markings)
+GLOBAL_LIST_EMPTY(tajaran_head_markings_list)
 
 	//Mutant Human bits
 GLOBAL_LIST_EMPTY(tails_list_human)

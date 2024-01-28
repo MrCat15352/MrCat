@@ -6,9 +6,9 @@
 	species_traits = list(LIPS)
 	inherent_traits = list(TRAIT_NIGHT_VISION)
 	mutant_bodyparts = list("tajaran_body", "tajaran_tail")
+	default_features = list("mcolor" = "0F0", "tajaran_tail" = "tajtail", "face_markings" = "None", "body_markings" = "None", "body_size" = "Normal")
 	mutanttongue = /obj/item/organ/tongue/tajaran
 	mutant_organs = list(/obj/item/organ/tail/tajaran)
-	default_features = list("mcolor" = "0F0", "tajaran_tail" = "tajtail", "face_markings" = "None", "body_markings" = "None", "body_size" = "Normal")
 	disliked_food = VEGETABLES | FRUIT | GRAIN | GROSS
 	liked_food = MEAT | RAW | DAIRY
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_PRIDE | MIRROR_MAGIC | RACE_SWAP | ERT_SPAWN | SLIME_EXTRACT

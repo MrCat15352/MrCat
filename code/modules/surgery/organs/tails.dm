@@ -169,21 +169,21 @@
 	..()
 	if(istype(H))
 		// Checks here are necessary so it wouldn't overwrite the tail of a lizard it spawned in
-		if(!("tail_tajaran" in H.dna.species.mutant_bodyparts))
-			if(!H.dna.features["tail_tajaran"])
-				H.dna.features["tail_tajaran"] = tail_type
-				H.dna.species.mutant_bodyparts |= "tail_tajaran"
+		if(!("tajaran_tail" in H.dna.species.mutant_bodyparts))
+			if(!H.dna.features["tajaran_tail"])
+				H.dna.features["tajaran_tail"] = tail_type
+				H.dna.species.mutant_bodyparts |= "tajaran_tail"
 			else
-				H.dna.species.mutant_bodyparts["tail_tajaran"] = H.dna.features["tail_tajaran"]
+				H.dna.species.mutant_bodyparts["tajaran_tail"] = H.dna.features["tajaran_tail"]
 
 		H.update_body()
 
 /obj/item/organ/tail/tajaran/Remove(mob/living/carbon/human/H,  special = 0)
 	..()
 	if(istype(H))
-		H.dna.species.mutant_bodyparts -= "tail_tajaran"
+		H.dna.species.mutant_bodyparts -= "tajaran_tail"
 		color = "#" + H.dna.features["mcolor"]
-		tail_type = H.dna.features["tail_tajaran"]
+		tail_type = H.dna.features["tajaran_tail"]
 		H.update_body()
 
 /obj/item/organ/tail/tajaran/fake

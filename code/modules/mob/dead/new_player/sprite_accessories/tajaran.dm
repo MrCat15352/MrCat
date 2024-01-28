@@ -34,43 +34,43 @@
 
 //Start tails
 
-/datum/sprite_accessory/tajaran_tails
-	icon = 'icons/mob/species/tajaran/tajaran_tails.dmi'
+/datum/sprite_accessory/tajaran_tail
+	icon = 'icons/mob/species/tajaran/tajaran_tail.dmi'
 	color_src = MUTCOLORS_SECONDARY
 	body_zone = BODY_ZONE_CHEST
 //	secondary_color = TRUE
 
-/datum/sprite_accessory/tajaran_tails_animated
-	icon = 'icons/mob/species/tajaran/tajaran_tails.dmi'
+/datum/sprite_accessory/tajaran_tail_animated
+	icon = 'icons/mob/species/tajaran/tajaran_tail.dmi'
 	secondary_color = TRUE
 //	body_zone = BODY_ZONE_CHEST
 
-/datum/sprite_accessory/tajaran_tails/none
+/datum/sprite_accessory/tajaran_tail/none
 	name = "None"
 	icon_state = "none"
 
-/datum/sprite_accessory/tajaran_tails/main_static
+/datum/sprite_accessory/tajaran_tail/main_static
 	name = "Long"
 	icon_state = "main_static"
 
-/datum/sprite_accessory/tajaran_tails_animated/main_loop
+/datum/sprite_accessory/tajaran_tail_animated/main_loop
 	name = "Long"
 	icon_state = "main_loop"
 
-/datum/sprite_accessory/tajaran_tails/hakhjar_static
+/datum/sprite_accessory/tajaran_tail/hakhjar_static
 	name = "Middle"
 	icon_state = "hakhjar_static"
 //	secondary_color = FALSE
 
-/datum/sprite_accessory/tajaran_tails_animated/hakhjar_loop
+/datum/sprite_accessory/tajaran_tail_animated/hakhjar_loop
 	name = "Middle"
 	icon_state = "hakhjar_loop"
 
-/datum/sprite_accessory/tajaran_tails/stub_static
+/datum/sprite_accessory/tajaran_tail/stub_static
 	name = "Short"
 	icon_state = "stub_static"
 
-/datum/sprite_accessory/tajaran_tails_animated/stub_loop
+/datum/sprite_accessory/tajaran_tail_animated/stub_loop
 	name = "Short"
 	icon_state = "stub_loop"
 

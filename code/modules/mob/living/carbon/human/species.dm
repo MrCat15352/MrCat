@@ -994,10 +994,10 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 					S = GLOB.tails_list_elzu[H.dna.features["tail_elzu"]]
 				if("waggingtail_elzu")
 					S = GLOB.animated_tails_list_elzu[H.dna.features["tail_elzu"]]
-				if("tail_tajaran")
-					S = GLOB.tajaran_tails_list[H.dna.features["tail_tajaran"]]
-				if("waggingtail_tajaran")
-					S = GLOB.animated_tails_list_lizard[H.dna.features["tail_tajaran"]]
+				if("tajaran_tail")
+					S = GLOB.tajaran_tail_list[H.dna.features["tajaran_tail"]]
+				if("waggingtajaran_tail")
+					S = GLOB.tajaran_animated_tail_list[H.dna.features["tajaran_tail"]]
 			if(!S || S.icon_state == "none")
 				continue
 
@@ -1005,9 +1005,9 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 
 			//A little rename so we don't have to use tail_lizard, tail_human, or tail_elzu when naming the sprites.
 			accessory_overlay.alpha = S.image_alpha
-			if(bodypart == "tail_lizard" || bodypart == "tail_human" || bodypart == "tail_elzu" || bodypart == "tail_tajaran")
+			if(bodypart == "tail_lizard" || bodypart == "tail_human" || bodypart == "tail_elzu" || bodypart == "tajaran_tail")
 				bodypart = "tail"
-			else if(bodypart == "waggingtail_lizard" || bodypart == "waggingtail_human" || bodypart == "waggingtail_elzu" || bodypart == "waggingtail_tajaran")
+			else if(bodypart == "waggingtail_lizard" || bodypart == "waggingtail_human" || bodypart == "waggingtail_elzu" || bodypart == "waggingtajaran_tail")
 				bodypart = "waggingtail"
 
 			var/used_color_src = S.color_src
@@ -2105,7 +2105,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	return (locate(/obj/item/organ/tail) in H.internal_organs)
 
 /datum/species/proc/is_wagging_tail(mob/living/carbon/human/H)
-	return ("waggingtail_human" in mutant_bodyparts) || ("waggingtail_lizard" in mutant_bodyparts) || ("waggingtail_elzu" in mutant_bodyparts) || ("waggingtail_tajaran" in mutant_bodyparts)
+	return ("waggingtail_human" in mutant_bodyparts) || ("waggingtail_lizard" in mutant_bodyparts) || ("waggingtail_elzu" in mutant_bodyparts) || ("waggingtajaran_tail" in mutant_bodyparts)
 
 /datum/species/proc/start_wagging_tail(mob/living/carbon/human/H)
 	if("tail_human" in mutant_bodyparts)
@@ -2122,9 +2122,9 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		mutant_bodyparts -= "tail_elzu"
 		mutant_bodyparts |= "waggingtail_elzu"
 
-	else if("tail_tajaran" in mutant_bodyparts)
-		mutant_bodyparts -= "tail_tajaran"
-		mutant_bodyparts |= "waggingtail_tajaran"
+	else if("tajaran_tail" in mutant_bodyparts)
+		mutant_bodyparts -= "tajaran_tail"
+		mutant_bodyparts |= "waggingtajaran_tail"
 
 	H.update_body()
 
@@ -2143,9 +2143,9 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		mutant_bodyparts -= "waggingtail_elzu"
 		mutant_bodyparts |= "tail_elzu"
 
-	else if("tail_tajaran" in mutant_bodyparts)
-		mutant_bodyparts -= "waggingtail_tajaran"
-		mutant_bodyparts |= "tail_tajaran"
+	else if("tajaran_tail" in mutant_bodyparts)
+		mutant_bodyparts -= "waggingtajaran_tail"
+		mutant_bodyparts |= "tajaran_tail"
 
 	H.update_body()
 

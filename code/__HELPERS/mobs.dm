@@ -91,15 +91,15 @@
 	if(!GLOB.tails_list_elzu.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/elzu, GLOB.tails_list_elzu)
 	if(!GLOB.tails_list_tajaran.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_tails_list)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_tail_list)
 	if(!GLOB.tajaran_body_markings_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_body_markings_list)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_body_markings_list)
 	if(!GLOB.tajaran_face_markings_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_face_markings_list)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_face_markings_list)
 	if(!GLOB.tajaran_hairs_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_hairs_list)
-	if(!GLOB.tajaran_head_markings.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_head_markings)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_hairs_list)
+	if(!GLOB.tajaran_head_markings_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_head_markings_list)
 	//For now we will always return none for tail_human and ears.
 	//if you don't keep this alphabetised I'm going to personally steal your shins and sell them online
 	return list(
@@ -136,8 +136,8 @@
 		"tajaran_ears_list" = pick(GLOB.tajaran_ears_list),
 		"tajaran_face_markings_list" = pick(GLOB.tajaran_face_markings_list),
 		"tajaran_hairs_list" = pick(GLOB.tajaran_hairs_list),
-		"tajaran_head_markings" = pick(GLOB.tajaran_head_markings),
-		"tajaran_tails_list" = pick(GLOB.tajaran_tails_list),
+		"tajaran_head_markings" = pick(GLOB.tajaran_head_markings_list),
+		"tajaran_tail" = pick(GLOB.tajaran_tail_list),
 		"vox_head_quills" = pick(GLOB.vox_head_quills_list),
 		"vox_neck_quills" = pick(GLOB.vox_neck_quills_list),
 		"wings" = "None",
