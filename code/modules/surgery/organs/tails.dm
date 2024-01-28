@@ -156,10 +156,9 @@
 /obj/item/organ/tail/tajaran
 	name = "\improper Tajaran tail"
 	desc = "A severed Tajaran's tail."
-	icon_state = "severedlizard"
+	icon_state = "severedtail"
 	color = "#661111"
-	tail_type = "Smooth"
-	var/spines = "None"
+	tail_type = "Long"
 
 /obj/item/organ/tail/tajaran/Initialize()
 	. = ..()
@@ -168,7 +167,7 @@
 /obj/item/organ/tail/tajaran/Insert(mob/living/carbon/human/H, special = 0, drop_if_replaced = TRUE)
 	..()
 	if(istype(H))
-		// Checks here are necessary so it wouldn't overwrite the tail of a lizard it spawned in
+		// Checks here are necessary so it wouldn't overwrite the tail of a tajaran it spawned in
 		if(!("tajaran_tail" in H.dna.species.mutant_bodyparts))
 			if(!H.dna.features["tajaran_tail"])
 				H.dna.features["tajaran_tail"] = tail_type
