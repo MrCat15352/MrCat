@@ -4,7 +4,7 @@
 	lefthand_file = 'icons/mob/inhands/weapons/polearms_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/weapons/polearms_righthand.dmi'
 	name = "spear"
-	desc = "Непойми как  сконструированное, но все еще смертоносное оружие древнего образца."
+	desc = "Непойми как сконструированное, но все еще смертоносное оружие древнего образца."
 	force = 10
 	w_class = WEIGHT_CLASS_BULKY
 	slot_flags = ITEM_SLOT_BACK

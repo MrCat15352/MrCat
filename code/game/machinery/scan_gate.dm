@@ -19,6 +19,7 @@
 #define SCANGATE_SQUID "squid"
 #define SCANGATE_ETHEREAL "ethereal"
 #define SCANGATE_KEPORI "kepori"
+#define SCANGATE_TAJARAN "tajaran"
 
 /obj/machinery/scanner_gate
 	name = "scanner gate"
@@ -150,6 +151,8 @@
 						scan_species = /datum/species/ethereal
 					if(SCANGATE_KEPORI)
 						scan_species = /datum/species/kepori
+					if(SCANGATE_TAJARAN)
+						scan_species = /datum/species/tajaran
 				if(is_species(H, scan_species))
 					beep = TRUE
 				if(detect_species == SCANGATE_ZOMBIE) //Can detect dormant zombies
@@ -249,3 +252,4 @@
 #undef SCANGATE_SQUID
 #undef SCANGATE_ETHEREAL
 #undef SCANGATE_KEPORI
+#undef SCANGATE_TAJARAN
