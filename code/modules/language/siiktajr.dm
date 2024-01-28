@@ -11,6 +11,7 @@
 	"ka","aasi","far","wa","baq","ara","qara","zir","sam","mak","hrar","nja","rir","khan","jun","dar","rik","kah", \
 	"hal","ket","jurl","mah","tul","cresh","azu","ragh")
 
+/*
 /datum/language/siiktajr/get_random_name(gender) //code by @valtor0
 	var/static/list/tajaran_female_endings_list = list("и","а","о","е","й","ь") // Customise this with ru_name_syllables changes.
 	var/list/ru_name_syllables = list("кан","тай","кир","раи","кии","мир","кра","тэк","нал","вар","хар","марр","ран","дарр", \
@@ -36,3 +37,4 @@
 	else if(prob(80))
 		full_name += " [pick(list("Энай-Сэндай","Наварр-Сэндай","Року-Сэндай","Шенуар-Сэндай"))]"
 	return full_name
+*/
