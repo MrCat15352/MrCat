@@ -469,7 +469,7 @@
 	))
 
 /obj/item/organ/tongue/tajaran
-	name = "Siik'tajr"
+	name = "Tajaran tongue"
 	desc = "The traditionally employed tongue of Ahdomai, composed of expressive yowls and chirps. Native to the Tajaran."
 	say_mod = "mrowls"
 	taste_sensitivity = 10 // combined nose + tongue, extra sensitive
