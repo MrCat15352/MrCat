@@ -40,10 +40,10 @@
 	species_l_leg = /obj/item/bodypart/leg/left/tajaran
 	species_r_leg = /obj/item/bodypart/leg/right/tajaran
 
-/datum/species/kepori/random_name(gender,unique,lastname) //hhhhhssssss ПЕРЕДЕЛАТЬ
+/datum/species/tajaran/random_name(gender,unique,lastname) //hhhhhssssss ПЕРЕДЕЛАТЬ
 	if(unique)
-		return random_unique_kepori_name()
-	return kepori_name()
+		return random_unique_tajaran_name()
+	return tajaran_name()
 
 /*
 /datum/species/kepori/New()

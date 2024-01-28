@@ -90,6 +90,16 @@
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/elzu_horns, GLOB.elzu_horns_list)
 	if(!GLOB.tails_list_elzu.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/elzu, GLOB.tails_list_elzu)
+	if(!GLOB.tails_list_tajaran.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_tails_list)
+	if(!GLOB.tajaran_body_markings_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_body_markings_list)
+	if(!GLOB.tajaran_face_markings_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_face_markings_list)
+	if(!GLOB.tajaran_hairs_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_hairs_list)
+	if(!GLOB.tajaran_head_markings.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_head_markings)
 	//For now we will always return none for tail_human and ears.
 	//if you don't keep this alphabetised I'm going to personally steal your shins and sell them online
 	return list(
@@ -122,7 +132,12 @@
 		"tail_human" = "None",
 		"tail_lizard" = pick(GLOB.tails_list_lizard),
 		"tail_elzu" = pick(GLOB.tails_list_elzu),
-		"tail_tajaran" = pick(GLOB.tajaran_tails_list),
+		"tajaran_body_markings_list" = pick(GLOB.tajaran_body_markings_list),
+		"tajaran_ears_list" = pick(GLOB.tajaran_ears_list),
+		"tajaran_face_markings_list" = pick(GLOB.tajaran_face_markings_list),
+		"tajaran_hairs_list" = pick(GLOB.tajaran_hairs_list),
+		"tajaran_head_markings" = pick(GLOB.tajaran_head_markings),
+		"tajaran_tails_list" = pick(GLOB.tajaran_tails_list),
 		"vox_head_quills" = pick(GLOB.vox_head_quills_list),
 		"vox_neck_quills" = pick(GLOB.vox_neck_quills_list),
 		"wings" = "None",
@@ -194,6 +209,13 @@
 /proc/random_unique_vox_name(attempts_to_find_unique_name=10)
 	for(var/i in 1 to attempts_to_find_unique_name)
 		. = capitalize(vox_name())
+
+		if(!findname(.))
+			break
+
+/proc/random_unique_tajaran_name(gender, attempts_to_find_unique_name=10)
+	for(var/i in 1 to attempts_to_find_unique_name)
+		. = capitalize(tajaran_name(gender))
 
 		if(!findname(.))
 			break
