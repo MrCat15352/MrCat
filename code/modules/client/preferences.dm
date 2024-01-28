@@ -121,6 +121,12 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"vox_neck_quills" = "Plain",
 							"elzu_horns" = "None",
 							"elzu_tail" = "None",
+							"tajaran_ears" = "Plain",
+							"tajaran_hair" = "Bob", 			//for fun
+							"tajaran_head_markings_list" = "none",
+							"tajaran_face_markings" = "None",
+							"tajaran_body_markings" = "None",
+							"tajaran_tail" = "tajtail",
 							"flavor_text" = "",
 							"body_size" = "Normal",
 							"tajaran_body_markings" = "None",
@@ -821,6 +827,84 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				dat += "<h3>Tail</h3>"
 
 				dat += "<a href='?_src_=prefs;preference=tail_elzu;task=input'>[features["tail_elzu"]]</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
+			if("tajaran_ears" in pref_species.default_features)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>Ears/h3>"
+
+				dat += "<a href='?_src_=prefs;preference=tajaran_ears;task=input'>[features["tajaran_ears"]]</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
+			if("tajaran_hair" in pref_species.default_features)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>Hair</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=tajaran_hair;task=input'>[features["tajaran_hair"]]</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
+			if("tajaran_head_markings_list" in pref_species.default_features)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>Head markings</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=tajaran_head_markings_list;task=input'>[features["tajaran_head_markings_list"]]</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
+			if("tajaran_face_markings" in pref_species.default_features)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>Face markings</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=tajaran_face_markings;task=input'>[features["tajaran_face_markings"]]</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
+			if("tajaran_body_markings" in pref_species.default_features)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>Body markings</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=tajaran_body_markings;task=input'>[features["tajaran_body_markings"]]</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
+			if("tajaran_tail" in pref_species.default_features)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>Tail</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=tajaran_tail;task=input'>[features["tajaran_tail"]]</a><BR>"
 
 				mutant_category++
 				if(mutant_category >= MAX_MUTANT_ROWS)

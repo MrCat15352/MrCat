@@ -90,14 +90,18 @@
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/elzu_horns, GLOB.elzu_horns_list)
 	if(!GLOB.tails_list_elzu.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/elzu, GLOB.tails_list_elzu)
-	if(!GLOB.tajaran_tail_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_tail_list)
 	if(!GLOB.tajaran_body_markings_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_body_markings, GLOB.tajaran_body_markings_list)
+	if(!GLOB.tajaran_tail_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_tail_list)
+	if(!GLOB.tajaran_animated_tail_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail_animated, GLOB.tajaran_animated_tail_list)
 	if(!GLOB.tajaran_face_markings_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_face_markings, GLOB.tajaran_face_markings_list)
 	if(!GLOB.tajaran_hairs_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_hairs, GLOB.tajaran_hairs_list)
+	if(!GLOB.tajaran_ears_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_ears, GLOB.tajaran_ears_list)
 	if(!GLOB.tajaran_head_markings_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_head_marking, GLOB.tajaran_head_markings_list)
 	//For now we will always return none for tail_human and ears.
@@ -132,15 +136,15 @@
 		"tail_human" = "None",
 		"tail_lizard" = pick(GLOB.tails_list_lizard),
 		"tail_elzu" = pick(GLOB.tails_list_elzu),
-		"tajaran_body_markings_list" = pick(GLOB.tajaran_body_markings_list),
-		"tajaran_ears_list" = pick(GLOB.tajaran_ears_list),
-		"tajaran_face_markings_list" = pick(GLOB.tajaran_face_markings_list),
-		"tajaran_hairs_list" = pick(GLOB.tajaran_hairs_list),
-		"tajaran_head_markings" = pick(GLOB.tajaran_head_markings_list),
-		"tajaran_tail" = pick(GLOB.tajaran_tail_list),
 		"vox_head_quills" = pick(GLOB.vox_head_quills_list),
 		"vox_neck_quills" = pick(GLOB.vox_neck_quills_list),
 		"wings" = "None",
+		"tajaran_ears" = pick(GLOB.tajaran_ears_list),
+		"tajaran_hair" = pick(GLOB.tajaran_hairs_list),
+		"tajaran_head_markings_list" = pick(GLOB.tajaran_head_markings_list),
+		"tajaran_face_markings" = pick(GLOB.tajaran_face_markings_list),
+		"tajaran_body_markings" = pick(GLOB.tajaran_body_markings_list),
+		"tajaran_tail" = pick(GLOB.tajaran_tail_list),
 	)
 
 /proc/random_hairstyle(gender)

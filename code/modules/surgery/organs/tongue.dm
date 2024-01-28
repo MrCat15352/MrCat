@@ -468,17 +468,48 @@
 		/datum/language/siiktajr
 	))
 
+/obj/item/organ/tongue/vox/Initialize(mapload)
+	. = ..()
+	languages_possible = languages_possible_vox
+
 /obj/item/organ/tongue/tajaran
 	name = "Tajaran tongue"
 	desc = "The traditionally employed tongue of Ahdomai, composed of expressive yowls and chirps. Native to the Tajaran."
 	say_mod = "mrowls"
 	taste_sensitivity = 10 // combined nose + tongue, extra sensitive
 	modifies_speech = TRUE
+	var/static/list/languages_possible_tajaran = typecacheof(list(
+		/datum/language/common,
+		/datum/language/draconic,
+		/datum/language/codespeak,
+		/datum/language/monkey,
+		/datum/language/narsie,
+		/datum/language/beachbum,
+		/datum/language/aphasia,
+		/datum/language/piratespeak,
+		/datum/language/moffic,
+		/datum/language/sylvan,
+		/datum/language/shadowtongue,
+		/datum/language/vox_pidgin,
+		/datum/language/siiktajr
+	))
 
 /obj/item/organ/tongue/tajaran/handle_speech(datum/source, list/speech_args)
 	if(speech_args[SPEECH_LANGUAGE] == /datum/language/siiktajr)
 		return
 
-/obj/item/organ/tongue/vox/Initialize(mapload)
+	var/static/regex/tajaran_rr = new("r+", "g")
+	var/static/regex/tajaran_RR = new("R+", "g")
+	var/static/regex/tajaran_ru_rr = new("р+", "g")
+	var/static/regex/tajaran_ru_RR = new("Р+", "g")
+	var/message = speech_args[SPEECH_MESSAGE]
+	if(message[1] != "*")
+		message = tajaran_rr.Replace(message, pick("rrr", "rr"))
+		message = tajaran_RR.Replace(message, pick("Rrr", "Rr"))
+		message = tajaran_ru_rr.Replace(message, pick("ррр", "рр"))
+		message = tajaran_ru_RR.Replace(message, pick("Ррр", "Рр"))
+	speech_args[SPEECH_MESSAGE] = message
+
+/obj/item/organ/tongue/tajaran/Initialize(mapload)
 	. = ..()
-	languages_possible = languages_possible_vox
+	languages_possible = languages_possible_tajaran

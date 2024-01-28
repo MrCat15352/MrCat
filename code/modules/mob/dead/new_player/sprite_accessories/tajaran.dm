@@ -34,22 +34,18 @@
 
 //Start tails
 
-/datum/sprite_accessory/tajaran_tail
+/datum/sprite_accessory/tails/tajaran
 	icon = 'icons/mob/species/tajaran/tajaran_tail.dmi'
 	color_src = MUTCOLORS_SECONDARY
 	body_zone = BODY_ZONE_CHEST
-//	secondary_color = TRUE
+	secondary_color = TRUE
 
 /datum/sprite_accessory/tajaran_tail_animated
 	icon = 'icons/mob/species/tajaran/tajaran_tail.dmi'
 	secondary_color = TRUE
-//	body_zone = BODY_ZONE_CHEST
+	body_zone = BODY_ZONE_CHEST
 
-/datum/sprite_accessory/tajaran_tail/none
-	name = "None"
-	icon_state = "none"
-
-/datum/sprite_accessory/tajaran_tail/main_static
+/datum/sprite_accessory/tails/tajaran/main_static
 	name = "Long"
 	icon_state = "main_static"
 
@@ -57,16 +53,15 @@
 	name = "Long"
 	icon_state = "main_loop"
 
-/datum/sprite_accessory/tajaran_tail/hakhjar_static
+/datum/sprite_accessory/tails/tajaran/hakhjar_static
 	name = "Middle"
 	icon_state = "hakhjar_static"
-//	secondary_color = FALSE
 
 /datum/sprite_accessory/tajaran_tail_animated/hakhjar_loop
 	name = "Middle"
 	icon_state = "hakhjar_loop"
 
-/datum/sprite_accessory/tajaran_tail/stub_static
+/datum/sprite_accessory/tails/tajaran/stub_static
 	name = "Short"
 	icon_state = "stub_static"
 
@@ -121,10 +116,6 @@
 	color_src = HAIR
 	body_zone = BODY_ZONE_HEAD
 	synthetic_color_src = MUTCOLORS_SECONDARY
-
-/datum/sprite_accessory/tajaran_hairs/none
-	name = "None"
-	icon_state = "none"
 
 /datum/sprite_accessory/tajaran_hairs/braid
 	name = "Braid"
@@ -205,10 +196,6 @@
 	body_zone = BODY_ZONE_HEAD
 	secondary_color = TRUE
 
-/datum/sprite_accessory/tajaran_ears/none
-	name = "None"
-	icon_state = "none"
-
 /datum/sprite_accessory/tajaran_ears/ears_plain
 	name = "Plain"
 	icon_state = "ears_plain"
@@ -263,14 +250,3 @@
 /datum/sprite_accessory/tajaran_head_marking/patch
 	name = "Patch"
 	icon_state = "patch"
-
-//Leg stuff, no better place to put it, no point in a legs.dm file
-
-/datum/sprite_accessory/tajaran_legs 	//legs are a special case, they aren't actually sprite_accessories but are updated with them.
-	icon = null					//These datums exist for selecting legs on preference, and little else
-
-/datum/sprite_accessory/tajaran_legs/none
-	name = "Normal Legs"
-
-// /datum/sprite_accessory/legs/digitigrade_lizard
-//	name = "Digitigrade Legs"
