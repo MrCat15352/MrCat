@@ -90,7 +90,7 @@
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/elzu_horns, GLOB.elzu_horns_list)
 	if(!GLOB.tails_list_elzu.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/elzu, GLOB.tails_list_elzu)
-	if(!GLOB.tails_list_tajaran.len)
+	if(!GLOB.tajaran_tail_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_tail_list)
 	if(!GLOB.tajaran_body_markings_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_body_markings_list)

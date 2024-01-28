@@ -400,6 +400,12 @@
 	tastes = list("juicy chicken" = 3, "scales" = 1)
 	foodtype = MEAT
 
+/obj/item/reagent_containers/food/snacks/meat/steak/plain/human/tajaran
+	name = "tajaran steak"
+	icon_state = "birdsteak"
+	tastes = list("juicy chicken" = 3, "scales" = 1)
+	foodtype = MEAT
+
 /obj/item/reagent_containers/food/snacks/meat/steak/meatproduct
 	name = "thermally processed meat product"
 	icon_state = "meatproductsteak"
