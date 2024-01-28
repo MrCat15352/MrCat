@@ -93,13 +93,13 @@
 	if(!GLOB.tajaran_tail_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_tail_list)
 	if(!GLOB.tajaran_body_markings_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_body_markings_list)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_body_markings, GLOB.tajaran_body_markings_list)
 	if(!GLOB.tajaran_face_markings_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_face_markings_list)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_face_markings, GLOB.tajaran_face_markings_list)
 	if(!GLOB.tajaran_hairs_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_hairs_list)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_hairs, GLOB.tajaran_hairs_list)
 	if(!GLOB.tajaran_head_markings_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail, GLOB.tajaran_head_markings_list)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_head_marking, GLOB.tajaran_head_markings_list)
 	//For now we will always return none for tail_human and ears.
 	//if you don't keep this alphabetised I'm going to personally steal your shins and sell them online
 	return list(
