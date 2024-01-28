@@ -22,7 +22,7 @@
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
 		/datum/language/ratvar,
-		/datum/language/tajaran
+		/datum/language/siiktajr
 	))
 
 /obj/item/organ/tongue/Initialize(mapload)
@@ -118,7 +118,7 @@
 		/datum/language/shadowtongue,
 		/datum/language/buzzwords,
 		/datum/language/ratvar,
-		/datum/language/tajaran
+		/datum/language/siiktajr
 	))
 
 /obj/item/organ/tongue/fly/handle_speech(datum/source, list/speech_args)
@@ -259,7 +259,7 @@
 		/datum/language/shadowtongue,
 		/datum/language/calcic,
 		/datum/language/ratvar,
-		/datum/language/tajaran
+		/datum/language/siiktajr
 	))
 
 /obj/item/organ/tongue/bone/Initialize()
@@ -341,7 +341,7 @@
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
 		/datum/language/ratvar,
-		/datum/language/tajaran
+		/datum/language/siiktajr
 	))
 
 /obj/item/organ/tongue/ethereal/Initialize(mapload)
@@ -367,7 +367,7 @@
 		/datum/language/shadowtongue,
 		/datum/language/ratvar,
 		/datum/language/slime,
-		/datum/language/tajaran
+		/datum/language/siiktajr
 	))
 
 /obj/item/organ/tongue/slime/Initialize(mapload)
@@ -391,7 +391,7 @@
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
 		/datum/language/buzzwords,
-		/datum/language/tajaran
+		/datum/language/siiktajr
 	))
 
 /obj/item/organ/tongue/moth/Initialize(mapload)
@@ -441,7 +441,7 @@
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
 		/datum/language/teceti_unified,
-		/datum/language/tajaran
+		/datum/language/siiktajr
 	))
 
 /obj/item/organ/tongue/kepori/Initialize(mapload)
@@ -465,7 +465,7 @@
 		/datum/language/sylvan,
 		/datum/language/shadowtongue,
 		/datum/language/vox_pidgin,
-		/datum/language/tajaran
+		/datum/language/siiktajr
 	))
 
 /obj/item/organ/tongue/tajaran
@@ -476,7 +476,7 @@
 	modifies_speech = TRUE
 
 /obj/item/organ/tongue/tajaran/handle_speech(datum/source, list/speech_args)
-	if(speech_args[SPEECH_LANGUAGE] == /datum/language/tajaran)
+	if(speech_args[SPEECH_LANGUAGE] == /datum/language/siiktajr)
 		return
 
 /obj/item/organ/tongue/vox/Initialize(mapload)

@@ -1,4 +1,4 @@
-/datum/language/tajaran
+/datum/language/siiktajr
 	name = "Siik'tajr"
 	desc = "The traditionally employed tongue of Ahdomai, composed of expressive yowls and chirps. Native to the Tajaran."
 	speech_verb = "mrowls"
@@ -11,7 +11,7 @@
 	"ka","aasi","far","wa","baq","ara","qara","zir","sam","mak","hrar","nja","rir","khan","jun","dar","rik","kah", \
 	"hal","ket","jurl","mah","tul","cresh","azu","ragh")
 
-/datum/language/tajaran/get_random_name(gender) //code by @valtor0
+/datum/language/siiktajr/get_random_name(gender) //code by @valtor0
 	var/static/list/tajaran_female_endings_list = list("и","а","о","е","й","ь") // Customise this with ru_name_syllables changes.
 	var/list/ru_name_syllables = list("кан","тай","кир","раи","кии","мир","кра","тэк","нал","вар","хар","марр","ран","дарр", \
 	"мирк","ири","дин","манг","рик","зар","раз","кель","шера","тар","кей","ар","но","маи","зир","кер","нир","ра",\

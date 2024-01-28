@@ -385,9 +385,9 @@ Key procs
 
 /datum/language_holder/tajaran
 	understood_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
-								/datum/language/tajaran = list(LANGUAGE_ATOM))
+								/datum/language/siiktajr = list(LANGUAGE_ATOM))
 	spoken_languages = list(/datum/language/common = list(LANGUAGE_ATOM),
-							/datum/language/tajaran = list(LANGUAGE_ATOM))
+							/datum/language/siiktajr = list(LANGUAGE_ATOM))
 
 /datum/language_holder/empty
 	understood_languages = list()
