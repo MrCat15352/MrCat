@@ -37,8 +37,6 @@
 /datum/sprite_accessory/tails/tajaran
 	icon = 'icons/mob/species/tajaran/tajaran_tail.dmi'
 	color_src = MUTCOLORS_SECONDARY
-	body_zone = BODY_ZONE_CHEST
-	secondary_color = TRUE
 
 /datum/sprite_accessory/tajaran_tail_animated
 	icon = 'icons/mob/species/tajaran/tajaran_tail.dmi'

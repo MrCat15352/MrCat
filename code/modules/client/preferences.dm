@@ -134,8 +134,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"tajaran_tail" = "Long",
 							"tajaran_hairs" = "None",
 							"tajaran_ears" = "Plain",
-							"tajaran_head_marking" = "None",
-							"tajaran_legs" = "Normal Legs"
+							"tajaran_head_marking" = "None"
 						)
 	var/list/randomise = list(
 							RANDOM_UNDERWEAR = TRUE,
@@ -837,7 +836,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				if(!mutant_category)
 					dat += APPEARANCE_CATEGORY_COLUMN
 
-				dat += "<h3>Ears/h3>"
+				dat += "<h3>Ears</h3>"
 
 				dat += "<a href='?_src_=prefs;preference=tajaran_ears;task=input'>[features["tajaran_ears"]]</a><BR>"
 
@@ -2060,6 +2059,42 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if(new_tail)
 						features["tail_elzu"] = new_tail
 
+				if("tajaran_ears")
+					var/new_tajaran_ears
+					new_tajaran_ears = input(user, "Choose your character's ears:", "Character Preference") as null|anything in GLOB.tajaran_ears_list
+					if(new_tajaran_ears)
+						features["tajaran_ears"] = new_tajaran_ears
+
+				if("tajaran_hair")
+					var/new_tajaran_hair
+					new_tajaran_hair = input(user, "Choose your character's hair:", "Character Preference") as null|anything in GLOB.tajaran_hairs_list
+					if(new_tajaran_hair)
+						features["tajaran_hair"] = new_tajaran_hair
+
+				if("tajaran_head_markings_list")
+					var/new_tajaran_head_markings_list
+					new_tajaran_head_markings_list = input(user, "Choose your character's head markings:", "Character Preference") as null|anything in GLOB.tajaran_head_markings_list
+					if(new_tajaran_head_markings_list)
+						features["tajaran_head_markings_list"] = new_tajaran_head_markings_list
+
+				if("tajaran_face_markings")
+					var/new_tajaran_face_markings
+					new_tajaran_face_markings = input(user, "Choose your character's face markings:", "Character Preference") as null|anything in GLOB.tajaran_face_markings_list
+					if(new_tajaran_face_markings)
+						features["tajaran_face_markings"] = new_tajaran_face_markings
+
+				if("tajaran_body_markings")
+					var/new_tajaran_body_markings
+					new_tajaran_body_markings = input(user, "Choose your character's body markings:", "Character Preference") as null|anything in GLOB.tajaran_body_markings_list
+					if(new_tajaran_body_markings)
+						features["tajaran_body_markings"] = new_tajaran_body_markings
+
+				if("tajaran_tail")
+					var/new_tajaran_tail
+					new_tajaran_tail = input(user, "Choose your character's tail:", "Character Preference") as null|anything in GLOB.tajaran_tail_list
+					if(new_tajaran_tail)
+						features["tajaran_tail"] = new_tajaran_tail
+
 				if("s_tone")
 					var/new_s_tone = input(user, "Choose your character's skin-tone:", "Character Preference")  as null|anything in GLOB.skin_tones
 					if(new_s_tone)
@@ -2546,6 +2581,12 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 	if("tail_lizard" in pref_species.default_features)
 		character.dna.species.mutant_bodyparts |= "tail_lizard"
+
+	if("tajaran_tail" in pref_species.default_features)
+		character.dna.species.mutant_bodyparts |= "tajaran_tail"
+
+	if("tajaran_ears" in pref_species.default_features)
+		character.dna.species.mutant_bodyparts |= "tajaran_ears"
 
 	if(icon_updates)
 		character.update_body()

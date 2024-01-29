@@ -900,6 +900,18 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		if(!H.dna.features["vox_neck_quills"] || H.dna.features["vox_neck_quills"] == "None")
 			bodyparts_to_add -= "vox_neck_quills"
 
+	if("tajaran_face_markings" in mutant_bodyparts)
+		if(!H.dna.features["tajaran_face_markings"] || H.dna.features["tajaran_face_markings"] == "None" || H.head && (H.head.flags_inv & HIDEFACE) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEFACE)) || !HD) // || HD.status == BODYTYPE_ROBOTIC
+			bodyparts_to_add -= "tajaran_face_markings"
+
+	if("tajaran_head_markings_list" in mutant_bodyparts)
+		if(!H.dna.features["tajaran_head_markings_list"] || H.dna.features["tajaran_head_markings_list"] == "None" || H.head && (H.head.flags_inv & HIDEFACE) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEFACE)) || !HD) // || HD.status == BODYTYPE_ROBOTIC
+			bodyparts_to_add -= "tajaran_head_markings_list"
+
+	if("tajaran_body_markings" in mutant_bodyparts)
+		if(!H.dna.features["tajaran_body_markings"] || H.dna.features["tajaran_body_markings"] == "None" || H.wear_suit && (H.wear_suit.flags_inv & HIDEJUMPSUIT))
+			bodyparts_to_add -= "tajaran_body_markings"
+
 	////PUT ALL YOUR WEIRD ASS REAL-LIMB HANDLING HERE
 
 	///Digi handling
@@ -998,6 +1010,16 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 					S = GLOB.tails_list_elzu[H.dna.features["tail_elzu"]]
 				if("waggingtail_elzu")
 					S = GLOB.animated_tails_list_elzu[H.dna.features["tail_elzu"]]
+				if("tajaran_ears")
+					S = GLOB.tajaran_ears_list[H.dna.features["tajaran_ears"]]
+				if("tajaran_hair")
+					S = GLOB.tajaran_hairs_list[H.dna.features["tajaran_hair"]]
+				if("tajaran_head_markings_list")
+					S = GLOB.tajaran_head_markings_list[H.dna.features["tajaran_head_markings_list"]]
+				if("tajaran_face_markings")
+					S = GLOB.tajaran_face_markings_list[H.dna.features["tajaran_face_markings"]]
+				if("tajaran_body_markings")
+					S = GLOB.tajaran_body_markings_list[H.dna.features["tajaran_body_markings"]]
 				if("tajaran_tail")
 					S = GLOB.tajaran_tail_list[H.dna.features["tajaran_tail"]]
 				if("waggingtajaran_tail")

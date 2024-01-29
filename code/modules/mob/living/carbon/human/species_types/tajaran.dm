@@ -40,8 +40,8 @@
 	bodytemp_heat_damage_limit = (HUMAN_BODYTEMP_NORMAL + 30) + 10
 	bodytemp_cold_damage_limit = (HUMAN_BODYTEMP_NORMAL + 30) - 40
 
-	//meat = /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/tajaran 	//нужно сделать мясо из таяран и нарисовать/спиздить спрайт к нему
-	//skinned_type = /obj/item/stack/sheet/animalhide/tajaran							//нужно сделать кожу из таяран и нарисовать/спиздить спрайт к нему
+	meat = /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/tajaran 	//нарисовать/спиздить спрайт к нему
+	//skinned_type = /obj/item/stack/sheet/animalhide/tajaran						//нужно сделать кожу из таяран и нарисовать/спиздить спрайт к нему
 
 	species_language_holder = /datum/language_holder/tajaran
 
