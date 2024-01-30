@@ -561,7 +561,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	features["tajaran_head_markings_list"]	= sanitize_inlist(features["tajaran_head_markings_list"], GLOB.tajaran_head_markings_list, "none")
 	features["tajaran_face_markings"]		= sanitize_inlist(features["tajaran_face_markings"], GLOB.tajaran_face_markings_list, "none")
 	features["tajaran_body_markings"]		= sanitize_inlist(features["tajaran_body_markings"], GLOB.tajaran_body_markings_list, "none")
-	features["tajaran_tail"]				= sanitize_inlist(features["tajaran_tail"], GLOB.tajaran_tail_list, "tajtail")
+	features["tajaran_tail"]				= sanitize_inlist(features["tajaran_tail"], GLOB.tajaran_tail_list, "long")
 	features["flavor_text"]					= sanitize_text(features["flavor_text"], initial(features["flavor_text"]))
 
 	all_quirks = SANITIZE_LIST(all_quirks)

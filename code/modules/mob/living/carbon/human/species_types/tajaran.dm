@@ -28,7 +28,7 @@
 		"tajaran_head_markings_list" = "none",
 		"tajaran_face_markings" = "None",
 		"tajaran_body_markings" = "None",
-		"tajaran_tail" = "tajtail",
+		"tajaran_tail" = "long",
 		"body_size" = "Normal"
 		)
 

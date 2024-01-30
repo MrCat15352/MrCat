@@ -135,7 +135,7 @@
 
 /datum/design/tajaran_tail
 	name = "Tajaran Tail"
-	id = "tajtail"
+	id = "long"
 	build_type = LIMBGROWER
 	reagents_list = list(/datum/reagent/medicine/synthflesh = 20)
 	build_path = /obj/item/organ/tail/tajaran/fake

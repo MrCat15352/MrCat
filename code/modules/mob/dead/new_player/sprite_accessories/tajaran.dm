@@ -36,6 +36,7 @@
 
 /datum/sprite_accessory/tails/tajaran
 	icon = 'icons/mob/species/tajaran/tajaran_tail.dmi'
+	secondary_color = TRUE
 	color_src = MUTCOLORS_SECONDARY
 
 /datum/sprite_accessory/tajaran_tail_animated
@@ -43,29 +44,29 @@
 	secondary_color = TRUE
 	body_zone = BODY_ZONE_CHEST
 
-/datum/sprite_accessory/tails/tajaran/main_static
+/datum/sprite_accessory/tails/tajaran/long
 	name = "Long"
-	icon_state = "main_static"
+	icon_state = "long"
 
-/datum/sprite_accessory/tajaran_tail_animated/main_loop
+/datum/sprite_accessory/tajaran_tail_animated/long
 	name = "Long"
-	icon_state = "main_loop"
+	icon_state = "long"
 
-/datum/sprite_accessory/tails/tajaran/hakhjar_static
+/datum/sprite_accessory/tails/tajaran/middle
 	name = "Middle"
-	icon_state = "hakhjar_static"
+	icon_state = "middle"
 
-/datum/sprite_accessory/tajaran_tail_animated/hakhjar_loop
+/datum/sprite_accessory/tajaran_tail_animated/middle
 	name = "Middle"
-	icon_state = "hakhjar_loop"
+	icon_state = "middle"
 
-/datum/sprite_accessory/tails/tajaran/stub_static
+/datum/sprite_accessory/tails/tajaran/short
 	name = "Short"
-	icon_state = "stub_static"
+	icon_state = "short"
 
-/datum/sprite_accessory/tajaran_tail_animated/stub_loop
+/datum/sprite_accessory/tajaran_tail_animated/short
 	name = "Short"
-	icon_state = "stub_loop"
+	icon_state = "short"
 
 //Start Face markings
 
