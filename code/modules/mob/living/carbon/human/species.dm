@@ -2169,7 +2169,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		mutant_bodyparts -= "waggingtail_elzu"
 		mutant_bodyparts |= "tail_elzu"
 
-	else if("tajaran_tail" in mutant_bodyparts)
+	else if("waggingtajaran_tail" in mutant_bodyparts)
 		mutant_bodyparts -= "waggingtajaran_tail"
 		mutant_bodyparts |= "tajaran_tail"
 
