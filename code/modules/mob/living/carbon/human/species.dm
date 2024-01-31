@@ -908,6 +908,10 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		if(!H.dna.features["tajaran_body_markings"] || H.dna.features["tajaran_body_markings"] == "None" || H.wear_suit && (H.wear_suit.flags_inv & HIDEJUMPSUIT))
 			bodyparts_to_add -= "tajaran_body_markings"
 
+	if("tajaran_hairs" in mutant_bodyparts)
+		if(!H.dna.features["tajaran_hairs"] || H.dna.features["tajaran_hairs"] == "Bob" || (H.head && (H.head.flags_inv & HIDEHAIR)) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEHAIR)) || !HD)
+			bodyparts_to_add -= "tajaran_hairs"
+
 	////PUT ALL YOUR WEIRD ASS REAL-LIMB HANDLING HERE
 
 	///Digi handling
@@ -1008,8 +1012,8 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 					S = GLOB.animated_tails_list_elzu[H.dna.features["tail_elzu"]]
 				if("tajaran_ears")
 					S = GLOB.tajaran_ears_list[H.dna.features["tajaran_ears"]]
-				if("tajaran_hair")
-					S = GLOB.tajaran_hairs_list[H.dna.features["tajaran_hair"]]
+				if("tajaran_hairs")
+					S = GLOB.tajaran_hairs_list[H.dna.features["tajaran_hairs"]]
 				if("tajaran_head_markings_list")
 					S = GLOB.tajaran_head_markings_list[H.dna.features["tajaran_head_markings_list"]]
 				if("tajaran_face_markings")

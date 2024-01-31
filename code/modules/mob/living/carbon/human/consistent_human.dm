@@ -34,7 +34,7 @@
 	dna.features["ipc_chassis"] = GLOB.ipc_chassis_list[seed % length(GLOB.ipc_chassis_list) + 1]
 	dna.features["ipc_screen"] = GLOB.ipc_screens_list[seed % length(GLOB.ipc_screens_list) + 1]
 	dna.features["tajaran_ears"] = GLOB.tajaran_ears_list[seed % length(GLOB.tajaran_ears_list) + 1]
-	dna.features["tajaran_hair"] = GLOB.tajaran_hairs_list[seed % length(GLOB.tajaran_hairs_list) + 1]
+	dna.features["tajaran_hairs"] = GLOB.tajaran_hairs_list[seed % length(GLOB.tajaran_hairs_list) + 1]
 	dna.features["tajaran_head_markings_list"] = GLOB.tajaran_head_markings_list[seed % length(GLOB.tajaran_head_markings_list) + 1]
 	dna.features["tajaran_face_markings"] = GLOB.tajaran_face_markings_list[seed % length(GLOB.tajaran_face_markings_list) + 1]
 	dna.features["tajaran_body_markings"] = GLOB.tajaran_body_markings_list[seed % length(GLOB.tajaran_body_markings_list) + 1]

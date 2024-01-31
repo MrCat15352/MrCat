@@ -20,11 +20,18 @@
 	species_traits = list(EYECOLOR, LIPS, EMOTE_OVERLAY, MUTCOLORS, MUTCOLORS_SECONDARY)
 	inherent_traits = list(TRAIT_NIGHT_VISION)
 
-	mutant_bodyparts = list("tajaran_ears", "tajaran_hair", "tajaran_head_markings_list", "tajaran_face_markings", "tajaran_body_markings", "tajaran_tail")
+	mutant_bodyparts = list(
+		"tajaran_ears",
+		"tajaran_hairs",
+		"tajaran_head_markings_list",
+		"tajaran_face_markings",
+		"tajaran_body_markings",
+		"tajaran_tail"
+		)
 	default_features = list(
 		"mcolor" = "0F0",
 		"tajaran_ears" = "Plain",
-		"tajaran_hair" = "Bob", 			//for fun
+		"tajaran_hairs" = "Bob", 			//for fun
 		"tajaran_head_markings_list" = "none",
 		"tajaran_face_markings" = "None",
 		"tajaran_body_markings" = "None",

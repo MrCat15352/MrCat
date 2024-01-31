@@ -140,7 +140,7 @@
 		"vox_neck_quills" = pick(GLOB.vox_neck_quills_list),
 		"wings" = "None",
 		"tajaran_ears" = pick(GLOB.tajaran_ears_list),
-		"tajaran_hair" = pick(GLOB.tajaran_hairs_list),
+		"tajaran_hairs" = pick(GLOB.tajaran_hairs_list),
 		"tajaran_head_markings_list" = pick(GLOB.tajaran_head_markings_list),
 		"tajaran_face_markings" = pick(GLOB.tajaran_face_markings_list),
 		"tajaran_body_markings" = pick(GLOB.tajaran_body_markings_list),

@@ -122,8 +122,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"elzu_horns" = "None",
 							"elzu_tail" = "None",
 							"tajaran_ears" = "Plain",
-							"tajaran_hair" = "Bob", 			//for fun
-							"tajaran_hairs" = "None",
+							"tajaran_hairs" = "Bob", 			//for fun
 							"tajaran_head_marking" = "None",
 							"tajaran_head_markings_list" = "none",
 							"tajaran_body_markings" = "None",
@@ -841,13 +840,17 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "</td>"
 					mutant_category = 0
 
-			if("tajaran_hair" in pref_species.default_features)
+			if("tajaran_hairs" in pref_species.default_features)
 				if(!mutant_category)
 					dat += APPEARANCE_CATEGORY_COLUMN
 
 				dat += "<h3>Hair</h3>"
 
-				dat += "<a href='?_src_=prefs;preference=tajaran_hair;task=input'>[features["tajaran_hair"]]</a><BR>"
+				dat += "<a href='?_src_=prefs;preference=tajaran_hairs;task=input'>[features["tajaran_hairs"]]</a><BR>"
+
+				dat += "<span style='border:1px solid #161616; background-color: #[hair_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=hair;task=input'>Change</a><BR>"
+
+				dat += "<a href='?_src_=prefs;preference=toggle_random;random_type=[RANDOM_HAIR_COLOR]'>[(randomise[RANDOM_HAIR_COLOR]) ? "Lock" : "Unlock"]</A><BR>"
 
 				mutant_category++
 				if(mutant_category >= MAX_MUTANT_ROWS)
@@ -2061,11 +2064,11 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if(new_tajaran_ears)
 						features["tajaran_ears"] = new_tajaran_ears
 
-				if("tajaran_hair")
-					var/new_tajaran_hair
-					new_tajaran_hair = input(user, "Choose your character's hair:", "Character Preference") as null|anything in GLOB.tajaran_hairs_list
-					if(new_tajaran_hair)
-						features["tajaran_hair"] = new_tajaran_hair
+				if("tajaran_hairs")
+					var/new_tajaran_hairs
+					new_tajaran_hairs = input(user, "Choose your character's hair:", "Character Preference") as null|anything in GLOB.tajaran_hairs_list
+					if(new_tajaran_hairs)
+						features["tajaran_hairs"] = new_tajaran_hairs
 
 				if("tajaran_head_markings_list")
 					var/new_tajaran_head_markings_list
