@@ -36,13 +36,13 @@
 
 /datum/sprite_accessory/tails/tajaran
 	icon = 'icons/mob/species/tajaran/tajaran_tail.dmi'
+	body_zone = BODY_ZONE_CHEST
 	secondary_color = TRUE
-	color_src = MUTCOLORS_SECONDARY
 
 /datum/sprite_accessory/tajaran_tail_animated
 	icon = 'icons/mob/species/tajaran/tajaran_tail.dmi'
-	secondary_color = TRUE
 	body_zone = BODY_ZONE_CHEST
+	secondary_color = TRUE
 
 /datum/sprite_accessory/tails/tajaran/long
 	name = "Long"

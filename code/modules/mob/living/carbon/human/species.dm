@@ -222,8 +222,6 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 
 	var/obj/item/bodypart/species_digi_l_leg = /obj/item/bodypart/leg/left/lizard/digitigrade
 	var/obj/item/bodypart/species_digi_r_leg = /obj/item/bodypart/leg/right/lizard/digitigrade
-//	var/obj/item/bodypart/species_digi_l_leg = /obj/item/bodypart/leg/left/tajaran/digitigrade
-//	var/obj/item/bodypart/species_digi_r_leg = /obj/item/bodypart/leg/right/tajaran/digitigrade
 
 	var/obj/item/bodypart/species_robotic_chest = /obj/item/bodypart/chest/robot
 	var/obj/item/bodypart/species_robotic_head = /obj/item/bodypart/head/robot
@@ -234,8 +232,6 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 
 	var/obj/item/bodypart/species_robotic_digi_l_leg = /obj/item/bodypart/leg/left/robot/surplus/lizard/digitigrade
 	var/obj/item/bodypart/species_robotic_digi_r_leg = /obj/item/bodypart/leg/right/robot/surplus/lizard/digitigrade
-//	var/obj/item/bodypart/species_robotic_digi_l_leg = /obj/item/bodypart/leg/left/robot/surplus/tajaran/digitigrade
-//	var/obj/item/bodypart/species_robotic_digi_r_leg = /obj/item/bodypart/leg/right/robot/surplus/tajaran/digitigrade
 
 	var/obj/item/organ/heart/robotic_heart = /obj/item/organ/heart/cybernetic
 	var/obj/item/organ/lungs/robotic_lungs = /obj/item/organ/lungs/cybernetic
