@@ -15,3 +15,9 @@
 
 //посмотреть в файл и подумать что ещё нужно прописать
 	code\modules\mob\living\carbon\human\species.dm, 900
+
+//монохромность
+	code\modules\client\client_colour.dm, 190
+		/datum/client_colour/monochrome
+				owner.add_client_colour(/datum/client_colour/monochrome)
+				owner.remove_client_colour(/datum/client_colour/monochrome)

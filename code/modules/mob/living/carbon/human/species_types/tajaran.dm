@@ -55,6 +55,7 @@
 	ass_image = 'icons/ass/asscat.png'
 
 	mutantears = /obj/item/organ/ears/tajaran		//нужно отделить уши от головы. и можно кинуть их в тот же файл. потом в органе прописать путь к файлу + имя файла
+	mutanteyes = /obj/item/organ/eyes/tajaran
 	mutanttongue = /obj/item/organ/tongue/tajaran
 	mutant_organs = list(
 		/obj/item/organ/tail/tajaran)
