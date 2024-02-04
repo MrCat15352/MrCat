@@ -116,77 +116,193 @@
 	body_zone = BODY_ZONE_HEAD
 	synthetic_color_src = MUTCOLORS_SECONDARY
 
-/datum/sprite_accessory/tajaran_hairs/braid
-	name = "Braid"
-	icon_state = "braid"
+/datum/sprite_accessory/tajaran_hairs/taj_ears_plain
+	name = "Plain"
+	icon_state = "plain"
 
-/datum/sprite_accessory/tajaran_hairs/braid_beads
-	name = "Braid beads"
-	icon_state = "braid_beads"
-
-/datum/sprite_accessory/tajaran_hairs/clean
-	name = "Clean"
-	icon_state = "clean"
-
-/datum/sprite_accessory/tajaran_hairs/bangs
-	name = "Bangs"
+/datum/sprite_accessory/tajaran_hairs/taj_ears_bangs
+	name = "Tajara Bangs"
 	icon_state = "bangs"
 
-/datum/sprite_accessory/tajaran_hairs/shaggy
-	name = "Shaggy"
-	icon_state = "shaggy"
+/datum/sprite_accessory/tajaran_hairs/taj_ears_bangs_alt
+	name = "Tajara Bangs Alt"
+	icon_state = "bangs_alt"
 
-/datum/sprite_accessory/tajaran_hairs/mohawk
-	name = "Mohawk"
-	icon_state = "mohawk"
+/datum/sprite_accessory/tajaran_hairs/taj_ears_shortfringe
+	name = "Tajara Short Fringe"
+	icon_state = "shortfringe"
 
-/datum/sprite_accessory/tajaran_hairs/plait
-	name = "Plait"
-	icon_state = "plait"
-
-/datum/sprite_accessory/tajaran_hairs/straight
-	name = "Straight"
-	icon_state = "straight"
-
-/datum/sprite_accessory/tajaran_hairs/long
-	name = "Long"
-	icon_state = "long"
-
-/datum/sprite_accessory/tajaran_hairs/rattail
-	name = "Rattail"
-	icon_state = "rattail"
-
-/datum/sprite_accessory/tajaran_hairs/spikey
-	name = "Spikey"
-	icon_state = "spikey"
-
-/datum/sprite_accessory/tajaran_hairs/messy
-	name = "Messy"
-	icon_state = "messy"
-
-/datum/sprite_accessory/tajaran_hairs/curly
-	name = "Curly"
-	icon_state = "curly"
-
-/datum/sprite_accessory/tajaran_hairs/ladiesretro
-	name = "Ladiesretro"
-	icon_state = "ladiesretro"
-
-/datum/sprite_accessory/tajaran_hairs/victory
-	name = "Victory"
-	icon_state = "victory"
-
-/datum/sprite_accessory/tajaran_hairs/bob
-	name = "Bob"
+/datum/sprite_accessory/tajaran_hairs/taj_ears_bob
+	name = "Tajara Bob"
 	icon_state = "bob"
 
-/datum/sprite_accessory/tajaran_hairs/fingerwave
-	name = "Fingerwave"
+/datum/sprite_accessory/tajaran_hairs/taj_ears_braid
+	name = "Tajara Braid"
+	icon_state = "braid"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_braid_alt
+	name = "Tajara Braid Alt"
+	icon_state = "braid_alt"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_clean
+	name = "Tajara Clean"
+	icon_state = "clean"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_curls
+	name = "Tajara Curly"
+	icon_state = "curly"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_curlsalt
+	name = "Tajara Curly Alt"
+	icon_state = "curlyalt"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_fingercurl
+	name = "Tajara Finger Curls"
 	icon_state = "fingerwave"
 
-/datum/sprite_accessory/tajaran_hairs/bedhead
-	name = "Bedhead"
-	icon_state = "bedhead"
+/datum/sprite_accessory/tajaran_hairs/taj_ears_pompadour
+	name = "Tajara Greaser"
+	icon_state = "greaser"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_housewife
+	name = "Tajara Housewife"
+	icon_state = "housewife"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_long
+	name = "Tajara Long"
+	icon_state = "long"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_messy
+	name = "Tajara Messy"
+	icon_state = "messy"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_mohawk
+	name = "Tajara Mohawk"
+	icon_state = "mohawk"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_plait
+	name = "Tajara Plait"
+	icon_state = "plait"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_rattail
+	name = "Tajara Rat Tail"
+	icon_state = "rattail"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_shaggy
+	name = "Tajara Shaggy"
+	icon_state = "shaggy"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_straight
+	name = "Tajara Straight"
+	icon_state = "straight"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_spiky
+	name = "Tajara Spiky"
+	icon_state = "spiky"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_victory
+	name = "Tajara Victory Curls"
+	icon_state = "victory"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_mane
+	name = "Tajara Mane"
+	icon_state = "mane"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_sidepony
+	name = "Tajara Side Ponytail"
+	icon_state = "sidepony"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_governmentman
+	name = "Tajara Government Man"
+	icon_state = "gman"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_bun
+	name = "Tajara Bun"
+	icon_state = "bun"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_smallbun
+	name = "Tajara Bun (Small)"
+	icon_state = "bunsmall"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_lowbun
+	name = "Tajara Bun (Low)"
+	icon_state = "lowbun"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_smalllowbun
+	name = "Tajara Bun (Low, Small)"
+	icon_state = "lowbunsmall"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_bunshort
+	name = "Tajara Bun (Short)"
+	icon_state = "bunshort"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_wedge
+	name = "Tajara Wedge"
+	icon_state = "wedge"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_tresses
+	name = "Tajara Tresses"
+	icon_state = "tresses"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_shoulderparted
+	name = "Tajara Shoulder Parted"
+	icon_state = "shoulderparted"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_shoulderpartedsmall
+	name = "Tajara Shoulder Parted Small"
+	icon_state = "shoulderpartedsmall"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_shoulderpartedlong
+	name = "Tajara Shoulder Parted Long"
+	icon_state = "shoulderpartedlong"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_shoulderlength
+	name = "Tajara Shoulderlength"
+	icon_state = "shoulderlength"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_shoulderlengthalt
+	name = "Tajara Shoulderlength Alt"
+	icon_state = "shoulderlengthalt"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_sidepartedleft
+	name = "Tajara Sideparted Left"
+	icon_state = "sidepartedleft"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_sidepartedright
+	name = "Tajara Sideparted Right"
+	icon_state = "sidepartedright"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_fringeup
+	name = "Tajara Fringe Up"
+	icon_state = "fringeup"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_cascading
+	name = "Tajara Cascading"
+	icon_state = "cascading"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_cascadingalt
+	name = "Tajara Cascading Alt"
+	icon_state = "cascadingalt"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_swoop
+	name = "Tajara Swoop"
+	icon_state = "swoop"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_swoop_alt
+	name = "Tajara Swoop Alt"
+	icon_state = "swoop_alt"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_swoop_bangs
+	name = "Tajara Swoop Bangs"
+	icon_state = "swoop_bangs"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_swoop_long
+	name = "Tajara Swoop Long"
+	icon_state = "longswoop"
+
+/datum/sprite_accessory/tajaran_hairs/taj_ears_swoop_long_alt
+	name = "Tajara Swoop Long Alt"
+	icon_state = "longswoop_alt"
 
 //Start Ears
 

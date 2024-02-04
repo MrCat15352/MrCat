@@ -122,7 +122,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"elzu_horns" = "None",
 							"elzu_tail" = "None",
 							"tajaran_ears" = "Plain",
-							"tajaran_hairs" = "Bob", 			//for fun
+							"tajaran_hairs" = "Plain", 			//for fun
 							"tajaran_head_marking" = "None",
 							"tajaran_head_markings_list" = "none",
 							"tajaran_body_markings" = "None",

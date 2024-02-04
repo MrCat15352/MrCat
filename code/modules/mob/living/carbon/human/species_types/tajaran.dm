@@ -31,7 +31,7 @@
 	default_features = list(
 		"mcolor" = "0F0",
 		"tajaran_ears" = "Plain",
-		"tajaran_hairs" = "Bob", 			//for fun
+		"tajaran_hairs" = "Plain", 			//for fun
 		"tajaran_head_markings_list" = "none",
 		"tajaran_face_markings" = "None",
 		"tajaran_body_markings" = "None",
