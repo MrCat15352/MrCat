@@ -23,18 +23,22 @@
 	mutant_bodyparts = list(
 		"tajaran_ears",
 		"tajaran_hairs",
-		"tajaran_head_markings_list",
+		"tajaran_head_markings",
 		"tajaran_face_markings",
+		"tajaran_noise_markings",
 		"tajaran_chest_markings",
+		"tajaran_body_markings",
 		"tajaran_tail"
 		)
 	default_features = list(
 		"mcolor" = "0F0",
 		"tajaran_ears" = "Plain",
 		"tajaran_hairs" = "Plain", 			//for fun
-		"tajaran_head_markings_list" = "none",
+		"tajaran_head_markings" = "none",
 		"tajaran_face_markings" = "None",
+		"tajaran_noise_markings" = "None",
 		"tajaran_chest_markings" = "None",
+		"tajaran_body_markings" = "None",
 		"tajaran_tail" = "long",
 		"body_size" = "Normal"
 		)
