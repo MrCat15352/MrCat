@@ -125,7 +125,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"tajaran_hairs" = "Plain", 			//for fun
 							"tajaran_head_marking" = "None",
 							"tajaran_head_markings_list" = "none",
-							"tajaran_body_markings" = "None",
+							"tajaran_chest_markings" = "None",
 							"tajaran_face_markings" = "None",
 							"tajaran_tail" = "long",
 							"flavor_text" = "",
@@ -891,13 +891,13 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "</td>"
 					mutant_category = 0
 
-			if("tajaran_body_markings" in pref_species.default_features)
+			if("tajaran_chest_markings" in pref_species.default_features)
 				if(!mutant_category)
 					dat += APPEARANCE_CATEGORY_COLUMN
 
 				dat += "<h3>Body markings</h3>"
 
-				dat += "<a href='?_src_=prefs;preference=tajaran_body_markings;task=input'>[features["tajaran_body_markings"]]</a><BR>"
+				dat += "<a href='?_src_=prefs;preference=tajaran_chest_markings;task=input'>[features["tajaran_chest_markings"]]</a><BR>"
 
 				mutant_category++
 				if(mutant_category >= MAX_MUTANT_ROWS)
@@ -2090,11 +2090,11 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if(new_tajaran_face_markings)
 						features["tajaran_face_markings"] = new_tajaran_face_markings
 
-				if("tajaran_body_markings")
+				if("tajaran_chest_markings")
 					var/new_tajaran_body_markings
-					new_tajaran_body_markings = input(user, "Choose your character's body markings:", "Character Preference") as null|anything in GLOB.tajaran_body_markings_list
+					new_tajaran_body_markings = input(user, "Choose your character's body markings:", "Character Preference") as null|anything in GLOB.tajaran_chest_markings_list
 					if(new_tajaran_body_markings)
-						features["tajaran_body_markings"] = new_tajaran_body_markings
+						features["tajaran_chest_markings"] = new_tajaran_body_markings
 
 				if("tajaran_tail")
 					var/new_tajaran_tail

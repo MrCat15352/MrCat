@@ -90,8 +90,8 @@
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/elzu_horns, GLOB.elzu_horns_list)
 	if(!GLOB.tails_list_elzu.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/elzu, GLOB.tails_list_elzu)
-	if(!GLOB.tajaran_body_markings_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_body_markings, GLOB.tajaran_body_markings_list)
+	if(!GLOB.tajaran_chest_markings_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_chest_markings, GLOB.tajaran_chest_markings_list)
 	if(!GLOB.tajaran_tail_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_tail_list)
 	if(!GLOB.tajaran_animated_tail_list.len)
@@ -143,7 +143,7 @@
 		"tajaran_hairs" = pick(GLOB.tajaran_hairs_list),
 		"tajaran_head_markings_list" = pick(GLOB.tajaran_head_markings_list),
 		"tajaran_face_markings" = pick(GLOB.tajaran_face_markings_list),
-		"tajaran_body_markings" = pick(GLOB.tajaran_body_markings_list),
+		"tajaran_chest_markings" = pick(GLOB.tajaran_chest_markings_list),
 		"tajaran_tail" = pick(GLOB.tajaran_tail_list),
 	)
 

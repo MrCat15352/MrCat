@@ -1,6 +1,54 @@
 //Tajaran Mutantparts
 
 //Start markings
+//Markings chest
+
+/datum/sprite_accessory/tajaran_chest_markings
+	icon = 'icons/mob/species/tajaran/tajaran_markings.dmi'
+	color_src = MUTCOLORS_SECONDARY
+	body_zone = BODY_ZONE_CHEST
+	synthetic_icon_state = "none"
+
+/datum/sprite_accessory/tajaran_chest_markings/none
+	name = "None"
+
+/datum/sprite_accessory/tajaran_chest_markings/belly
+	name = "Belly"
+	icon_state = "belly"
+
+/datum/sprite_accessory/tajaran_chest_markings/fullbelly
+	name = "Full belly"
+	icon_state = "fullbelly"
+
+/datum/sprite_accessory/tajaran_chest_markings/crest
+	name = "Crest"
+	icon_state = "crest"
+
+/datum/sprite_accessory/tajaran_chest_markings/bellyhandsfeet
+	name = "Belly hands feet"
+	icon_state = "bellyhandsfeet"
+
+/datum/sprite_accessory/tajaran_chest_markings/patches
+	name = "Patches"
+	icon_state = "patches"
+
+/datum/sprite_accessory/tajaran_chest_markings/bands
+	name = "Bands"
+	icon_state = "bands"
+
+/datum/sprite_accessory/tajaran_chest_markings/tiger
+	name = "Tiger"
+	icon_state = "tiger"
+
+/datum/sprite_accessory/tajaran_chest_markings/backstripe
+	name = "Back stripe"
+	icon_state = "backstripe"
+
+/datum/sprite_accessory/tajaran_chest_markings/backstripemarks
+	name = "Back stripe marks"
+	icon_state = "backstripemarks"
+
+//Markings body
 
 /datum/sprite_accessory/tajaran_body_markings
 	icon = 'icons/mob/species/tajaran/tajaran_markings.dmi'
@@ -10,27 +58,162 @@
 
 /datum/sprite_accessory/tajaran_body_markings/none
 	name = "None"
-	icon_state = "none"
 
-/datum/sprite_accessory/tajaran_body_markings/belly
-	name = "Belly"
-	icon_state = "belly"
+/datum/sprite_accessory/tajaran_body_markings/pawsocks
+	name = "Paw socks"
+	icon_state = "pawsocks"
 
-/datum/sprite_accessory/tajaran_body_markings/fullbelly
-	name = "Full belly"
-	icon_state = "fullbelly"
+/datum/sprite_accessory/tajaran_body_markings/pawsocksalternate
+	name = "Paw socks alternate"
+	icon_state = "pawsocksalternate"
 
-/datum/sprite_accessory/tajaran_body_markings/crest
-	name = "Crest"
-	icon_state = "crest"
+/datum/sprite_accessory/tajaran_body_markings/pawsocksbelly
+	name = "Paw socks belly"
+	icon_state = "pawsocksbelly"
 
-/datum/sprite_accessory/tajaran_body_markings/points
+/datum/sprite_accessory/tajaran_body_markings/bellyhandsfeetminor
+	name = "Belly hands feet minor"
+	icon_state = "bellyhandsfeetminor"
+
+/datum/sprite_accessory/tajaran_body_markings/bellyhandsfeetsmall
+	name = "Belly hands feet small"
+	icon_state = "bellyhandsfeetsmall"
+
+/datum/sprite_accessory/tajaran_body_markings/bellyhandsfeet
+	name = "Belly hands feet"
+	icon_state = "bellyhandsfeet"
+
+/datum/sprite_accessory/tajaran_body_markings/patch
+	name = "Patch"
+	icon_state = "patch"
+
+/datum/sprite_accessory/tajaran_body_markings/bands
+	name = "Bands"
+	icon_state = "bands"
+
+/datum/sprite_accessory/tajaran_body_markings/tiger
+	name = "Tiger"
+	icon_state = "tiger"
+
+/datum/sprite_accessory/tajaran_body_markings/tattiger
+	name = "Tat tiger"
+	icon_state = "tattiger"
+
+//Markings face
+
+/datum/sprite_accessory/tajaran_face_markings
+	icon = 'icons/mob/species/tajaran/tajaran_markings.dmi'
+	color_src = MUTCOLORS_SECONDARY
+	body_zone = BODY_ZONE_CHEST
+	synthetic_icon_state = "none"
+
+/datum/sprite_accessory/tajaran_face_markings/none
+	name = "None"
+
+/datum/sprite_accessory/tajaran_face_markings/goatee
+	name = "Goatee"
+	icon_state = "goatee"
+
+/datum/sprite_accessory/tajaran_face_markings/goateefaded
+	name = "Goatee faded"
+	icon_state = "goateefaded"
+
+/datum/sprite_accessory/tajaran_face_markings/moustache
+	name = "Moustache"
+	icon_state = "moustache"
+
+/datum/sprite_accessory/tajaran_face_markings/mutton
+	name = "Mutton"
+	icon_state = "mutton"
+
+/datum/sprite_accessory/tajaran_face_markings/pencilstache
+	name = "Pencil stache"
+	icon_state = "pencilstache"
+
+/datum/sprite_accessory/tajaran_face_markings/sideburns
+	name = "Side burns"
+	icon_state = "sideburns"
+
+/datum/sprite_accessory/tajaran_face_markings/smallstache
+	name = "Small stache"
+	icon_state = "smallstache"
+
+//Markings noise
+
+/datum/sprite_accessory/tajaran_noise_markings
+	icon = 'icons/mob/species/tajaran/tajaran_markings.dmi'
+	color_src = MUTCOLORS_SECONDARY
+	body_zone = BODY_ZONE_CHEST
+	synthetic_icon_state = "none"
+
+/datum/sprite_accessory/tajaran_noise_markings/none
+	name = "None"
+
+/datum/sprite_accessory/tajaran_noise_markings/tajnoise
+	name = "Taj noise"
+	icon_state = "tajnoise"
+
+//Markings head
+
+/datum/sprite_accessory/tajaran_head_marking
+	icon = 'icons/mob/species/tajaran/tajaran_head_markings.dmi'
+	body_zone = BODY_ZONE_HEAD
+	secondary_color = TRUE
+
+/datum/sprite_accessory/tajaran_head_marking/none
+	name = "None"
+
+/datum/sprite_accessory/tajaran_head_marking/tigerhead
+	name = "Tiger head"
+	icon_state = "tigerhead"
+
+/datum/sprite_accessory/tajaran_head_marking/tigerface
+	name = "Tiger face"
+	icon_state = "tigerface"
+
+/datum/sprite_accessory/tajaran_head_marking/outears
+	name = "Outears"
+	icon_state = "outears"
+
+/datum/sprite_accessory/tajaran_head_marking/inears
+	name = "Inears"
+	icon_state = "inears"
+
+/datum/sprite_accessory/tajaran_head_marking/muzzle
+	name = "Muzzle"
+	icon_state = "muzzle"
+
+/datum/sprite_accessory/tajaran_head_marking/muzinears
+	name = "Muzinears"
+	icon_state = "muzinears"
+
+/datum/sprite_accessory/tajaran_head_marking/nose
+	name = "Nose"
+	icon_state = "nose"
+
+/datum/sprite_accessory/tajaran_head_marking/muzzle2
+	name = "Muzzle 2"
+	icon_state = "muzzle2"
+
+/datum/sprite_accessory/tajaran_head_marking/points
 	name = "Points"
 	icon_state = "points"
 
-/datum/sprite_accessory/tajaran_body_markings/patch
-	name = "Patches"
+/datum/sprite_accessory/tajaran_head_marking/patch
+	name = "Patch"
 	icon_state = "patch"
+
+/datum/sprite_accessory/tajaran_head_marking/muzzlefemale
+	name = "Muzzle female"
+	icon_state = "muzzlefemale"
+
+/datum/sprite_accessory/tajaran_head_marking/faceminor
+	name = "Face minor"
+	icon_state = "faceminor"
+
+/datum/sprite_accessory/tajaran_head_marking/markingsall
+	name = "Markings all"
+	icon_state = "markingsall"
 
 //Start tails
 
@@ -67,46 +250,6 @@
 /datum/sprite_accessory/tajaran_tail_animated/short
 	name = "Short"
 	icon_state = "short"
-
-//Start Face markings
-
-/datum/sprite_accessory/tajaran_face_markings
-	icon = 'icons/mob/species/tajaran/tajaran_face_markings.dmi'
-	body_zone = BODY_ZONE_HEAD
-	color_src = MUTCOLORS_SECONDARY
-	synthetic_icon_state = "none"
-
-/datum/sprite_accessory/tajaran_face_markings/none
-	name = "None"
-	icon_state = "none"
-
-/datum/sprite_accessory/tajaran_face_markings/goatee
-	name = "Goatee"
-	icon_state = "goatee"
-
-/datum/sprite_accessory/tajaran_face_markings/goatee_faded
-	name = "Goatee faded"
-	icon_state = "goatee_faded"
-
-/datum/sprite_accessory/tajaran_face_markings/moustache
-	name = "Moustache"
-	icon_state = "moustache"
-
-/datum/sprite_accessory/tajaran_face_markings/mutton
-	name = "Mutton"
-	icon_state = "mutton"
-
-/datum/sprite_accessory/tajaran_face_markings/pencilstache
-	name = "Pencil stache"
-	icon_state = "pencilstache"
-
-/datum/sprite_accessory/tajaran_face_markings/sideburns
-	name = "Side burns"
-	icon_state = "sideburns"
-
-/datum/sprite_accessory/tajaran_face_markings/smallstache
-	name = "Small stache"
-	icon_state = "smallstache"
 
 //Start Hair
 
@@ -312,56 +455,9 @@
 	secondary_color = TRUE
 
 /datum/sprite_accessory/tajaran_ears/ears_plain
-	name = "Plain"
+	name = "Ears plain"
 	icon_state = "ears_plain"
 
-//Start Head markings
-
-/datum/sprite_accessory/tajaran_head_marking
-	icon = 'icons/mob/species/tajaran/tajaran_head_markings.dmi'
-	body_zone = BODY_ZONE_HEAD
-	secondary_color = TRUE
-
-/datum/sprite_accessory/tajaran_head_marking/none
-	name = "None"
-	icon_state = "none"
-
-/datum/sprite_accessory/tajaran_head_marking/tiger_head
-	name = "Tiger head"
-	icon_state = "tiger_head"
-
-/datum/sprite_accessory/tajaran_head_marking/tiger_face
-	name = "Tiger face"
-	icon_state = "tiger_face"
-
-/datum/sprite_accessory/tajaran_head_marking/outears
-	name = "Outears"
-	icon_state = "outears"
-
-/datum/sprite_accessory/tajaran_head_marking/inears
-	name = "Inears"
-	icon_state = "inears"
-
-/datum/sprite_accessory/tajaran_head_marking/muzzle
-	name = "Muzzle"
-	icon_state = "muzzle"
-
-/datum/sprite_accessory/tajaran_head_marking/muzinears
-	name = "Muzinears"
-	icon_state = "muzinears"
-
-/datum/sprite_accessory/tajaran_head_marking/nose
-	name = "Nose"
-	icon_state = "nose"
-
-/datum/sprite_accessory/tajaran_head_marking/muzzle2
-	name = "Muzzle 2"
-	icon_state = "muzzle2"
-
-/datum/sprite_accessory/tajaran_head_marking/points
-	name = "Points"
-	icon_state = "points"
-
-/datum/sprite_accessory/tajaran_head_marking/patch
-	name = "Patch"
-	icon_state = "patch"
+/datum/sprite_accessory/tajaran_ears/plain
+	name = "Plain"
+	icon_state = "plain"

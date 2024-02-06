@@ -100,7 +100,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 		if(species_id == "tajaran")
 			pref_species = new /datum/species/kepori
 			READ_FILE(S["feature_tajaran_hairs"], features["tajaran_hairs"])
-			READ_FILE(S["feature_tajaran_body_markings"], features["tajaran_body_markings"])
+			READ_FILE(S["feature_tajaran_body_markings"], features["tajaran_chest_markings"])
 
 /// checks through keybindings for outdated unbound keys and updates them
 /datum/preferences/proc/check_keybindings()
@@ -451,7 +451,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	READ_FILE(S["feature_tajaran_hairs"], features["tajaran_hairs"])
 	READ_FILE(S["feature_tajaran_head_markings_list"], features["tajaran_head_markings_list"])
 	READ_FILE(S["feature_tajaran_face_markings"], features["tajaran_face_markings"])
-	READ_FILE(S["feature_tajaran_body_markings"], features["tajaran_body_markings"])
+	READ_FILE(S["feature_tajaran_body_markings"], features["tajaran_chest_markings"])
 	READ_FILE(S["feature_tajaran_tail"], features["tajaran_tail"])
 
 	READ_FILE(S["equipped_gear"], equipped_gear)
@@ -567,7 +567,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	features["tajaran_hairs"]				= sanitize_inlist(features["tajaran_hairs"], GLOB.tajaran_hairs_list, "Plain")
 	features["tajaran_head_markings_list"]	= sanitize_inlist(features["tajaran_head_markings_list"], GLOB.tajaran_head_markings_list, "none")
 	features["tajaran_face_markings"]		= sanitize_inlist(features["tajaran_face_markings"], GLOB.tajaran_face_markings_list, "none")
-	features["tajaran_body_markings"]		= sanitize_inlist(features["tajaran_body_markings"], GLOB.tajaran_body_markings_list, "none")
+	features["tajaran_chest_markings"]		= sanitize_inlist(features["tajaran_chest_markings"], GLOB.tajaran_chest_markings_list, "none")
 	features["tajaran_tail"]				= sanitize_inlist(features["tajaran_tail"], GLOB.tajaran_tail_list, "long")
 	features["flavor_text"]					= sanitize_text(features["flavor_text"], initial(features["flavor_text"]))
 
@@ -650,7 +650,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	WRITE_FILE(S["feature_tajaran_hairs"]				, features["tajaran_hairs"])
 	WRITE_FILE(S["feature_tajaran_head_markings_list"]	, features["tajaran_head_markings_list"])
 	WRITE_FILE(S["feature_tajaran_face_markings"]		, features["tajaran_face_markings"])
-	WRITE_FILE(S["feature_tajaran_body_markings"]		, features["tajaran_body_markings"])
+	WRITE_FILE(S["feature_tajaran_body_markings"]		, features["tajaran_chest_markings"])
 	WRITE_FILE(S["feature_tajaran_tail"]				, features["tajaran_tail"])
 	WRITE_FILE(S["fbp"]									, fbp)
 

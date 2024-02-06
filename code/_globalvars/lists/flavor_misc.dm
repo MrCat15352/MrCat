@@ -30,7 +30,7 @@ GLOBAL_LIST_EMPTY(tajaran_ears_list)
 GLOBAL_LIST_EMPTY(tajaran_hairs_list)
 GLOBAL_LIST_EMPTY(tajaran_head_markings_list)
 GLOBAL_LIST_EMPTY(tajaran_face_markings_list)
-GLOBAL_LIST_EMPTY(tajaran_body_markings_list)
+GLOBAL_LIST_EMPTY(tajaran_chest_markings_list)
 GLOBAL_LIST_EMPTY(tajaran_tail_list)
 GLOBAL_LIST_EMPTY(tajaran_animated_tail_list)
 

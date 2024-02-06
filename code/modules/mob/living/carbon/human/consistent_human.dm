@@ -37,7 +37,7 @@
 	dna.features["tajaran_hairs"] = GLOB.tajaran_hairs_list[seed % length(GLOB.tajaran_hairs_list) + 1]
 	dna.features["tajaran_head_markings_list"] = GLOB.tajaran_head_markings_list[seed % length(GLOB.tajaran_head_markings_list) + 1]
 	dna.features["tajaran_face_markings"] = GLOB.tajaran_face_markings_list[seed % length(GLOB.tajaran_face_markings_list) + 1]
-	dna.features["tajaran_body_markings"] = GLOB.tajaran_body_markings_list[seed % length(GLOB.tajaran_body_markings_list) + 1]
+	dna.features["tajaran_chest_markings"] = GLOB.tajaran_chest_markings_list[seed % length(GLOB.tajaran_chest_markings_list) + 1]
 	dna.features["tajaran_tail"] = GLOB.tajaran_tail_list[seed % length(GLOB.tajaran_tail_list) + 1]
 
 	update_body()

@@ -25,7 +25,7 @@
 		"tajaran_hairs",
 		"tajaran_head_markings_list",
 		"tajaran_face_markings",
-		"tajaran_body_markings",
+		"tajaran_chest_markings",
 		"tajaran_tail"
 		)
 	default_features = list(
@@ -34,7 +34,7 @@
 		"tajaran_hairs" = "Plain", 			//for fun
 		"tajaran_head_markings_list" = "none",
 		"tajaran_face_markings" = "None",
-		"tajaran_body_markings" = "None",
+		"tajaran_chest_markings" = "None",
 		"tajaran_tail" = "long",
 		"body_size" = "Normal"
 		)
