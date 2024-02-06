@@ -18,3 +18,6 @@
 		/datum/client_colour/monochrome
 				owner.add_client_colour(/datum/client_colour/monochrome)
 				owner.remove_client_colour(/datum/client_colour/monochrome)
+
+
+// Изменить язык на английскую раскладку. тчобы имена генерировалось в английском таяр. Иначе в бд может поломаться что-то
