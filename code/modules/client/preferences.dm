@@ -123,7 +123,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"elzu_tail" = "None",
 							"tajaran_ears" = "Plain",
 							"tajaran_hairs" = "Plain",
-							"tajaran_head_marking" = "None",
+							"tajaran_head_markings" = "None",
 							"tajaran_face_markings" = "None",
 							"tajaran_noise_markings" = "None",
 							"tajaran_chest_markings" = "None",
@@ -2080,9 +2080,9 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						features["tajaran_hairs"] = new_tajaran_hairs
 
 				if("tajaran_head_markings")
-					var/new_tajaran_head_markings_list
-					new_tajaran_head_markings_list = input(user, "Choose your character's head markings:", "Character Preference") as null|anything in GLOB.tajaran_head_markings_list
-					if(new_tajaran_head_markings_list)
+					var/new_tajaran_head_markings
+					new_tajaran_head_markings = input(user, "Choose your character's head markings:", "Character Preference") as null|anything in GLOB.tajaran_head_markings_list
+					if(new_tajaran_head_markings)
 						features["tajaran_head_markings"] = new_tajaran_head_markings
 
 				if("tajaran_face_markings")

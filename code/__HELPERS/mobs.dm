@@ -99,7 +99,7 @@
 	if(!GLOB.tajaran_noise_markings_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_noise_markings, GLOB.tajaran_noise_markings_list)
 	if(!GLOB.tajaran_head_markings_list.len)
-		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_head_marking, GLOB.tajaran_head_markings_list)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_head_markings, GLOB.tajaran_head_markings_list)
 	if(!GLOB.tajaran_tail_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_tail_list)
 	if(!GLOB.tajaran_animated_tail_list.len)

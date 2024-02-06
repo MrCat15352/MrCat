@@ -155,63 +155,63 @@
 
 //Markings head
 
-/datum/sprite_accessory/tajaran_head_marking
+/datum/sprite_accessory/tajaran_head_markings
 	icon = 'icons/mob/species/tajaran/tajaran_head_markings.dmi'
 	body_zone = BODY_ZONE_HEAD
 	secondary_color = TRUE
 
-/datum/sprite_accessory/tajaran_head_marking/none
+/datum/sprite_accessory/tajaran_head_markings/none
 	name = "None"
 
-/datum/sprite_accessory/tajaran_head_marking/tigerhead
+/datum/sprite_accessory/tajaran_head_markings/tigerhead
 	name = "Tiger head"
 	icon_state = "tigerhead"
 
-/datum/sprite_accessory/tajaran_head_marking/tigerface
+/datum/sprite_accessory/tajaran_head_markings/tigerface
 	name = "Tiger face"
 	icon_state = "tigerface"
 
-/datum/sprite_accessory/tajaran_head_marking/outears
+/datum/sprite_accessory/tajaran_head_markings/outears
 	name = "Outears"
 	icon_state = "outears"
 
-/datum/sprite_accessory/tajaran_head_marking/inears
+/datum/sprite_accessory/tajaran_head_markings/inears
 	name = "Inears"
 	icon_state = "inears"
 
-/datum/sprite_accessory/tajaran_head_marking/muzzle
+/datum/sprite_accessory/tajaran_head_markings/muzzle
 	name = "Muzzle"
 	icon_state = "muzzle"
 
-/datum/sprite_accessory/tajaran_head_marking/muzinears
+/datum/sprite_accessory/tajaran_head_markings/muzinears
 	name = "Muzinears"
 	icon_state = "muzinears"
 
-/datum/sprite_accessory/tajaran_head_marking/nose
+/datum/sprite_accessory/tajaran_head_markings/nose
 	name = "Nose"
 	icon_state = "nose"
 
-/datum/sprite_accessory/tajaran_head_marking/muzzle2
+/datum/sprite_accessory/tajaran_head_markings/muzzle2
 	name = "Muzzle 2"
 	icon_state = "muzzle2"
 
-/datum/sprite_accessory/tajaran_head_marking/points
+/datum/sprite_accessory/tajaran_head_markings/points
 	name = "Points"
 	icon_state = "points"
 
-/datum/sprite_accessory/tajaran_head_marking/patch
+/datum/sprite_accessory/tajaran_head_markings/patch
 	name = "Patch"
 	icon_state = "patch"
 
-/datum/sprite_accessory/tajaran_head_marking/muzzlefemale
+/datum/sprite_accessory/tajaran_head_markings/muzzlefemale
 	name = "Muzzle female"
 	icon_state = "muzzlefemale"
 
-/datum/sprite_accessory/tajaran_head_marking/faceminor
+/datum/sprite_accessory/tajaran_head_markings/faceminor
 	name = "Face minor"
 	icon_state = "faceminor"
 
-/datum/sprite_accessory/tajaran_head_marking/markingsall
+/datum/sprite_accessory/tajaran_head_markings/markingsall
 	name = "Markings all"
 	icon_state = "markingsall"
 
