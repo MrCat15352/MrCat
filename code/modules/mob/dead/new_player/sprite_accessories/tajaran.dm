@@ -454,10 +454,6 @@
 	body_zone = BODY_ZONE_HEAD
 	secondary_color = TRUE
 
-/datum/sprite_accessory/tajaran_ears/ears_plain
-	name = "Ears plain"
-	icon_state = "ears_plain"
-
 /datum/sprite_accessory/tajaran_ears/plain
 	name = "Plain"
 	icon_state = "plain"

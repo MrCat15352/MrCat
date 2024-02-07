@@ -121,13 +121,13 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"vox_neck_quills" = "Plain",
 							"elzu_horns" = "None",
 							"elzu_tail" = "None",
-							"tajaran_ears" = "Plain",
-							"tajaran_hairs" = "Plain",
+							"tajaran_ears" = "plain",
+							"tajaran_hairs" = "plain",
 							"tajaran_head_markings" = "None",
 							"tajaran_face_markings" = "None",
-							"tajaran_noise_markings" = "None",
+							"tajaran_noise_markings" = "None",//
 							"tajaran_chest_markings" = "None",
-							"tajaran_body_markings" = "None",
+							"tajaran_body_markings" = "None",//
 							"tajaran_tail" = "Long",
 							"flavor_text" = "",
 							"body_size" = "Normal"
@@ -848,15 +848,14 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				dat += "<h3>Hair</h3>"
 
 				dat += "<a href='?_src_=prefs;preference=tajaran_hairs;task=input'>[features["tajaran_hairs"]]</a><BR>"
+			//	dat += "<a href='?_src_=prefs;preference=previous_tajaran_hairs;task=input'>&lt;</a> <a href='?_src_=prefs;preference=next_tajaran_hairs;task=input'>&gt;</a>"
+				dat += "<a href='?_src_=prefs;preference=toggle_random;random_type=[RANDOM_HAIRSTYLE]'>[(randomise[RANDOM_HAIRSTYLE]) ? "Lock" : "Unlock"]</A>"
 
 				dat += "<span style='border:1px solid #161616; background-color: #[hair_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=hair;task=input'>Change</a><BR>"
-
 				dat += "<a href='?_src_=prefs;preference=toggle_random;random_type=[RANDOM_HAIR_COLOR]'>[(randomise[RANDOM_HAIR_COLOR]) ? "Lock" : "Unlock"]</A><BR>"
 
 				dat += "<h3>Hair Gradient</h3>"
-
 				dat += "<a href='?_src_=prefs;preference=hair_gradient_style;task=input'>[features["grad_style"]]</a>"
-
 				dat += "<a href='?_src_=prefs;preference=previous_hair_gradient_style;task=input'>&lt;</a> <a href='?_src_=prefs;preference=next_hair_gradient_style;task=input'>&gt;</a><BR>"
 
 				dat += "<span style='border:1px solid #161616; background-color: #[features["grad_color"]];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=hair_gradient;task=input'>Change</a>"
@@ -2078,6 +2077,15 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					new_tajaran_hairs = input(user, "Choose your character's hair:", "Character Preference") as null|anything in GLOB.tajaran_hairs_list
 					if(new_tajaran_hairs)
 						features["tajaran_hairs"] = new_tajaran_hairs
+
+/*				if("next_tajaran_hairs")
+					next_list_item(features["tajaran_hairs"], GLOB.tajaran_hairs_list)		Ладно, без выбора
+
+				if("previous_tajaran_hairs")
+					previous_list_item(features["tajaran_hairs"], GLOB.tajaran_hairs_list) */
+
+//				if("tajaran_grad_style")
+//					features["tajaran_grad_style"] = next_list_item(features["tajaran_grad_style"], GLOB.hair_gradients_list)
 
 				if("tajaran_head_markings")
 					var/new_tajaran_head_markings

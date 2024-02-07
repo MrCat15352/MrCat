@@ -1,6 +1,6 @@
 //Copy-pasted kepori and lizard stuff
 /datum/species/tajaran
-	name = "\improper tajaran"
+	name = "\improper Tajaran"
 	id = SPECIES_TAJARAN
 	loreblurb = "The Tajaran race is a species of feline-like bipeds hailing from the planet of Ahdomai in the \
 	S'randarr system. They have been brought up into the space age by the Humans and Skrell, and have been \
@@ -32,8 +32,8 @@
 		)
 	default_features = list(
 		"mcolor" = "0F0",
-		"tajaran_ears" = "Plain",
-		"tajaran_hairs" = "Plain", 			//for fun
+		"tajaran_ears" = "plain",
+		"tajaran_hairs" = "plain",
 		"tajaran_head_markings" = "none",
 		"tajaran_face_markings" = "None",
 		"tajaran_noise_markings" = "None",
