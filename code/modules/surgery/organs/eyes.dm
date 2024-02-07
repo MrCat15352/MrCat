@@ -428,7 +428,9 @@
 
 
 /obj/item/organ/eyes/tajaran
-	name = "tajaran eyes"
+	name = "Tajaran eyes"
+	icon = 'icons/mob/species/tajaran/tajaran_organs.dmi'
+	icon_state = "night_eyes_off"
 	desc = "Some eyes"
 	actions_types = list(/datum/action/item_action/organ_action/toggle)
 	var/active = FALSE
