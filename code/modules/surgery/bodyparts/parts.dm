@@ -444,3 +444,17 @@
 	can_be_disabled = FALSE
 	max_damage = 5000
 	animal_origin = DEVIL_BODYPART
+
+/*		Возможно эта хня и не нужна вовсе....
+/obj/item/bodypart/tail
+	name = "tail"
+	desc = "tail"
+	//icon =
+	//husk_icon	??
+	//husk_type	??
+	//static_icon
+	//icon_state
+	max_damage = 30
+	body_zone = BODY_ZONE_PRECISE_TAIL
+	body_part = TAIL
+*/
