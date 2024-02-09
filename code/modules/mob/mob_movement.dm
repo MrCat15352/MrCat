@@ -366,7 +366,7 @@
 		if(BODY_ZONE_PRECISE_EYES)
 			next_in_line = BODY_ZONE_PRECISE_MOUTH
 		if(BODY_ZONE_PRECISE_MOUTH)
-			next_in_line = BODY_ZONE_PRECISE_EXTERNAL_EARS
+			next_in_line = BODY_ZONE_EXTERNAL_EARS
 		else
 			next_in_line = BODY_ZONE_HEAD
 
@@ -448,7 +448,18 @@
 		return
 
 	var/atom/movable/screen/zone_sel/selector = mob.hud_used.zone_select
-	selector.set_selected_zone(BODY_ZONE_PRECISE_TAIL, mob)
+	selector.set_selected_zone(BODY_ZONE_TAIL, mob)
+
+///Hidden verb to target the external ears, !!!NOT BOUND!!!
+/client/verb/body_external_ears()
+	set name = "body-external-ears"
+	set hidden = TRUE
+
+	if(!check_has_body_select())
+		return
+
+	var/atom/movable/screen/zone_sel/selector = mob.hud_used.zone_select
+	selector.set_selected_zone(BODY_ZONE_EXTERNAL_EARS, mob)
 
 ///Verb to toggle the walk or run status
 /client/verb/toggle_walk_run()

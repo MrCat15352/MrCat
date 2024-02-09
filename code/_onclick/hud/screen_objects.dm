@@ -540,10 +540,10 @@
 		if(7 to 13)	//tail. Разбито на 2 части потому что, в противном случае хвост "загораживает" другие зоны
 			if(icon_x in 21 to 26)
 				if(icon_y in 7 to 11)
-					return BODY_ZONE_PRECISE_TAIL
+					return BODY_ZONE_TAIL
 			if(icon_x in 25 to 26)
 				if(icon_y in 12 to 13)
-					return BODY_ZONE_PRECISE_TAIL
+					return BODY_ZONE_TAIL
 		if(10 to 13) //Hands and groin
 			switch(icon_x)
 				if(8 to 11)
@@ -574,9 +574,9 @@
 							return BODY_ZONE_PRECISE_EYES
 					if(28 to 31)	//two ears for tajaran
 						if(icon_x in 12 to 14)
-							return BODY_ZONE_PRECISE_EXTERNAL_EARS
+							return BODY_ZONE_EXTERNAL_EARS
 						if(icon_x in 18 to 20)
-							return BODY_ZONE_PRECISE_EXTERNAL_EARS
+							return BODY_ZONE_EXTERNAL_EARS
 				return BODY_ZONE_HEAD
 
 /atom/movable/screen/zone_sel/proc/set_selected_zone(choice, mob/user)
@@ -671,9 +671,11 @@
 	name = "health doll"
 	screen_loc = ui_healthdoll
 
+/* кукла таяранская 1 штука, многа кодить
 /atom/movable/screen/healthdoll/tajaran
 	name = "health doll"
 	screen_loc = ui_healthdoll
+*/
 
 /atom/movable/screen/healthdoll/Click()
 	if (iscarbon(usr))

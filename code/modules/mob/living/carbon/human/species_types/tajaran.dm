@@ -82,28 +82,34 @@
 
 /datum/species/tajaran/random_name(gender,unique,lastname)
 	//code by @valtor0
-	var/static/list/tajaran_female_endings_list = list("и","а","о","е","й","ь") // Customise this with ru_name_syllables changes.
+	/*
+	var/static/list/tajaran_female_ru_endings_list = list("и","а","о","е","й","ь") // Customise this with ru_name_syllables changes.
 	var/list/ru_name_syllables = list("кан","тай","кир","раи","кии","мир","кра","тэк","нал","вар","хар","марр","ран","дарр", \
 	"мирк","ири","дин","манг","рик","зар","раз","кель","шера","тар","кей","ар","но","маи","зир","кер","нир","ра",\
 	"ми","рир","сей","эка","гир","ари","нэй","нре","ак","таир","эрай","жин","мра","зур","рин","сар","кин","рид","эра","ри","эна")
+	*/
+	var/static/list/tajaran_female_en_endings_list = list("i","a","o","e","y","u") // Customise this with en_name_syllables changes.
+	var/list/en_name_syllables = list("kan","taj","kir","rai","kii","mir","kra","tak","nal","var","har","marr","ran","darr", \
+	"mirk","iri","din","mang","rik","zar","raz","kel","shera","tar","kai","ar","no","mai","air","ker","nir","ra",\
+	"mi","rir","sei","eka","gir","ari","nai","nre","ak","tajr","arai","jin","mra","aur","rin","sar","kin","rid","era","ri","ena")
 	var/apostrophe = "’"
 	var/new_name = ""
 	var/full_name = ""
 
 	for(var/i = 0; i<2; i++)
 		for(var/x = rand(1,2); x>0; x--)
-			new_name += pick_n_take(ru_name_syllables)
+			new_name += pick_n_take(en_name_syllables)
 		new_name += apostrophe
 		apostrophe = ""
 	full_name = "[capitalize(lowertext(new_name))]"
 	if(gender == FEMALE)
 		var/ending = copytext(full_name, -2)
-		if(!(ending in tajaran_female_endings_list))
+		if(!(ending in tajaran_female_en_endings_list))
 			full_name += "а"
 	if(prob(75))
-		full_name += " [pick(list("Хадии","Кайтам","Жан-Хазан","Нъярир’Ахан"))]"
+		full_name += " [pick(list("Hadii","Kaitam","Jan-Hazan","Nyrir’Ahan"))]" //"Хадии","Кайтам","Жан-Хазан","Нъярир’Ахан"
 	else if(prob(80))
-		full_name += " [pick(list("Энай-Сэндай","Наварр-Сэндай","Року-Сэндай","Шенуар-Сэндай"))]"
+		full_name += " [pick(list("Anai-Sanday","Navarr-Sanday","Roky-Sanday","Shenuar-Sanday"))]" //"Энай-Сэндай","Наварр-Сэндай","Року-Сэндай","Шенуар-Сэндай"
 	return full_name
 
 /* эта шляпа нужна, если мы будем давать какие-то кнопки таяранам, которые слева сверху, по типу "вкл/выкл фонарик ПДА"
