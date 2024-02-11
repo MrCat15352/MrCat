@@ -138,27 +138,27 @@
 	name = "Small stache"
 	icon_state = "smallstache"
 
-//Markings noise
+//Markings nose
 
-/datum/sprite_accessory/tajaran_noise_markings
+/datum/sprite_accessory/tajaran_nose_markings
 	icon = 'icons/mob/species/tajaran/tajaran_markings.dmi'
 	color_src = MUTCOLORS_SECONDARY
 	body_zone = BODY_ZONE_CHEST
 	synthetic_icon_state = "none"
 
-/datum/sprite_accessory/tajaran_noise_markings/none
+/datum/sprite_accessory/tajaran_nose_markings/none
 	name = "None"
 
-/datum/sprite_accessory/tajaran_noise_markings/tajnoise
-	name = "Taj noise"
-	icon_state = "tajnoise"
+/datum/sprite_accessory/tajaran_nose_markings/tajnoise
+	name = "Taj nose"
+	icon_state = "tajnose"
 
 //Markings head
-
 /datum/sprite_accessory/tajaran_head_markings
-	icon = 'icons/mob/species/tajaran/tajaran_head_markings.dmi'
+	icon = 'icons/mob/species/tajaran/tajaran_markings.dmi'
+	color_src = MUTCOLORS_SECONDARY
 	body_zone = BODY_ZONE_HEAD
-	secondary_color = TRUE
+//	secondary_color = TRUE
 
 /datum/sprite_accessory/tajaran_head_markings/none
 	name = "None"
@@ -226,6 +226,14 @@
 	icon = 'icons/mob/species/tajaran/tajaran_tail.dmi'
 	body_zone = BODY_ZONE_CHEST
 	secondary_color = TRUE
+
+/datum/sprite_accessory/tails/tajaran/longnostrips
+	name = "Long no strips"
+	icon_state = "longnostrips"
+
+/datum/sprite_accessory/tajaran_tail_animated/longnostrips
+	name = "Long no strips"
+	icon_state = "longnostrips"
 
 /datum/sprite_accessory/tails/tajaran/long
 	name = "Long"

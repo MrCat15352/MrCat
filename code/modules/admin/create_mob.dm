@@ -48,8 +48,10 @@
 	H.dna.features["tajaran_ears"] = pick(GLOB.tajaran_ears_list)
 	H.dna.features["tajaran_hairs"] = pick(GLOB.tajaran_hairs_list)
 	H.dna.features["tajaran_head_markings"] = pick(GLOB.tajaran_head_markings_list)
+	H.dna.features["tajaran_nose_markings"] = pick(GLOB.tajaran_nose_markings_list)
 	H.dna.features["tajaran_face_markings"] = pick(GLOB.tajaran_face_markings_list)
 	H.dna.features["tajaran_chest_markings"] = pick(GLOB.tajaran_chest_markings_list)
+	H.dna.features["tajaran_body_markings"] = pick(GLOB.tajaran_body_markings_list)
 	H.dna.features["tajaran_tail"] = pick(GLOB.tajaran_tail_list)
 
 	H.update_body()

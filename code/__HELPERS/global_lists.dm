@@ -50,7 +50,7 @@
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_chest_markings, GLOB.tajaran_chest_markings_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_body_markings, GLOB.tajaran_body_markings_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_face_markings, GLOB.tajaran_face_markings_list)
-	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_noise_markings, GLOB.tajaran_noise_markings_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_nose_markings, GLOB.tajaran_nose_markings_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_head_markings, GLOB.tajaran_head_markings_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_tail_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_tail_animated, GLOB.tajaran_animated_tail_list)

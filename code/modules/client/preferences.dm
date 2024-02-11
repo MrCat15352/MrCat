@@ -124,10 +124,10 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"tajaran_ears" = "plain",
 							"tajaran_hairs" = "plain",
 							"tajaran_head_markings" = "None",
+							"tajaran_nose_markings" = "None",
 							"tajaran_face_markings" = "None",
-							"tajaran_noise_markings" = "None",//
 							"tajaran_chest_markings" = "None",
-							"tajaran_body_markings" = "None",//
+							"tajaran_body_markings" = "None",
 							"tajaran_tail" = "Long",
 							"flavor_text" = "",
 							"body_size" = "Normal"
@@ -878,6 +878,19 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "</td>"
 					mutant_category = 0
 
+			if("tajaran_nose_markings" in pref_species.default_features)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>Nose markings</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=tajaran_nose_markings;task=input'>[features["tajaran_nose_markings"]]</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
 			if("tajaran_face_markings" in pref_species.default_features)
 				if(!mutant_category)
 					dat += APPEARANCE_CATEGORY_COLUMN
@@ -895,9 +908,22 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				if(!mutant_category)
 					dat += APPEARANCE_CATEGORY_COLUMN
 
-				dat += "<h3>Body markings</h3>"
+				dat += "<h3>Chest markings</h3>"
 
 				dat += "<a href='?_src_=prefs;preference=tajaran_chest_markings;task=input'>[features["tajaran_chest_markings"]]</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
+			if("tajaran_body_markings" in pref_species.default_features)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>Body markings</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=tajaran_body_markings;task=input'>[features["tajaran_body_markings"]]</a><BR>"
 
 				mutant_category++
 				if(mutant_category >= MAX_MUTANT_ROWS)
@@ -2093,6 +2119,12 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if(new_tajaran_head_markings)
 						features["tajaran_head_markings"] = new_tajaran_head_markings
 
+				if("tajaran_nose_markings")
+					var/new_tajaran_nose_markings
+					new_tajaran_nose_markings = input(user, "Choose your character's nose markings:", "Character Preference") as null|anything in GLOB.tajaran_nose_markings_list
+					if(new_tajaran_nose_markings)
+						features["tajaran_nose_markings"] = new_tajaran_nose_markings
+
 				if("tajaran_face_markings")
 					var/new_tajaran_face_markings
 					new_tajaran_face_markings = input(user, "Choose your character's face markings:", "Character Preference") as null|anything in GLOB.tajaran_face_markings_list
@@ -2100,10 +2132,16 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						features["tajaran_face_markings"] = new_tajaran_face_markings
 
 				if("tajaran_chest_markings")
+					var/new_tajaran_chest_markings
+					new_tajaran_chest_markings = input(user, "Choose your character's chest markings:", "Character Preference") as null|anything in GLOB.tajaran_chest_markings_list
+					if(new_tajaran_chest_markings)
+						features["tajaran_chest_markings"] = new_tajaran_chest_markings
+
+				if("tajaran_body_markings")
 					var/new_tajaran_body_markings
-					new_tajaran_body_markings = input(user, "Choose your character's body markings:", "Character Preference") as null|anything in GLOB.tajaran_chest_markings_list
+					new_tajaran_body_markings = input(user, "Choose your character's body markings:", "Character Preference") as null|anything in GLOB.tajaran_body_markings_list
 					if(new_tajaran_body_markings)
-						features["tajaran_chest_markings"] = new_tajaran_body_markings
+						features["tajaran_body_markings"] = new_tajaran_body_markings
 
 				if("tajaran_tail")
 					var/new_tajaran_tail
