@@ -84,6 +84,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/facial_hairstyle = "Shaved"		//Face hair type
 	var/facial_hair_color = "000"		//Facial hair color
 	var/skin_tone = "caucasian1"		//Skin color
+	var/skin_tone_nose = "black"	//Skin color nose for tajaran
 	var/eye_color = "000"				//Eye color
 	var/datum/species/pref_species = new /datum/species/human()	//Mutant race
 	var/species_looking_at = "human"	 //used as a helper to keep track of in the species select thingy
@@ -147,6 +148,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							RANDOM_FACIAL_HAIRSTYLE = TRUE,
 							RANDOM_FACIAL_HAIR_COLOR = TRUE,
 							RANDOM_SKIN_TONE = TRUE,
+							RANDOM_SKIN_TONE_NOSE = TRUE,
 							RANDOM_EYE_COLOR = TRUE,
 						)
 	var/list/friendlyGenders = list(
@@ -885,6 +887,9 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				dat += "<h3>Nose markings</h3>"
 
 				dat += "<a href='?_src_=prefs;preference=tajaran_nose_markings;task=input'>[features["tajaran_nose_markings"]]</a><BR>"
+				dat += "<h3>Skin Tone nose</h3>"
+				dat += "<a href='?_src_=prefs;preference=s_tone_nose;task=input'>[skin_tone_nose]</a>"
+				dat += "<a href='?_src_=prefs;preference=toggle_random;random_type=[RANDOM_SKIN_TONE_NOSE]'>[(randomise[RANDOM_SKIN_TONE_NOSE]) ? "Lock" : "Unlock"]</A>"
 
 				mutant_category++
 				if(mutant_category >= MAX_MUTANT_ROWS)
@@ -1709,6 +1714,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					eye_color = random_eye_color()
 				if("s_tone")
 					skin_tone = random_skin_tone()
+				if("s_tone_nose")
+					skin_tone_nose = random_skin_tone_nose()
 				if("bag")
 					backpack = pick(GLOB.backpacklist)
 				if("suit")
@@ -2149,6 +2156,11 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if(new_tajaran_tail)
 						features["tajaran_tail"] = new_tajaran_tail
 
+				if("s_tone_nose")
+					var/new_s_tone_nose = input(user, "Choose your character's skin-tone nose:", "Character Preference")  as null|anything in GLOB.skin_tones_nose
+					if(new_s_tone_nose)
+						skin_tone_nose = new_s_tone_nose
+
 				if("s_tone")
 					var/new_s_tone = input(user, "Choose your character's skin-tone:", "Character Preference")  as null|anything in GLOB.skin_tones
 					if(new_s_tone)
@@ -2565,6 +2577,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			organ_eyes.eye_color = eye_color
 		organ_eyes.old_eye_color = eye_color
 	character.skin_tone = skin_tone
+	character.skin_tone_nose = skin_tone_nose
 	character.underwear = underwear
 	character.underwear_color = underwear_color
 	character.undershirt = undershirt

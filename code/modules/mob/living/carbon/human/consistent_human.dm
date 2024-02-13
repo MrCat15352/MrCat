@@ -5,6 +5,7 @@
 /mob/living/carbon/human/dummy/consistent/proc/seeded_randomization(seed = 0)
 	gender = list(MALE, FEMALE)[seed % 2 + 1]
 	skin_tone = GLOB.skin_tones[seed % length(GLOB.skin_tones) + 1]
+	skin_tone_nose = GLOB.skin_tones_nose[seed % length(GLOB.skin_tones_nose) + 1]
 	hairstyle = GLOB.hairstyles_list[seed % length(GLOB.hairstyles_list) + 1]
 	hair_color = color_natural_from_seed(seed)
 	eye_color = short_color_from_seed(seed)

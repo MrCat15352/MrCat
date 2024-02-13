@@ -152,6 +152,8 @@
 /datum/sprite_accessory/tajaran_nose_markings/tajnoise
 	name = "Taj nose"
 	icon_state = "tajnose"
+	secondary_color = FALSE
+	color_src = SKINNOSECOLORS
 
 //Markings head
 /datum/sprite_accessory/tajaran_head_markings

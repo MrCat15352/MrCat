@@ -257,3 +257,14 @@
 		if("orange")
 			. = "ffc905"
 
+/proc/skintonenose2hex(skin_tone_nose)
+	. = 0
+	switch(skin_tone_nose)
+		if("beige")
+			. = "f2e8c9"
+		if("pink")
+			. = "ff99cc"
+		if("grey")
+			. = "808080"
+		if("black")
+			. = "000000"

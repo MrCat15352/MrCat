@@ -17,7 +17,7 @@
 	attack_sound = 'sound/weapons/slash.ogg'
 	miss_sound = 'sound/weapons/slashmiss.ogg'
 
-	species_traits = list(EYECOLOR, LIPS, EMOTE_OVERLAY, MUTCOLORS, MUTCOLORS_SECONDARY)
+	species_traits = list(EYECOLOR, LIPS, EMOTE_OVERLAY, MUTCOLORS, MUTCOLORS_SECONDARY, SKINNOSECOLORS)
 	inherent_traits = list(TRAIT_NIGHT_VISION)
 
 	mutant_bodyparts = list(

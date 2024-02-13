@@ -249,6 +249,16 @@ GLOBAL_LIST_INIT(skin_tones, sortList(list(
 	"african2"
 	)))
 
+/proc/random_skin_tone_nose()
+	return pick(GLOB.skin_tones_nose)
+
+GLOBAL_LIST_INIT(skin_tones_nose, sortList(list(
+	"beige",
+	"pink",
+	"grey",
+	"black"
+	)))
+
 GLOBAL_LIST_EMPTY(species_list)
 
 /proc/age2agedescription(age)
