@@ -265,9 +265,9 @@
 
 /datum/sprite_accessory/tajaran_hairs
 	icon = 'icons/mob/species/tajaran/tajaran_hairs.dmi'
-	color_src = HAIR
+	//color_src = HAIR
 	body_zone = BODY_ZONE_HEAD
-	synthetic_color_src = MUTCOLORS_SECONDARY
+	//synthetic_color_src = MUTCOLORS_SECONDARY
 
 /datum/sprite_accessory/tajaran_hairs/none
 	name = "None"
@@ -460,6 +460,10 @@
 /datum/sprite_accessory/tajaran_hairs/swoop_long_alt
 	name = "Tajara Swoop Long Alt"
 	icon_state = "longswoop_alt"
+
+/datum/sprite_accessory/tajaran_hairs/swoop_long_alt
+	name = "Tajara Swoop Long Alt"
+	icon_state = "hair_longswoop_alt"
 
 //Start Ears
 

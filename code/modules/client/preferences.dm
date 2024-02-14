@@ -1793,7 +1793,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					else if(gender == FEMALE)
 						new_hairstyle = input(user, "Choose your character's hairstyle:", "Character Preference")  as null|anything in GLOB.hairstyles_female_list
 					else
-						new_hairstyle = input(user, "Choose your character's hairstyle:", "Character Preference")  as null|anything in GLOB.hairstyles_list
+						new_hairstyle = input(user, "Choose your character's hairstyle:", "Character Preference")  as null|anything in pref_species.get_GLOB_hair()
 					if(new_hairstyle)
 						hairstyle = new_hairstyle
 

@@ -246,9 +246,34 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	///For custom overrides for species ass images
 	var/icon/ass_image
 
+
+	///ахуена, когда никто не продумывает нихуа.... зачем нам волосы для других рас... пускай они срут в мутант_бодипартс
+	//гении на оффах запихнули в 'icons/mob/human_face.dmi' всё лишнее и не лишнее: волосы, бороды, глаза, склеру, губы, и может быть даже что-то ещё
+	//var/icon/custom_hair = 						'icons/mob/human_face.dmi'
+
+	//var/icon/custom_eyes_sclera_lips =			'icons/mob/human_face.dmi'
+	//var/icon/custom_facial_hair_extensions = 	'icons/mob/facialhair_extensions.dmi'
+	//var/icon/custom_hairs_extensions = 			'icons/mob/hair_extensions.dmi'
+	//var/list/datum/sprite_accessory/custom_GLOB_hair_sprite = GLOB.hairstyles_list
+	//var/list/datum/sprite_accessory/custom_GLOB_facial_hair_sprite = GLOB.facial_hairstyles_list
 ///////////
 // PROCS //
 ///////////
+
+//some BIG shitcoding
+/datum/species/proc/get_GLOB_hair(index)
+	if(index)
+		return GLOB.hairstyles_list[index]
+	return GLOB.hairstyles_list
+
+/datum/species/proc/get_GLOB_facial_hair(index)
+	if(index)
+		return GLOB.facial_hairstyles_list[index]
+	return GLOB.facial_hairstyles_list
+
+//proc/handle_GLOB_hair_list()
+//	var/datum/species/M
+//	return M.get_GLOB_hair()
 
 
 /datum/species/New()
@@ -546,7 +571,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
  * * H - Human, whoever we're handling the hair for
  * * forced_colour - The colour of hair we're forcing on this human. Leave null to not change. Mind the british spelling!
  */
-/datum/species/proc/handle_hair(mob/living/carbon/human/H, forced_colour)
+/datum/species/proc/handle_hair(mob/living/carbon/human/H, forced_colour, icon/custom_hairs_extensions = 'icons/mob/hair_extensions.dmi', icon/custom_facial_hair_extensions = 'icons/mob/facialhair_extensions.dmi', icon/custom_hair = 'icons/mob/human_face.dmi')
 	H.remove_overlay(HAIR_LAYER)
 	var/obj/item/bodypart/head/HD = H.get_bodypart(BODY_ZONE_HEAD)
 	if(!HD) //Decapitated
@@ -585,13 +610,13 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 			facialhair_hidden = TRUE
 
 	if(H.facial_hairstyle && (FACEHAIR in species_traits) && (!facialhair_hidden || dynamic_fhair_suffix))
-		S = GLOB.facial_hairstyles_list[H.facial_hairstyle]
+		S = get_GLOB_facial_hair(H.facial_hairstyle)
 		if(S)
 
 			//List of all valid dynamic_fhair_suffixes
 			var/static/list/fextensions
 			if(!fextensions)
-				var/icon/fhair_extensions = icon('icons/mob/facialhair_extensions.dmi')
+				var/icon/fhair_extensions = icon(custom_facial_hair_extensions)
 				fextensions = list()
 				for(var/s in fhair_extensions.IconStates(1))
 					fextensions[s] = TRUE
@@ -602,7 +627,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 			var/fhair_file = S.icon
 			if(fextensions[fhair_state+dynamic_fhair_suffix])
 				fhair_state += dynamic_fhair_suffix
-				fhair_file = 'icons/mob/facialhair_extensions.dmi'
+				fhair_file = custom_facial_hair_extensions
 
 			var/mutable_appearance/facial_overlay = mutable_appearance(fhair_file, fhair_state, -HAIR_LAYER)
 
@@ -644,17 +669,17 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		var/mutable_appearance/gradient_overlay = mutable_appearance(layer = -HAIR_LAYER)
 		if(!hair_hidden && !H.getorgan(/obj/item/organ/brain)) //Applies the debrained overlay if there is no brain
 			if(!(NOBLOOD in species_traits))
-				hair_overlay.icon = 'icons/mob/human_face.dmi'
+				hair_overlay.icon = custom_hair
 				hair_overlay.icon_state = "debrained"
 
 		else if(H.hairstyle && (HAIR in species_traits))
-			S = GLOB.hairstyles_list[H.hairstyle]
+			S = get_GLOB_hair(H.hairstyle)
 			if(S)
 
 				//List of all valid dynamic_hair_suffixes
 				var/static/list/extensions
 				if(!extensions)
-					var/icon/hair_extensions = icon('icons/mob/hair_extensions.dmi') //hehe
+					var/icon/hair_extensions = icon(custom_hairs_extensions) //hehe
 					extensions = list()
 					for(var/s in hair_extensions.IconStates(1))
 						extensions[s] = TRUE
@@ -665,7 +690,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 				var/hair_file = S.icon
 				if(extensions[hair_state+dynamic_hair_suffix])
 					hair_state += dynamic_hair_suffix
-					hair_file = 'icons/mob/hair_extensions.dmi'
+					hair_file = custom_hairs_extensions
 
 				hair_overlay.icon = hair_file
 				hair_overlay.icon_state = hair_state
