@@ -261,15 +261,35 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 ///////////
 
 //some BIG shitcoding
-/datum/species/proc/get_GLOB_hair(index)
-	if(index)
-		return GLOB.hairstyles_list[index]
-	return GLOB.hairstyles_list
+/datum/species/proc/get_GLOB_hair(index = null, gender = null)
+	switch(gender)
+		if(MALE)
+			if(index)
+				return GLOB.hairstyles_male_list[index]
+			return GLOB.hairstyles_male_list
+		if(FEMALE)
+			if(index)
+				return GLOB.hairstyles_female_list[index]
+			return GLOB.hairstyles_female_list
+		else
+			if(index)
+				return GLOB.hairstyles_list[index]
+			return GLOB.hairstyles_list
 
-/datum/species/proc/get_GLOB_facial_hair(index)
-	if(index)
-		return GLOB.facial_hairstyles_list[index]
-	return GLOB.facial_hairstyles_list
+/datum/species/proc/get_GLOB_facial_hair(index = null, gender = null)
+	switch(gender)
+		if(MALE)
+			if(index)
+				return  GLOB.facial_hairstyles_male_list[index]
+			return GLOB.facial_hairstyles_male_list
+		if(FEMALE)
+			if(index)
+				return GLOB.facial_hairstyles_female_list[index]
+			return GLOB.facial_hairstyles_female_list
+		else
+			if(index)
+				return GLOB.facial_hairstyles_list[index]
+			return GLOB.facial_hairstyles_list
 
 //proc/handle_GLOB_hair_list()
 //	var/datum/species/M

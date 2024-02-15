@@ -82,7 +82,7 @@
 	species_robotic_l_leg = /obj/item/bodypart/leg/left/robot/surplus
 	species_robotic_r_leg = /obj/item/bodypart/leg/right/robot/surplus
 
-/datum/species/tajaran/get_GLOB_hair(index)
+/datum/species/tajaran/get_GLOB_hair(index, gender)
 	if(index)
 		return GLOB.tajaran_hairs_list[index]
 	return GLOB.tajaran_hairs_list
