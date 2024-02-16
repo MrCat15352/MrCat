@@ -449,9 +449,6 @@ There are several things that need to be remembered:
 		else if(dna.species.bodytype & BODYTYPE_TAJARAN)
 			icon_file = TAJARAN_SUIT_PATH
 
-		if(dna.species.bodytype & BODYTYPE_TAJARAN)
-			icon_file = TAJARAN_SUIT_PATH
-
 		if(!(icon_exists(icon_file, RESOLVE_ICON_STATE(I))))
 			handled_by_bodytype = FALSE
 			icon_file = I.mob_overlay_icon
