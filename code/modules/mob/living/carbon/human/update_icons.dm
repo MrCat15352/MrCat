@@ -446,7 +446,7 @@ There are several things that need to be remembered:
 		else if((dna.species.bodytype & BODYTYPE_KEPORI) && (I.supports_variations & KEPORI_VARIATION))
 			icon_file = KEPORI_SUIT_PATH
 
-		else if(dna.species.bodytype & BODYTYPE_TAJARAN)
+		else if((dna.species.bodytype & BODYTYPE_TAJARAN) && (I.supports_variations & TAJARAN_VARIATION))
 			icon_file = TAJARAN_SUIT_PATH
 
 		if(!(icon_exists(icon_file, RESOLVE_ICON_STATE(I))))
@@ -510,7 +510,7 @@ There are several things that need to be remembered:
 			if((dna.species.bodytype & BODYTYPE_KEPORI) && (I.supports_variations & KEPORI_VARIATION))
 				icon_file = KEPORI_MASK_PATH
 
-			if(dna.species.bodytype & BODYTYPE_TAJARAN)
+			if((dna.species.bodytype & BODYTYPE_TAJARAN) && (I.supports_variations & TAJARAN_VARIATION))
 				icon_file = TAJARAN_MASK_PATH
 
 			if(!(icon_exists(icon_file, RESOLVE_ICON_STATE(I))))

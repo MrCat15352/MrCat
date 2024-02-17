@@ -16,7 +16,7 @@
 	var/hardsuit_type = "engineering" //Determines used sprites: hardsuit[on]-[type]
 	actions_types = list(/datum/action/item_action/toggle_helmet)
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH	| PEPPERPROOF
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	flags_inv = HIDEMASK | HIDEEARS | HIDEEYES | HIDEFACE | HIDEHAIR | HIDEFACIALHAIR
 	visor_flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH | PEPPERPROOF
 	var/rad_count = 0
 	var/rad_record = 0
@@ -208,7 +208,7 @@
 	icon_state = "hardsuit-engineering"
 	item_state = "eng_hardsuit"
 	armor = list("melee" = 30, "bullet" = 5, "laser" = 10, "energy" = 20, "bomb" = 10, "bio" = 100, "rad" = 75, "fire" = 100, "acid" = 75)
-	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION
+	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION | TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/engine
 	resistance_flags = FIRE_PROOF
 
@@ -229,7 +229,8 @@
 	icon_state = "hardsuit-atmospherics"
 	item_state = "atmo_hardsuit"
 	armor = list("melee" = 30, "bullet" = 5, "laser" = 10, "energy" = 20, "bomb" = 10, "bio" = 100, "rad" = 25, "fire" = 100, "acid" = 75)
-	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS					//Uncomment to enable firesuit protection
+	supports_variations = TAJARAN_VARIATION
+	heat_protection = CHEST | GROIN | LEGS | FEET | ARMS | HANDS					//Uncomment to enable firesuit protection
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/engine/atmos
 
@@ -246,12 +247,13 @@
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 
 /obj/item/clothing/suit/space/hardsuit/engine/elite
-	icon_state = "hardsuit-white"
 	name = "advanced hardsuit"
 	desc = "An advanced suit that protects against hazardous, low pressure environments. Shines with a high polish."
+	icon_state = "hardsuit-white"
 	item_state = "ce_hardsuit"
 	armor = list("melee" = 40, "bullet" = 5, "laser" = 10, "energy" = 20, "bomb" = 50, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 90)
-	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	supports_variations = TAJARAN_VARIATION
+	heat_protection = CHEST | GROIN | LEGS | FEET | ARMS | HANDS
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/engine/elite
 	jetpack = /obj/item/tank/jetpack/suit
@@ -282,11 +284,11 @@
 	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
 	resistance_flags = FIRE_PROOF
 	armor = list("melee" = 30, "bullet" = 5, "laser" = 10, "energy" = 20, "bomb" = 50, "bio" = 100, "rad" = 50, "fire" = 50, "acid" = 75)
+	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION | TAJARAN_VARIATION
+	heat_protection = CHEST | GROIN | LEGS | FEET | ARMS | HANDS
 	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/storage/bag/ore, /obj/item/pickaxe)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/mining
-	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	custom_price = 2000
-	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION
 
 /obj/item/clothing/suit/space/hardsuit/mining/Initialize()
 	. = ..()
@@ -301,6 +303,7 @@
 	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	armor = list("melee" = 35, "bullet" = 15, "laser" = 25, "energy" = 25, "bomb" = 55, "bio" = 100, "rad" = 85, "fire" = 85, "acid" = 100)
+	supports_variations = TAJARAN_VARIATION
 	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/storage/bag/ore, /obj/item/pickaxe)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/mining/heavy
 	custom_price = 4500
@@ -325,10 +328,11 @@
 	item_state = "syndie_helm"
 	hardsuit_type = "syndi"
 	armor = list("melee" = 40, "bullet" = 50, "laser" = 30, "energy" = 40, "bomb" = 35, "bio" = 100, "rad" = 50, "fire" = 50, "acid" = 90)
+	supports_variations = TAJARAN_VARIATION
 	on = TRUE
 	var/obj/item/clothing/suit/space/hardsuit/syndi/linkedsuit = null
 	actions_types = list(/datum/action/item_action/toggle_helmet_mode)
-	visor_flags_inv = HIDEMASK|HIDEEYES|HIDEFACE|HIDEFACIALHAIR|HIDEEARS
+	visor_flags_inv = HIDEMASK | HIDEEYES | HIDEFACE | HIDEFACIALHAIR | HIDEEARS
 	visor_flags = STOPSPRESSUREDAMAGE
 	var/full_retraction = FALSE //whether or not our full face is revealed or not during combat mode
 
@@ -413,10 +417,10 @@
 	item_state = "syndie_hardsuit"
 	hardsuit_type = "syndi"
 	armor = list("melee" = 40, "bullet" = 50, "laser" = 30, "energy" = 40, "bomb" = 35, "bio" = 100, "rad" = 50, "fire" = 50, "acid" = 90)
+	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION | TAJARAN_VARIATION
 	allowed = list(/obj/item/gun, /obj/item/ammo_box,/obj/item/ammo_casing, /obj/item/melee/baton, /obj/item/melee/transforming/energy/sword/saber, /obj/item/restraints/handcuffs, /obj/item/tank/internals)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi
 	jetpack = /obj/item/tank/jetpack/suit
-	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION
 	var/combat_slowdown = 0 //slowdown when in combat mode
 	var/lightweight = 0 //used for flags when toggling
 
@@ -437,12 +441,12 @@
 	icon_state = "hardsuit1-ramzi"
 	item_state = "hardsuit1-ramzi"
 	hardsuit_type = "ramzi"
-	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/ramzi
 	lightweight = 1
 	jetpack = null
-	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION
 	armor = list("melee" = 35, "bullet" = 25, "laser" = 20,"energy" = 40, "bomb" = 10, "bio" = 100, "rad" = 50, "fire" = 75, "acid" = 75)
+	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION
 	combat_slowdown = 0.5
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/ramzi
 	jetpack = null
 
 //2nd Battlegroup Syndie suit
@@ -462,11 +466,10 @@
 	icon_state = "hardsuit1-sbg"
 	item_state = "hardsuit1-sbg"
 	hardsuit_type = "sbg"
-	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/sbg
 	lightweight = 1
-	jetpack = null
 	armor = list("melee" = 40, "bullet" = 50, "laser" = 30, "energy" = 40, "bomb" = 35, "bio" = 100, "rad" = 50, "fire" = 50, "acid" = 90)
 	combat_slowdown = 0
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/sbg
 	jetpack = null
 
 
@@ -487,11 +490,10 @@
 	icon_state = "hardsuit1-hl"
 	item_state = "hardsuit1-hl"
 	hardsuit_type = "hl"
-	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/hl
 	lightweight = 1
-	jetpack = null
 	armor = list("melee" = 40, "bullet" = 50, "laser" = 30, "energy" = 40, "bomb" = 35, "bio" = 100, "rad" = 50, "fire" = 50, "acid" = 90)
 	combat_slowdown = 0
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/hl
 	jetpack = null
 
 
@@ -521,12 +523,12 @@
 	icon_state = "hardsuit0-syndielite"
 	item_state = "elitesyndie_hardsuit"
 	hardsuit_type = "syndielite"
-	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/elite
 	armor = list("melee" = 60, "bullet" = 60, "laser" = 50, "energy" = 60, "bomb" = 55, "bio" = 100, "rad" = 70, "fire" = 100, "acid" = 100)
-	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION | TAJARAN_VARIATION
+	heat_protection = CHEST | GROIN | LEGS | FEET | ARMS | HANDS
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 	resistance_flags = FIRE_PROOF | ACID_PROOF
-	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/elite
 
 /obj/item/clothing/suit/space/hardsuit/syndi/elite/debug
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/elite/debug
@@ -561,8 +563,8 @@
 	icon_state = "hardsuit1-cybersun"
 	hardsuit_type = "cybersun"
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 50, "energy" = 50, "bomb" = 25, "bio" = 100, "rad" = 60, "fire" = 60, "acid" = 60)
+	supports_variations = VOX_VARIATION | TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/cybersun
-	supports_variations = VOX_VARIATION
 
 /obj/item/clothing/head/helmet/space/hardsuit/syndi/cybersun
 	name = "neutron-star combat hardsuit helmet"
@@ -580,9 +582,9 @@
 	icon_state = "hardsuit1-cyberparamed"
 	hardsuit_type = "cyberparamed"
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 35, "energy" = 40, "bomb" = 10, "bio" = 100, "rad" = 65, "fire" = 75, "acid" = 40)
-	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/cybersun/paramed
-	supports_variations = VOX_VARIATION
 	combat_slowdown = 0.4
+	supports_variations = VOX_VARIATION | TAJARAN_VARIATION
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/cybersun/paramed
 	jetpack = null
 
 /obj/item/clothing/head/helmet/space/hardsuit/syndi/cybersun/paramed
@@ -600,8 +602,8 @@
 	alt_desc = "One of Inteq's strudiest and finest combat armors. It is in combat mode. Retrofitted by the IRMG."
 	icon_state = "hardsuit1-pointman"
 	hardsuit_type = "pointman"
+	supports_variations = VOX_VARIATION | TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/syndi/inteq
-	supports_variations = VOX_VARIATION
 
 
 /obj/item/clothing/head/helmet/space/hardsuit/syndi/inteq
@@ -632,9 +634,10 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	armor = list("melee" = 40, "bullet" = 40, "laser" = 40, "energy" = 50, "bomb" = 35, "bio" = 100, "rad" = 50, "fire" = 100, "acid" = 100)
-	allowed = list(/obj/item/teleportation_scroll, /obj/item/tank/internals)
-	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS					//Uncomment to enable firesuit protection
+	supports_variations = TAJARAN_VARIATION
+	heat_protection = CHEST | GROIN | LEGS | FEET | ARMS | HANDS					//Uncomment to enable firesuit protection
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
+	allowed = list(/obj/item/teleportation_scroll, /obj/item/tank/internals)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/wizard
 
 /obj/item/clothing/suit/space/hardsuit/wizard/Initialize()
@@ -660,9 +663,9 @@
 	item_state = "medical_hardsuit"
 	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/storage/firstaid, /obj/item/healthanalyzer, /obj/item/stack/medical)
 	armor = list("melee" = 30, "bullet" = 5, "laser" = 10, "energy" = 20, "bomb" = 10, "bio" = 100, "rad" = 60, "fire" = 60, "acid" = 75)
-	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/medical
 	slowdown = 0.5
-	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION
+	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION | TAJARAN_VARIATION
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/medical
 
 /obj/item/clothing/head/helmet/space/hardsuit/medical/cmo
 	name = "chief medical officer's hardsuit helmet"
@@ -724,8 +727,8 @@
 		/obj/item/hand_tele,
 		/obj/item/aicard)
 	armor = list("melee" = 30, "bullet" = 5, "laser" = 10, "energy" = 20, "bomb" = 100, "bio" = 100, "rad" = 60, "fire" = 60, "acid" = 80)
+	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION | TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/rd
-	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION
 
 	//Security hardsuit
 /obj/item/clothing/head/helmet/space/hardsuit/security
@@ -738,13 +741,13 @@
 
 
 /obj/item/clothing/suit/space/hardsuit/security
-	icon_state = "hardsuit-sec"
 	name = "security hardsuit"
 	desc = "A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor."
+	icon_state = "hardsuit-sec"
 	item_state = "sec_hardsuit"
 	armor = list("melee" = 35, "bullet" = 15, "laser" = 30, "energy" = 40, "bomb" = 10, "bio" = 100, "rad" = 50, "fire" = 75, "acid" = 75)
+	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION | TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/security
-	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION
 
 /obj/item/clothing/suit/space/hardsuit/security/Initialize()
 	. = ..()
@@ -760,13 +763,13 @@
 
 
 /obj/item/clothing/suit/space/hardsuit/security/hos
-	icon_state = "hardsuit-hos"
 	name = "head of security's hardsuit"
 	desc = "A special bulky suit that protects against hazardous, low pressure environments. Has an additional layer of armor."
+	icon_state = "hardsuit-hos"
 	armor = list("melee" = 45, "bullet" = 25, "laser" = 30, "energy" = 40, "bomb" = 25, "bio" = 100, "rad" = 50, "fire" = 95, "acid" = 95)
+	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION | TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/security/hos
 	jetpack = /obj/item/tank/jetpack/suit
-	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION
 
 	//SWAT MKII
 /obj/item/clothing/head/helmet/space/hardsuit/swat
@@ -789,8 +792,9 @@
 	icon_state = "swat2"
 	item_state = "swat2"
 	armor = list("melee" = 40, "bullet" = 50, "laser" = 50, "energy" = 60, "bomb" = 50, "bio" = 100, "rad" = 50, "fire" = 100, "acid" = 100)
+	supports_variations = TAJARAN_VARIATION
 	resistance_flags = FIRE_PROOF | ACID_PROOF
-	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	heat_protection = CHEST | GROIN | LEGS | FEET | ARMS | HANDS
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT //this needed to be added a long fucking time ago
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/swat
 
@@ -810,6 +814,7 @@
 	desc = "A MK.II SWAT suit with streamlined joints and armor made out of superior materials, insulated against intense heat with the complementary gas mask. The most advanced tactical armor available. Usually reserved for heavy hitter corporate security, this one has a regal finish in Nanotrasen company colors. Better not let the assistants get a hold of it."
 	icon_state = "caparmor"
 	item_state = "capspacesuit"
+	supports_variations = TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/swat/captain
 
 	//Clown
@@ -827,6 +832,7 @@
 	icon_state = "hardsuit-clown"
 	item_state = "clown_hardsuit"
 	armor = list("melee" = 30, "bullet" = 5, "laser" = 10, "energy" = 20, "bomb" = 10, "bio" = 100, "rad" = 75, "fire" = 60, "acid" = 30)
+	supports_variations = TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/clown
 
 	//Old Prototype
@@ -1123,7 +1129,7 @@
 	item_state = "independent_sec_helm"
 	hardsuit_type = "independent-sec"
 	armor = list("melee" = 35, "bullet" = 25, "laser" = 20,"energy" = 40, "bomb" = 10, "bio" = 100, "rad" = 50, "fire" = 75, "acid" = 75)
-	supports_variations = VOX_VARIATION
+	supports_variations = VOX_VARIATION | TAJARAN_VARIATION
 
 /obj/item/clothing/head/helmet/space/hardsuit/security/independent/frontier
 	name = "\improper Frontiersmen hardsuit helmet"
@@ -1144,15 +1150,16 @@
 	icon_state = "hardsuit-independent-sec"
 	item_state = "independent_sec_hardsuit"
 	hardsuit_type = "independent-sec"
-	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/security/independent
 	armor = list("melee" = 35, "bullet" = 25, "laser" = 20, "energy" = 40, "bomb" = 10, "bio" = 100, "rad" = 50, "fire" = 75, "acid" = 75)
-	supports_variations = VOX_VARIATION
+	supports_variations = VOX_VARIATION | TAJARAN_VARIATION
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/security/independent
 
 /obj/item/clothing/suit/space/hardsuit/security/independent/frontier
 	name = "\improper Frontiersmen hardsuit"
 	desc = "An old hardsuit based on a even older hardsuit. Used prolifically by the Frontiersmen pirate fleet."
 	icon_state = "hardsuit_frontier"
 	hardsuit_type = "hardsuit_frontier"
+	supports_variations = TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/security/independent/frontier
 
 /obj/item/clothing/suit/space/hardsuit/security/independent/minutemen
@@ -1177,8 +1184,9 @@
 	icon_state = "hardsuit0-independent-mining"
 	item_state = "independent_mining_hardsuit"
 	hardsuit_type = "independent-mining"
-	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/mining/independent
 	armor = list("melee" = 30, "bullet" = 10, "laser" = 5, "energy" = 20, "bomb" = 50, "bio" = 100, "rad" = 50, "fire" = 50, "acid" = 75)
+	supports_variations = TAJARAN_VARIATION
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/mining/independent
 
 	//Engineer Softsuit
 /obj/item/clothing/suit/space/engineer
@@ -1303,8 +1311,8 @@
 	icon_state = "hardsuit-inteq"
 	item_state = "hardsuit-inteq"
 	hardsuit_type = "inteq"
+	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION | TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/security/independent/inteq
-	supports_variations = DIGITIGRADE_VARIATION | VOX_VARIATION
 
 /obj/item/clothing/head/helmet/space/hardsuit/solgov
 	name = "\improper SolGov hardsuit helmet"
@@ -1315,14 +1323,14 @@
 	armor = list("melee" = 50, "bullet" = 45, "laser" = 40, "energy" = 30, "bomb" = 60, "bio" = 100, "rad" = 60, "fire" = 90, "acid" = 75)
 
 /obj/item/clothing/suit/space/hardsuit/solgov
-	icon_state = "hardsuit_solgov"
 	name = "\improper SolGov hardsuit"
 	desc = "An armored spaceproof suit. A powered exoskeleton keeps the suit light and mobile."
+	icon_state = "hardsuit_solgov"
 	item_state = "hardsuit_solgov"
 	armor = list("melee" = 50, "bullet" = 45, "laser" = 40, "energy" = 30, "bomb" = 60, "bio" = 100, "rad" = 60, "fire" = 90, "acid" = 75) //intentionally the fucking strong, this is master chief-tier armor //is this really what you call the strong?? is this the best solgov has to offer??????
-	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/solgov
 	slowdown = 0
-	supports_variations = DIGITIGRADE_VARIATION
+	supports_variations = DIGITIGRADE_VARIATION | TAJARAN_VARIATION
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/solgov
 
 /obj/item/clothing/head/helmet/space/hardsuit/quixote
 	name = "\improper Quixote mobility hardsuit helmet"
@@ -1341,6 +1349,7 @@
 	item_state = "quixotesuit"
 	max_integrity = 300
 	armor = list("melee" = 50, "bullet" = 40, "laser" = 40, "energy" = 25, "bomb" = 50, "bio" = 100, "rad" = 60, "fire" = 50, "acid" = 100)
+	supports_variations = TAJARAN_VARIATION
 	allowed = list(/obj/item/gun, /obj/item/flashlight, /obj/item/tank/internals, /obj/item/ammo_box)
 	actions_types = list(/datum/action/item_action/toggle_helmet)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/quixote
