@@ -461,7 +461,13 @@
 	can_be_disabled = TRUE
 	plaintext_zone = "tail"
 	bone_break_threshold = 25
-	can_be_disabled = TRUE
+
+/obj/item/bodypart/tail/examine(mob/user)
+	. = ..()
+	if(brute_dam > DAMAGE_PRECISION)
+		. += "<span class='warning'>This tail has [brute_dam > 15 ? "severe" : "minor"] bruising.</span>"
+	if(burn_dam > DAMAGE_PRECISION)
+		. += "<span class='warning'>This tail has [burn_dam > 15 ? "severe" : "minor"] burns.</span>"
 
 /obj/item/bodypart/tail/tajaran
 	name = "tajaran tail"
@@ -477,6 +483,8 @@ var/timer_for_bone_in_the_tail = null
 			owner.add_movespeed_modifier(/datum/movespeed_modifier/disabled_tail)							//насылаем на таяранскую жопу дебафы: толстую жопу и замедление на 30%
 			Loop_Dizzy_and_etc(50)																			//штормизм/шатунизм/страшное похмелье, которое будет продолжаться очень много лет
 			SEND_SIGNAL(owner, COMSIG_ADD_MOOD_EVENT, "dismembed_tail", /datum/mood_event/dismembed_tail)	//проклятье настроения в виде "ПЕЙН, У МЕНЯ НЕТ ХВОСТА!!"
+			if(owner.stat < UNCONSCIOUS)
+				to_chat(owner, "<span class='userdanger'>YOUR TAIL!!!! ITS GONE!!!!p</span>")
 	else if(!bodypart_disabled)														//если хвост решил вернуться
 		owner.remove_movespeed_modifier(/datum/movespeed_modifier/disabled_tail)	//убираем дебаф толстой и неуклюжей жопы
 		SEND_SIGNAL(owner, COMSIG_CLEAR_MOOD_EVENT, "dismembed_tail")				//убираем проклятье настроения
@@ -539,3 +547,39 @@ var/timer_for_bone_in_the_tail = null
 	description = "<span class='boldwarning'>OUCH!! My tail is REALLY HURT!!</span>\n"
 	mood_change = -5
 
+/obj/item/bodypart/external_ears
+	name = "External ears"
+	desc = "WTF? Where a u taked it from?"
+	//icon =
+	//husk_icon	??
+	//husk_type	??
+	//static_icon =
+	//icon_state =
+	icon = 'icons/mob/species/tajaran/tajaran_bodyparts.dmi'
+	icon_state = "tajaran_ears"
+
+	max_damage = 30
+	body_zone = BODY_ZONE_EXTERNAL_EARS
+	body_part = EXTERNAL_EARS
+	max_stamina_damage = 20		//а скока нада ???
+	can_be_disabled = TRUE
+	plaintext_zone = "external_ears"
+	bone_break_threshold = 25
+
+/obj/item/bodypart/external_ears/set_disabled(new_disabled)
+	. = ..()
+	if(isnull(.) || !owner)
+		return
+
+	if(!.)
+		if(bodypart_disabled)
+			if(owner.stat < UNCONSCIOUS)
+				to_chat(owner, "<span class='userdanger'>you feel like your ears is dislimed!!!!</span>")
+	else if(!bodypart_disabled)
+		return
+
+/obj/item/bodypart/external_ears/tajaran
+	name = "tajaran ears"
+	desc = "tajaran ears"
+	icon = 'icons/mob/species/tajaran/tajaran_bodyparts.dmi'
+	icon_state = "tajaran_ears"

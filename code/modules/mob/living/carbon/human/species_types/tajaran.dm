@@ -68,6 +68,7 @@
 		/obj/item/organ/tail/tajaran)
 
 	bodytype = BODYTYPE_TAJARAN
+
 	species_chest = /obj/item/bodypart/chest/tajaran
 	species_head = /obj/item/bodypart/head/tajaran
 	species_l_arm = /obj/item/bodypart/l_arm/tajaran
@@ -75,12 +76,22 @@
 	species_l_leg = /obj/item/bodypart/leg/left/tajaran
 	species_r_leg = /obj/item/bodypart/leg/right/tajaran
 
+	var/obj/item/bodypart/tail/species_tail = /obj/item/bodypart/tail/tajaran
+	var/obj/item/bodypart/external_ears/species_external_ears = /obj/item/bodypart/external_ears/tajaran
+
+
 	species_robotic_chest = /obj/item/bodypart/chest/robot
 	species_robotic_head = /obj/item/bodypart/head/robot
 	species_robotic_l_arm = /obj/item/bodypart/l_arm/robot/surplus
 	species_robotic_r_arm = /obj/item/bodypart/r_arm/robot/surplus
 	species_robotic_l_leg = /obj/item/bodypart/leg/left/robot/surplus
 	species_robotic_r_leg = /obj/item/bodypart/leg/right/robot/surplus
+
+	var/obj/item/bodypart/tail/species_robotic_tail = /obj/item/bodypart/tail/tajaran
+	var/obj/item/bodypart/external_ears/species_robotic_external_ears = /obj/item/bodypart/external_ears/tajaran
+
+/datum/species/tajaran/replace_body(mob/living/carbon/C, datum/species/new_species, robotic = FALSE)
+	return ..()		//ради мемов
 
 /datum/species/tajaran/get_GLOB_hair(index, gender)
 	if(index)

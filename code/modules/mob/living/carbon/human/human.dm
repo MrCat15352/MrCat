@@ -1400,4 +1400,42 @@
 	race = /datum/species/lizard/ashwalker/kobold
 
 /mob/living/carbon/human/species/tajaran
+	bodyparts = list(
+		/obj/item/bodypart/chest,
+		/obj/item/bodypart/head,
+		/obj/item/bodypart/l_arm,
+		/obj/item/bodypart/r_arm,
+		/obj/item/bodypart/leg/right,
+		/obj/item/bodypart/leg/left,
+		/obj/item/bodypart/tail,
+		/obj/item/bodypart/external_ears
+	)
 	race = /datum/species/tajaran
+
+/mob/living/carbon/human/species/tajaran/new_body_part(zone, robotic, fixed_icon, datum/species/tajaran/species)
+	species ||= dna.species
+	var/obj/item/bodypart/L
+	switch(zone)
+		if(BODY_ZONE_L_ARM)
+			L = robotic ? new species.species_robotic_l_arm() : new species.species_l_arm()
+		if(BODY_ZONE_R_ARM)
+			L = robotic ? new species.species_robotic_r_arm() : new species.species_r_arm()
+		if(BODY_ZONE_HEAD)
+			L = robotic ? new species.species_robotic_head() : new species.species_head()
+		if(BODY_ZONE_L_LEG)
+			L = robotic ? new species.species_robotic_l_leg() : new species.species_l_leg()
+		if(BODY_ZONE_R_LEG)
+			L = robotic ? new species.species_robotic_r_leg() : new species.species_r_leg()
+		if(BODY_ZONE_CHEST)
+			L = robotic ? new species.species_robotic_chest() : new species.species_chest()
+		if(BODY_ZONE_EXTERNAL_EARS)
+			L = robotic ? new species.species_robotic_external_ears() : new species.species_external_ears()
+		if(BODY_ZONE_TAIL)
+			L = robotic ? new species.species_robotic_tail() : new species.species_tail()
+	. = L
+
+/mob/living/carbon/human/species/tajaran/regenerate_limb(limb_zone, noheal, robotic = FALSE)
+	return ..() 			//ради мемов
+
+/mob/living/carbon/human/species/tajaran/update_body_parts(update_limb_data)
+	return ..() 			//ради мемов

@@ -246,16 +246,11 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	///For custom overrides for species ass images
 	var/icon/ass_image
 
-
-	///ахуена, когда никто не продумывает нихуа.... зачем нам волосы для других рас... пускай они срут в мутант_бодипартс
-	//гении на оффах запихнули в 'icons/mob/human_face.dmi' всё лишнее и не лишнее: волосы, бороды, глаза, склеру, губы, и может быть даже что-то ещё
-	//var/icon/custom_hair = 						'icons/mob/human_face.dmi'
-
-	//var/icon/custom_eyes_sclera_lips =			'icons/mob/human_face.dmi'
-	//var/icon/custom_facial_hair_extensions = 	'icons/mob/facialhair_extensions.dmi'
-	//var/icon/custom_hairs_extensions = 			'icons/mob/hair_extensions.dmi'
-	//var/list/datum/sprite_accessory/custom_GLOB_hair_sprite = GLOB.hairstyles_list
-	//var/list/datum/sprite_accessory/custom_GLOB_facial_hair_sprite = GLOB.facial_hairstyles_list
+	//some shitcode for big shitcode
+	//var/obj/item/bodypart/tail/species_tail = null
+	//var/obj/item/bodypart/external_ears/species_external_ears = null
+	//var/obj/item/bodypart/tail/species_robotic_tail = null
+	//var/obj/item/bodypart/external_ears/species_robotic_external_ears = null
 ///////////
 // PROCS //
 ///////////
