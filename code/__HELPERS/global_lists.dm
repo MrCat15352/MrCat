@@ -49,7 +49,7 @@
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tails_animated/elzu, GLOB.animated_tails_list_elzu)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_chest_markings, GLOB.tajaran_chest_markings_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_body_markings, GLOB.tajaran_body_markings_list)
-	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_face_markings, GLOB.tajaran_face_markings_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_facial_hairs, GLOB.tajaran_facial_hairs_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_nose_markings, GLOB.tajaran_nose_markings_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_head_markings, GLOB.tajaran_head_markings_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tails/tajaran, GLOB.tajaran_tail_list)

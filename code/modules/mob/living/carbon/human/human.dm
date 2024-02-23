@@ -1399,7 +1399,7 @@
 /mob/living/carbon/human/species/lizard/ashwalker/kobold
 	race = /datum/species/lizard/ashwalker/kobold
 
-/mob/living/carbon/human/species/tajaran
+/*/mob/living/carbon/human/species/tajaran
 	bodyparts = list(
 		/obj/item/bodypart/chest,
 		/obj/item/bodypart/head,
@@ -1439,3 +1439,4 @@
 
 /mob/living/carbon/human/species/tajaran/update_body_parts(update_limb_data)
 	return ..() 			//ради мемов
+*/

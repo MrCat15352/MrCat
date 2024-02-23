@@ -126,7 +126,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"tajaran_hairs" = "plain",
 							"tajaran_head_markings" = "None",
 							"tajaran_nose_markings" = "None",
-							"tajaran_face_markings" = "None",
+							"tajaran_facial_hairs" = "None",
 							"tajaran_chest_markings" = "None",
 							"tajaran_body_markings" = "None",
 							"tajaran_tail" = "Long",
@@ -871,20 +871,20 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				if(mutant_category >= MAX_MUTANT_ROWS)
 					dat += "</td>"
 					mutant_category = 0
-
-			if("tajaran_face_markings" in pref_species.default_features)
+/*
+			if("tajaran_facial_hairs" in pref_species.default_features)
 				if(!mutant_category)
 					dat += APPEARANCE_CATEGORY_COLUMN
 
-				dat += "<h3>Face markings</h3>"
+				dat += "<h3>Face hairs</h3>"
 
-				dat += "<a href='?_src_=prefs;preference=tajaran_face_markings;task=input'>[features["tajaran_face_markings"]]</a><BR>"
+				dat += "<a href='?_src_=prefs;preference=tajaran_facial_hairs;task=input'>[features["tajaran_facial_hairs"]]</a><BR>"
 
 				mutant_category++
 				if(mutant_category >= MAX_MUTANT_ROWS)
 					dat += "</td>"
 					mutant_category = 0
-
+*/
 			if("tajaran_chest_markings" in pref_species.default_features)
 				if(!mutant_category)
 					dat += APPEARANCE_CATEGORY_COLUMN
@@ -1764,33 +1764,12 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 				if("hairstyle")
 					hairstyle =  input(user, "Choose your character's hairstyle:", "Character Preference")  as null|anything in pref_species.get_GLOB_hair(null, gender)
-					//var/new_hairstyle
-					//if(gender == MALE)
-					//	new_hairstyle = input(user, "Choose your character's hairstyle:", "Character Preference")  as null|anything in GLOB.hairstyles_male_list
-					//else if(gender == FEMALE)
-					//	new_hairstyle = input(user, "Choose your character's hairstyle:", "Character Preference")  as null|anything in GLOB.hairstyles_female_list
-					//else
-					//	new_hairstyle = input(user, "Choose your character's hairstyle:", "Character Preference")  as null|anything in pref_species.get_GLOB_hair()
-					//if(new_hairstyle)
-					//	hairstyle = new_hairstyle
 
 				if("next_hairstyle")
 					hairstyle = next_list_item(hairstyle, pref_species.get_GLOB_hair(null, gender))
-					//if (gender == MALE)
-					//	hairstyle = next_list_item(hairstyle, GLOB.hairstyles_male_list)
-					//else if(gender == FEMALE)
-					//	hairstyle = next_list_item(hairstyle, GLOB.hairstyles_female_list)
-					//else
-					//	hairstyle = next_list_item(hairstyle, GLOB.hairstyles_list)
 
 				if("previous_hairstyle")
 					hairstyle = previous_list_item(hairstyle, pref_species.get_GLOB_hair(null, gender))
-					//if (gender == MALE)
-					//	hairstyle = previous_list_item(hairstyle, GLOB.hairstyles_male_list)
-					//else if(gender == FEMALE)
-					//	hairstyle = previous_list_item(hairstyle, GLOB.hairstyles_female_list)
-					//else
-					//	hairstyle = previous_list_item(hairstyle, GLOB.hairstyles_list)
 
 				if("facial")
 					var/new_facial = input(user, "Choose your character's facial-hair colour:", "Character Preference","#"+facial_hair_color) as color|null
@@ -1799,33 +1778,12 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 				if("facial_hairstyle")
 					facial_hairstyle = input(user, "Choose your character's facial-hairstyle:", "Character Preference")  as null|anything in pref_species.get_GLOB_facial_hair(null, gender)
-					//var/new_facial_hairstyle
-					//if(gender == MALE)
-					//	new_facial_hairstyle = input(user, "Choose your character's facial-hairstyle:", "Character Preference")  as null|anything in GLOB.facial_hairstyles_male_list
-					//else if(gender == FEMALE)
-					//	new_facial_hairstyle = input(user, "Choose your character's facial-hairstyle:", "Character Preference")  as null|anything in GLOB.facial_hairstyles_female_list
-					//else
-					//	new_facial_hairstyle = input(user, "Choose your character's facial-hairstyle:", "Character Preference")  as null|anything in GLOB.facial_hairstyles_list
-					//if(new_facial_hairstyle)
-					//facial_hairstyle = new_facial_hairstyle
 
 				if("next_facehairstyle")
 					facial_hairstyle = next_list_item(facial_hairstyle, pref_species.get_GLOB_facial_hair(null, gender))
-					//if (gender == MALE)
-					//	facial_hairstyle = next_list_item(facial_hairstyle, GLOB.facial_hairstyles_male_list)
-					//else if(gender == FEMALE)
-					//	facial_hairstyle = next_list_item(facial_hairstyle, GLOB.facial_hairstyles_female_list)
-					//else
-					//	facial_hairstyle = next_list_item(facial_hairstyle, GLOB.facial_hairstyles_list)
 
 				if("previous_facehairstyle")
 					facial_hairstyle = previous_list_item(facial_hairstyle, pref_species.get_GLOB_facial_hair(null, gender))
-					//if (gender == MALE)
-					//	facial_hairstyle = previous_list_item(facial_hairstyle, GLOB.facial_hairstyles_male_list)
-					//else if (gender == FEMALE)
-					//	facial_hairstyle = previous_list_item(facial_hairstyle, GLOB.facial_hairstyles_female_list)
-					//else
-					//	facial_hairstyle = previous_list_item(facial_hairstyle, GLOB.facial_hairstyles_list)
 
 				if("hair_gradient")
 					var/new_hair_gradient_color = input(user, "Choose your character's hair gradient colour:", "Character Preference","#"+features["grad_color"]) as color|null
@@ -2093,15 +2051,6 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if(new_tajaran_hairs)
 						features["tajaran_hairs"] = new_tajaran_hairs
 
-/*				if("next_tajaran_hairs")
-					next_list_item(features["tajaran_hairs"], GLOB.tajaran_hairs_list)		Ладно, без выбора
-
-				if("previous_tajaran_hairs")
-					previous_list_item(features["tajaran_hairs"], GLOB.tajaran_hairs_list) */
-
-//				if("tajaran_grad_style")
-//					features["tajaran_grad_style"] = next_list_item(features["tajaran_grad_style"], GLOB.hair_gradients_list)
-
 				if("tajaran_head_markings")
 					var/new_tajaran_head_markings
 					new_tajaran_head_markings = input(user, "Choose your character's head markings:", "Character Preference") as null|anything in GLOB.tajaran_head_markings_list
@@ -2114,11 +2063,11 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					if(new_tajaran_nose_markings)
 						features["tajaran_nose_markings"] = new_tajaran_nose_markings
 
-				if("tajaran_face_markings")
-					var/new_tajaran_face_markings
-					new_tajaran_face_markings = input(user, "Choose your character's face markings:", "Character Preference") as null|anything in GLOB.tajaran_face_markings_list
-					if(new_tajaran_face_markings)
-						features["tajaran_face_markings"] = new_tajaran_face_markings
+				if("tajaran_facial_hairs")
+					var/new_tajaran_facial_hairs
+					new_tajaran_facial_hairs = input(user, "Choose your character's face markings:", "Character Preference") as null|anything in GLOB.tajaran_facial_hairs_list
+					if(new_tajaran_facial_hairs)
+						features["tajaran_facial_hairs"] = new_tajaran_facial_hairs
 
 				if("tajaran_chest_markings")
 					var/new_tajaran_chest_markings

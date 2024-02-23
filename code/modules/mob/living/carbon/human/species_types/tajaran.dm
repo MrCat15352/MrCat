@@ -28,7 +28,7 @@
 		"tajaran_hairs",
 		"tajaran_head_markings",
 		"tajaran_nose_markings",
-		"tajaran_face_markings",
+		"tajaran_facial_hairs",
 		"tajaran_chest_markings",
 		"tajaran_body_markings",
 		"tajaran_tail"
@@ -39,7 +39,7 @@
 		"tajaran_hairs" = "plain",
 		"tajaran_head_markings" = "none",
 		"tajaran_nose_markings" = "None",
-		"tajaran_face_markings" = "None",
+		"tajaran_facial_hairs" = "None",
 		"tajaran_chest_markings" = "None",
 		"tajaran_body_markings" = "None",
 		"tajaran_tail" = "long",
@@ -76,8 +76,8 @@
 	species_l_leg = /obj/item/bodypart/leg/left/tajaran
 	species_r_leg = /obj/item/bodypart/leg/right/tajaran
 
-	var/obj/item/bodypart/tail/species_tail = /obj/item/bodypart/tail/tajaran
-	var/obj/item/bodypart/external_ears/species_external_ears = /obj/item/bodypart/external_ears/tajaran
+//	var/obj/item/bodypart/tail/species_tail = /obj/item/bodypart/tail/tajaran
+//	var/obj/item/bodypart/external_ears/species_external_ears = /obj/item/bodypart/external_ears/tajaran
 
 
 	species_robotic_chest = /obj/item/bodypart/chest/robot
@@ -87,8 +87,8 @@
 	species_robotic_l_leg = /obj/item/bodypart/leg/left/robot/surplus
 	species_robotic_r_leg = /obj/item/bodypart/leg/right/robot/surplus
 
-	var/obj/item/bodypart/tail/species_robotic_tail = /obj/item/bodypart/tail/tajaran
-	var/obj/item/bodypart/external_ears/species_robotic_external_ears = /obj/item/bodypart/external_ears/tajaran
+//	var/obj/item/bodypart/tail/species_robotic_tail = /obj/item/bodypart/tail/tajaran
+//	var/obj/item/bodypart/external_ears/species_robotic_external_ears = /obj/item/bodypart/external_ears/tajaran
 
 /datum/species/tajaran/replace_body(mob/living/carbon/C, datum/species/new_species, robotic = FALSE)
 	return ..()		//ради мемов
@@ -97,6 +97,11 @@
 	if(index)
 		return GLOB.tajaran_hairs_list[index]
 	return GLOB.tajaran_hairs_list
+
+/datum/species/tajaran/get_GLOB_facial_hair(index, gender)
+	if(index)
+		return GLOB.tajaran_facial_hairs_list[index]
+	return GLOB.tajaran_facial_hairs_list
 
 //some MORE shitcoding
 /datum/species/tajaran/handle_hair(mob/living/carbon/human/H, forced_colour, custom_hairs_extensions = 'icons/mob/species/tajaran/tajaran_hairs.dmi')

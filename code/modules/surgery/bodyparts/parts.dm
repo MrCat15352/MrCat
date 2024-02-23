@@ -462,12 +462,12 @@
 	plaintext_zone = "tail"
 	bone_break_threshold = 25
 
-/obj/item/bodypart/tail/examine(mob/user)
+/*/obj/item/bodypart/tail/examine(mob/user)
 	. = ..()
 	if(brute_dam > DAMAGE_PRECISION)
 		. += "<span class='warning'>This tail has [brute_dam > 15 ? "severe" : "minor"] bruising.</span>"
 	if(burn_dam > DAMAGE_PRECISION)
-		. += "<span class='warning'>This tail has [burn_dam > 15 ? "severe" : "minor"] burns.</span>"
+		. += "<span class='warning'>This tail has [burn_dam > 15 ? "severe" : "minor"] burns.</span>"*/
 
 /obj/item/bodypart/tail/tajaran
 	name = "tajaran tail"
@@ -547,7 +547,7 @@ var/timer_for_bone_in_the_tail = null
 	description = "<span class='boldwarning'>OUCH!! My tail is REALLY HURT!!</span>\n"
 	mood_change = -5
 
-/obj/item/bodypart/external_ears
+/*/obj/item/bodypart/external_ears
 	name = "External ears"
 	desc = "WTF? Where a u taked it from?"
 	//icon =
@@ -583,3 +583,4 @@ var/timer_for_bone_in_the_tail = null
 	desc = "tajaran ears"
 	icon = 'icons/mob/species/tajaran/tajaran_bodyparts.dmi'
 	icon_state = "tajaran_ears"
+*/

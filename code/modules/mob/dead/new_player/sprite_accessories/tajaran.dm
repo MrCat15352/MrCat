@@ -99,45 +99,6 @@
 	name = "Tat tiger"
 	icon_state = "tattiger"
 
-//Markings face
-
-/datum/sprite_accessory/tajaran_face_markings
-	icon = 'icons/mob/species/tajaran/tajaran_markings.dmi'
-	color_src = MUTCOLORS_SECONDARY
-	body_zone = BODY_ZONE_CHEST
-	synthetic_icon_state = "none"
-
-/datum/sprite_accessory/tajaran_face_markings/none
-	name = "None"
-
-/datum/sprite_accessory/tajaran_face_markings/goatee
-	name = "Goatee"
-	icon_state = "goatee"
-
-/datum/sprite_accessory/tajaran_face_markings/goateefaded
-	name = "Goatee faded"
-	icon_state = "goateefaded"
-
-/datum/sprite_accessory/tajaran_face_markings/moustache
-	name = "Moustache"
-	icon_state = "moustache"
-
-/datum/sprite_accessory/tajaran_face_markings/mutton
-	name = "Mutton"
-	icon_state = "mutton"
-
-/datum/sprite_accessory/tajaran_face_markings/pencilstache
-	name = "Pencil stache"
-	icon_state = "pencilstache"
-
-/datum/sprite_accessory/tajaran_face_markings/sideburns
-	name = "Side burns"
-	icon_state = "sideburns"
-
-/datum/sprite_accessory/tajaran_face_markings/smallstache
-	name = "Small stache"
-	icon_state = "smallstache"
-
 //Markings nose
 
 /datum/sprite_accessory/tajaran_nose_markings
@@ -160,7 +121,6 @@
 	icon = 'icons/mob/species/tajaran/tajaran_markings.dmi'
 	color_src = MUTCOLORS_SECONDARY
 	body_zone = BODY_ZONE_HEAD
-//	secondary_color = TRUE
 
 /datum/sprite_accessory/tajaran_head_markings/none
 	name = "None"
@@ -210,8 +170,8 @@
 	icon_state = "muzzlefemale"
 
 /datum/sprite_accessory/tajaran_head_markings/faceminor
-	name = "Face minor"
-	icon_state = "faceminor"
+	name = "facial minor"
+	icon_state = "facialminor"
 
 /datum/sprite_accessory/tajaran_head_markings/markingsall
 	name = "Markings all"
@@ -261,13 +221,48 @@
 	name = "Short"
 	icon_state = "short"
 
+//Face hairs
+
+/datum/sprite_accessory/tajaran_facial_hairs
+	icon = 'icons/mob/species/tajaran/tajaran_facial_hairs.dmi'
+	body_zone = BODY_ZONE_HEAD
+
+/datum/sprite_accessory/tajaran_facial_hairs/none
+	name = "None"
+
+/datum/sprite_accessory/tajaran_facial_hairs/goatee
+	name = "Goatee"
+	icon_state = "facial_hairs_goatee"
+
+/datum/sprite_accessory/tajaran_facial_hairs/goateefaded
+	name = "Goatee faded"
+	icon_state = "facial_hairs_goateefaded"
+
+/datum/sprite_accessory/tajaran_facial_hairs/moustache
+	name = "Moustache"
+	icon_state = "facial_hairs_moustache"
+
+/datum/sprite_accessory/tajaran_facial_hairs/mutton
+	name = "Mutton"
+	icon_state = "facial_hairs_mutton"
+
+/datum/sprite_accessory/tajaran_facial_hairs/pencilstache
+	name = "Pencil stache"
+	icon_state = "facial_hairs_pencilstache"
+
+/datum/sprite_accessory/tajaran_facial_hairs/sideburns
+	name = "Side burns"
+	icon_state = "facial_hairs_sideburns"
+
+/datum/sprite_accessory/tajaran_facial_hairs/smallstache
+	name = "Small stache"
+	icon_state = "facial_hairs_smallstache"
+
 //Start Hair
 
 /datum/sprite_accessory/tajaran_hairs
 	icon = 'icons/mob/species/tajaran/tajaran_hairs.dmi'
-	//color_src = HAIR
 	body_zone = BODY_ZONE_HEAD
-	//synthetic_color_src = MUTCOLORS_SECONDARY
 
 /datum/sprite_accessory/tajaran_hairs/none
 	name = "None"
