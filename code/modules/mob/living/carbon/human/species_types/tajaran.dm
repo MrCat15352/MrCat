@@ -16,6 +16,7 @@
 	attack_verb = "slash"
 	attack_sound = 'sound/weapons/slash.ogg'
 	miss_sound = 'sound/weapons/slashmiss.ogg'
+	//species_clothing_path = 'icons/mob/clothing/species/kepori.dmi'
 
 	species_traits = list(EYECOLOR, LIPS, HAIR, EMOTE_OVERLAY, MUTCOLORS, MUTCOLORS_SECONDARY, SKINNOSECOLORS)
 	//inherent_traits = list(TRAIT_NIGHT_VISION) всё равно не работает, так нахой оно нужно... да и не нужно оно

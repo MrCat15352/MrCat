@@ -1399,8 +1399,8 @@
 /mob/living/carbon/human/species/lizard/ashwalker/kobold
 	race = /datum/species/lizard/ashwalker/kobold
 
-/*/mob/living/carbon/human/species/tajaran
-	bodyparts = list(
+/mob/living/carbon/human/species/tajaran
+	/*bodyparts = list(
 		/obj/item/bodypart/chest,
 		/obj/item/bodypart/head,
 		/obj/item/bodypart/l_arm,
@@ -1409,9 +1409,10 @@
 		/obj/item/bodypart/leg/left,
 		/obj/item/bodypart/tail,
 		/obj/item/bodypart/external_ears
-	)
+	)*/
 	race = /datum/species/tajaran
 
+/*
 /mob/living/carbon/human/species/tajaran/new_body_part(zone, robotic, fixed_icon, datum/species/tajaran/species)
 	species ||= dna.species
 	var/obj/item/bodypart/L

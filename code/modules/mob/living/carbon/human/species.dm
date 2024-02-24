@@ -961,6 +961,14 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		if(!H.dna.features["tajaran_hairs"] || H.dna.features["tajaran_hairs"] == "plain" || (H.head && (H.head.flags_inv & HIDEHAIR)) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEHAIR)) || !HD)
 			bodyparts_to_add -= "tajaran_hairs"
 
+	if("tajaran_tail" in mutant_bodyparts)
+		if(!H.dna.features["tajaran_tail"] || H.dna.features["tajaran_tail"] == "None" || H.wear_suit && (H.wear_suit.flags_inv & HIDEJUMPSUIT))
+			bodyparts_to_add -= "tajaran_tail"
+
+	if("tajaran_ears" in mutant_bodyparts)
+		if(!H.dna.features["tajaran_ears"] || H.dna.features["tajaran_ears"] == "None" || (H.head && (H.head.flags_inv & HIDEHAIR)))
+			bodyparts_to_add -= "tajaran_ears"
+
 	////PUT ALL YOUR WEIRD ASS REAL-LIMB HANDLING HERE
 
 	///Digi handling

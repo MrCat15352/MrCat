@@ -434,6 +434,10 @@ There are several things that need to be remembered:
 		var/mutable_appearance/suit_overlay
 		update_hud_wear_suit(I)
 		var/icon_file
+		var/hren1 = BODYTYPE_TAJARAN
+		var/hren2 = TAJARAN_VARIATION
+		var/hren3 = dna.species.bodytype
+		var/hren4 = I.supports_variations
 
 		var/handled_by_bodytype = TRUE
 		if(dna.species.bodytype & BODYTYPE_DIGITIGRADE)
