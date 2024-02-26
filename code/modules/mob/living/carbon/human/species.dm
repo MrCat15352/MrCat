@@ -286,9 +286,23 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 				return GLOB.facial_hairstyles_list[index]
 			return GLOB.facial_hairstyles_list
 
-//proc/handle_GLOB_hair_list()
-//	var/datum/species/M
-//	return M.get_GLOB_hair()
+/datum/species/proc/random_hairstyle(gender)
+	switch(gender)
+		if(MALE)
+			return pick(GLOB.hairstyles_male_list)
+		if(FEMALE)
+			return pick(GLOB.hairstyles_female_list)
+		else
+			return pick(GLOB.hairstyles_list)
+
+/datum/species/proc/random_facial_hairstyle(gender)
+	switch(gender)
+		if(MALE)
+			return pick(GLOB.facial_hairstyles_male_list)
+		if(FEMALE)
+			return pick(GLOB.facial_hairstyles_female_list)
+		else
+			return pick(GLOB.facial_hairstyles_list)
 
 
 /datum/species/New()

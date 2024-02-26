@@ -446,6 +446,7 @@
 	animal_origin = DEVIL_BODYPART
 
 
+/* до лучших времён
 /obj/item/bodypart/tail
 	name = "tail"
 	desc = "tail"
@@ -472,6 +473,7 @@
 /obj/item/bodypart/tail/tajaran
 	name = "tajaran tail"
 	desc = "tajaran tail"
+	limb_id = SPECIES_TAJARAN
 var/timer_for_bone_in_the_tail = null
 
 /obj/item/bodypart/tail/tajaran/set_disabled(new_disabled) //если отрубили/оторвали/украли хвост
@@ -547,7 +549,7 @@ var/timer_for_bone_in_the_tail = null
 	description = "<span class='boldwarning'>OUCH!! My tail is REALLY HURT!!</span>\n"
 	mood_change = -5
 
-/*/obj/item/bodypart/external_ears
+/obj/item/bodypart/external_ears
 	name = "External ears"
 	desc = "WTF? Where a u taked it from?"
 	//icon =
@@ -556,7 +558,7 @@ var/timer_for_bone_in_the_tail = null
 	//static_icon =
 	//icon_state =
 	icon = 'icons/mob/species/tajaran/tajaran_bodyparts.dmi'
-	icon_state = "tajaran_ears"
+	icon_state = "ears"
 
 	max_damage = 30
 	body_zone = BODY_ZONE_EXTERNAL_EARS
@@ -581,6 +583,7 @@ var/timer_for_bone_in_the_tail = null
 /obj/item/bodypart/external_ears/tajaran
 	name = "tajaran ears"
 	desc = "tajaran ears"
+	limb_id = SPECIES_TAJARAN
 	icon = 'icons/mob/species/tajaran/tajaran_bodyparts.dmi'
 	icon_state = "tajaran_ears"
 */

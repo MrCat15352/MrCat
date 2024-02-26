@@ -1400,7 +1400,9 @@
 	race = /datum/species/lizard/ashwalker/kobold
 
 /mob/living/carbon/human/species/tajaran
-	/*bodyparts = list(
+	race = /datum/species/tajaran
+/* до лучших времён
+	bodyparts = list(
 		/obj/item/bodypart/chest,
 		/obj/item/bodypart/head,
 		/obj/item/bodypart/l_arm,
@@ -1409,10 +1411,10 @@
 		/obj/item/bodypart/leg/left,
 		/obj/item/bodypart/tail,
 		/obj/item/bodypart/external_ears
-	)*/
-	race = /datum/species/tajaran
+	)
 
-/*
+
+
 /mob/living/carbon/human/species/tajaran/new_body_part(zone, robotic, fixed_icon, datum/species/tajaran/species)
 	species ||= dna.species
 	var/obj/item/bodypart/L
@@ -1440,4 +1442,38 @@
 
 /mob/living/carbon/human/species/tajaran/update_body_parts(update_limb_data)
 	return ..() 			//ради мемов
+
+/mob/living/carbon/human/species/tajaran/get_missing_limbs()
+	var/list/full = list(BODY_ZONE_HEAD, BODY_ZONE_CHEST, BODY_ZONE_R_ARM, BODY_ZONE_L_ARM, BODY_ZONE_R_LEG, BODY_ZONE_L_LEG, BODY_ZONE_EXTERNAL_EARS, BODY_ZONE_TAIL)
+	for(var/zone in full)
+		if(get_bodypart(zone))
+			full -= zone
+	return full
+
+/mob/living/carbon/human/species/tajaran/get_disabled_limbs()
+	var/list/full = list(BODY_ZONE_HEAD, BODY_ZONE_CHEST, BODY_ZONE_R_ARM, BODY_ZONE_L_ARM, BODY_ZONE_R_LEG, BODY_ZONE_L_LEG, BODY_ZONE_TAIL, BODY_ZONE_EXTERNAL_EARS)
+	var/list/disabled = list()
+	for(var/zone in full)
+		var/obj/item/bodypart/affecting = get_bodypart(zone)
+		if(affecting?.bodypart_disabled)
+			disabled += zone
+	return disabled
+
+///Gets a list of broken bodyparts
+/mob/living/carbon/human/species/tajaran/get_broken_limbs()
+	var/list/full = list(BODY_ZONE_HEAD, BODY_ZONE_CHEST, BODY_ZONE_R_ARM, BODY_ZONE_L_ARM, BODY_ZONE_R_LEG, BODY_ZONE_L_LEG, BODY_ZONE_EXTERNAL_EARS, BODY_ZONE_TAIL)
+	var/list/broken = list()
+	for(var/zone in full)
+		var/obj/item/bodypart/affecting = get_bodypart(zone)
+		if(affecting && affecting.bone_status == BONE_FLAG_BROKEN)
+			broken += zone
+	return broken
+
+/mob/living/carbon/human/species/tajaran/regenerate_limbs(noheal = FALSE, list/excluded_zones = list(), robotic = FALSE)
+	. = ..()
+	var/list/zone_list = list(BODY_ZONE_EXTERNAL_EARS, BODY_ZONE_TAIL)
+	if(length(excluded_zones))
+		zone_list -= excluded_zones
+	for(var/Z in zone_list)
+		. += regenerate_limb(Z, noheal, robotic)
 */

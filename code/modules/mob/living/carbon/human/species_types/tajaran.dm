@@ -18,11 +18,7 @@
 	miss_sound = 'sound/weapons/slashmiss.ogg'
 	//species_clothing_path = 'icons/mob/clothing/species/kepori.dmi'
 
-	species_traits = list(EYECOLOR, LIPS, HAIR, EMOTE_OVERLAY, MUTCOLORS, MUTCOLORS_SECONDARY, SKINNOSECOLORS)
-	//inherent_traits = list(TRAIT_NIGHT_VISION) всё равно не работает, так нахой оно нужно... да и не нужно оно
-	//custom_hairs_extensions = 'icons/mob/species/tajaran/tajaran_hairs.dmi'
-	//custom_GLOB_hair_sprite = GLOB.tajaran_hairs_list
-
+	species_traits = list(EYECOLOR, LIPS, HAIR, FACEHAIR, EMOTE_OVERLAY, MUTCOLORS, MUTCOLORS_SECONDARY, SKINNOSECOLORS)
 
 	mutant_bodyparts = list(
 		"tajaran_ears",
@@ -88,11 +84,11 @@
 	species_robotic_l_leg = /obj/item/bodypart/leg/left/robot/surplus
 	species_robotic_r_leg = /obj/item/bodypart/leg/right/robot/surplus
 
-//	var/obj/item/bodypart/tail/species_robotic_tail = /obj/item/bodypart/tail/tajaran
+//	var/obj/item/bodypart/tail/species_robotic_tail = /obj/item/bodypart/tail/tajaran/
 //	var/obj/item/bodypart/external_ears/species_robotic_external_ears = /obj/item/bodypart/external_ears/tajaran
 
-/datum/species/tajaran/replace_body(mob/living/carbon/C, datum/species/new_species, robotic = FALSE)
-	return ..()		//ради мемов
+///datum/species/tajaran/replace_body(mob/living/carbon/C, datum/species/new_species, robotic = FALSE)
+//	return ..()		//ради мемов
 
 /datum/species/tajaran/get_GLOB_hair(index, gender)
 	if(index)
@@ -104,9 +100,15 @@
 		return GLOB.tajaran_facial_hairs_list[index]
 	return GLOB.tajaran_facial_hairs_list
 
+/datum/species/tajaran/random_hairstyle(gender)
+	return pick(GLOB.tajaran_hairs_list)
+
+/datum/species/tajaran/random_facial_hairstyle(gender)
+	return pick(GLOB.tajaran_facial_hairs_list)
 //some MORE shitcoding
-/datum/species/tajaran/handle_hair(mob/living/carbon/human/H, forced_colour, custom_hairs_extensions = 'icons/mob/species/tajaran/tajaran_hairs.dmi')
+/datum/species/tajaran/handle_hair(mob/living/carbon/human/H, forced_colour, custom_hairs_extensions = 'icons/mob/species/tajaran/tajaran_hairs.dmi', custom_facial_hair_extensions = 'icons/mob/species/tajaran/tajaran_facial_hairs.dmi')
 	return ..()
+
 /datum/species/tajaran/random_name(gender,unique,lastname)
 	//code by @valtor0
 	/*
