@@ -125,6 +125,7 @@
 #define RANDOM_FACIAL_HAIRSTYLE "random_facial_hairstyle"
 #define RANDOM_SKIN_TONE "random_skin_tone"
 #define RANDOM_SKIN_TONE_NOSE "random_skin_tone_nose"
+#define RANDOM_SKIN_TONE_TAJARAN "random_skin_tone_tajaran"
 #define RANDOM_EYE_COLOR "random_eye_color"
 #define RANDOM_PROSTHETIC "random_prosthetic"
 #define RANDOM_HAIR_GRADIENT_STYLE "random_grad_style"

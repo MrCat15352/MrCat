@@ -259,6 +259,27 @@ GLOBAL_LIST_INIT(skin_tones_nose, sortList(list(
 	"black"
 	)))
 
+/proc/random_skin_tone_tajaran()
+	return pick(GLOB.skin_tones_tajaran)
+
+GLOBAL_LIST_INIT(skin_tones_tajaran, sortList(list(
+		"Beaver Brown",
+		"Kochiba",
+		"Taupe",
+		"Blue-Grey",
+		"Dark Gray",
+		"Chocolate",
+		"Black",
+		"Orange",
+		"Cinnamon",
+		"Ruddy",
+		"Cream",
+		"White",
+		"Ivory",
+		"Wheat",
+		"Silver"
+	)))
+
 GLOBAL_LIST_EMPTY(species_list)
 
 /proc/age2agedescription(age)

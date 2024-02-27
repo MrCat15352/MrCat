@@ -137,6 +137,7 @@
 #define MUTCOLORS_SECONDARY 26 //! A second mutant colour for other things
 #define SKINCOLORS 27 //Human skintones
 #define SKINNOSECOLORS 28 // Tajaran skin tones nose
+#define SKINTAJARANCOLORS 29 // Tajaran skin tones body
 
 //organ slots
 #define ORGAN_SLOT_BRAIN "brain"

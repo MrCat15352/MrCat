@@ -53,6 +53,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	///Does the species use skintones or not? As of now only used by humans.
 	var/use_skintones = FALSE
 	var/use_skintonesnose = FALSE
+	var/use_skintonetajaran = FALSE
 	///If your race bleeds something other than bog standard blood, change this to reagent id. For example, ethereals bleed liquid electricity.
 	var/exotic_blood = ""
 	///If your race uses a non standard bloodtype (A+, O-, AB-, etc). For example, lizards have L type blood.
@@ -1143,6 +1144,9 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 							accessory_overlay.color = "#[(skintone2hex(H.skin_tone))]"
 						if(SKINNOSECOLORS)
 							accessory_overlay.color = "#[(skintonenose2hex(H.skin_tone_nose))]"
+						if(SKINTAJARANCOLORS)
+							accessory_overlay.color = "#[(skintonetajaran2hex(H.skin_tone_tajaran))]"
+
 
 						if(HAIR)
 							if(hair_color == "mutcolor")

@@ -10,6 +10,8 @@
 
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_PRIDE | MIRROR_MAGIC | RACE_SWAP | ERT_SPAWN | SLIME_EXTRACT
 
+	use_skintonetajaran = TRUE
+
 	disliked_food = VEGETABLES | FRUIT | GRAIN | GROSS
 	liked_food = MEAT | RAW | DAIRY
 
@@ -18,7 +20,7 @@
 	miss_sound = 'sound/weapons/slashmiss.ogg'
 	//species_clothing_path = 'icons/mob/clothing/species/kepori.dmi'
 
-	species_traits = list(EYECOLOR, LIPS, HAIR, FACEHAIR, EMOTE_OVERLAY, MUTCOLORS, MUTCOLORS_SECONDARY, SKINNOSECOLORS)
+	species_traits = list(EYECOLOR, LIPS, HAIR, FACEHAIR, EMOTE_OVERLAY, MUTCOLORS, MUTCOLORS_SECONDARY, SKINNOSECOLORS, SKINTAJARANCOLORS)
 
 	mutant_bodyparts = list(
 		"tajaran_ears",
