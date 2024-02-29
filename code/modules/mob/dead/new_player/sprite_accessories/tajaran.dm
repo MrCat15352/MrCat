@@ -116,6 +116,23 @@
 	secondary_color = FALSE
 	color_src = SKINNOSECOLORS
 
+//Markings ears
+/datum/sprite_accessory/tajaran_ears_markings
+	icon = 'icons/mob/species/tajaran/tajaran_markings.dmi'
+	color_src = MUTCOLORS_SECONDARY
+	body_zone = BODY_ZONE_HEAD
+
+/datum/sprite_accessory/tajaran_ears_markings/none
+	name = "None"
+
+/datum/sprite_accessory/tajaran_ears_markings/outears
+	name = "Outears"
+	icon_state = "outears"
+
+/datum/sprite_accessory/tajaran_ears_markings/inears
+	name = "Inears"
+	icon_state = "inears"
+
 //Markings head
 /datum/sprite_accessory/tajaran_head_markings
 	icon = 'icons/mob/species/tajaran/tajaran_markings.dmi'
@@ -132,14 +149,6 @@
 /datum/sprite_accessory/tajaran_head_markings/tigerface
 	name = "Tiger face"
 	icon_state = "tigerface"
-
-/datum/sprite_accessory/tajaran_head_markings/outears
-	name = "Outears"
-	icon_state = "outears"
-
-/datum/sprite_accessory/tajaran_head_markings/inears
-	name = "Inears"
-	icon_state = "inears"
 
 /datum/sprite_accessory/tajaran_head_markings/muzzle
 	name = "Muzzle"
@@ -175,7 +184,15 @@
 
 /datum/sprite_accessory/tajaran_head_markings/markingsall
 	name = "Markings all"
-	icon_state = "markingsall"
+	icon_state = "all"
+
+/datum/sprite_accessory/tajaran_head_markings/outears
+	name = "Outears"
+	icon_state = "outears"
+
+/datum/sprite_accessory/tajaran_head_markings/inears
+	name = "Inears"
+	icon_state = "inears"
 
 //Start tails
 
@@ -466,3 +483,7 @@
 /datum/sprite_accessory/tajaran_ears/plain
 	name = "Plain"
 	icon_state = "plain"
+
+/datum/sprite_accessory/tajaran_ears/plain2
+	name = "Plain 2"
+	icon_state = "plain2"

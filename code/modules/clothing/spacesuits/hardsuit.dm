@@ -229,7 +229,6 @@
 	icon_state = "hardsuit-atmospherics"
 	item_state = "atmo_hardsuit"
 	armor = list("melee" = 30, "bullet" = 5, "laser" = 10, "energy" = 20, "bomb" = 10, "bio" = 100, "rad" = 25, "fire" = 100, "acid" = 75)
-	supports_variations = TAJARAN_VARIATION
 	heat_protection = CHEST | GROIN | LEGS | FEET | ARMS | HANDS					//Uncomment to enable firesuit protection
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/engine/atmos
@@ -252,7 +251,6 @@
 	icon_state = "hardsuit-white"
 	item_state = "ce_hardsuit"
 	armor = list("melee" = 40, "bullet" = 5, "laser" = 10, "energy" = 20, "bomb" = 50, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 90)
-	supports_variations = TAJARAN_VARIATION
 	heat_protection = CHEST | GROIN | LEGS | FEET | ARMS | HANDS
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/engine/elite
@@ -303,7 +301,6 @@
 	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	armor = list("melee" = 35, "bullet" = 15, "laser" = 25, "energy" = 25, "bomb" = 55, "bio" = 100, "rad" = 85, "fire" = 85, "acid" = 100)
-	supports_variations = TAJARAN_VARIATION
 	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/storage/bag/ore, /obj/item/pickaxe)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/mining/heavy
 	custom_price = 4500
@@ -328,7 +325,6 @@
 	item_state = "syndie_helm"
 	hardsuit_type = "syndi"
 	armor = list("melee" = 40, "bullet" = 50, "laser" = 30, "energy" = 40, "bomb" = 35, "bio" = 100, "rad" = 50, "fire" = 50, "acid" = 90)
-	supports_variations = TAJARAN_VARIATION
 	on = TRUE
 	var/obj/item/clothing/suit/space/hardsuit/syndi/linkedsuit = null
 	actions_types = list(/datum/action/item_action/toggle_helmet_mode)
@@ -634,7 +630,6 @@
 	w_class = WEIGHT_CLASS_NORMAL
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	armor = list("melee" = 40, "bullet" = 40, "laser" = 40, "energy" = 50, "bomb" = 35, "bio" = 100, "rad" = 50, "fire" = 100, "acid" = 100)
-	supports_variations = TAJARAN_VARIATION
 	heat_protection = CHEST | GROIN | LEGS | FEET | ARMS | HANDS					//Uncomment to enable firesuit protection
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT
 	allowed = list(/obj/item/teleportation_scroll, /obj/item/tank/internals)
@@ -792,7 +787,6 @@
 	icon_state = "swat2"
 	item_state = "swat2"
 	armor = list("melee" = 40, "bullet" = 50, "laser" = 50, "energy" = 60, "bomb" = 50, "bio" = 100, "rad" = 50, "fire" = 100, "acid" = 100)
-	supports_variations = TAJARAN_VARIATION
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	heat_protection = CHEST | GROIN | LEGS | FEET | ARMS | HANDS
 	max_heat_protection_temperature = FIRE_IMMUNITY_MAX_TEMP_PROTECT //this needed to be added a long fucking time ago
@@ -814,7 +808,6 @@
 	desc = "A MK.II SWAT suit with streamlined joints and armor made out of superior materials, insulated against intense heat with the complementary gas mask. The most advanced tactical armor available. Usually reserved for heavy hitter corporate security, this one has a regal finish in Nanotrasen company colors. Better not let the assistants get a hold of it."
 	icon_state = "caparmor"
 	item_state = "capspacesuit"
-	supports_variations = TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/swat/captain
 
 	//Clown
@@ -832,7 +825,6 @@
 	icon_state = "hardsuit-clown"
 	item_state = "clown_hardsuit"
 	armor = list("melee" = 30, "bullet" = 5, "laser" = 10, "energy" = 20, "bomb" = 10, "bio" = 100, "rad" = 75, "fire" = 60, "acid" = 30)
-	supports_variations = TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/clown
 
 	//Old Prototype
@@ -1159,7 +1151,6 @@
 	desc = "An old hardsuit based on a even older hardsuit. Used prolifically by the Frontiersmen pirate fleet."
 	icon_state = "hardsuit_frontier"
 	hardsuit_type = "hardsuit_frontier"
-	supports_variations = TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/security/independent/frontier
 
 /obj/item/clothing/suit/space/hardsuit/security/independent/minutemen
@@ -1185,7 +1176,6 @@
 	item_state = "independent_mining_hardsuit"
 	hardsuit_type = "independent-mining"
 	armor = list("melee" = 30, "bullet" = 10, "laser" = 5, "energy" = 20, "bomb" = 50, "bio" = 100, "rad" = 50, "fire" = 50, "acid" = 75)
-	supports_variations = TAJARAN_VARIATION
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/mining/independent
 
 	//Engineer Softsuit
@@ -1349,7 +1339,6 @@
 	item_state = "quixotesuit"
 	max_integrity = 300
 	armor = list("melee" = 50, "bullet" = 40, "laser" = 40, "energy" = 25, "bomb" = 50, "bio" = 100, "rad" = 60, "fire" = 50, "acid" = 100)
-	supports_variations = TAJARAN_VARIATION
 	allowed = list(/obj/item/gun, /obj/item/flashlight, /obj/item/tank/internals, /obj/item/ammo_box)
 	actions_types = list(/datum/action/item_action/toggle_helmet)
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/quixote

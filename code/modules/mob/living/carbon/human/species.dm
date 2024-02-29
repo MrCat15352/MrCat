@@ -960,6 +960,10 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		if(!H.dna.features["tajaran_facial_hairs"] || H.dna.features["tajaran_facial_hairs"] == "None" || H.head && (H.head.flags_inv & HIDEFACE) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEFACE)) || !HD) // || HD.status == BODYTYPE_ROBOTIC
 			bodyparts_to_add -= "tajaran_facial_hairs"
 
+	if("tajaran_ears_markings" in mutant_bodyparts)
+		if(!H.dna.features["tajaran_ears_markings"] || H.dna.features["tajaran_ears_markings"] == "None" || H.head && (H.head.flags_inv & HIDEFACE) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEFACE)) || !HD) // || HD.status == BODYTYPE_ROBOTIC
+			bodyparts_to_add -= "tajaran_ears_markings"
+
 	if("tajaran_head_markings" in mutant_bodyparts)
 		if(!H.dna.features["tajaran_head_markings"] || H.dna.features["tajaran_head_markings"] == "None" || H.head && (H.head.flags_inv & HIDEFACE) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEFACE)) || !HD) // || HD.status == BODYTYPE_ROBOTIC
 			bodyparts_to_add -= "tajaran_head_markings"
@@ -1086,6 +1090,8 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 					S = GLOB.tajaran_ears_list[H.dna.features["tajaran_ears"]]
 				if("tajaran_hairs")
 					S = GLOB.tajaran_hairs_list[H.dna.features["tajaran_hairs"]]
+				if("tajaran_ears_markings")
+					S = GLOB.tajaran_ears_markings_list[H.dna.features["tajaran_ears_markings"]]
 				if("tajaran_head_markings")
 					S = GLOB.tajaran_head_markings_list[H.dna.features["tajaran_head_markings"]]
 				if("tajaran_nose_markings")

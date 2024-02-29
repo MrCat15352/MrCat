@@ -98,6 +98,8 @@
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_facial_hairs, GLOB.tajaran_facial_hairs_list)
 	if(!GLOB.tajaran_nose_markings_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_nose_markings, GLOB.tajaran_nose_markings_list)
+	if(!GLOB.tajaran_ears_markings_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_ears_markings, GLOB.tajaran_ears_markings_list)
 	if(!GLOB.tajaran_head_markings_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/tajaran_head_markings, GLOB.tajaran_head_markings_list)
 	if(!GLOB.tajaran_tail_list.len)
@@ -146,6 +148,7 @@
 		"wings" = "None",
 		"tajaran_ears" = pick(GLOB.tajaran_ears_list),
 		"tajaran_hairs" = pick(GLOB.tajaran_hairs_list),
+		"tajaran_ears_markings" = pick(GLOB.tajaran_ears_markings_list),
 		"tajaran_head_markings" = pick(GLOB.tajaran_head_markings_list),
 		"tajaran_facial_hairs" = pick(GLOB.tajaran_facial_hairs_list),
 		"tajaran_nose_markings" = pick(GLOB.tajaran_nose_markings_list),

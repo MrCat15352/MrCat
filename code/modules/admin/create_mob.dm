@@ -48,6 +48,7 @@
 	H.dna.features["tail_elzu"] = pick(GLOB.tails_list_elzu)
 	H.dna.features["tajaran_ears"] = pick(GLOB.tajaran_ears_list)
 	H.dna.features["tajaran_hairs"] = pick(GLOB.tajaran_hairs_list)
+	H.dna.features["tajaran_ears_markings"] = pick(GLOB.tajaran_ears_markings_list)
 	H.dna.features["tajaran_head_markings"] = pick(GLOB.tajaran_head_markings_list)
 	H.dna.features["tajaran_nose_markings"] = pick(GLOB.tajaran_nose_markings_list)
 	H.dna.features["tajaran_facial_hairs"] = pick(GLOB.tajaran_facial_hairs_list)
