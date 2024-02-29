@@ -365,10 +365,6 @@ There are several things that need to be remembered:
 		update_hud_head(I)
 		var/handled_by_bodytype = TRUE
 		var/icon_file
-		var/hren1 = BODYTYPE_TAJARAN
-		var/hren2 = TAJARAN_VARIATION
-		var/hren3 = dna.species.bodytype
-		var/hren4 = I.supports_variations
 
 		if((I.supports_variations & VOX_VARIATION) && (dna.species.bodytype & BODYTYPE_VOX))
 			icon_file = VOX_HEAD_PATH
@@ -438,12 +434,8 @@ There are several things that need to be remembered:
 		var/mutable_appearance/suit_overlay
 		update_hud_wear_suit(I)
 		var/icon_file
-		var/hren1 = BODYTYPE_TAJARAN
-		var/hren2 = TAJARAN_VARIATION
-		var/hren3 = dna.species.bodytype
-		var/hren4 = I.supports_variations
-
 		var/handled_by_bodytype = TRUE
+
 		if(dna.species.bodytype & BODYTYPE_DIGITIGRADE)
 			if(I.supports_variations & DIGITIGRADE_VARIATION)
 				icon_file = DIGITIGRADE_SUIT_PATH
@@ -510,10 +502,6 @@ There are several things that need to be remembered:
 		var/mutable_appearance/mask_overlay
 		var/icon_file
 		var/handled_by_bodytype = TRUE
-		var/hren1 = BODYTYPE_TAJARAN
-		var/hren2 = TAJARAN_VARIATION
-		var/hren3 = dna.species.bodytype
-		var/hren4 = I.supports_variations
 
 		if(!(ITEM_SLOT_MASK in check_obscured_slots()))
 			if((dna.species.bodytype & BODYTYPE_VOX) && (I.supports_variations & VOX_VARIATION))
