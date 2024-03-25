@@ -274,9 +274,8 @@
 	pixel_x = 10;
 	pixel_y = 9
 	},
-/obj/item/folder/syndicate/red{
-	pixel_x = -10;
-	pixel_y = 6
+/obj/item/folder/documents/syndicate/red{
+	pixel_x = -7
 	},
 /turf/open/floor/carpet/red_gold,
 /area/ship/bridge)
