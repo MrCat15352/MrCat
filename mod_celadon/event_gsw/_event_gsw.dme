@@ -1,0 +1,8 @@
+#ifndef MODPACK_CELADON_EVENT_GSW
+#define MODPACK_CELADON_EVENT_GSW
+
+#include "_event_gsw.dm"
+
+#include "code/weapons.dm"
+
+#endif
