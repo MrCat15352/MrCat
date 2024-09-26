@@ -131,7 +131,7 @@
 /area/ship/engineering/atmospherics)
 "aG" = (
 /obj/structure/closet/secure_closet/wall/directional/east,
-/obj/item/melee/knife/kitchen,
+/obj/item/kitchen/knife,
 /obj/item/cutting_board,
 /obj/item/clothing/under/suit/waiter/syndicate,
 /obj/item/clothing/suit/hazardvest/donk,
@@ -923,7 +923,7 @@
 /obj/item/clothing/gloves/color/black,
 /obj/machinery/light/directional/east,
 /obj/item/flashlight/seclite,
-/obj/item/melee/knife/combat,
+/obj/item/kitchen/knife/combat,
 /obj/item/gun/ballistic/automatic/pistol/ringneck/no_mag,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
@@ -1850,7 +1850,7 @@
 /obj/item/clothing/head/soft/black,
 /obj/item/clothing/glasses/sunglasses,
 /obj/item/flashlight/seclite,
-/obj/item/melee/knife/combat,
+/obj/item/kitchen/knife/combat,
 /obj/item/gun/ballistic/automatic/pistol/ringneck/no_mag,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
@@ -2784,7 +2784,7 @@
 /obj/item/clothing/gloves/color/black,
 /obj/machinery/light/directional/west,
 /obj/item/flashlight/seclite,
-/obj/item/melee/knife/combat,
+/obj/item/kitchen/knife/combat,
 /obj/item/gun/ballistic/automatic/pistol/ringneck/no_mag,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
@@ -4665,7 +4665,7 @@
 /obj/machinery/light/directional/east,
 /obj/item/clothing/head/beret/black,
 /obj/item/flashlight/seclite,
-/obj/item/melee/knife/combat,
+/obj/item/kitchen/knife/combat,
 /obj/item/gun/ballistic/automatic/pistol/ringneck/no_mag,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/security)
@@ -7535,12 +7535,12 @@
 /area/ship/hallway/aft)
 "Rv" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/shotgun/automatic/bulldog{
+/obj/item/gun/ballistic/shotgun/bulldog{
 	pixel_x = -7;
 	pixel_y = 7;
 	spawnwithmagazine = 0
 	},
-/obj/item/gun/ballistic/shotgun/automatic/bulldog{
+/obj/item/gun/ballistic/shotgun/bulldog{
 	pixel_y = -3;
 	pixel_x = 2;
 	spawnwithmagazine = 0
