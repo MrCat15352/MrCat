@@ -549,9 +549,7 @@
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering/engine)
 "cn" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
-	},
+/obj/machinery/power/smes/shuttle/precharged,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
@@ -574,9 +572,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering/communications)
-"cs" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/crew/cryo)
 "ct" = (
 /obj/effect/turf_decal/industrial/traffic{
 	dir = 1
@@ -1865,7 +1860,7 @@
 /obj/machinery/light/small/directional/east,
 /obj/structure/urinal{
 	dir = 8;
-	pixel_x = 11
+	pixel_x = 14
 	},
 /turf/open/floor/plasteel/freezer,
 /area/ship/crew/janitor)
@@ -2017,9 +2012,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/machinery/power/shuttle/engine/electric/tech2{
-	dir = 4
-	},
+/obj/machinery/power/shuttle/engine/electric/tech2,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "nb" = (
@@ -2245,9 +2238,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/security/prison)
 "oD" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
-	},
+/obj/machinery/power/smes/shuttle/precharged,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
@@ -2530,9 +2521,7 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
-	},
+/obj/machinery/power/smes/shuttle/precharged,
 /obj/structure/cable,
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -2711,8 +2700,7 @@
 /obj/machinery/button/shieldwallgen{
 	pixel_x = 10;
 	pixel_y = 20;
-	id = "Hamm_down_ex";
-	req_access_txt = "0"
+	id = "Hamm_down_ex"
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -2789,13 +2777,14 @@
 	req_access_txt = "8485";
 	anchored = 1
 	},
-/obj/item/ammo_box/magazine/m12g_bulldog/drum,
+/obj/item/ammo_box/magazine/m12g_bulldog,
 /obj/item/storage/toolbox/ammo/a308,
-/obj/item/ammo_box/magazine/m12g_bulldog/drum,
+/obj/item/ammo_box/magazine/m12g_bulldog,
 /obj/item/storage/toolbox/ammo/c9mm,
 /obj/item/storage/toolbox/ammo/c9mm,
 /obj/item/ammo_box/magazine/f4_308,
 /obj/item/ammo_box/magazine/f4_308,
+/obj/item/ammo_box/foambox/riot,
 /turf/open/floor/engine{
 	icon_state = "plastitanium";
 	explosion_block = 7
@@ -2834,9 +2823,7 @@
 /area/ship/security/prison)
 "sx" = (
 /obj/effect/turf_decal/techfloor/orange,
-/obj/structure/bed/dogbed{
-	anchored = 1
-	},
+/obj/structure/bed/dogbed,
 /mob/living/simple_animal/cow/wisdom{
 	dir = 8;
 	name = "Golosa";
@@ -3085,7 +3072,7 @@
 /obj/effect/decal/cleanable/garbage,
 /obj/structure/urinal{
 	dir = 8;
-	pixel_x = 11
+	pixel_x = 14
 	},
 /turf/open/floor/plasteel/freezer,
 /area/ship/crew/janitor)
@@ -3518,8 +3505,8 @@
 "xb" = (
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/igniter/incinerator_atmos,
-/obj/item/gun/ballistic/automatic/toy,
 /obj/machinery/air_sensor/atmos/incinerator_tank,
+/obj/item/gun/ballistic/automatic/toy,
 /turf/open/floor/engine/airless,
 /area/ship/engineering/engine)
 "xh" = (
@@ -5059,7 +5046,6 @@
 /area/ship/engineering/communications)
 "Fy" = (
 /obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 4;
 	piping_layer = 1
 	},
 /obj/machinery/door/poddoor{
@@ -5678,7 +5664,7 @@
 /area/ship/crew/crewtwo)
 "IG" = (
 /obj/structure/table/chem,
-/obj/item/storage/backpack/duffelbag/med,
+/obj/item/storage/backpack/duffelbag/sec/surgery,
 /turf/open/floor/mineral/titanium/white,
 /area/ship/medical)
 "IK" = (
@@ -5761,9 +5747,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "Jm" = (
-/obj/machinery/power/shuttle/engine/fueled/plasma{
-	dir = 4
-	},
+/obj/machinery/power/shuttle/engine/fueled/plasma,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "Jp" = (
@@ -5998,9 +5982,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "Ld" = (
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 4
-	},
+/obj/machinery/power/smes/shuttle/precharged,
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
@@ -6390,9 +6372,7 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/obj/machinery/power/shuttle/engine/electric/tech2{
-	dir = 4
-	},
+/obj/machinery/power/shuttle/engine/electric/tech2,
 /turf/open/floor/plating,
 /area/ship/engineering/electrical)
 "Oq" = (
@@ -6443,6 +6423,11 @@
 /obj/item/gun/ballistic/automatic/marksman/f4/inteq{
 	pixel_x = -8;
 	pixel_y = 3
+	},
+/obj/item/gun/ballistic/shotgun/toy{
+	pixel_x = -4;
+	pixel_y = -8;
+	desc = "A shotgun for the youngest InteQ operatives. Shoots foam darts. 'For you and your little war crimes' Aged 18 years and older."
 	},
 /turf/open/floor/engine{
 	icon_state = "plastitanium";
@@ -6596,7 +6581,7 @@
 "Pe" = (
 /obj/structure/urinal{
 	dir = 8;
-	pixel_x = 11
+	pixel_x = 14
 	},
 /turf/open/floor/plasteel/freezer,
 /area/ship/crew/janitor)
@@ -9289,7 +9274,7 @@ rc
 tB
 OO
 Rx
-cs
+Br
 Br
 fn
 Vx
