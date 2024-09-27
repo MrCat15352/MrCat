@@ -2784,7 +2784,6 @@
 /obj/item/storage/toolbox/ammo/c9mm,
 /obj/item/ammo_box/magazine/f4_308,
 /obj/item/ammo_box/magazine/f4_308,
-/obj/item/ammo_box/foambox/riot,
 /turf/open/floor/engine{
 	icon_state = "plastitanium";
 	explosion_block = 7
@@ -3453,6 +3452,11 @@
 /obj/item/bedsheet/brown,
 /obj/structure/curtain/bounty,
 /obj/structure/bed,
+/obj/item/gun/ballistic/shotgun/toy{
+	pixel_x = -4;
+	pixel_y = -8;
+	desc = "A shotgun for the youngest InteQ operatives. Shoots foam darts. 'For you and your little war crimes' Aged 18 years and older."
+	},
 /turf/open/floor/carpet/black,
 /area/ship/crew/dorm)
 "wP" = (
@@ -6424,11 +6428,6 @@
 	pixel_x = -8;
 	pixel_y = 3
 	},
-/obj/item/gun/ballistic/shotgun/toy{
-	pixel_x = -4;
-	pixel_y = -8;
-	desc = "A shotgun for the youngest InteQ operatives. Shoots foam darts. 'For you and your little war crimes' Aged 18 years and older."
-	},
 /turf/open/floor/engine{
 	icon_state = "plastitanium";
 	explosion_block = 7
@@ -7884,6 +7883,10 @@
 "Yv" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/structure/dresser,
+/obj/item/ammo_box/foambox{
+	pixel_y = 11;
+	layer = 6
+	},
 /turf/open/floor/carpet/black,
 /area/ship/crew/dorm)
 "Yw" = (
