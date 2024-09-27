@@ -2700,7 +2700,7 @@
 	dir = 8
 	},
 /obj/item/gun/ballistic/automatic/assault/hydra,
-/obj/item/gun/ballistic/shotgun/bulldog,
+/obj/item/gun/ballistic/shotgun/automatic/bulldog,
 /obj/item/gun/ballistic/automatic/pistol/ringneck,
 /obj/item/gun/ballistic/automatic/pistol/ringneck,
 /turf/open/floor/plasteel/tech/grid,

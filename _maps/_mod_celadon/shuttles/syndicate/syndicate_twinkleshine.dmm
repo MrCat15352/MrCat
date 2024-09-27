@@ -7535,12 +7535,12 @@
 /area/ship/hallway/aft)
 "Rv" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/shotgun/bulldog{
+/obj/item/gun/ballistic/shotgun/automatic/bulldog{
 	pixel_x = -7;
 	pixel_y = 7;
 	spawnwithmagazine = 0
 	},
-/obj/item/gun/ballistic/shotgun/bulldog{
+/obj/item/gun/ballistic/shotgun/automatic/bulldog{
 	pixel_y = -3;
 	pixel_x = 2;
 	spawnwithmagazine = 0
