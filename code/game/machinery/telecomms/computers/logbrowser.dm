@@ -29,9 +29,9 @@
 
 /obj/machinery/computer/telecomms/server/ui_interact(mob/user)
 	. = ..()
-	// [CELADON-ADD] - Support of cyrillic letters in browser window
+	// [/CELADON-ADD] - CELADON_FIXES - Support of cyrillic letters in browser window
 	var/dat = "<meta http-equiv='X-UA-Compatible' content='IE=edge' charset='UTF-8'/>"
-	// [CELADON-ADD]
+	// [/CELADON-ADD]
 	dat += "<TITLE>Telecommunication Server Monitor</TITLE><center><b>Telecommunications Server Monitor</b></center>"
 
 	switch(screen)
