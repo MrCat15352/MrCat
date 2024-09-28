@@ -2059,12 +2059,6 @@
 /obj/structure/closet/crate/freezer/blood,
 /obj/machinery/iv_drip,
 /obj/machinery/light/directional/east,
-/obj/machinery/door/airlock/engineering{
-	dir = 4;
-	name = "Reactor";
-	normalspeed = 0;
-	req_access_txt = "10"
-	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/medical)
 "uw" = (
