@@ -4699,7 +4699,7 @@
 /area/ship/crew/hydroponics)
 "Us" = (
 /obj/machinery/light/directional/south,
-/obj/item/gun/ballistic/automatic/pistol,
+/obj/item/gun/ballistic/automatic/pistol/ringneck,
 /obj/item/ammo_box/magazine/m10mm_ringneck,
 /obj/item/ammo_box/magazine/m10mm_ringneck,
 /obj/item/melee/knife/survival,
