@@ -2,6 +2,18 @@
 "a" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/bridge)
+"c" = (
+/obj/structure/sign/number/eight{
+	color = "#eeac2e"
+	},
+/turf/closed/wall/mineral/titanium,
+/area/ship/bridge)
+"g" = (
+/obj/structure/sign/number/four{
+	color = "#eeac2e"
+	},
+/turf/closed/wall/mineral/titanium,
+/area/ship/bridge)
 "i" = (
 /obj/machinery/button/door{
 	pixel_y = 23;
@@ -26,9 +38,6 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
 	},
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/bridge)
 "l" = (
@@ -39,10 +48,14 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/wood,
 /area/ship/bridge)
-"o" = (
-/obj/machinery/power/smes/engineering{
-	charge = 5e+006
+"m" = (
+/obj/structure/sign/number/one{
+	color = "#eeac2e"
 	},
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/bridge)
+"o" = (
+/obj/machinery/power/smes/engineering,
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/window/reinforced/spawner,
 /obj/structure/window/reinforced/spawner/west,
@@ -61,11 +74,15 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/bridge)
 "q" = (
+/obj/machinery/power/port_gen/pacman{
+	sheets = 30;
+	anchored = 1
+	},
 /obj/machinery/power/terminal{
 	dir = 8
 	},
 /obj/structure/cable/yellow{
-	icon_state = "0-4"
+	icon_state = "0-8"
 	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/bridge)
@@ -76,7 +93,6 @@
 	},
 /obj/effect/turf_decal/box/corners,
 /obj/machinery/light/small/directional/south,
-/obj/structure/crate_shelf,
 /turf/open/floor/plasteel/mono,
 /area/ship/bridge)
 "w" = (
@@ -112,9 +128,6 @@
 "B" = (
 /obj/effect/turf_decal/industrial/stand_clear{
 	dir = 4
-	},
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/mono,
 /area/ship/bridge)
@@ -153,9 +166,6 @@
 /area/ship/bridge)
 "I" = (
 /obj/machinery/holopad/emergency/command,
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/bridge)
 "J" = (
@@ -181,7 +191,6 @@
 	dir = 4
 	},
 /obj/machinery/light/small/directional/north,
-/obj/structure/crate_shelf,
 /turf/open/floor/plasteel/mono,
 /area/ship/bridge)
 "P" = (
@@ -255,9 +264,6 @@
 /obj/machinery/door/airlock/public{
 	icon = 'icons/obj/doors/airlocks/station/solgov.dmi'
 	},
-/obj/structure/cable/yellow{
-	icon_state = "1-2"
-	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/bridge)
 "Z" = (
@@ -276,28 +282,28 @@ D
 z
 p
 z
-D
+m
 "}
 (2,1,1) = {"
 a
 Q
 o
 F
-a
+g
 "}
 (3,1,1) = {"
 a
 T
 q
 X
-a
+c
 "}
 (4,1,1) = {"
 a
 N
 B
 r
-a
+c
 "}
 (5,1,1) = {"
 Y
