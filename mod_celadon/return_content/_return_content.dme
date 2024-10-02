@@ -3,6 +3,14 @@
 
 #include "_return_content.dm"
 
+#include "code/planetary_generator/asteroid.dm"
+#include "code/planetary_generator/jungle.dm"
+#include "code/planetary_generator/lava.dm"
+#include "code/planetary_generator/rock.dm"
+#include "code/planetary_generator/sand.dm"
+#include "code/planetary_generator/snow.dm"
+#include "code/planetary_generator/waste.dm"
+
 #include "code/boss_achievements.dm"
 #include "code/boss_scores.dm"
 #include "code/cave_entrance.dm"
