@@ -56,27 +56,6 @@
 		"riol_legs" = "Normal Legs",
 		"body_size" = "Normal"
 		)
-	// mutant_bodyparts = list(
-	// 	"hair",
-	// 	"head_markings",
-	// 	"facial_hair",
-	// 	"body_markings",
-	// 	"tail_accessory",
-	// 	"tail_markings"
-	// 	)
-	// default_features = list( // ОТРЕДАКТРОВАТЬ.................
-	// 	"mcolor" = "0F0",
-	// 	"hair" = "plain",
-	// 	"riol_ears_markings" = "None",
-	// 	"head_markings" = "None",
-	// 	"riol_nose_markings" = "None",
-	// 	"riol_facial_hairs" = "None",
-	// 	"riol_chest_markings" = "None",
-	// 	"body_markings" = "None",
-	// 	"tail_markings" = "None",
-	// 	"riol_tail" = "long",
-	// 	"body_size" = "Normal"
-	// 	)
 
 	default_color = "424242"
 
@@ -106,8 +85,8 @@
 	species_r_arm = /obj/item/bodypart/r_arm/riol
 	species_l_leg = /obj/item/bodypart/leg/left/riol
 	species_r_leg = /obj/item/bodypart/leg/right/riol
-	species_digi_l_leg = /obj/item/bodypart/leg/left/riol/digitigrade
-	species_digi_r_leg = /obj/item/bodypart/leg/right/riol/digitigrade
+	riol_digi_l_leg = /obj/item/bodypart/leg/left/riol/digitigrade
+	riol_digi_r_leg = /obj/item/bodypart/leg/right/riol/digitigrade
 
 	species_robotic_chest = /obj/item/bodypart/chest/robot
 	species_robotic_head = /obj/item/bodypart/head/robot

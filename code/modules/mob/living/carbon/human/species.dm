@@ -389,7 +389,10 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		I.Insert(C)
 
 /datum/species/proc/is_digitigrade(mob/living/carbon/leg_haver)
-	return (digitigrade_customization == DIGITIGRADE_OPTIONAL && leg_haver.dna.features["legs"] == "Digitigrade Legs") || digitigrade_customization == DIGITIGRADE_FORCED
+	// [CELADON-EDIT] - CELADON_RIOL
+	// return (digitigrade_customization == DIGITIGRADE_OPTIONAL && leg_haver.dna.features["legs"] == "Digitigrade Legs") || digitigrade_customization == DIGITIGRADE_FORCED	// CELADON-EDIT - ORIGINAL
+	return (digitigrade_customization == DIGITIGRADE_OPTIONAL && (leg_haver.dna.features["legs"] == "Digitigrade Legs" || leg_haver.dna.features["riol_legs"] == "Digitigrade Legs")) || digitigrade_customization == DIGITIGRADE_FORCED
+	// [/CELADON-EDIT]
 
 /datum/species/proc/replace_body(mob/living/carbon/C, datum/species/new_species, robotic = FALSE)
 	new_species ||= C.dna.species //If no new species is provided, assume its src.
