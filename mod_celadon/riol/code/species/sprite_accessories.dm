@@ -38,10 +38,13 @@
 	body_zone = BODY_ZONE_CHEST
 	synthetic_icon_state = "none"
 
+<<<<<<< HEAD
 /datum/sprite_accessory/riol_body_markings/none_riol
 	name = "None"
 	icon_state = "none"
 
+=======
+>>>>>>> 9ef8685793ca692dfb22befb1474ebf54eac1328
 /datum/sprite_accessory/riol_body_markings/points_fade_riol
 	name = "Riol Points"
 	icon_state = "pointsfade"
@@ -121,7 +124,10 @@
 
 /datum/sprite_accessory/riol_ears_markings/none
 	name = "None"
+<<<<<<< HEAD
 	icon_state = "none"
+=======
+>>>>>>> 9ef8685793ca692dfb22befb1474ebf54eac1328
 
 /datum/sprite_accessory/riol_ears_markings/earfluff
 	name = "Earfluff"
@@ -136,10 +142,13 @@
 	color_src = HEADRIOLCOLORS
 	body_zone = BODY_ZONE_HEAD
 
+<<<<<<< HEAD
 /datum/sprite_accessory/riol_head_markings/none
 	name = "None"
 	icon_state = "none"
 
+=======
+>>>>>>> 9ef8685793ca692dfb22befb1474ebf54eac1328
 /datum/sprite_accessory/riol_head_markings/nose_default_riol
 	name = "Riol Nose"
 	icon_state = "nose"
@@ -194,6 +203,7 @@
 	// body_zone = BODY_ZONE_CHEST
 	// secondary_color = TRUE
 
+<<<<<<< HEAD
 /datum/sprite_accessory/riol_tail_markings/none
 	name = "None"
 	icon_state = "none"
@@ -202,6 +212,8 @@
 	name = "None"
 	icon_state = "none"
 
+=======
+>>>>>>> 9ef8685793ca692dfb22befb1474ebf54eac1328
 /datum/sprite_accessory/riol_tail_markings/riol_default_tip
 	name = "Tail Tip"
 	tails_allowed = list("Default", "Straight Bushy")
@@ -352,6 +364,18 @@
 	name = "Riol Earfluff"
 	icon_state = "facial_hair_earfluff"
 
+<<<<<<< HEAD
+=======
+// /datum/sprite_accessory/riol_facial_hairs/riol_rioline
+// 	name = "Riol"
+// 	icon_state = "rioline"
+
+// /datum/sprite_accessory/riol_facial_hairs/riol_rioline_fluff
+// 	name = "Riol and Earfluff"
+// 	icon_state = "riolinefluff"
+
+
+>>>>>>> 9ef8685793ca692dfb22befb1474ebf54eac1328
 // HAIRS
 
 /datum/sprite_accessory/riol_hairs
