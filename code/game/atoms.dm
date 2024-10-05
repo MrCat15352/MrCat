@@ -75,6 +75,9 @@
 	///Economy cost of item in premium vendor
 	var/custom_premium_price
 
+	//List of datums orbiting this atom
+	var/datum/component/orbiter/orbiters
+
 	/// Radiation insulation types
 	var/rad_insulation = RAD_NO_INSULATION
 
@@ -151,6 +154,8 @@
 	/// The current connector overlay appearance. Saved so that it can be cut when necessary.
 	var/connector_overlay
 
+	///Reference to atom being orbited
+	var/atom/orbit_target
 	///Default X pixel offset
 	var/base_pixel_x
 	///Default Y pixel offset

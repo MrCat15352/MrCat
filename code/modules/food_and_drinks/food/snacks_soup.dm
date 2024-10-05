@@ -159,12 +159,12 @@
 	tastes = list("tomato" = 1, "squirming" = 1)
 	foodtype = MEAT | GORE
 
-/obj/item/reagent_containers/food/snacks/soup/miso
-	name = "miso soup"
+/obj/item/reagent_containers/food/snacks/soup/milo
+	name = "milosoup"
 	desc = "The universes best soup! Yum!!!"
-	icon_state = "misosoup"
+	icon_state = "milosoup"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 3)
-	tastes = list("miso" = 1) // wtf is milo
+	tastes = list("milo" = 1) // wtf is milo
 	foodtype = VEGETABLES
 
 /obj/item/reagent_containers/food/snacks/soup/mushroom

@@ -466,6 +466,24 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	READ_FILE(S["tajara_nose_markings_color"], features["tajara_nose_markings_color"])
 	READ_FILE(S["tajara_chest_markings_color"], features["tajara_chest_markings_color"])
 	READ_FILE(S["tajara_body_markings_color"], features["tajara_body_markings_color"])
+	// [CELADON-ADD] - CELADON_RIOL
+	READ_FILE(S["feature_riol_ears"], 				features["riol_ears"])
+	READ_FILE(S["feature_riol_hairs"], 				features["riol_hairs"])
+	READ_FILE(S["feature_riol_ears_markings"], 		features["riol_ears_markings"])
+	READ_FILE(S["feature_riol_head_markings"], 		features["riol_head_markings"])
+	READ_FILE(S["feature_riol_nose_markings"], 		features["riol_nose_markings"])
+	READ_FILE(S["feature_riol_facial_hairs"], 		features["riol_facial_hairs"])
+	READ_FILE(S["feature_riol_chest_markings"], 	features["riol_chest_markings"])
+	READ_FILE(S["feature_riol_body_markings"], 		features["riol_body_markings"])
+	READ_FILE(S["feature_riol_tail_markings"], 		features["riol_tail_markings"])
+	READ_FILE(S["feature_riol_tail"], 				features["riol_tail"])
+	READ_FILE(S["feature_riol_legs"], 				features["riol_legs"])
+	READ_FILE(S["riol_ears_markings_color"], 		features["riol_ears_markings_color"])
+	READ_FILE(S["riol_head_markings_color"], 		features["riol_head_markings_color"])
+	READ_FILE(S["riol_nose_markings_color"], 		features["riol_nose_markings_color"])
+	READ_FILE(S["riol_chest_markings_color"], 		features["riol_chest_markings_color"])
+	READ_FILE(S["riol_body_markings_color"], 		features["riol_body_markings_color"])
+	READ_FILE(S["riol_tail_markings_color"], 		features["riol_tail_markings_color"])
 	// [/CELADON-ADD]
 
 	READ_FILE(S["equipped_gear"], equipped_gear)
@@ -527,7 +545,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 
 	randomise = SANITIZE_LIST(randomise)
 
-	// [CELADON-EDIT] - TAJARA
+	// [CELADON-EDIT] - TAJARA, CELADON_RIOL
 	//	if(gender == MALE)
 	//		hairstyle								= sanitize_inlist(hairstyle, GLOB.hairstyles_male_list)
 	//		facial_hairstyle						= sanitize_inlist(facial_hairstyle, GLOB.facial_hairstyles_male_list)
@@ -540,11 +558,17 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 		features["grad_style"]				= sanitize_inlist(features["grad_style"], GLOB.hair_gradients_list)
 		features["grad_color"]				= sanitize_hexcolor(features["grad_color"])
 
+	if(species_id == "riol")
+		hairstyle								= sanitize_inlist(hairstyle, GLOB.riol_hairs_list)
+		facial_hairstyle						= sanitize_inlist(facial_hairstyle, GLOB.riol_facial_hairs_list)
+		features["grad_style"]				= sanitize_inlist(features["grad_style"], GLOB.hair_gradients_list)
+		features["grad_color"]				= sanitize_hexcolor(features["grad_color"])
+
 
 
 	// [/CELADON-EDIT]
 	else
-		// [CELADON-EDIT] - TAJARA
+		// [CELADON-EDIT] - TAJARA - изменения базы
 		//	hairstyle								= sanitize_inlist(hairstyle, GLOB.hairstyles_list)
 		//	facial_hairstyle						= sanitize_inlist(facial_hairstyle, GLOB.facial_hairstyles_list)
 		//	underwear								= sanitize_inlist(underwear, GLOB.underwear_list)
@@ -592,7 +616,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	features["feature_lizard_legs"]		= sanitize_inlist(features["legs"], GLOB.legs_list, "Normal Legs")
 	features["moth_wings"]				= sanitize_inlist(features["moth_wings"], GLOB.moth_wings_list, "Plain")
 	features["moth_fluff"]				= sanitize_inlist(features["moth_fluff"], GLOB.moth_fluff_list, "Plain")
-	features["spider_legs"] 			= sanitize_inlist(features["spider_legs"], GLOB.spider_legs_list, "Plain")
+	features["spider_legs"] 			= sanitize_inlist(features["spider_legs"], GLOB.spider_legs_list, "Normal Legs")
 	features["spider_spinneret"] 		= sanitize_inlist(features["spider_spinneret"], GLOB.spider_spinneret_list, "Plain")
 	features["moth_markings"]			= sanitize_inlist(features["moth_markings"], GLOB.moth_markings_list, "None")
 	features["squid_face"]				= sanitize_inlist(features["squid_face"], GLOB.squid_face_list, "Squidward")
@@ -627,6 +651,24 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	features["tajara_nose_markings_color"]				= sanitize_hexcolor(features["tajara_nose_markings_color"])
 	features["tajara_chest_markings_color"]				= sanitize_hexcolor(features["tajara_chest_markings_color"])
 	features["tajara_body_markings_color"]				= sanitize_hexcolor(features["tajara_body_markings_color"])
+	// [CELADON-ADD] - CELADON_RIOL
+	features["riol_ears"] 						= sanitize_inlist(features["riol_ears"], GLOB.riol_ears_list, "Plain")
+	features["riol_hairs"] 						= sanitize_inlist(features["riol_hairs"], GLOB.riol_hairs_list, "Plain")
+	features["riol_ears_markings"] 				= sanitize_inlist(features["riol_ears_markings"], GLOB.riol_ears_markings_list, "None")
+	features["riol_head_markings"] 				= sanitize_inlist(features["riol_head_markings"], GLOB.riol_head_markings_list, "None")
+	features["riol_nose_markings"] 				= sanitize_inlist(features["riol_nose_markings"], GLOB.riol_nose_markings_list, "None")
+	features["riol_facial_hairs"] 				= sanitize_inlist(features["riol_facial_hairs"], GLOB.riol_facial_hairs_list, "None")
+	features["riol_chest_markings"] 			= sanitize_inlist(features["riol_chest_markings"], GLOB.riol_chest_markings_list, "None")
+	features["riol_body_markings"] 				= sanitize_inlist(features["riol_body_markings"], GLOB.riol_body_markings_list, "None")
+	features["riol_tail_markings"] 				= sanitize_inlist(features["riol_tail_markings"], GLOB.riol_tail_markings_list, "None")
+	features["riol_tail"] 						= sanitize_inlist(features["riol_tail"], GLOB.riol_tail_list, "default")
+	features["riol_legs"]						= sanitize_inlist(features["riol_legs"], GLOB.riol_legs_list, "Normal Legs")
+	features["riol_ears_markings_color"]		= sanitize_hexcolor(features["riol_ears_markings_color"])
+	features["riol_head_markings_color"]		= sanitize_hexcolor(features["riol_head_markings_color"])
+	features["riol_nose_markings_color"]		= sanitize_hexcolor(features["riol_nose_markings_color"])
+	features["riol_chest_markings_color"]		= sanitize_hexcolor(features["riol_chest_markings_color"])
+	features["riol_body_markings_color"]		= sanitize_hexcolor(features["riol_body_markings_color"])
+	features["riol_tail_markings_color"]		= sanitize_hexcolor(features["riol_tail_markings_color"])
 	// [/CELADON-ADD]
 
 	all_quirks = SANITIZE_LIST(all_quirks)
@@ -727,6 +769,24 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	WRITE_FILE(S["tajara_nose_markings_color"], features["tajara_nose_markings_color"])
 	WRITE_FILE(S["tajara_chest_markings_color"], features["tajara_chest_markings_color"])
 	WRITE_FILE(S["tajara_body_markings_color"], features["tajara_body_markings_color"])
+	// [CELADON-ADD] - CELADON_RIOL
+	WRITE_FILE(S["feature_riol_ears"], 				features["riol_ears"])
+	WRITE_FILE(S["feature_riol_hairs"], 			features["riol_hairs"])
+	WRITE_FILE(S["feature_riol_ears_markings"], 	features["riol_ears_markings"])
+	WRITE_FILE(S["feature_riol_head_markings"], 	features["riol_head_markings"])
+	WRITE_FILE(S["feature_riol_nose_markings"], 	features["riol_nose_markings"])
+	WRITE_FILE(S["feature_riol_facial_hairs"], 		features["riol_facial_hairs"])
+	WRITE_FILE(S["feature_riol_chest_markings"], 	features["riol_chest_markings"])
+	WRITE_FILE(S["feature_riol_body_markings"], 	features["riol_body_markings"])
+	WRITE_FILE(S["feature_riol_tail_markings"], 	features["riol_tail_markings"])
+	WRITE_FILE(S["feature_riol_tail"], 				features["riol_tail"])
+	WRITE_FILE(S["feature_riol_legs"],				features["riol_legs"])
+	WRITE_FILE(S["riol_ears_markings_color"], 		features["riol_ears_markings_color"])
+	WRITE_FILE(S["riol_head_markings_color"], 		features["riol_head_markings_color"])
+	WRITE_FILE(S["riol_nose_markings_color"], 		features["riol_nose_markings_color"])
+	WRITE_FILE(S["riol_chest_markings_color"], 		features["riol_chest_markings_color"])
+	WRITE_FILE(S["riol_body_markings_color"], 		features["riol_body_markings_color"])
+	WRITE_FILE(S["riol_tail_markings_color"], 		features["riol_tail_markings_color"])
 	// [/CELADON-ADD]
 
 	//Flavor text

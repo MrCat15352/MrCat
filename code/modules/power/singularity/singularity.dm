@@ -38,7 +38,7 @@
 	src.energy = starting_energy
 	. = ..()
 	START_PROCESSING(SSobj, src)
-	SSpoints_of_interest.make_point_of_interest(src)
+	GLOB.poi_list |= src
 	GLOB.singularities |= src
 	for(var/obj/machinery/power/singularity_beacon/singubeacon in GLOB.machines)
 		if(singubeacon.active)
@@ -53,7 +53,7 @@
 
 /obj/singularity/Destroy()
 	STOP_PROCESSING(SSobj, src)
-	SSpoints_of_interest.remove_point_of_interest(src)
+	GLOB.poi_list.Remove(src)
 	GLOB.singularities.Remove(src)
 	return ..()
 

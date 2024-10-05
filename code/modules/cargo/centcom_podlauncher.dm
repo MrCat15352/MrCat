@@ -383,7 +383,7 @@
 			if (specificTarget)
 				specificTarget = null
 				return
-			var/list/mobs = SSpoints_of_interest.get_mob_pois()
+			var/list/mobs = getpois()//code stolen from observer.dm
 			var/inputTarget = input("Select a mob! (Smiting does this automatically)", "Target", null, null) as null|anything in mobs
 			if (isnull(inputTarget))
 				return

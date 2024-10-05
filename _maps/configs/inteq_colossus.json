@@ -42,7 +42,7 @@
 		},
 		"Recruit": {
 			"outfit": "/datum/outfit/job/inteq/assistant",
-			"slots": 2
+			"slots": 5
 		}
 	},
 	"enabled": true

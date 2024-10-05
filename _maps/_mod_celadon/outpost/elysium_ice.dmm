@@ -5657,7 +5657,7 @@
 	pixel_x = -4;
 	pixel_y = 6
 	},
-/obj/item/melee/knife/kitchen{
+/obj/item/kitchen/knife{
 	pixel_y = 6;
 	pixel_x = 9
 	},
@@ -9531,6 +9531,20 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/outpost/medical/surgery_1)
+"tv" = (
+/obj/machinery/button/door{
+	pixel_y = -21;
+	id = "ice_cabinka_bar_3";
+	name = "Bolt Door Cab 3";
+	specialfunctions = 4;
+	normaldoorcontrol = 1;
+	dir = 1
+	},
+/turf/open/floor/plating/asteroid/snow/temperatre{
+	light_color = "#1B1D2E";
+	light_range = 2
+	},
+/area/outpost/exterior)
 "tw" = (
 /obj/effect/turf_decal/techfloor/corner,
 /turf/open/floor/plasteel/tech,
@@ -17018,6 +17032,9 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock,
+/obj/machinery/door/poddoor/ert{
+	id = "ice_general_shop"
+	},
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/tech,
 /area/outpost/crew/dop_zone_2)
@@ -20847,7 +20864,7 @@
 /obj/item/clothing/under/rank/security/detective/skirt,
 /obj/item/cartridge/detective,
 /obj/item/camera/detective,
-/obj/item/gun/ballistic/revolver/viper,
+/obj/item/gun/ballistic/revolver/syndicate,
 /obj/item/ammo_box/c38_box,
 /turf/open/floor/wood,
 /area/outpost/security/detective)
@@ -45164,7 +45181,7 @@ NG
 BC
 NG
 NG
-NG
+tv
 NG
 NG
 ST

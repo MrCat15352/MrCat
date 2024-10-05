@@ -5,7 +5,7 @@
 "c" = (
 /obj/structure/stone_tile/surrounding,
 /obj/structure/stone_tile/center,
-/obj/structure/destructible/tribal_torch/lit{
+/obj/structure/destructible/tribal_torch{
 	pixel_y = 13
 	},
 /turf/open/floor/plating/asteroid/basalt/plasma_gaint,
@@ -56,11 +56,11 @@
 /turf/open/floor/plating/asteroid/basalt/plasma_gaint,
 /area/overmap_encounter/planetoid/plasma_gaint/explored)
 "u" = (
-/obj/structure/stone_tile/surrounding,
-/obj/structure/stone_tile/center,
-/obj/structure/destructible/tribal_torch/lit{
+/obj/structure/destructible/tribal_torch{
 	pixel_y = 13
 	},
+/obj/structure/stone_tile/surrounding,
+/obj/structure/stone_tile/center,
 /turf/open/floor/plating/asteroid/plasma_gaint,
 /area/overmap_encounter/planetoid/plasma_gaint/explored)
 "v" = (
@@ -144,7 +144,7 @@
 	pixel_x = -12;
 	pixel_y = -6
 	},
-/obj/item/melee/sword/bone{
+/obj/item/claymore/bone{
 	pixel_x = 13;
 	pixel_y = -7
 	},
@@ -154,9 +154,6 @@
 "T" = (
 /turf/open/floor/plating/asteroid/basalt/plasma_gaint,
 /area/overmap_encounter/planetoid/plasma_gaint/explored)
-"V" = (
-/turf/template_noop,
-/area/template_noop)
 "W" = (
 /obj/structure/flora/rock/hell,
 /turf/open/floor/plating/asteroid/basalt/plasma_gaint,
@@ -174,26 +171,26 @@
 /area/overmap_encounter/planetoid/plasma_gaint/explored)
 
 (1,1,1) = {"
-V
-V
-V
-V
+a
+a
+a
+a
 T
 T
 T
 T
-V
-V
-V
-V
-V
-V
-V
+T
+T
+T
+a
+a
+a
+a
 "}
 (2,1,1) = {"
-V
-V
-V
+a
+a
+a
 T
 T
 T
@@ -201,15 +198,15 @@ T
 T
 T
 T
-V
-V
-V
-V
-V
+T
+T
+a
+a
+a
 "}
 (3,1,1) = {"
-V
-V
+a
+a
 T
 T
 T
@@ -220,12 +217,12 @@ T
 W
 T
 T
-V
-V
-V
+T
+a
+a
 "}
 (4,1,1) = {"
-V
+a
 T
 f
 f
@@ -238,8 +235,8 @@ T
 T
 Y
 T
-V
-V
+a
+a
 "}
 (5,1,1) = {"
 a
@@ -255,8 +252,8 @@ a
 T
 T
 a
-V
-V
+T
+a
 "}
 (6,1,1) = {"
 a
@@ -395,7 +392,7 @@ T
 a
 "}
 (14,1,1) = {"
-V
+T
 a
 a
 T
@@ -412,7 +409,7 @@ W
 a
 "}
 (15,1,1) = {"
-V
+T
 a
 a
 a
@@ -429,7 +426,7 @@ a
 a
 "}
 (16,1,1) = {"
-V
+a
 a
 T
 a
@@ -443,10 +440,10 @@ T
 g
 T
 a
-V
+a
 "}
 (17,1,1) = {"
-V
+a
 T
 T
 T
@@ -460,11 +457,11 @@ g
 c
 a
 a
-V
+T
 "}
 (18,1,1) = {"
-V
-V
+T
+T
 T
 a
 T
@@ -477,12 +474,11 @@ a
 a
 a
 a
-V
+a
 "}
 (19,1,1) = {"
-V
-V
-V
+T
+T
 a
 a
 a
@@ -492,24 +488,25 @@ a
 a
 a
 a
-V
-V
-V
+a
+a
+a
+a
 "}
 (20,1,1) = {"
-V
-V
-V
-V
-V
-V
-V
+T
+T
+T
+T
+T
+T
+a
 T
 T
 a
 a
-V
-V
-V
-V
+T
+a
+a
+T
 "}

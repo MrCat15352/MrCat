@@ -2391,7 +2391,7 @@
 /obj/structure/table,
 /obj/item/cutting_board,
 /obj/item/kitchen/rollingpin,
-/obj/item/melee/knife/kitchen,
+/obj/item/kitchen/knife,
 /obj/effect/turf_decal/corner/opaque/white/diagonal,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel,

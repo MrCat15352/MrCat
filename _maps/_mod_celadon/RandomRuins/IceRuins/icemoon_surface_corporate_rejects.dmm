@@ -1654,7 +1654,7 @@
 /area/ruin/unpowered/corprejectrooms)
 "Mc" = (
 /obj/structure/table/glass,
-/obj/item/melee/axe/fire,
+/obj/item/fireaxe,
 /turf/open/floor/vault,
 /area/ruin/unpowered/corprejectvault)
 "Md" = (

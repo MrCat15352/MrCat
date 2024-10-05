@@ -1472,7 +1472,7 @@
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = -8
 	},
-/obj/item/melee/knife/kitchen,
+/obj/item/kitchen/knife,
 /obj/effect/turf_decal/corner/transparent/neutral{
 	dir = 1
 	},
@@ -1508,8 +1508,8 @@
 /area/centcom/ferry)
 "fi" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/shotgun/automatic/bulldog/inteq,
-/obj/item/gun/ballistic/shotgun/automatic/bulldog/inteq{
+/obj/item/gun/ballistic/shotgun/bulldog/inteq,
+/obj/item/gun/ballistic/shotgun/bulldog/inteq{
 	pixel_x = -5;
 	pixel_y = -5
 	},
@@ -2326,6 +2326,10 @@
 "ie" = (
 /obj/machinery/light/directional/west,
 /obj/structure/rack,
+/obj/item/nullrod/claymore/glowing{
+	damtype = "stamina";
+	force = 30
+	},
 /turf/open/floor/wood,
 /area/centcom/holding)
 "if" = (
@@ -2895,7 +2899,7 @@
 	pixel_x = 7;
 	pixel_y = -2
 	},
-/obj/item/melee/knife/kitchen{
+/obj/item/kitchen/knife{
 	pixel_y = -5;
 	pixel_x = -5
 	},
@@ -5441,6 +5445,10 @@
 "tC" = (
 /obj/machinery/light/directional/east,
 /obj/structure/rack,
+/obj/item/nullrod/claymore/saber/red{
+	damtype = "stamina";
+	force = 30
+	},
 /turf/open/floor/wood,
 /area/centcom/holding)
 "tD" = (
@@ -6529,7 +6537,7 @@
 /area/centcom/control)
 "xu" = (
 /obj/structure/rack,
-/obj/item/melee/sword/vibro{
+/obj/item/nullrod/scythe/vibro{
 	damtype = "stamina";
 	force = 30
 	},
@@ -7318,6 +7326,10 @@
 "zT" = (
 /obj/machinery/light/directional/east,
 /obj/structure/rack,
+/obj/item/nullrod/claymore/darkblade{
+	damtype = "stamina";
+	force = 30
+	},
 /turf/open/floor/wood,
 /area/centcom/holding)
 "zW" = (
@@ -7495,6 +7507,10 @@
 /area/tdome/tdomeobserve)
 "AI" = (
 /obj/structure/rack,
+/obj/item/nullrod/claymore{
+	damtype = "stamina";
+	force = 30
+	},
 /turf/open/floor/wood,
 /area/centcom/holding)
 "AK" = (
@@ -9702,7 +9718,9 @@
 /obj/structure/destructible/cult/talisman{
 	desc = "An altar dedicated to the Wizards' Federation"
 	},
-/turf/open/floor/engine/cult)
+/obj/item/kitchen/knife/ritual,
+/turf/open/floor/engine/cult,
+/area/wizard_station)
 "If" = (
 /obj/structure/rack,
 /obj/item/clothing/under/color/red,
@@ -11354,6 +11372,10 @@
 /area/tdome/arena_source)
 "NQ" = (
 /obj/structure/rack,
+/obj/item/nullrod/claymore/katana{
+	damtype = "stamina";
+	force = 30
+	},
 /turf/open/floor/wood,
 /area/centcom/holding)
 "NS" = (
@@ -12859,6 +12881,10 @@
 "Tn" = (
 /obj/machinery/light/directional/west,
 /obj/structure/rack,
+/obj/item/nullrod/claymore/saber{
+	damtype = "stamina";
+	force = 30
+	},
 /turf/open/floor/wood,
 /area/centcom/holding)
 "To" = (
@@ -14515,8 +14541,10 @@
 /area/centcom/ferry)
 "YP" = (
 /obj/structure/closet/cardboard,
+/obj/item/banhammer,
 /obj/effect/turf_decal/industrial/warning,
-/turf/open/floor/plasteel)
+/turf/open/floor/plasteel,
+/area/wizard_station)
 "YQ" = (
 /obj/structure/chair/office{
 	dir = 8

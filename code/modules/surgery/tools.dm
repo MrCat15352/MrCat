@@ -172,7 +172,7 @@
 // //spases 4 legibilititie
 
 // 	icon_state = "swa"
-// 	icon = 'icons/obj/items.dmi'
+// 	icon = 'icons/obj/items_and_weapons.dmi'
 
 // 	lefthand_file = 'icons/mob/inhands/equipment/tools_lefthand.dmi'
 

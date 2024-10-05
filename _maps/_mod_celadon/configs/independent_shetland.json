@@ -45,7 +45,7 @@
 			"slots": 1
 		},
 		"Asteroid Miner": {
-			"outfit": "/datum/outfit/job/independent/miner",
+			"outfit": "/datum/outfit/job/independent",
 			"slots": 2
 		},
 		"Security Detail": {

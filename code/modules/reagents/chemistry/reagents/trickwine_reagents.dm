@@ -35,6 +35,7 @@
 		M.Jitter(3 * reac_volume)
 		M.Dizzy(2 * reac_volume)
 		M.set_drugginess(3 * reac_volume)
+		M.emote(pick("twitch","giggle"))
 	return ..()
 
 /datum/reagent/consumable/ethanol/trickwine/ice_wine

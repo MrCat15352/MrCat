@@ -49,7 +49,6 @@
 	. = ..()
 	if(!.)
 		return
-	owner.trip_with_gun("knockdown")
 	ADD_TRAIT(owner, TRAIT_FLOORED, TRAIT_STATUS_EFFECT(id))
 
 /datum/status_effect/incapacitating/knockdown/on_remove()
@@ -80,7 +79,6 @@
 	. = ..()
 	if(!.)
 		return
-	owner.trip_with_gun("paralyze")
 	ADD_TRAIT(owner, TRAIT_INCAPACITATED, TRAIT_STATUS_EFFECT(id))
 	ADD_TRAIT(owner, TRAIT_IMMOBILIZED, TRAIT_STATUS_EFFECT(id))
 	ADD_TRAIT(owner, TRAIT_FLOORED, TRAIT_STATUS_EFFECT(id))

@@ -46,14 +46,12 @@ GLOBAL_VAR_INIT(normal_looc_colour, "#6699CC")
 			log_admin("[key_name(src)] has attempted to advertise in LOOC: [msg]")
 			message_admins("[key_name_admin(src)] has attempted to advertise in LOOC: [msg]")
 			return
-		// [CELADON-REMOVE] - CELADON_FIXES - Разрешаем призракам писать в LOOC.
-		// if(mob.stat)
-		// 	to_chat(src, span_danger("You cannot use LOOC while unconscious or dead."))
-		// 	return
-		// if(istype(mob, /mob/dead))
-		// 	to_chat(src, span_danger("You cannot use LOOC while ghosting."))
-		// 	return
-		// [/CELADON-REMOVE]
+		if(mob.stat)
+			to_chat(src, span_danger("You cannot use LOOC while unconscious or dead."))
+			return
+		if(istype(mob, /mob/dead))
+			to_chat(src, span_danger("You cannot use LOOC while ghosting."))
+			return
 
 	if(!(prefs.chat_toggles & CHAT_LOOC))
 		to_chat(src, span_danger("You have OOC muted."))

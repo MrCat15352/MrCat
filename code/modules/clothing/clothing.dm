@@ -259,48 +259,26 @@
 /obj/item/clothing/proc/armor_to_protection_class(armor_value)
 	armor_value = round(armor_value,10) / 10
 	switch (armor_value)
-		// [CELADON-EDIT] - CELADON_QOL - Заменяем на числовое значение отображение класса брони
-		// if (1)
-		// 	. = "I"
-		// if (2)
-		// 	. = "II"
-		// if (3)
-		// 	. = "III"
-		// if (4)
-		// 	. = "IV"
-		// if (5)
-		// 	. = "V"
-		// if (6)
-		// 	. = "VI"
-		// if (7)
-		// 	. = "VII"
-		// if (8)
-		// 	. = "VIII"
-		// if (9)
-		// 	. = "IX"
-		// if (10 to INFINITY)
-		// 	. = "X"			// CELADON-EDIT - ORIGINAL
 		if (1)
-			. = "1"
+			. = "I"
 		if (2)
-			. = "2"
+			. = "II"
 		if (3)
-			. = "3"
+			. = "III"
 		if (4)
-			. = "4"
+			. = "IV"
 		if (5)
-			. = "5"
+			. = "V"
 		if (6)
-			. = "6"
+			. = "VI"
 		if (7)
-			. = "7"
+			. = "VII"
 		if (8)
-			. = "8"
+			. = "VIII"
 		if (9)
-			. = "9"
+			. = "IX"
 		if (10 to INFINITY)
-			. = "10"
-		// [/CELADON-EDIT]
+			. = "X"
 	return .
 
 /obj/item/clothing/obj_break(damage_flag)

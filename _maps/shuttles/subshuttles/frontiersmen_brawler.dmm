@@ -370,9 +370,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 2
-	},
+/obj/machinery/power/smes/shuttle/precharged,
 /obj/structure/cable,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/bridge)

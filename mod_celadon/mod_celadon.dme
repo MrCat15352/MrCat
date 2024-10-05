@@ -50,6 +50,7 @@
 #include "pizzamat/_pizzamat.dme"
 #include "repair_weebstick/_repair_weebstick.dme"
 #include "research/_research.dme"
+#include "riol/_riol.dme"
 #include "sauna/_sauna.dme"
 #include "stamps/_stamps.dme"
 #include "structures/_structures.dme"
@@ -74,7 +75,7 @@
 
 // --- RETURNS --- //
 #include "crusher_trophy/_crusher_trophy.dme"
-#include "return_content/_return_content.dme"
+#include "return_tendrils/_return_tendrils.dme"
 
 // --- DONATORS --- //
 #include "donaters/_donaters.dme"

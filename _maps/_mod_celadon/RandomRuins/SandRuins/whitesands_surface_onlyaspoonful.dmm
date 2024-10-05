@@ -30,7 +30,7 @@
 /area/ruin/powered)
 "bo" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
-/obj/item/melee/knife/combat,
+/obj/item/kitchen/knife/combat,
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "bz" = (
@@ -530,7 +530,7 @@
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "Lm" = (
-/obj/item/gun/ballistic/automatic/pistol/ringneck,
+/obj/item/gun/ballistic/automatic/pistol,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 5
 	},
@@ -566,7 +566,7 @@
 	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/blood,
-/obj/item/ammo_box/magazine/m10mm_ringneck,
+/obj/item/ammo_box/magazine/m10mm,
 /turf/open/floor/plastic,
 /area/ruin/powered)
 "NP" = (

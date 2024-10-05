@@ -305,3 +305,11 @@ Burning extracts:
 	new /obj/item/shield/adamantineshield(get_turf(user))
 	..()
 
+/obj/item/slimecross/burning/rainbow
+	colour = "rainbow"
+	effect_desc = "Creates the Rainbow Knife, a kitchen knife that deals random types of damage."
+
+/obj/item/slimecross/burning/rainbow/do_effect(mob/user)
+	user.visible_message("<span class='notice'>[src] flattens into a glowing rainbow blade.</span>")
+	new /obj/item/kitchen/knife/rainbowknife(get_turf(user))
+	..()

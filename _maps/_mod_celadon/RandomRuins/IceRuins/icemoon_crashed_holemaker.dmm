@@ -887,7 +887,7 @@
 /area/ruin/unpowered/crashed_holemaker)
 "oC" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/melee/knife/kitchen,
+/obj/item/kitchen/knife,
 /turf/open/floor/wood{
 	icon_state = "wood-broken7"
 	},

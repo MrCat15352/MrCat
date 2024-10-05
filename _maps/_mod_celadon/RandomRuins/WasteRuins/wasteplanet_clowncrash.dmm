@@ -84,6 +84,7 @@
 "o" = (
 /obj/structure/table/reinforced,
 /obj/item/bikehorn/airhorn,
+/obj/item/nullrod/clown,
 /turf/open/floor/plating/asteroid/wasteplanet,
 /area/overmap_encounter/planetoid/cave/explored)
 "q" = (

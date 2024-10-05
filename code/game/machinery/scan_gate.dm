@@ -154,6 +154,9 @@
 					// [CELADON-ADD] - TAJARA
 					if(SPECIES_TAJARA)
 						scan_species = /datum/species/tajara
+					// [CELADON-ADD] - CELADON_RIOL
+					if(SPECIES_RIOL)
+						scan_species = /datum/species/riol
 					// [/CELADON-ADD]
 				if(is_species(H, scan_species))
 					beep = TRUE

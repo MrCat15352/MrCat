@@ -1,4 +1,4 @@
-// 10mm (Ringneck)
+// 10mm (Stechkin)
 
 /obj/item/ammo_casing/c10mm
 	name = "10mm bullet casing"

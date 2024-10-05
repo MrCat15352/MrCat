@@ -40,7 +40,7 @@
 
 /obj/structure/lavaland/ash_walker/deconstruct(disassembled)
 	new /obj/item/assembly/signaler/anomaly (get_step(loc, pick(GLOB.alldirs)))
-	// [CELADON-ADD] - RETURN_CONTENT
+	// [CELADON-ADD] - RETURN_TENDRILS
 	new	/obj/effect/collapse(loc)
 	// [/CELADON-ADD]
 	return ..()

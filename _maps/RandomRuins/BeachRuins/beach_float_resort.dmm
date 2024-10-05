@@ -193,7 +193,7 @@
 /turf/open/water/beach,
 /area/overmap_encounter/planetoid/beachplanet/explored)
 "eZ" = (
-/obj/item/roastingstick,
+/obj/item/melee/roastingstick,
 /turf/open/floor/wood{
 	light_range = 2
 	},

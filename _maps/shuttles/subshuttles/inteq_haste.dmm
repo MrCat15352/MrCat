@@ -121,9 +121,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
-/obj/machinery/power/smes/shuttle/precharged{
-	dir = 2
-	},
+/obj/machinery/power/smes/shuttle/precharged,
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "K" = (

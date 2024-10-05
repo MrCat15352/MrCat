@@ -19,7 +19,6 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 	RADIO_KEY_PGF = RADIO_CHANNEL_PGF,
 	RADIO_KEY_INTEQ = RADIO_CHANNEL_INTEQ,
 	RADIO_KEY_PIRATE = RADIO_CHANNEL_PIRATE,
-	RADIO_KEY_WIDEBAND = RADIO_CHANNEL_WIDEBAND,
 
 	// Admin
 	MODE_KEY_ADMIN = MODE_ADMIN,
@@ -55,8 +54,7 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 
 	// Misc
 	"ù" = RADIO_CHANNEL_AI_PRIVATE,
-	"÷" = MODE_VOCALCORDS,
-	"ö" = RADIO_CHANNEL_WIDEBAND
+	"÷" = MODE_VOCALCORDS
 ))
 
 /mob/living/proc/Ellipsis(original_msg, chance = 50, keep_words)

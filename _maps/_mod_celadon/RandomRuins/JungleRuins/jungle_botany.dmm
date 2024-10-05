@@ -512,7 +512,7 @@
 /turf/open/floor/plasteel,
 /area/ruin/powered)
 "Nn" = (
-/obj/item/melee/spear,
+/obj/item/spear,
 /turf/open/floor/plasteel,
 /area/ruin/powered)
 "Np" = (

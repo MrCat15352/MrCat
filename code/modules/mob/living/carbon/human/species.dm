@@ -146,10 +146,6 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	var/bodytemp_normal = HUMAN_BODYTEMP_NORMAL
 	/// Minimum amount of kelvin moved toward normal body temperature per tick.
 	var/bodytemp_autorecovery_min = HUMAN_BODYTEMP_AUTORECOVERY_MINIMUM
-	/// The maximum temperature the species is comfortable at. Going above this does not apply any effects, but warns players that the temperture is hot
-	var/max_temp_comfortable = (HUMAN_BODYTEMP_NORMAL + 7)
-	/// The minimum temperature the species is comfortable at. Going below this does not apply any effects, but warns players that the temperture is chilly
-	var/min_temp_comfortable = (HUMAN_BODYTEMP_NORMAL - 5)
 	/// This is the divisor which handles how much of the temperature difference between the current body temperature and 310.15K (optimal temperature) humans auto-regenerate each tick. The higher the number, the slower the recovery.
 	var/bodytemp_autorecovery_divisor = HUMAN_BODYTEMP_AUTORECOVERY_DIVISOR
 	///Similar to the autorecovery_divsor, but this is the divisor which is applied at the stage that follows autorecovery. This is the divisor which comes into play when the human's loc temperature is higher than their body temperature. Make it lower to lose bodytemp faster.
@@ -164,10 +160,6 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	var/bodytemp_cooling_rate_max = HUMAN_BODYTEMP_COOLING_MAX
 	/// The maximum rate at which a species can cool down per tick
 	var/bodytemp_heating_rate_max = HUMAN_BODYTEMP_HEATING_MAX
-	/// How much temp is our body stabilizing naturally?
-	var/bodytemp_natural_stabilization = 0
-	/// How much temp is the environment is causing us to charge?
-	var/bodytemp_environment_change = 0
 
 	///Does our species have colors for its' damage overlays?
 	var/use_damage_color = TRUE
@@ -586,7 +578,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 			facialhair_hidden = TRUE
 
 	if(H.facial_hairstyle && (FACEHAIR in species_traits) && !facialhair_hidden)
-		// [CELADON-EDIT] - TAJARA
+		// [CELADON-EDIT] - TAJARA - изменения базы
 		// S = GLOB.facial_hairstyles_list[H.facial_hairstyle] // CELADON-EDIT - ORIGINAL
 		S = get_facial_hair_list_by_gender()[H.facial_hairstyle]
 		// [/CELADON-EDIT]
@@ -630,7 +622,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 				hair_overlay.icon_state = "debrained"
 
 		else if(H.hairstyle && (HAIR in species_traits))
-			// [CELADON-EDIT] - TAJARA
+			// [CELADON-EDIT] - TAJARA - изменения базы
 			// S = GLOB.hairstyles_list[H.hairstyle] // CELADON-EDIT - ORIGINAL
 			S = get_hair_list_by_gender()[H.hairstyle]
 			// [/CELADON-EDIT]
@@ -916,6 +908,55 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	if("tajara_ears" in mutant_bodyparts)
 		if(!H.dna.features["tajara_ears"] || H.dna.features["tajara_ears"] == "None" || (H.head && (H.head.flags_inv & HIDEHAIR)))
 			bodyparts_to_add -= "tajara_ears"
+
+	// [CELADON-ADD] - CELADON_RIOL
+	if("riol_nose_markings" in mutant_bodyparts)
+		if(!H.dna.features["riol_nose_markings"] || H.dna.features["riol_nose_markings"] == "None" || H.head && (H.head.flags_inv & HIDEFACE) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEFACE)) || !HD) // || HD.status == BODYTYPE_ROBOTIC
+			bodyparts_to_add -= "riol_nose_markings"
+
+	if("riol_facial_hairs" in mutant_bodyparts)
+		if(!H.dna.features["riol_facial_hairs"] || H.dna.features["riol_facial_hairs"] == "None" || H.head && (H.head.flags_inv & HIDEFACE) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEFACE)) || !HD) // || HD.status == BODYTYPE_ROBOTIC
+			bodyparts_to_add -= "riol_facial_hairs"
+
+	if("riol_ears_markings" in mutant_bodyparts)
+		if(!H.dna.features["riol_ears_markings"] || H.dna.features["riol_ears_markings"] == "None" || H.head && (H.head.flags_inv & HIDEFACE) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEFACE)) || !HD) // || HD.status == BODYTYPE_ROBOTIC
+			bodyparts_to_add -= "riol_ears_markings"
+
+	if("riol_head_markings" in mutant_bodyparts)
+		if(!H.dna.features["riol_head_markings"] || H.dna.features["riol_head_markings"] == "None" || H.head && (H.head.flags_inv & HIDEFACE) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEFACE)) || !HD) // || HD.status == BODYTYPE_ROBOTIC
+			bodyparts_to_add -= "riol_head_markings"
+
+	if("riol_chest_markings" in mutant_bodyparts)
+		if(!H.dna.features["riol_chest_markings"] || H.dna.features["riol_chest_markings"] == "None" || H.wear_suit && (H.wear_suit.flags_inv & HIDEJUMPSUIT))
+			bodyparts_to_add -= "riol_chest_markings"
+
+	if("riol_body_markings" in mutant_bodyparts)
+		if(!H.dna.features["riol_body_markings"] || H.dna.features["riol_body_markings"] == "None" || H.wear_suit && (H.wear_suit.flags_inv & HIDEJUMPSUIT))
+			bodyparts_to_add -= "riol_body_markings"
+
+	if("riol_tail_markings" in mutant_bodyparts)
+		if(!H.dna.features["riol_tail_markings"] || H.dna.features["riol_tail_markings"] == "None" || H.wear_suit && (H.wear_suit.flags_inv & HIDEJUMPSUIT))
+			bodyparts_to_add -= "riol_tail_markings"
+		else if ("tail" in mutant_bodyparts)
+			bodyparts_to_add -= "riol_tail_markings"
+
+	if("wagging_riol_tail_markings" in mutant_bodyparts)
+		if(!H.dna.features["riol_tail_markings"] || H.dna.features["riol_tail_markings"] == "None" || H.wear_suit && (H.wear_suit.flags_inv & HIDEJUMPSUIT))
+			bodyparts_to_add -= "wagging_riol_tail_markings"
+		else if ("tail" in mutant_bodyparts)
+			bodyparts_to_add -= "wagging_riol_tail_markings"
+
+	if("riol_hairs" in mutant_bodyparts)
+		if(!H.dna.features["riol_hairs"] || H.dna.features["riol_hairs"] == "Plain" || (H.head && (H.head.flags_inv & HIDEHAIR)) || (H.wear_mask && (H.wear_mask.flags_inv & HIDEHAIR)) || !HD)
+			bodyparts_to_add -= "riol_hairs"
+
+	if("riol_tail" in mutant_bodyparts)
+		if(!H.dna.features["riol_tail"] || H.dna.features["riol_tail"] == "None" || H.wear_suit && (H.wear_suit.flags_inv & HIDEJUMPSUIT))
+			bodyparts_to_add -= "riol_tail"
+
+	if("riol_ears" in mutant_bodyparts)
+		if(!H.dna.features["riol_ears"] || H.dna.features["riol_ears"] == "None" || (H.head && (H.head.flags_inv & HIDEHAIR)))
+			bodyparts_to_add -= "riol_ears"
 	// [/CELADON-ADD]
 
 	////PUT ALL YOUR WEIRD ASS REAL-LIMB HANDLING HERE
@@ -1041,6 +1082,33 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 					S = GLOB.tajara_tail_list[H.dna.features["tajara_tail"]]
 				if("waggingtajara_tail")
 					S = GLOB.tajara_animated_tail_list[H.dna.features["tajara_tail"]]
+				// [CELADON-ADD] - CELADON_RIOL
+				if("riol_ears")
+					S = GLOB.riol_ears_list[H.dna.features["riol_ears"]]
+				if("riol_hairs")
+					S = GLOB.riol_hairs_list[H.dna.features["riol_hairs"]]
+				if("riol_ears_markings")
+					S = GLOB.riol_ears_markings_list[H.dna.features["riol_ears_markings"]]
+				if("riol_head_markings")
+					S = GLOB.riol_head_markings_list[H.dna.features["riol_head_markings"]]
+				if("riol_nose_markings")
+					S = GLOB.riol_nose_markings_list[H.dna.features["riol_nose_markings"]]
+				if("riol_facial_hairs")
+					S = GLOB.riol_facial_hairs_list[H.dna.features["riol_facial_hairs"]]
+				if("riol_chest_markings")
+					S = GLOB.riol_chest_markings_list[H.dna.features["riol_chest_markings"]]
+				if("riol_body_markings")
+					S = GLOB.riol_body_markings_list[H.dna.features["riol_body_markings"]]
+				if("riol_tail_markings")
+					S = GLOB.riol_tail_markings_list[H.dna.features["riol_tail_markings"]]
+				if("wagging_riol_tail_markings")
+					S = GLOB.riol_animated_tail_markings_list[H.dna.features["riol_tail_markings"]]
+				if("riol_tail")
+					S = GLOB.riol_tail_list[H.dna.features["riol_tail"]]
+				if("waggingriol_tail")
+					S = GLOB.riol_animated_tail_list[H.dna.features["riol_tail"]]
+				if("riol_legs")
+					S = GLOB.riol_legs_list[H.dna.features["riol_legs"]]
 				// [/CELADON-ADD]
 			if(!S || S.icon_state == "none")
 				continue
@@ -1059,6 +1127,14 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 				bodypart = "tail"
 			else if (bodypart == "waggingtajara_tail")
 				bodypart = "waggingtail"
+
+			// [CELADON-ADD] - CELADON_RIOL
+			else if (bodypart == "riol_tail")
+				bodypart = "tail"
+			else if (bodypart == "waggingriol_tail")
+				bodypart = "waggingtail"
+			else if (bodypart == "riol_tail_markings")
+				bodypart = "tailmarkings"
 			// [/CELADON-ADD]
 
 			var/used_color_src = S.color_src
@@ -1107,6 +1183,22 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 							accessory_overlay.color = "#[H.dna.features["tajara_chest_markings_color"]]"
 						if(BODYTAJARACOLORS)
 							accessory_overlay.color = "#[H.dna.features["tajara_body_markings_color"]]"
+
+						// [CELADON-ADD] - CELADON_RIOL
+						if(SKINRIOLCOLORS)
+							accessory_overlay.color = "#[(skintoneriol2hex(H.skin_tone_riol))]"
+						if(EARSRIOLCOLORS)
+							accessory_overlay.color = "#[H.dna.features["riol_ears_markings_color"]]"
+						if(HEADRIOLCOLORS)
+							accessory_overlay.color = "#[H.dna.features["riol_head_markings_color"]]"
+						if(NOSERIOLCOLORS)
+							accessory_overlay.color = "#[H.dna.features["riol_nose_markings_color"]]"
+						if(CHESTRIOLCOLORS)
+							accessory_overlay.color = "#[H.dna.features["riol_chest_markings_color"]]"
+						if(BODYRIOLCOLORS)
+							accessory_overlay.color = "#[H.dna.features["riol_body_markings_color"]]"
+						if(TAILRIOLCOLORS)
+							accessory_overlay.color = "#[H.dna.features["riol_tail_markings_color"]]"
 						// [/CELADON-ADD]
 
 
@@ -1889,10 +1981,10 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	var/areatemp = H.get_temperature(environment)
 
 	if(H.stat != DEAD) // If you are dead your body does not stabilize naturally
-		bodytemp_natural_stabilization = natural_bodytemperature_stabilization(environment, H)
+		natural_bodytemperature_stabilization(environment, H)
 
 	if(!H.on_fire || areatemp > H.bodytemperature) // If we are not on fire or the area is hotter
-		bodytemp_environment_change = H.adjust_bodytemperature((areatemp - H.bodytemperature), use_insulation=TRUE, use_steps=TRUE, hardsuit_fix=bodytemp_normal - H.bodytemperature)
+		H.adjust_bodytemperature((areatemp - H.bodytemperature), use_insulation=TRUE, use_steps=TRUE, hardsuit_fix=bodytemp_normal - H.bodytemperature)
 
 	if(H.check_for_seal())
 		return
@@ -1952,50 +2044,8 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 /// Handle the body temperature status effects for the species
 /// Traits for resitance to heat or cold are handled here.
 /datum/species/proc/handle_body_temperature(mob/living/carbon/human/H)
-	var/body_temp = H.bodytemperature
-	var/total_change = bodytemp_natural_stabilization + bodytemp_environment_change
-
-	//tempature is no longer comfy, throw alert
-	if(body_temp > max_temp_comfortable && !HAS_TRAIT(H, TRAIT_RESISTHEAT))
-		SEND_SIGNAL(H, COMSIG_CLEAR_MOOD_EVENT, "cold")
-		if(body_temp > bodytemp_heat_damage_limit)
-			var/burn_damage = calculate_burn_damage(H)
-			if(burn_damage < 2)
-				H.throw_alert("tempfeel", /atom/movable/screen/alert/hot, 3)
-			else
-				H.throw_alert("tempfeel", /atom/movable/screen/alert/hot, 2)
-		else
-			if(body_temp < (bodytemp_heat_damage_limit - 10))
-				// you are cooling down and exiting the danger zone
-				if(total_change < 0)
-					H.throw_alert("tempfeel", /atom/movable/screen/alert/warm)
-				else
-					H.throw_alert("tempfeel", /atom/movable/screen/alert/hot, 2)
-			else if(total_change > 1)
-				H.throw_alert("tempfeel", /atom/movable/screen/alert/warm)
-			else
-				H.clear_alert("tempfeel")
-	else if (body_temp < min_temp_comfortable && !HAS_TRAIT(H, TRAIT_RESISTCOLD))
-		SEND_SIGNAL(H, COMSIG_CLEAR_MOOD_EVENT, "hot")
-		if(body_temp < 200)
-			H.throw_alert("tempfeel", /atom/movable/screen/alert/cold, 3)
-		else if(body_temp < bodytemp_cold_damage_limit)
-			H.throw_alert("tempfeel", /atom/movable/screen/alert/cold, 2)
-		else if(body_temp < (bodytemp_cold_damage_limit + 10))
-			// you are warming up and exiting the danger zone
-			if(total_change > 0)
-				H.throw_alert("tempfeel", /atom/movable/screen/alert/chilly)
-			else
-				H.throw_alert("tempfeel", /atom/movable/screen/alert/cold, 2)
-		else if(total_change < -1)
-			H.throw_alert("tempfeel", /atom/movable/screen/alert/chilly)
-		else
-			H.clear_alert("tempfeel")
-	else
-		H.clear_alert("tempfeel")
-
 	// Body temperature is too hot, and we do not have resist traits
-	if(body_temp > bodytemp_heat_damage_limit && !HAS_TRAIT(H, TRAIT_RESISTHEAT))
+	if(H.bodytemperature > bodytemp_heat_damage_limit && !HAS_TRAIT(H, TRAIT_RESISTHEAT))
 		// Clear cold mood and apply hot mood
 		SEND_SIGNAL(H, COMSIG_CLEAR_MOOD_EVENT, "cold")
 		SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "hot", /datum/mood_event/hot)
@@ -2003,26 +2053,23 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		//Remove any slowdown from the cold.
 		H.remove_movespeed_modifier(/datum/movespeed_modifier/cold)
 
-		var/burn_damage = calculate_burn_damage(H)
+		var/burn_damage = 0
+		var/firemodifier = H.fire_stacks / 50
+		if (!H.on_fire) // We are not on fire, reduce the modifier
+			firemodifier = min(firemodifier, 0)
 
-		// sweats depending on burn damage, not actually a mechanic but a alternative to pinpoint when you are taking damage
-		if(burn_damage)
-			if(H.mob_biotypes & MOB_ROBOTIC) //robors have a alternative cooling fan graphic
-				switch(burn_damage)
-					if(0 to 2)
-						H.throw_alert("temp", /atom/movable/screen/alert/fans, 1)
-					if(2 to 4)
-						H.throw_alert("temp", /atom/movable/screen/alert/fans, 2)
-					else
-						H.throw_alert("temp", /atom/movable/screen/alert/fans, 3)
-			else
-				switch(burn_damage)
-					if(0 to 2)
-						H.throw_alert("temp", /atom/movable/screen/alert/sweat, 1)
-					if(2 to 4)
-						H.throw_alert("temp", /atom/movable/screen/alert/sweat, 2)
-					else
-						H.throw_alert("temp", /atom/movable/screen/alert/sweat, 3)
+		// this can go below 5 at log 2.5
+		burn_damage = max(log(2 - firemodifier, (H.bodytemperature - H.get_body_temp_normal(apply_change=FALSE))) - 5,0)
+
+		// Display alerts based on the amount of fire damage being taken
+		if (burn_damage)
+			switch(burn_damage)
+				if(1 to 2)
+					H.throw_alert("temp", /atom/movable/screen/alert/hot, 1)
+				if(2 to 4)
+					H.throw_alert("temp", /atom/movable/screen/alert/hot, 2)
+				else
+					H.throw_alert("temp", /atom/movable/screen/alert/hot, 3)
 
 		// Apply species and physiology modifiers to heat damage
 		burn_damage = burn_damage * heatmod * H.physiology.heat_mod
@@ -2035,7 +2082,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		H.apply_damage(burn_damage, BURN, spread_damage = TRUE)
 
 	// Body temperature is too cold, and we do not have resist traits
-	else if(body_temp < bodytemp_cold_damage_limit && !HAS_TRAIT(H, TRAIT_RESISTCOLD))
+	else if(H.bodytemperature < bodytemp_cold_damage_limit && !HAS_TRAIT(H, TRAIT_RESISTCOLD))
 		// clear any hot moods and apply cold mood
 		SEND_SIGNAL(H, COMSIG_CLEAR_MOOD_EVENT, "hot")
 		SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "cold", /datum/mood_event/cold)
@@ -2044,16 +2091,17 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		// Display alerts based on the amount of cold damage being taken
 		// Apply more damage based on how cold you are
 
-		if(body_temp < 120)
-			H.throw_alert("temp", /atom/movable/screen/alert/shiver, 3)
+		var/bodytemp = H.bodytemperature
+		if(bodytemp < 120)
+			H.throw_alert("temp", /atom/movable/screen/alert/cold, 3)
 			H.apply_damage(COLD_DAMAGE_LEVEL_3 * coldmod * H.physiology.cold_mod, BURN)
 
-		else if(body_temp < 200)
-			H.throw_alert("temp", /atom/movable/screen/alert/shiver, 2)
+		else if(bodytemp < 200)
+			H.throw_alert("temp", /atom/movable/screen/alert/cold, 2)
 			H.apply_damage(COLD_DAMAGE_LEVEL_2 * coldmod * H.physiology.cold_mod, BURN)
 
 		else
-			H.throw_alert("temp", /atom/movable/screen/alert/shiver, 1)
+			H.throw_alert("temp", /atom/movable/screen/alert/cold, 1)
 			H.apply_damage(COLD_DAMAGE_LEVEL_1 * coldmod * H.physiology.cold_mod, BURN)
 
 	// We are not to hot or cold, remove status and moods
@@ -2062,16 +2110,6 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		H.remove_movespeed_modifier(/datum/movespeed_modifier/cold)
 		SEND_SIGNAL(H, COMSIG_CLEAR_MOOD_EVENT, "cold")
 		SEND_SIGNAL(H, COMSIG_CLEAR_MOOD_EVENT, "hot")
-
-/datum/species/proc/calculate_burn_damage(mob/living/carbon/human/current_human)
-	var/burn_damage = 0
-	var/firemodifier = current_human.fire_stacks / 50
-	if (!current_human.on_fire) // We are not on fire, reduce the modifier
-		firemodifier = min(firemodifier, 0)
-
-	// this can go below 5 at log 2.5
-	burn_damage = max(log(2 - firemodifier, (current_human.bodytemperature - current_human.get_body_temp_normal(apply_change=FALSE))) - 5,0)
-	return burn_damage
 
 /// Handle the air pressure of the environment
 /datum/species/proc/handle_environment_pressure(datum/gas_mixture/environment, mob/living/carbon/human/H)
@@ -2170,7 +2208,6 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 
 	// Apply the natural stabilization changes
 	H.adjust_bodytemperature(natural_change)
-	return natural_change
 
 //////////
 // FIRE //
@@ -2282,9 +2319,9 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 	return (locate(/obj/item/organ/tail) in H.internal_organs)
 
 /datum/species/proc/is_wagging_tail(mob/living/carbon/human/H)
-	// [CELADON-EDIT] - TAJARA
+	// [CELADON-EDIT] - TAJARA, CELADON_RIOL
 	// return ("waggingtail_human" in mutant_bodyparts) || ("waggingtail_lizard" in mutant_bodyparts) || ("waggingtail_elzu" in mutant_bodyparts) // CELADON-EDIT - ORIGINAL
-	return ("waggingtail_human" in mutant_bodyparts) || ("waggingtail_lizard" in mutant_bodyparts) || ("waggingtail_elzu" in mutant_bodyparts) || ("waggingtajara_tail" in mutant_bodyparts)
+	return ("waggingtail_human" in mutant_bodyparts) || ("waggingtail_lizard" in mutant_bodyparts) || ("waggingtail_elzu" in mutant_bodyparts) || ("waggingtajara_tail" in mutant_bodyparts) || ("waggingriol_tail" in mutant_bodyparts)
 	// [/CELADON-EDIT]
 
 /datum/species/proc/start_wagging_tail(mob/living/carbon/human/H)

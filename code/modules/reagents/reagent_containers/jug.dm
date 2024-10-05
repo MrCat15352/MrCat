@@ -147,3 +147,4 @@
 /obj/item/reagent_containers/glass/chem_jug/hexacrete
 	name = "chemical jug (hexacrete)"
 	list_reagents = list(/datum/reagent/concrete/hexacrete = 150)
+

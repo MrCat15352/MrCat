@@ -84,7 +84,11 @@
 #define SNOUTED_VARIATION (1<<4) //Ex of naming: a state called "nameof_thing" can be named "nameof_thing_snouted"
 #define VOX_VARIATION (1<<5)
 #define KEPORI_VARIATION (1<<6)
-
+// [CELADON-ADD] - TAJARA
+#define TAJARA_VARIATION (1<<7)
+// [CELADON-ADD] - CELADON_RIOL
+#define RIOL_VARIATION (1<<8)
+// [/CELADON-ADD]
 
 #define NOT_DIGITIGRADE 0
 #define FULL_DIGITIGRADE 1
@@ -151,7 +155,7 @@ GLOBAL_LIST_INIT(security_vest_allowed, typecacheof(list(
 	/obj/item/gun/energy,
 	/obj/item/gun/grenadelauncher,
 	/obj/item/flamethrower,
-	/obj/item/melee/knife/combat,
+	/obj/item/kitchen/knife/combat,
 	/obj/item/melee/baton,
 	/obj/item/melee/classic_baton/telescopic,
 	/obj/item/reagent_containers/spray/pepper,

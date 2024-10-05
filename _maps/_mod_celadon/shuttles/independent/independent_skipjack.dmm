@@ -269,7 +269,7 @@
 /obj/machinery/newscaster/directional/south,
 /obj/structure/table/wood/reinforced,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/melee/knife/kitchen{
+/obj/item/kitchen/knife{
 	pixel_x = -11
 	},
 /obj/effect/spawner/lootdrop/ration,
@@ -1062,10 +1062,10 @@
 /obj/item/pickaxe,
 /obj/item/pickaxe,
 /obj/item/pickaxe,
-/obj/item/melee/knife/survival,
-/obj/item/melee/knife/survival,
-/obj/item/melee/knife/survival,
-/obj/item/melee/knife/survival,
+/obj/item/kitchen/knife/combat/survival,
+/obj/item/kitchen/knife/combat/survival,
+/obj/item/kitchen/knife/combat/survival,
+/obj/item/kitchen/knife/combat/survival,
 /obj/item/storage/bag/ore,
 /obj/item/storage/bag/ore,
 /turf/open/floor/plasteel/tech/grid,
@@ -1410,10 +1410,9 @@
 /turf/open/floor/plating,
 /area/ship/maintenance/port)
 "Hb" = (
-/obj/structure/closet/wall/white/directional/north,
-/obj/item/storage/firstaid/fire,
-/obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid/o2,
+/obj/machinery/vending/medical{
+	all_items_free = 1
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "Hf" = (
@@ -1516,6 +1515,7 @@
 /area/ship/security/armory)
 "Ix" = (
 /obj/structure/rack,
+/obj/item/banhammer,
 /obj/item/reagent_containers/food/snacks/sugarcookie/spookycoffin{
 	pixel_x = -6
 	},

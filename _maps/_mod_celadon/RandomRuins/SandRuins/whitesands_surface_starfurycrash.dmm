@@ -34,7 +34,7 @@
 	},
 /area/overmap_encounter/planetoid/cave/explored)
 "dX" = (
-/obj/item/gun/ballistic/automatic/pistol/ringneck{
+/obj/item/gun/ballistic/automatic/pistol{
 	spawnwithmagazine = 0
 	},
 /turf/open/floor/plating/asteroid/whitesands,

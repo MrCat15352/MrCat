@@ -120,7 +120,7 @@
 /datum/outfit/outpost/maid/pre_equip(mob/living/carbon/human/H, visualsOnly)
 	. = ..()
 	if(GARBAGEDAY in SSevents.holidays)
-		l_pocket = /obj/item/gun/ballistic/revolver/viper
+		l_pocket = /obj/item/gun/ballistic/revolver/syndicate
 		r_pocket = /obj/item/ammo_box/a357
 
 

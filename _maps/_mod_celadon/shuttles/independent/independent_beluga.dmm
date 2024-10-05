@@ -2751,7 +2751,7 @@
 	pixel_y = 1
 	},
 /obj/structure/table,
-/obj/item/melee/knife/kitchen{
+/obj/item/kitchen/knife{
 	pixel_x = 11;
 	pixel_y = 7
 	},

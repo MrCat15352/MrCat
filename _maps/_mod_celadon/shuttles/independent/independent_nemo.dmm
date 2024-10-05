@@ -742,8 +742,8 @@
 /obj/structure/rack,
 /obj/item/hatchet/wooden,
 /obj/item/hatchet/wooden,
-/obj/item/melee/knife/hunting,
-/obj/item/melee/knife/hunting,
+/obj/item/kitchen/knife/hunting,
+/obj/item/kitchen/knife/hunting,
 /turf/open/floor/pod,
 /area/ship/hallway/central)
 "jg" = (
@@ -1687,8 +1687,8 @@
 /area/ship/engineering/electrical)
 "xR" = (
 /obj/structure/rack,
-/obj/item/ammo_box/magazine/m10mm_ringneck,
-/obj/item/ammo_box/magazine/m10mm_ringneck,
+/obj/item/ammo_box/magazine/m10mm/rifle,
+/obj/item/ammo_box/magazine/m10mm/rifle,
 /obj/item/gun/ballistic/automatic/surplus,
 /obj/item/gun/ballistic/automatic/surplus,
 /turf/open/floor/pod,
@@ -2219,7 +2219,7 @@
 	pixel_x = -30;
 	req_access = list(30)
 	},
-/obj/item/melee/knife/hunting,
+/obj/item/kitchen/knife/hunting,
 /obj/item/gun/ballistic/shotgun/doublebarrel/beacon,
 /obj/item/ammo_box/a4570,
 /obj/item/ammo_box/a4570,
@@ -2837,7 +2837,7 @@
 /obj/item/reagent_containers/food/condiment/sugar,
 /obj/item/reagent_containers/food/condiment/flour,
 /obj/item/reagent_containers/food/condiment/flour,
-/obj/item/melee/knife/kitchen,
+/obj/item/kitchen/knife,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},

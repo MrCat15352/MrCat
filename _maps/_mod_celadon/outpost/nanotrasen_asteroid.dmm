@@ -1776,7 +1776,7 @@
 /area/outpost/crew/cryo)
 "gF" = (
 /obj/structure/table/reinforced,
-/obj/item/melee/knife/kitchen{
+/obj/item/kitchen/knife{
 	pixel_y = 6;
 	pixel_x = 9
 	},
@@ -5091,7 +5091,7 @@
 /area/outpost/operations)
 "st" = (
 /obj/machinery/door/airlock/freezer{
-	req_access_txt = "8124"
+	req_access_txt = "109"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -7842,7 +7842,7 @@
 	},
 /obj/machinery/door/airlock/freezer{
 	dir = 4;
-	req_access_txt = "8124"
+	req_access_txt = "109"
 	},
 /turf/open/floor/plasteel/kitchen_coldroom/freezerfloor,
 /area/outpost/crew/canteen)
@@ -11372,7 +11372,7 @@
 "NP" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/table/reinforced,
-/obj/item/melee/knife/kitchen{
+/obj/item/kitchen/knife{
 	pixel_x = -6;
 	pixel_y = 2
 	},
@@ -13057,7 +13057,7 @@
 	pixel_x = -4;
 	pixel_y = 6
 	},
-/obj/item/melee/knife/kitchen{
+/obj/item/kitchen/knife{
 	pixel_y = 6;
 	pixel_x = 9
 	},

@@ -637,7 +637,7 @@
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/east,
-/obj/item/melee/knife/kitchen{
+/obj/item/kitchen/knife{
 	pixel_x = 7;
 	pixel_y = 10
 	},

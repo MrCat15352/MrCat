@@ -219,7 +219,6 @@
 	can_flashlight = TRUE
 	dog_fashion = null
 	allow_post_reskins = TRUE
-	supports_variations = KEPORI_VARIATION
 	unique_reskin = list(
 		"None" = "helmetalt",
 		"Desert" = "helmetalt_desert",
@@ -568,7 +567,6 @@
 	icon_state = "m10helm"
 	can_flashlight = TRUE
 	dog_fashion = null
-	supports_variations = null
 	unique_reskin = list(
 		"None" = "m10helm",
 		"Desert" = "m10helm_desert",
@@ -584,7 +582,6 @@
 	can_flashlight = TRUE
 	dog_fashion = null
 	allow_post_reskins = TRUE
-	supports_variations = null
 	unique_reskin = list(
 		"None" = "x11helm",
 		"Desert" = "x11helm_desert",

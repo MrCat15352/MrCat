@@ -291,7 +291,6 @@ All ShuttleMove procs go here
 
 /************************************Item move procs************************************/
 
-
 /obj/item/storage/pod/afterShuttleMove(turf/oldT, list/movement_force, shuttle_dir, shuttle_preferred_direction, move_dir, rotation)
 	. = ..()
 	// If the pod was launched, the storage will always open. The reserved_level check
@@ -299,11 +298,6 @@ All ShuttleMove procs go here
 	// the station as it is loaded in.
 	if (oldT && !is_reserved_level(oldT))
 		unlocked = TRUE
-
-/obj/item/gun/lateShuttleMove(turf/oldT, list/movement_force, move_dir)
-	. = ..()
-	if(prob(GUN_NO_SAFETY_MALFUNCTION_CHANCE_MEDIUM))
-		discharge("is thrown around by the force of the take off")
 
 /************************************Mob move procs************************************/
 

@@ -1,11 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aa" = (
-/obj/machinery/porta_turret/ship/solgov{
-	id = "inkwell_grid";
-	dir = 6
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ship/crew/canteen/kitchen)
 "af" = (
 /obj/effect/turf_decal/techfloor{
 	dir = 1
@@ -69,13 +62,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/ship/crew/library)
-"aB" = (
-/obj/machinery/porta_turret/ship/solgov{
-	id = "inkwell_grid";
-	dir = 5
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ship/security/armory)
 "aO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
@@ -1059,13 +1045,6 @@
 /obj/item/tank/jetpack/oxygen,
 /turf/open/floor/wood/maple,
 /area/ship/crew/dorm/dormtwo)
-"hk" = (
-/obj/machinery/porta_turret/ship/solgov{
-	id = "inkwell_grid";
-	dir = 6
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ship/crew/toilet)
 "hl" = (
 /obj/effect/turf_decal/corner/opaque/solgovblue{
 	dir = 1
@@ -1109,12 +1088,9 @@
 /turf/open/floor/plasteel/mono,
 /area/ship/cargo)
 "hE" = (
-/obj/machinery/porta_turret/ship/solgov{
-	id = "inkwell_grid";
-	dir = 6
-	},
+/obj/machinery/porta_turret/ship/solgov,
 /turf/closed/wall/mineral/titanium,
-/area/ship/storage)
+/area/ship/bridge)
 "hF" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood/corner{
@@ -1644,13 +1620,6 @@
 	},
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
-"kE" = (
-/obj/machinery/porta_turret/ship/solgov{
-	id = "inkwell_grid";
-	dir = 9
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ship/maintenance/starboard)
 "kK" = (
 /obj/machinery/door/window/brigdoor/westleft,
 /obj/structure/rack,
@@ -1760,9 +1729,9 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/turretid/ship{
+/obj/machinery/turretid/lethal{
 	pixel_x = -26;
-	id = "inkwell_grid"
+	pixel_y = 0
 	},
 /turf/open/floor/plasteel/stairs/wood/left{
 	dir = 1
@@ -2169,13 +2138,6 @@
 	},
 /turf/open/floor/plasteel/mono,
 /area/ship/cargo)
-"nN" = (
-/obj/machinery/porta_turret/ship/solgov{
-	id = "inkwell_grid";
-	dir = 10
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ship/maintenance/starboard)
 "nO" = (
 /obj/machinery/computer/cargo/solgov,
 /turf/open/floor/wood/maple,
@@ -2571,7 +2533,7 @@
 /area/ship/crew/canteen)
 "qE" = (
 /obj/structure/table/wood,
-/obj/item/melee/knife/letter_opener{
+/obj/item/kitchen/knife/letter_opener{
 	icon_state = "letter_opener_b";
 	name = "boxcutter";
 	pixel_x = -13;
@@ -2586,13 +2548,6 @@
 	},
 /turf/open/floor/plasteel/mono,
 /area/ship/cargo)
-"qF" = (
-/obj/machinery/porta_turret/ship/solgov{
-	id = "inkwell_grid";
-	dir = 10
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ship/maintenance/port)
 "qG" = (
 /obj/machinery/light/small/directional/south,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2711,7 +2666,7 @@
 	dir = 4
 	},
 /obj/item/clothing/glasses/meson/prescription,
-/obj/item/melee/knife/letter_opener,
+/obj/item/kitchen/knife/letter_opener,
 /obj/item/clothing/glasses/meson,
 /obj/machinery/light/directional/north,
 /obj/item/storage/bag/ore,
@@ -3057,7 +3012,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/melee/knife/letter_opener,
+/obj/item/kitchen/knife/letter_opener,
 /obj/item/clothing/glasses/meson,
 /obj/structure/sign/poster/solgov/random{
 	pixel_y = 32
@@ -3342,7 +3297,7 @@
 "uS" = (
 /obj/structure/table/wood,
 /obj/item/cutting_board,
-/obj/item/melee/knife/kitchen,
+/obj/item/kitchen/knife,
 /obj/item/reagent_containers/food/condiment/saltshaker{
 	pixel_x = -17
 	},
@@ -3617,13 +3572,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/crew/dorm/dormthree)
-"wn" = (
-/obj/machinery/porta_turret/ship/solgov{
-	id = "inkwell_grid";
-	dir = 5
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ship/crew/toilet)
 "wo" = (
 /obj/item/clothing/gloves/combat,
 /obj/item/folder/solgov,
@@ -3634,7 +3582,7 @@
 /obj/item/stamp/solgov,
 /obj/item/clothing/suit/armor/solgov_trenchcoat,
 /obj/item/storage/backpack/satchel,
-/obj/item/melee/knife/letter_opener,
+/obj/item/kitchen/knife/letter_opener,
 /obj/structure/closet/secure_closet/quartermaster{
 	anchored = 1;
 	name = "\proper logistics deck officer's locker";
@@ -4398,13 +4346,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/white,
 /area/ship/engineering)
-"BN" = (
-/obj/machinery/porta_turret/ship/solgov{
-	id = "inkwell_grid";
-	dir = 9
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ship/maintenance/port)
 "BO" = (
 /obj/effect/turf_decal/industrial/warning,
 /obj/effect/turf_decal/industrial/warning{
@@ -4624,13 +4565,6 @@
 	},
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ship/cargo)
-"CY" = (
-/obj/machinery/porta_turret/ship/solgov{
-	id = "inkwell_grid";
-	dir = 5
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ship/crew/canteen/kitchen)
 "Dc" = (
 /obj/effect/turf_decal/corner/opaque/solgovblue/full,
 /obj/structure/cable{
@@ -5267,13 +5201,6 @@
 	},
 /turf/open/floor/plasteel/mono,
 /area/ship/cargo)
-"Hl" = (
-/obj/machinery/porta_turret/ship/solgov{
-	id = "inkwell_grid";
-	dir = 1
-	},
-/turf/closed/wall/mineral/titanium,
-/area/ship/bridge)
 "Ho" = (
 /obj/structure/chair/comfy/grey/directional/south,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
@@ -5461,13 +5388,13 @@
 	},
 /obj/structure/rack,
 /obj/structure/window/reinforced,
-/obj/item/melee/knife/letter_opener{
+/obj/item/kitchen/knife/letter_opener{
 	pixel_x = -2
 	},
-/obj/item/melee/knife/letter_opener{
+/obj/item/kitchen/knife/letter_opener{
 	pixel_x = 1
 	},
-/obj/item/melee/knife/letter_opener{
+/obj/item/kitchen/knife/letter_opener{
 	pixel_x = 4
 	},
 /obj/effect/turf_decal/corner/opaque/solgovblue{
@@ -6959,7 +6886,7 @@
 	},
 /obj/effect/turf_decal/industrial/outline/red,
 /obj/item/clothing/glasses/meson/prescription,
-/obj/item/melee/knife/letter_opener,
+/obj/item/kitchen/knife/letter_opener,
 /obj/item/clothing/glasses/meson,
 /obj/item/storage/bag/ore,
 /turf/open/floor/plasteel/white,
@@ -7917,12 +7844,12 @@
 
 (1,1,1) = {"
 iG
-BN
+hE
 UJ
 Hp
 Hp
 zI
-qF
+hE
 iG
 iG
 iG
@@ -7940,12 +7867,12 @@ iG
 iG
 iG
 iG
-kE
+hE
 ni
 dv
 dv
 vY
-nN
+hE
 iG
 iG
 "}
@@ -8120,7 +8047,7 @@ DH
 iG
 "}
 (7,1,1) = {"
-Hl
+hE
 XY
 DE
 Cq
@@ -8150,7 +8077,7 @@ Np
 ts
 qx
 ts
-ts
+hE
 iG
 "}
 (8,1,1) = {"
@@ -8562,7 +8489,7 @@ sJ
 iG
 "}
 (20,1,1) = {"
-aB
+hE
 SI
 kK
 LJ
@@ -9073,7 +9000,7 @@ iG
 "}
 (35,1,1) = {"
 iG
-wn
+hE
 ea
 pc
 cH
@@ -9101,7 +9028,7 @@ FE
 nA
 yE
 AA
-aa
+hE
 iG
 iG
 "}
@@ -9111,7 +9038,7 @@ iG
 DS
 DS
 DS
-hk
+hE
 iG
 iG
 iG
@@ -9131,7 +9058,7 @@ iG
 iG
 iG
 iG
-CY
+hE
 qc
 qc
 FE

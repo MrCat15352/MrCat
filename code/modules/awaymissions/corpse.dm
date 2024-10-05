@@ -61,11 +61,11 @@
 	if(instant || (roundstart && (mapload || (SSticker && SSticker.current_state > GAME_STATE_SETTING_UP))))
 		INVOKE_ASYNC(src, PROC_REF(create))
 	else if(ghost_usable)
-		SSpoints_of_interest.make_point_of_interest(src)
+		GLOB.poi_list |= src
 		LAZYADD(GLOB.mob_spawners[name], src)
 
 /obj/effect/mob_spawn/Destroy()
-	SSpoints_of_interest.remove_point_of_interest(src)
+	GLOB.poi_list -= src
 	var/list/spawners = GLOB.mob_spawners[name]
 	LAZYREMOVE(spawners, src)
 	if(!LAZYLEN(spawners))
@@ -194,14 +194,14 @@
 	if(hairstyle)
 		H.hairstyle = hairstyle
 	else
-		// [CELADON-EDIT] - TAJARA
+		// [CELADON-EDIT] - TAJARA - изменения базы
 		// H.hairstyle = random_hairstyle(H.gender) // CELADON-EDIT - ORIGINAL
 		H.hairstyle = H.dna.species.random_hairstyle(H.gender)
 		// [/CELADON-EDIT]
 	if(facial_hairstyle)
 		H.facial_hairstyle = facial_hairstyle
 	else
-		// [CELADON-EDIT] - TAJARA
+		// [CELADON-EDIT] - TAJARA - изменения базы
 		// H.facial_hairstyle = random_facial_hairstyle(H.gender) // CELADON-EDIT - ORIGINAL
 		H.facial_hairstyle = H.dna.species.random_facial_hairstyle(H.gender)
 		// [/CELADON-EDIT]

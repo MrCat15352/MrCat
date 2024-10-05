@@ -19,7 +19,7 @@
 	"starting_funds": 1500,
 	"job_slots": {
 		"Salvage Leader": {
-			"outfit": "/datum/outfit/job/independent/captain/cheap",
+			"outfit": "/datum/outfit/job/independent/captain",
 			"officer": true,
 			"slots": 1
 		},

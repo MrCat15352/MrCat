@@ -135,7 +135,10 @@
 	recoil_unwielded = 4
 	wield_delay = 0.65 SECONDS
 	manufacturer = MANUFACTURER_NANOTRASEN
-	semi_auto = TRUE
+
+/obj/item/gun/ballistic/shotgun/automatic/shoot_live_shot(mob/living/user)
+	..()
+	rack()
 
 //im not sure what to do with the combat shotgun, as it's functionally the same as the semi auto shotguns except it automattically racks instead of being semi-auto
 
@@ -206,16 +209,65 @@
 		return
 	rack()
 
-/obj/item/gun/ballistic/shotgun/automatic/bulldog/inteq
+// Bulldog shotgun //
+
+/obj/item/gun/ballistic/shotgun/bulldog //TODO: REPATH TO LIKE /obj/item/gun/ballistic/shotgun/automatic/bulldog
+	name = "\improper Bulldog Shotgun"
+	desc = "A semi-automatic, magazine-fed shotgun designed for combat in tight quarters, manufactured by Scarborough Arms. A historical favorite of various Syndicate factions, especially the Gorlex Marauders."
+	icon = 'icons/obj/guns/manufacturer/scarborough/48x32.dmi'
+	lefthand_file = 'icons/obj/guns/manufacturer/scarborough/lefthand.dmi'
+	righthand_file = 'icons/obj/guns/manufacturer/scarborough/righthand.dmi'
+	mob_overlay_icon = 'icons/obj/guns/manufacturer/scarborough/onmob.dmi'
+	icon_state = "bulldog"
+	item_state = "bulldog"
+
+	weapon_weight = WEAPON_MEDIUM
+	mag_type = /obj/item/ammo_box/magazine/m12g
+	burst_size = 1
+	fire_delay = 0.4 SECONDS // this NEEDS the old delay.
+	fire_sound = 'sound/weapons/gun/shotgun/bulldog.ogg'
+	show_magazine_on_sprite = TRUE
+	empty_indicator = TRUE
+	empty_alarm = TRUE
+	unique_mag_sprites_for_variants = TRUE
+	semi_auto = TRUE
+	internal_magazine = FALSE
+	casing_ejector = TRUE
+	tac_reloads = TRUE
+	pickup_sound =  'sound/items/handling/rifle_pickup.ogg'
+	manufacturer = MANUFACTURER_SCARBOROUGH
+
+	load_sound = 'sound/weapons/gun/rifle/ar_reload.ogg'
+	load_empty_sound = 'sound/weapons/gun/rifle/ar_reload.ogg'
+	eject_sound = 'sound/weapons/gun/rifle/ar_unload.ogg'
+	eject_empty_sound = 'sound/weapons/gun/rifle/ar_unload.ogg'
+
+	rack_sound = 'sound/weapons/gun/rifle/ar_cock.ogg'
+
+	spread = 4
+	spread_unwielded = 16
+	recoil = 1
+	recoil_unwielded = 4
+	wield_slowdown = 0.6
+	wield_delay = 0.65 SECONDS
+
+EMPTY_GUN_HELPER(shotgun/bulldog)
+
+/obj/item/gun/ballistic/shotgun/bulldog/inteq
 	name = "\improper Mastiff Shotgun"
 	desc = "A variation of the Bulldog, seized from Syndicate armories by deserting troopers then modified to IRMG's standards."
-	icon_state = "bulldog_inteq"
-	item_state = "bulldog_inteq"
-	mag_type = /obj/item/ammo_box/magazine/m12g_bulldog
+	icon_state = "bulldog-inteq"
+	item_state = "bulldog-inteq"
+	mag_type = /obj/item/ammo_box/magazine/m12g
 	manufacturer = MANUFACTURER_INTEQ
 
-EMPTY_GUN_HELPER(shotgun/automatic/bulldog/inteq)
+EMPTY_GUN_HELPER(shotgun/bulldog/inteq)
 
+/obj/item/gun/ballistic/shotgun/bulldog/suns
+	name = "\improper Bulldog-C Shotgun"
+	desc = "A variation of the Bulldog manufactured by Scarborough Arms for SUNS. Its shorter barrel is intended to provide additional maneuverability in personal defense scenarios."
+	icon_state = "bulldog_suns"
+	item_state = "bulldog_suns"
 
 /////////////////////////////
 // DOUBLE BARRELED SHOTGUN //
@@ -431,14 +483,6 @@ EMPTY_GUN_HELPER(shotgun/automatic/bulldog/inteq)
 	w_class = WEIGHT_CLASS_NORMAL
 	sawn_off = TRUE
 	slot_flags = ITEM_SLOT_BELT
-
-	wield_slowdown = 0.25
-	wield_delay = 0.3 SECONDS //OP? maybe
-
-	spread = 8
-	spread_unwielded = 15
-	recoil = 3 //or not
-	recoil_unwielded = 5
 
 /obj/item/gun/ballistic/shotgun/automatic/combat/compact/compact
 	name = "compact compact combat shotgun"

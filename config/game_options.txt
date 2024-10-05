@@ -437,6 +437,8 @@ ROUNDSTART_RACES vox
 
 ## [CELADON-ADD] - TAJARA
 ROUNDSTART_RACES tajara
+## [CELADON-ADD] - CELADON_RIOL
+ROUNDSTART_RACES riol
 ## [/CELADON-ADD]
 
 ## Races that are better than humans in some ways, but worse in others

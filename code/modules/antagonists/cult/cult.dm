@@ -73,6 +73,7 @@
 	var/mob/living/carbon/H = owner.current
 	if(!istype(H))
 		return
+	. += cult_give_item(/obj/item/melee/cultblade/dagger, H)
 	to_chat(owner, "These will help you jumpstart a cult of your own in this sector. Use them well, and remember - you are not the only one.</span>")
 
 
@@ -167,7 +168,10 @@
 		to_chat(admin, "<span class='danger'>Spawning dagger failed!</span>")
 
 /datum/antagonist/cult/proc/admin_take_all(mob/admin)
-	return
+	var/mob/living/current = owner.current
+	for(var/o in current.GetAllContents())
+		if(istype(o, /obj/item/melee/cultblade/dagger))
+			qdel(o)
 
 /datum/antagonist/cult/master
 	ignore_implant = TRUE

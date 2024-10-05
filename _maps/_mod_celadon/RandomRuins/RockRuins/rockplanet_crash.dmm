@@ -636,7 +636,7 @@
 /obj/machinery/reagentgrinder{
 	pixel_y = 6
 	},
-/obj/item/melee/knife/kitchen{
+/obj/item/kitchen/knife{
 	pixel_x = 16
 	},
 /obj/item/kitchen/rollingpin{
