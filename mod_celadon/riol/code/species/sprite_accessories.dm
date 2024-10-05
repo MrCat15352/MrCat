@@ -38,6 +38,10 @@
 	body_zone = BODY_ZONE_CHEST
 	synthetic_icon_state = "none"
 
+/datum/sprite_accessory/riol_body_markings/none_riol
+	name = "None"
+	icon_state = "none"
+
 /datum/sprite_accessory/riol_body_markings/points_fade_riol
 	name = "Riol Points"
 	icon_state = "pointsfade"
@@ -117,6 +121,7 @@
 
 /datum/sprite_accessory/riol_ears_markings/none
 	name = "None"
+	icon_state = "none"
 
 /datum/sprite_accessory/riol_ears_markings/earfluff
 	name = "Earfluff"
@@ -130,6 +135,10 @@
 	icon_state = "none"
 	color_src = HEADRIOLCOLORS
 	body_zone = BODY_ZONE_HEAD
+
+/datum/sprite_accessory/riol_head_markings/none
+	name = "None"
+	icon_state = "none"
 
 /datum/sprite_accessory/riol_head_markings/nose_default_riol
 	name = "Riol Nose"
@@ -184,6 +193,14 @@
 	var/tails_allowed = list()
 	// body_zone = BODY_ZONE_CHEST
 	// secondary_color = TRUE
+
+/datum/sprite_accessory/riol_tail_markings/none
+	name = "None"
+	icon_state = "none"
+
+/datum/sprite_accessory/riol_tail_markings_animated/none
+	name = "None"
+	icon_state = "none"
 
 /datum/sprite_accessory/riol_tail_markings/riol_default_tip
 	name = "Tail Tip"
@@ -271,26 +288,6 @@
 	name = "Straight bushy"
 	icon_state = "straightbushy"
 
-// /datum/sprite_accessory/tails/riol/default_fade
-// 	name = "Default fade"
-// 	icon_state = "default_fade"
-
-// /datum/sprite_accessory/tails/riol/bushy_fluff
-// 	name = "Bushy fluff"
-// 	icon_state = "bushy_fluff"
-
-// /datum/sprite_accessory/tails/riol/straightbushy_tip
-// 	name = "Straight bushy tip"
-// 	icon_state = "straightbushy_tip"
-
-// /datum/sprite_accessory/tails/riol/straightbushy_fade
-// 	name = "Straight bushy fade"
-// 	icon_state = "straightbushy_fade"
-
-// /datum/sprite_accessory/tails/riol/straightbushy_fadetip
-// 	name = "Straight bushy fadetip"
-// 	icon_state = "straightbushy_fadetip"
-
 // FACIAL HAIRS
 
 /datum/sprite_accessory/riol_facial_hairs
@@ -354,15 +351,6 @@
 /datum/sprite_accessory/riol_facial_hairs/riol_earfluff
 	name = "Riol Earfluff"
 	icon_state = "facial_hair_earfluff"
-
-// /datum/sprite_accessory/riol_facial_hairs/riol_rioline
-// 	name = "Riol"
-// 	icon_state = "rioline"
-
-// /datum/sprite_accessory/riol_facial_hairs/riol_rioline_fluff
-// 	name = "Riol and Earfluff"
-// 	icon_state = "riolinefluff"
-
 
 // HAIRS
 
