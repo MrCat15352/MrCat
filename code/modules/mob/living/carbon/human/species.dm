@@ -390,7 +390,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 
 /datum/species/proc/is_digitigrade(mob/living/carbon/leg_haver)
 	// [CELADON-EDIT] - CELADON_RIOL
-	// return (digitigrade_customization == DIGITIGRADE_OPTIONAL && leg_haver.dna.features["legs"] == "Digitigrade Legs") || digitigrade_customization == DIGITIGRADE_FORCED	// CELADON-EDIT - ORIGINAL
+	// return (digitigrade_customization == DIGITIGRADE_OPTIONAL && leg_haver.dna.features["legs"] == "Digitigrade Legs") || digitigrade_customization == DIGITIGRADE_FORCED		// CELADON-EDIT - ORIGINAL
 	return (digitigrade_customization == DIGITIGRADE_OPTIONAL && (leg_haver.dna.features["legs"] == "Digitigrade Legs" || leg_haver.dna.features["riol_legs"] == "Digitigrade Legs")) || digitigrade_customization == DIGITIGRADE_FORCED
 	// [/CELADON-EDIT]
 
