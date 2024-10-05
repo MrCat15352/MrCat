@@ -7,6 +7,8 @@
 /datum/species
 	/// Does the species use skintones or not?
 	var/use_skintoneriol = FALSE
+	var/obj/item/bodypart/riol_digi_l_leg = /obj/item/bodypart/leg/left/riol/digitigrade
+	var/obj/item/bodypart/riol_digi_r_leg = /obj/item/bodypart/leg/right/riol/digitigrade
 
 /datum/species/riol
 	name = "\improper Riol"
