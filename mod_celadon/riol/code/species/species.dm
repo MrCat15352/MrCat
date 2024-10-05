@@ -7,6 +7,8 @@
 /datum/species
 	/// Does the species use skintones or not?
 	var/use_skintoneriol = FALSE
+	var/obj/item/bodypart/riol_digi_l_leg = /obj/item/bodypart/leg/left/riol/digitigrade
+	var/obj/item/bodypart/riol_digi_r_leg = /obj/item/bodypart/leg/right/riol/digitigrade
 
 /datum/species/riol
 	name = "\improper Riol"
@@ -106,8 +108,8 @@
 	species_r_arm = /obj/item/bodypart/r_arm/riol
 	species_l_leg = /obj/item/bodypart/leg/left/riol
 	species_r_leg = /obj/item/bodypart/leg/right/riol
-	species_digi_l_leg = /obj/item/bodypart/leg/left/riol/digitigrade
-	species_digi_r_leg = /obj/item/bodypart/leg/right/riol/digitigrade
+	riol_digi_l_leg = /obj/item/bodypart/leg/left/riol/digitigrade
+	riol_digi_r_leg = /obj/item/bodypart/leg/right/riol/digitigrade
 
 	species_robotic_chest = /obj/item/bodypart/chest/robot
 	species_robotic_head = /obj/item/bodypart/head/robot
