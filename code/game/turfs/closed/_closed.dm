@@ -139,6 +139,9 @@
 
 /turf/closed/bullet_act(obj/projectile/P)
 	. = ..()
+	if(.)
+		if(NAMEOF(src, icon))
+			SStitle.icon = icon
 	var/dam = get_proj_damage(P)
 	var/shooter = P.firer
 	if(!dam)

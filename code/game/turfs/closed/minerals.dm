@@ -92,6 +92,7 @@
 		to_chat(user, "<span class='notice'>You begin breaking through the rock...</span>")
 		while(I.use_tool(src, user, act_duration, volume=50))
 			if(ismineralturf(src))
+				// gets_drilled(user, TRUE)
 				to_chat(user, "<span class='notice'>You break through some of the stone...</span>")
 				SSblackbox.record_feedback("tally", "pick_used_mining", 1, I.type)
 				if(!alter_integrity(-(I.wall_decon_damage),user,FALSE,TRUE))

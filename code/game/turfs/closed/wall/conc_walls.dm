@@ -16,6 +16,20 @@
 	sheet_type = null
 	girder_type = /obj/structure/grille
 
+	// The wall will ignore damage from weak items, depending on their
+	// force, damage type, tool behavior, and sharpness. This is the minimum
+	// amount of force that a blunt, brute item must have to damage the wall.
+	// var/min_dam = 8
+	// This should all be handled by integrity should that ever be expanded to walls.
+	var/max_health = 650
+	var/health
+	// used to give mining projectiles a bit of an edge against conc walls
+	// var/static/list/extra_dam_proj = typecacheof(list(
+	// 	/obj/projectile/kinetic,
+	// 	/obj/projectile/destabilizer,
+	// 	/obj/projectile/plasma
+	// ))
+	var/mutable_appearance/crack_overlay
 	var/time_to_harden = 30 SECONDS
 	// fraction ranging from 0 to 1 -- 0 is fully soft, 1 is fully hardened
 	// don't change this in subtypes unless you want them to spawn in soft on maps
@@ -31,6 +45,8 @@
 
 /turf/closed/wall/concrete/Initialize(mapload, ...)
 	. = ..()
+	if(health == null)
+		health = max_health
 	check_harden()
 	update_stats()
 
@@ -160,3 +176,63 @@
 	else
 		playsound(src, 'sound/effects/bang.ogg', 50, TRUE)
 		to_chat(M, "<span class='warning'>This wall is far too strong for you to destroy.</span>")
+
+/turf/closed/wall/concrete/proc/alter_health(delta)
+// 8x as vulnerable when unhardened
+	if(delta < 0)
+		delta *= 1 + 7*(1-harden_lvl)
+	health += delta
+	if(health <= 0)
+		// if damage put us 50 points or more below 0, we got proper demolished
+		dismantle_wall(health <= -50 ? TRUE : FALSE)
+		return FALSE
+	health = min(health, max_health)
+	update_stats()
+	return health
+
+/turf/closed/wall/concrete/ex_act(severity, target)
+	if(target == src || !density)
+		return ..()
+	switch(severity)
+		if(EXPLODE_DEVASTATE)
+			alter_health(-2000)
+		if(EXPLODE_HEAVY)
+			alter_health(rand(-500, -800))
+		if(EXPLODE_LIGHT)
+			alter_health(rand(-200, -700))
+
+/turf/closed/wall/concrete/bullet_act(obj/projectile/P)
+	. = ..()
+	var/dam = get_proj_damage(P)
+	if(!dam)
+		return
+	if(P.suppressed != SUPPRESSED_VERY)
+		visible_message("<span class='danger'>[src] is hit by \a [P]!</span>", null, null, COMBAT_MESSAGE_RANGE)
+	if(!QDELETED(src))
+		alter_health(-dam)
+
+/turf/closed/wall/concrete/attack_animal(mob/living/simple_animal/M)
+	M.changeNext_move(CLICK_CD_MELEE)
+	M.do_attack_animation(src)
+	if((M.environment_smash & ENVIRONMENT_SMASH_WALLS) || (M.environment_smash & ENVIRONMENT_SMASH_RWALLS))
+		playsound(src, 'sound/effects/meteorimpact.ogg', 100, TRUE)
+		alter_health(-400)
+		return
+
+/turf/closed/wall/concrete/attack_hulk(mob/living/carbon/user)
+	SEND_SIGNAL(src, COMSIG_ATOM_HULK_ATTACK, user)
+	log_combat(user, src, "attacked")
+	var/obj/item/bodypart/arm = user.hand_bodyparts[user.active_hand_index]
+	if(!arm || arm.bodypart_disabled)
+		return FALSE
+	playsound(src, 'sound/effects/meteorimpact.ogg', 100, TRUE)
+	user.visible_message("<span class='danger'>[user] smashes \the [src]!</span>", \
+				"<span class='danger'>You smash \the [src]!</span>", \
+				"<span class='hear'>You hear a booming smash!</span>")
+	user.say(pick(";RAAAAAAAARGH!", ";HNNNNNNNNNGGGGGGH!", ";GWAAAAAAAARRRHHH!", "NNNNNNNNGGGGGGGGHH!", ";AAAAAAARRRGH!" ), forced = "hulk")
+	alter_health(-250)
+	return TRUE
+
+// /turf/closed/wall/concrete/proc/update_stats()
+// 	explosion_block = (health / max_health) * harden_lvl * initial(explosion_block)
+// 	update_appearance()
