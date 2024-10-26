@@ -2237,7 +2237,6 @@
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/lp/engineer,
-/obj/item/gun/energy/plasmacutter,
 /obj/machinery/light_switch{
 	dir = 8;
 	pixel_x = 19;
