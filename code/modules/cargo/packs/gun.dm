@@ -29,6 +29,13 @@
 	contains = list(/obj/item/storage/guncase/pistol/m17)
 	crate_name = "pistol crate"
 
+/datum/supply_pack/gun/m17
+	name = "M17 pistol Crate"
+	desc = "A cheap target shooting pistol manufactured by Serene Outdoors. Chambered in .22lr"
+	cost = 200
+	contains = list(/obj/item/storage/guncase/pistol/m17)
+	crate_name = "pistol crate"
+
 /datum/supply_pack/gun/commanders
 	name = "Commander Pistol Crate"
 	desc = "Contains a modified Candor 'Commander' pistol, produced by Nanotrasen and chambered in 9mm."
@@ -316,6 +323,13 @@
 	faction = /datum/faction/nt
 	faction_discount = 0
 	faction_locked = TRUE
+
+/datum/supply_pack/gun/buckmaster
+	name = "Buckmaster Shotgun Crate"
+	desc = "For when you need to deal with 8 hooligans and can't be arsed to pump. Contains a semi-auto shotgun with an 8 round tube."
+	contains = list(/obj/item/storage/guncase/buckmaster)
+	cost = 3000
+	crate_name = "shotgun crate"
 
 /*
 		SMGs
@@ -644,6 +658,8 @@
 	faction = /datum/faction/solgov
 	faction_discount = 0
 	faction_locked = TRUE
+
+/* Attachments */
 
 /* Attachments */
 
