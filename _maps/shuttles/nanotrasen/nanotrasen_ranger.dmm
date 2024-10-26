@@ -2230,18 +2230,21 @@
 	pixel_x = 3;
 	pixel_y = 7
 	},
-/obj/item/gear_pack/anglegrinder{
-	pixel_x = -10;
-	pixel_y = 5
+/obj/item/clothing/glasses/meson/engine,
+/obj/item/clothing/glasses/hud/diagnostic,
+/obj/item/pipe_dispenser,
+/obj/effect/turf_decal/techfloor{
+	dir = 4
 	},
-/obj/item/inducer{
+/obj/structure/closet/secure_closet/lp/engineer,
+/obj/item/gun/energy/plasmacutter,
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 19;
 	pixel_y = -10
 	},
-/obj/effect/turf_decal/techfloor,
-/obj/effect/turf_decal/techfloor{
-	dir = 1
-	},
-/obj/item/stock_parts/cell/super,
+/obj/item/radio/headset/alt,
+/obj/item/gear_pack/anglegrinder,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "pA" = (
