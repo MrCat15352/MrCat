@@ -48,3 +48,16 @@
 	smoothing_groups = list(SMOOTH_GROUP_CLOSED_TURFS, SMOOTH_GROUP_WALLS, SMOOTH_GROUP_SYNDICATE_WALLS)
 	canSmoothWith = list(SMOOTH_GROUP_SYNDICATE_WALLS, SMOOTH_GROUP_PLASTITANIUM_WALLS, SMOOTH_GROUP_AIRLOCK, SMOOTH_GROUP_SHUTTLE_PARTS)
 
+/turf/closed/indestructible/rock/sand
+	name = "sandside"
+	desc = "Extremely densely-packed sheets of sand and rock, forged over the years of the harsh hot."
+	icon = 'icons/turf/walls/wasteplanet.dmi'
+	icon_state = "wasteplanet-0"
+	base_icon_state = "wasteplanet"
+	smoothing_flags = SMOOTH_BITMASK | SMOOTH_BORDER
+	smoothing_groups = list(SMOOTH_GROUP_CLOSED_TURFS, SMOOTH_GROUP_MINERAL_WALLS)
+	canSmoothWith = list(SMOOTH_GROUP_MINERAL_WALLS)
+	pixel_x = -4
+	pixel_y = -4
+	bullet_sizzle = TRUE
+	bullet_bounce_sound = null
