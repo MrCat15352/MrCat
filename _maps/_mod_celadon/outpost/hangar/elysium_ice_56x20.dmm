@@ -759,7 +759,7 @@
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
-/area/hangar)
+/area/outpost/maintenance/lift_music)
 "xE" = (
 /obj/effect/turf_decal/borderfloor/full,
 /obj/effect/turf_decal/industrial/warning{
@@ -1559,7 +1559,7 @@
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
-/area/hangar)
+/area/outpost/maintenance/lift_music)
 "Xv" = (
 /turf/open/chasm,
 /area/hangar)

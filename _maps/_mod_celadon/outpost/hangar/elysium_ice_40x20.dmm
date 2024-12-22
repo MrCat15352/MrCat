@@ -842,7 +842,7 @@
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
-/area/hangar)
+/area/outpost/maintenance/lift_music)
 "tf" = (
 /obj/structure/catwalk/over/plated_catwalk,
 /obj/structure/disposalpipe/segment{
@@ -1623,7 +1623,7 @@
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
-/area/hangar)
+/area/outpost/maintenance/lift_music)
 "YG" = (
 /obj/structure/sign/poster/contraband/borg_fancy_2,
 /turf/closed/indestructible/reinforced,

@@ -840,7 +840,7 @@
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
-/area/hangar)
+/area/outpost/maintenance/lift_music)
 "Hg" = (
 /obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
 	dir = 8
@@ -1059,7 +1059,7 @@
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
-/area/hangar)
+/area/outpost/maintenance/lift_music)
 "NE" = (
 /obj/structure/catwalk/over/plated_catwalk,
 /obj/effect/spawner/lootdrop/glowstick{

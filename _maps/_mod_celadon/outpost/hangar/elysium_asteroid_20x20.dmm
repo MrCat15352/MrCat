@@ -401,6 +401,11 @@
 	planetary_atmos = 1
 	},
 /area/hangar)
+"ko" = (
+/turf/open/floor/plasteel/elevatorshaft{
+	planetary_atmos = 1
+	},
+/area/outpost/maintenance/lift_music)
 "kX" = (
 /obj/machinery/computer/crew/syndie{
 	dir = 4
@@ -1473,7 +1478,7 @@
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
-/area/hangar)
+/area/outpost/maintenance/lift_music)
 "Pn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/steeldecal/steel_decals_central2{
@@ -3047,8 +3052,8 @@ mY
 "}
 (28,1,1) = {"
 iZ
-Dj
-Dj
+ko
+ko
 Ph
 qt
 Cb
@@ -3088,9 +3093,9 @@ mY
 "}
 (29,1,1) = {"
 iZ
-Dj
-Dj
-Dj
+ko
+ko
+ko
 qt
 Cb
 lZ
@@ -3129,9 +3134,9 @@ mY
 "}
 (30,1,1) = {"
 iZ
-Dj
-Dj
-Dj
+ko
+ko
+ko
 qt
 wN
 LN

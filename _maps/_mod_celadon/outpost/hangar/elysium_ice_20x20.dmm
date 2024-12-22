@@ -753,7 +753,7 @@
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
-/area/hangar)
+/area/outpost/maintenance/lift_music)
 "xR" = (
 /obj/effect/turf_decal/borderfloor{
 	dir = 10
@@ -1409,7 +1409,7 @@
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
-/area/hangar)
+/area/outpost/maintenance/lift_music)
 "Vk" = (
 /obj/effect/turf_decal/borderfloor{
 	dir = 8

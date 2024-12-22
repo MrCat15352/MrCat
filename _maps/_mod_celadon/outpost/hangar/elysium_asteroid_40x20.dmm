@@ -12,6 +12,11 @@
 "au" = (
 /turf/closed/indestructible/rock/schist,
 /area/hangar)
+"aT" = (
+/turf/open/floor/plasteel/elevatorshaft{
+	planetary_atmos = 1
+	},
+/area/outpost/maintenance/lift_music)
 "ba" = (
 /obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw,
 /obj/machinery/light/floor/hangar,
@@ -248,7 +253,7 @@
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
-/area/hangar)
+/area/outpost/maintenance/lift_music)
 "hp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
@@ -3214,8 +3219,8 @@ ie
 "}
 (27,1,1) = {"
 ie
-Mt
-Mt
+aT
+aT
 hh
 FC
 kG
@@ -3258,9 +3263,9 @@ ie
 "}
 (28,1,1) = {"
 ie
-Mt
-Mt
-Mt
+aT
+aT
+aT
 FC
 Tu
 QP
@@ -3302,9 +3307,9 @@ ie
 "}
 (29,1,1) = {"
 ie
-Mt
-Mt
-Mt
+aT
+aT
+aT
 FC
 sP
 eP

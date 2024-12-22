@@ -389,7 +389,7 @@
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
-/area/hangar)
+/area/outpost/maintenance/lift_music)
 "rf" = (
 /obj/structure/noticeboard{
 	pixel_y = 31
@@ -728,7 +728,7 @@
 /turf/open/floor/plasteel/elevatorshaft{
 	planetary_atmos = 1
 	},
-/area/hangar)
+/area/outpost/maintenance/lift_music)
 "Fs" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/concrete/slab_1{

@@ -10,6 +10,19 @@
 	max_ambience_cooldown = 180 SECONDS
 */
 
+/area/outpost/maintenance/lift_music
+	name = "Elevator"
+	icon_state = "elevator"
+	// ambientsounds = SOUND_AREA_ELEVATOR_KEVIN
+	ambientsounds = list('sound/ambience/Kevin_MacLeod_-_Local_Forecast_-_Elevator_Full.ogg', 'sound/ambience/Kevin_MacLeod_-_Local_Forecast_-_Elevator.ogg')
+	sound_environment = SOUND_AREA_ELEVATOR_KEVIN
+	min_ambience_cooldown = 1 SECONDS
+	max_ambience_cooldown = 10 SECONDS
+	requires_power = FALSE
+	area_flags = CAN_BE_DIRTY_1
+		///Used to decide what kind of reverb the area makes sound have
+
+
 /// MEDICAL
 
 /area/outpost/medical/reseption

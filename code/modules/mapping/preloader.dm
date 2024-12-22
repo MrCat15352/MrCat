@@ -32,6 +32,10 @@ GLOBAL_LIST_INIT(_preloader_path, null)
 
 /area/template_noop
 	name = "Area Passthrough"
+	ambientsounds = SOUND_AREA_ELEVATOR_KEVIN
+	sound_environment = SOUND_AREA_ELEVATOR_KEVIN
+	min_ambience_cooldown = 1 SECONDS
+	max_ambience_cooldown = 10 SECONDS
 
 /turf/template_noop
 	name = "Turf Passthrough"
