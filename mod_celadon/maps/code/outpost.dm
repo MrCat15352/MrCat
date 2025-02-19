@@ -42,6 +42,16 @@
 	dock_width = 56
 	dock_height = 40
 
+/datum/map_template/outpost/hangar/elysium_asteroid_93x60
+	name = "hangar/elysium_asteroid_93x60"
+	dock_width = 93
+	dock_height = 60
+
+/datum/map_template/outpost/hangar/elysium_asteroid_163x60
+	name = "hangar/elysium_asteroid_163x60"
+	dock_width = 163
+	dock_height = 60
+
 /*
 	Elysium Ice
 */
@@ -72,6 +82,16 @@
 	name = "hangar/elysium_ice_56x40"
 	dock_width = 56
 	dock_height = 40
+
+/datum/map_template/outpost/hangar/elysium_ice_93x60
+	name = "hangar/elysium_asteroid_93x60"
+	dock_width = 93
+	dock_height = 60
+
+/datum/map_template/outpost/hangar/elysium_ice_163x60
+	name = "hangar/elysium_asteroid_163x60"
+	dock_width = 163
+	dock_height = 60
 
 /datum/overmap/outpost/elysium_ice
 	token_icon_state = "station_asteroid_0"

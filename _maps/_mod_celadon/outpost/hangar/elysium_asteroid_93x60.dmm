@@ -1,0 +1,9993 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"al" = (
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"aw" = (
+/obj/effect/turf_decal/industrial/fire/fulltile,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/patterned/brushed{
+	light_color = "#1B1D2E";
+	light_range = 2;
+	planetary_atmos = 1
+	},
+/area/hangar)
+"aT" = (
+/obj/structure/rack,
+/obj/effect/spawner/random/maintenance,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"bE" = (
+/obj/structure/noticeboard{
+	pixel_y = 31
+	},
+/obj/item/storage/box/matches,
+/obj/item/grown/log{
+	pixel_x = 7;
+	pixel_y = 14
+	},
+/obj/item/grown/log{
+	pixel_x = 7;
+	pixel_y = 14
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/sepia{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"bY" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"cp" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.51;
+	pixel_y = 9
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"cz" = (
+/obj/effect/turf_decal/industrial/traffic/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"cA" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = 5;
+	pixel_y = 14
+	},
+/obj/item/storage/photo_album/library{
+	pixel_y = -2;
+	pixel_x = -4
+	},
+/turf/open/floor/carpet/red{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"cF" = (
+/obj/structure/flora/rock/pile/icy,
+/turf/open/water/beach/deep,
+/area/hangar)
+"cH" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/chair/comfy/grey/directional/north,
+/turf/open/floor/carpet/red{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"dl" = (
+/obj/effect/turf_decal/industrial/traffic/corner{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"dA" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_ccw,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"dE" = (
+/obj/effect/turf_decal/industrial/traffic{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"dJ" = (
+/turf/template_noop,
+/area/template_noop)
+"dO" = (
+/obj/structure/grille,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"dW" = (
+/obj/structure/bookcase/random/fiction,
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ea" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ex" = (
+/obj/structure/firelock_frame,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"eN" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"fh" = (
+/obj/structure/chair/comfy/grey/directional/east,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ft" = (
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"fO" = (
+/obj/machinery/light/small/directional/south{
+	light_color = "#FF0000";
+	color = "#FF0000"
+	},
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1;
+	pixel_y = 9
+	},
+/obj/effect/decal/cleanable/blood/gibs/bubblegum,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"fT" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/concrete/tiles{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"fU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/hangar)
+"gf" = (
+/obj/machinery/light/floor/hangar,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"gE" = (
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"gO" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/structure/fluff/hedge,
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"gY" = (
+/turf/closed/indestructible/reinforced,
+/area/hangar)
+"hV" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_ccw{
+	dir = 8
+	},
+/obj/machinery/light/floor/hangar,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ir" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/concrete/tiles{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"iv" = (
+/obj/machinery/door/airlock,
+/obj/effect/landmark/outpost/elevator_machine,
+/obj/structure/lattice/catwalk,
+/turf/open/floor/engine,
+/area/hangar)
+"iF" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"iM" = (
+/obj/structure/girder,
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1
+	},
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"iV" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/carpet/red{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"jm" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"jM" = (
+/obj/machinery/conveyor/auto{
+	dir = 4;
+	id = "outpost3"
+	},
+/obj/structure/disposaloutlet{
+	dir = 4
+	},
+/obj/effect/turf_decal/industrial/fire/fulltile,
+/obj/structure/disposalpipe/trunk,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"jV" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"kl" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ls" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"lt" = (
+/obj/structure/table,
+/obj/item/radio/intercom/directional/south,
+/obj/effect/turf_decal/siding/wood,
+/obj/item/newspaper{
+	pixel_x = -5;
+	pixel_y = -1
+	},
+/obj/item/newspaper{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/machinery/jukebox/boombox{
+	pixel_y = 3;
+	pixel_x = 4
+	},
+/turf/open/floor/carpet/green{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"lO" = (
+/obj/effect/turf_decal/industrial/warning,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"me" = (
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"mD" = (
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"mH" = (
+/obj/machinery/light/floor/hangar,
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ne" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"nM" = (
+/turf/open/floor/plasteel/elevatorshaft{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"nY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"oj" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ou" = (
+/obj/effect/turf_decal/steeldecal/steel_decals6,
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"oK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/plasticflaps,
+/obj/machinery/conveyor/auto{
+	dir = 4;
+	id = "outpost3"
+	},
+/obj/effect/turf_decal/industrial/fire/fulltile,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"oN" = (
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/water/beach/deep,
+/area/hangar)
+"pb" = (
+/obj/effect/turf_decal/industrial/fire{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/warning{
+	pixel_x = 32
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"qs" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/structure/bookcase/random/fiction,
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"qG" = (
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 4
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-21";
+	pixel_x = 6;
+	pixel_y = 17
+	},
+/obj/structure/sign/poster/retro/random{
+	pixel_x = 32
+	},
+/turf/open/floor/carpet/red{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"qQ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/red{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"rt" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"rN" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_ccw{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"rY" = (
+/obj/effect/landmark/outpost/hangar_dock,
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"sz" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"sG" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"sX" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/hangar)
+"sY" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/chair/comfy/beige{
+	dir = 1
+	},
+/turf/open/floor/carpet/green{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"to" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 8
+	},
+/obj/machinery/light/floor/hangar,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"tv" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"tO" = (
+/obj/effect/turf_decal/industrial/traffic{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ui" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/hangar)
+"uF" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"uM" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"vj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"vp" = (
+/obj/structure/sign/elysium,
+/turf/closed/indestructible/reinforced,
+/area/hangar)
+"vv" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/effect/spawner/random/decoration/glowstick{
+	pixel_x = 5;
+	pixel_y = 9
+	},
+/turf/open/floor/plating{
+	icon_state = "panelscorched";
+	planetary_atmos = 1
+	},
+/area/hangar)
+"wp" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"wz" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"wI" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/structure/disposalpipe/trunk,
+/obj/machinery/disposal/bin,
+/obj/structure/sign/warning/deathsposal{
+	pixel_y = 32
+	},
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"wJ" = (
+/obj/structure/rack,
+/obj/item/poster/random_official{
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/obj/item/poster/random_official{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/destTagger{
+	pixel_x = -5
+	},
+/obj/item/export_scanner{
+	pixel_x = 6;
+	pixel_y = 2
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"wT" = (
+/obj/structure/railing{
+	dir = 2;
+	layer = 4.1
+	},
+/obj/effect/turf_decal/industrial/fire/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"wX" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 8
+	},
+/obj/machinery/light/floor/hangar,
+/obj/effect/turf_decal/industrial/warning/corner,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"xy" = (
+/turf/open/chasm,
+/area/hangar)
+"xz" = (
+/obj/machinery/door/airlock/outpost{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"yr" = (
+/obj/effect/turf_decal/techfloor/corner,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"yu" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 8
+	},
+/obj/effect/turf_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"yC" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"yL" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/open/water/beach/deep,
+/area/hangar)
+"yN" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/water/beach/deep,
+/area/hangar)
+"yR" = (
+/turf/open/water/beach/deep,
+/area/hangar)
+"yS" = (
+/obj/structure/closet/crate,
+/obj/effect/spawner/random/maintenance,
+/obj/effect/spawner/random/maintenance,
+/obj/machinery/light/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"zf" = (
+/obj/machinery/conveyor/auto{
+	dir = 6;
+	id = "outpost3"
+	},
+/obj/effect/turf_decal/industrial/fire/fulltile,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"zo" = (
+/obj/machinery/door/poddoor/multi_tile/four_tile_ver,
+/turf/closed/indestructible/reinforced,
+/area/hangar)
+"zx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"zB" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"zV" = (
+/obj/effect/turf_decal/industrial/loading/red{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/patterned/brushed{
+	light_color = "#1B1D2E";
+	light_range = 2;
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Ag" = (
+/obj/structure/table,
+/obj/item/paper/pamphlet/gateway{
+	pixel_x = 3;
+	pixel_y = 4
+	},
+/obj/item/paper/pamphlet/centcom{
+	pixel_x = 8;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -6;
+	pixel_y = 3
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/concrete/reinforced{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"An" = (
+/obj/structure/marker_beacon{
+	picked_color = "Teal"
+	},
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"AB" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"AH" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_ccw,
+/obj/machinery/light/floor/hangar,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"AR" = (
+/obj/structure/chair/sofa/brown/left/directional/west,
+/turf/open/floor/concrete/reinforced{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"AX" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/sign/poster/official/moth/meth{
+	pixel_y = 32
+	},
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"AZ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/indestructible/rock/schist,
+/area/hangar)
+"Ba" = (
+/obj/machinery/door/airlock/outpost{
+	req_access_txt = "109"
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Bj" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/carpet/red{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Bk" = (
+/obj/structure/bookcase/random/fiction,
+/obj/item/radio/intercom/directional/south,
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Bw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/outpost/hangar_numbers,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"BJ" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor/hangar,
+/obj/effect/turf_decal/industrial/fire/corner{
+	dir = 2
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Cw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"CN" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"CS" = (
+/obj/effect/decal/cleanable/oil,
+/obj/item/radio/intercom/directional/east,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"CT" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Dk" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"DV" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"DW" = (
+/obj/structure/fireplace,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/sepia{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Ec" = (
+/obj/effect/turf_decal/industrial/traffic/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"EE" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/warning{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/hangar)
+"Fi" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/bookcase/random/fiction,
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Fy" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Fz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"FY" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/structure/table/wood,
+/obj/item/paper_bin{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/pen{
+	pixel_x = 3;
+	pixel_y = 2
+	},
+/obj/item/pen{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/structure/sign/poster/official/fruit_bowl{
+	pixel_y = 32
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"FZ" = (
+/obj/effect/turf_decal/arrows{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/hangar)
+"GA" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"GB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"GQ" = (
+/obj/machinery/light/floor/hangar,
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_ccw,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"HH" = (
+/obj/effect/decal/cleanable/blood/gibs/up,
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.51;
+	pixel_y = 9
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"HJ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Ii" = (
+/obj/machinery/vending/coffee{
+	pixel_x = 5
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-22";
+	pixel_x = -11
+	},
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/obj/machinery/elevator_call_button{
+	pixel_y = 24;
+	pixel_x = -10
+	},
+/obj/effect/landmark/outpost/elevator_machine,
+/turf/open/floor/concrete/reinforced{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"IH" = (
+/obj/structure/statue/snow/snowlegion,
+/turf/open/floor/concrete/reinforced{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"IO" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/carpet/red{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Jh" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Jj" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"JI" = (
+/obj/structure/flora/rock/icy,
+/turf/open/water/beach/deep,
+/area/hangar)
+"JL" = (
+/turf/open/floor/plasteel/tech,
+/area/hangar)
+"Kf" = (
+/obj/effect/turf_decal/techfloor,
+/obj/effect/turf_decal/techfloor/hole,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Ko" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"KR" = (
+/obj/structure/grille/broken,
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/item/toy/plush/beeplushie{
+	pixel_y = -1;
+	pixel_x = 2
+	},
+/turf/open/floor/plating{
+	icon_state = "foam_plating";
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Lf" = (
+/obj/item/stack/rods{
+	pixel_x = 7;
+	pixel_y = -9
+	},
+/turf/open/floor/plating{
+	icon_state = "platingdmg2";
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Ly" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/carpet/red{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"LI" = (
+/obj/effect/turf_decal/industrial/fire{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Mf" = (
+/obj/machinery/recycler/deathtrap{
+	active_power_usage = 1;
+	use_power = 0;
+	use_static_power = 1
+	},
+/obj/machinery/conveyor/auto{
+	dir = 4;
+	id = "outpost3";
+	use_static_power = 1
+	},
+/obj/effect/turf_decal/industrial/fire/fulltile,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"MI" = (
+/obj/machinery/light/floor/hangar,
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Ns" = (
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"NH" = (
+/obj/structure/railing{
+	dir = 1;
+	layer = 4.1;
+	pixel_y = 9
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"NS" = (
+/obj/machinery/door/airlock,
+/obj/effect/landmark/outpost/elevator_machine,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/lattice/catwalk,
+/turf/open/floor/engine,
+/area/hangar)
+"Ob" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"OA" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/red{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"OQ" = (
+/obj/effect/turf_decal/industrial/traffic/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"OX" = (
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Pc" = (
+/obj/structure/catwalk/over/plated_catwalk,
+/obj/machinery/light/broken/directional/south,
+/turf/open/floor/plating{
+	icon_state = "panelscorched";
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Pe" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/chair/comfy/grey/directional/east,
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Po" = (
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Px" = (
+/obj/structure/grille,
+/obj/structure/railing{
+	dir = 4;
+	layer = 4.1
+	},
+/obj/structure/railing{
+	dir = 8;
+	layer = 4.1
+	},
+/turf/open/floor/plating{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"PH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"PW" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"QI" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/garbage{
+	pixel_x = -3;
+	pixel_y = -10
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer{
+	dir = 8;
+	pixel_x = 7
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"QP" = (
+/obj/structure/rack{
+	color = "#A47449";
+	pixel_y = 11
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/grown/log{
+	pixel_x = -7;
+	pixel_y = 20
+	},
+/obj/item/grown/log{
+	pixel_x = 7;
+	pixel_y = 20
+	},
+/obj/item/grown/log{
+	pixel_y = 25
+	},
+/obj/item/statuebust{
+	pixel_x = 6
+	},
+/turf/open/floor/plasteel/sepia{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Rr" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/carpet/red{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"RX" = (
+/obj/effect/landmark/outpost/elevator,
+/turf/open/floor/plasteel/elevatorshaft{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Sa" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor/hangar,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"So" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/light/directional/south,
+/turf/open/floor/concrete/tiles{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Sw" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/structure/table/wood,
+/obj/item/toy/cards/deck{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/toy/cards/deck/kotahi{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/obj/item/toy/plush/moth{
+	pixel_y = -7;
+	pixel_x = -8
+	},
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"SK" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Ta" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/machinery/vending/cigarette{
+	pixel_x = 5
+	},
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Tb" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"TE" = (
+/obj/effect/turf_decal/industrial/fire{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"TJ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/concrete/tiles{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Ua" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Up" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/concrete/tiles{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Uw" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/concrete/tiles{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"UK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"UM" = (
+/obj/structure/bookcase/random/fiction,
+/obj/structure/sign/plaques/deempisi{
+	pixel_y = 22;
+	pixel_x = -8
+	},
+/obj/item/toy/plush/hornet{
+	pixel_x = 9;
+	pixel_y = 26
+	},
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Vx" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/red{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"VM" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Wb" = (
+/obj/machinery/conveyor/auto{
+	dir = 4;
+	id = "outpost3"
+	},
+/obj/effect/turf_decal/industrial/fire/fulltile,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Wc" = (
+/turf/closed/indestructible/rock/schist,
+/area/hangar)
+"Wm" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Wq" = (
+/obj/structure/reagent_dispensers/watertank,
+/obj/machinery/light/directional/east,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"WE" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor/hangar,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"WK" = (
+/obj/structure/chair/sofa/brown/right/directional/west,
+/obj/machinery/light/directional/east,
+/turf/open/floor/concrete/reinforced{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"WP" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/structure/table/wood,
+/obj/item/storage/pill_bottle/dice{
+	pixel_x = -6
+	},
+/obj/item/toy/figure/lawyer{
+	pixel_x = 3;
+	pixel_y = 7
+	},
+/obj/item/toy/cards/deck/cas,
+/turf/open/floor/wood{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Xb" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Xo" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/red{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Xu" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/concrete/tiles{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"XA" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Yf" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Zq" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_ccw,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"Zx" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ZA" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/concrete/slab_1{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ZM" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/industrial/fire,
+/obj/structure/sign/warning{
+	pixel_x = 32
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+"ZV" = (
+/obj/effect/turf_decal/trimline/opaque/yellow/filled/arrow_cw{
+	dir = 1
+	},
+/obj/effect/turf_decal/industrial/fire,
+/turf/open/floor/plasteel/dark{
+	planetary_atmos = 1
+	},
+/area/hangar)
+
+(1,1,1) = {"
+dJ
+dJ
+dJ
+dJ
+gY
+gY
+gY
+gY
+gY
+zo
+gY
+gY
+zo
+gY
+gY
+gY
+zo
+gY
+gY
+gY
+zo
+gY
+gY
+gY
+zo
+gY
+gY
+gY
+zo
+gY
+gY
+zo
+gY
+zo
+gY
+gY
+gY
+zo
+gY
+gY
+gY
+zo
+gY
+gY
+gY
+zo
+gY
+gY
+gY
+zo
+gY
+gY
+gY
+zo
+gY
+gY
+gY
+zo
+gY
+gY
+gY
+zo
+gY
+gY
+gY
+zo
+gY
+gY
+dJ
+dJ
+dJ
+dJ
+"}
+(2,1,1) = {"
+dJ
+dJ
+dJ
+gY
+gY
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+sX
+gY
+gY
+dJ
+dJ
+dJ
+"}
+(3,1,1) = {"
+gY
+gY
+gY
+gY
+kl
+JL
+JL
+JL
+JL
+JL
+JL
+JL
+FZ
+JL
+JL
+JL
+JL
+FZ
+JL
+JL
+FZ
+JL
+JL
+JL
+FZ
+JL
+JL
+JL
+JL
+FZ
+JL
+JL
+JL
+FZ
+JL
+JL
+JL
+JL
+FZ
+JL
+JL
+JL
+JL
+FZ
+JL
+JL
+JL
+JL
+JL
+FZ
+JL
+JL
+JL
+JL
+FZ
+JL
+JL
+JL
+JL
+FZ
+JL
+JL
+JL
+JL
+FZ
+JL
+JL
+Zx
+gY
+gY
+gY
+gY
+"}
+(4,1,1) = {"
+gY
+Wc
+Wc
+Wc
+kl
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+EE
+Zx
+Wc
+Wc
+Wc
+gY
+"}
+(5,1,1) = {"
+gY
+Wc
+Wc
+dl
+AH
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+rY
+mD
+Sa
+al
+Wc
+Wc
+gY
+"}
+(6,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+al
+Wc
+Wc
+gY
+"}
+(7,1,1) = {"
+gY
+Wc
+Wc
+dE
+Zq
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Yf
+al
+Wc
+Wc
+gY
+"}
+(8,1,1) = {"
+gY
+Wc
+Wc
+Ec
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+Ua
+gY
+Wc
+gY
+"}
+(9,1,1) = {"
+gY
+Wc
+Wc
+dl
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sz
+al
+Wc
+Wc
+gY
+"}
+(10,1,1) = {"
+gY
+Wc
+gY
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+al
+Wc
+Wc
+gY
+"}
+(11,1,1) = {"
+gY
+Wc
+Wc
+dE
+AH
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Sa
+Ua
+Wc
+Wc
+gY
+"}
+(12,1,1) = {"
+gY
+Wc
+Wc
+Ec
+Zq
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Yf
+al
+Wc
+Wc
+gY
+"}
+(13,1,1) = {"
+gY
+Wc
+Wc
+OQ
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(14,1,1) = {"
+gY
+Wc
+Wc
+tO
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+Cw
+Wc
+Wc
+gY
+"}
+(15,1,1) = {"
+gY
+Wc
+Wc
+tO
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+Ua
+Wc
+Wc
+gY
+"}
+(16,1,1) = {"
+gY
+Wc
+Wc
+Ec
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sz
+al
+Wc
+Wc
+gY
+"}
+(17,1,1) = {"
+gY
+Wc
+Wc
+OQ
+AH
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Sa
+al
+Wc
+Wc
+gY
+"}
+(18,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+al
+gY
+Wc
+gY
+"}
+(19,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+al
+Wc
+Wc
+gY
+"}
+(20,1,1) = {"
+gY
+Wc
+Wc
+cz
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(21,1,1) = {"
+gY
+Wc
+Wc
+dl
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sz
+Ua
+Wc
+Wc
+gY
+"}
+(22,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+sG
+Cw
+Wc
+Wc
+gY
+"}
+(23,1,1) = {"
+gY
+Wc
+Wc
+tO
+AH
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Sa
+Cw
+Wc
+Wc
+gY
+"}
+(24,1,1) = {"
+gY
+Wc
+Wc
+Ec
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(25,1,1) = {"
+gY
+Wc
+Wc
+OQ
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(26,1,1) = {"
+gY
+Wc
+Wc
+dE
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(27,1,1) = {"
+gY
+Wc
+gY
+tO
+dA
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+sG
+al
+Wc
+Wc
+gY
+"}
+(28,1,1) = {"
+gY
+Wc
+Wc
+cz
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+al
+Wc
+Wc
+gY
+"}
+(29,1,1) = {"
+gY
+Wc
+Wc
+dl
+AH
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Sa
+Ua
+Wc
+Wc
+gY
+"}
+(30,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+Ua
+Wc
+Wc
+gY
+"}
+(31,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(32,1,1) = {"
+gY
+Wc
+Wc
+Ec
+dA
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Yf
+al
+Wc
+Wc
+gY
+"}
+(33,1,1) = {"
+gY
+Wc
+Wc
+dl
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+Ua
+Wc
+Wc
+gY
+"}
+(34,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+Ua
+gY
+Wc
+gY
+"}
+(35,1,1) = {"
+gY
+Wc
+Wc
+tO
+AH
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Sa
+Ua
+Wc
+Wc
+gY
+"}
+(36,1,1) = {"
+gY
+Wc
+Wc
+cz
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(37,1,1) = {"
+gY
+Wc
+Wc
+dl
+Zq
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Yf
+al
+Wc
+Wc
+gY
+"}
+(38,1,1) = {"
+gY
+Wc
+gY
+tO
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(39,1,1) = {"
+gY
+Wc
+Wc
+tO
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+al
+Wc
+Wc
+gY
+"}
+(40,1,1) = {"
+gY
+Wc
+Wc
+cz
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+al
+gY
+gY
+gY
+"}
+(41,1,1) = {"
+gY
+Wc
+Wc
+dl
+AH
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Sa
+al
+Ba
+al
+gY
+"}
+(42,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Yf
+yr
+gY
+gY
+gY
+"}
+(43,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+OX
+Wc
+Wc
+gY
+"}
+(44,1,1) = {"
+gY
+Wc
+Wc
+cz
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+OX
+Wc
+Wc
+gY
+"}
+(45,1,1) = {"
+gY
+Wc
+Wc
+dl
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+OX
+Wc
+Wc
+gY
+"}
+(46,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+Kf
+Wc
+Wc
+gY
+"}
+(47,1,1) = {"
+gY
+Wc
+Wc
+tO
+AH
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Sa
+OX
+gY
+Wc
+gY
+"}
+(48,1,1) = {"
+gY
+Wc
+Wc
+cz
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+OX
+Wc
+Wc
+gY
+"}
+(49,1,1) = {"
+gY
+Wc
+Wc
+dl
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+OX
+Wc
+Wc
+gY
+"}
+(50,1,1) = {"
+gY
+Wc
+Wc
+tO
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+Kf
+Wc
+Wc
+gY
+"}
+(51,1,1) = {"
+gY
+Wc
+Wc
+tO
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+OX
+Wc
+Wc
+gY
+"}
+(52,1,1) = {"
+gY
+Wc
+Wc
+cz
+Zq
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+sG
+Po
+Wc
+Wc
+gY
+"}
+(53,1,1) = {"
+gY
+Wc
+Wc
+dl
+GQ
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Sa
+al
+Wc
+Wc
+gY
+"}
+(54,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(55,1,1) = {"
+gY
+Wc
+Wc
+dE
+Zq
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Yf
+al
+Wc
+Wc
+gY
+"}
+(56,1,1) = {"
+gY
+Wc
+Wc
+Ec
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+Ua
+gY
+Wc
+gY
+"}
+(57,1,1) = {"
+gY
+Wc
+Wc
+dl
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sz
+al
+Wc
+Wc
+gY
+"}
+(58,1,1) = {"
+gY
+Wc
+gY
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+al
+Wc
+Wc
+gY
+"}
+(59,1,1) = {"
+gY
+Wc
+Wc
+dE
+AH
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Sa
+Ua
+Wc
+Wc
+gY
+"}
+(60,1,1) = {"
+gY
+Wc
+Wc
+Ec
+Zq
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Yf
+al
+Wc
+Wc
+gY
+"}
+(61,1,1) = {"
+gY
+Wc
+Wc
+OQ
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(62,1,1) = {"
+gY
+Wc
+Wc
+OQ
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(63,1,1) = {"
+gY
+Wc
+Wc
+dE
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(64,1,1) = {"
+gY
+Wc
+gY
+tO
+dA
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+sG
+al
+Wc
+Wc
+gY
+"}
+(65,1,1) = {"
+gY
+Wc
+Wc
+cz
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+al
+Wc
+Wc
+gY
+"}
+(66,1,1) = {"
+gY
+Wc
+Wc
+dl
+AH
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Sa
+Ua
+Wc
+Wc
+gY
+"}
+(67,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+Ua
+Wc
+Wc
+gY
+"}
+(68,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(69,1,1) = {"
+gY
+Wc
+Wc
+Ec
+dA
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Yf
+al
+Wc
+Wc
+gY
+"}
+(70,1,1) = {"
+gY
+Wc
+Wc
+dl
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+Ua
+Wc
+Wc
+gY
+"}
+(71,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+Ua
+gY
+Wc
+gY
+"}
+(72,1,1) = {"
+gY
+Wc
+Wc
+tO
+AH
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Sa
+Ua
+Wc
+Wc
+gY
+"}
+(73,1,1) = {"
+gY
+Wc
+Wc
+cz
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(74,1,1) = {"
+gY
+Wc
+Wc
+dl
+Zq
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Yf
+al
+Wc
+Wc
+gY
+"}
+(75,1,1) = {"
+gY
+Wc
+gY
+tO
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(76,1,1) = {"
+gY
+Wc
+Wc
+tO
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+al
+Wc
+Wc
+gY
+"}
+(77,1,1) = {"
+gY
+Wc
+Wc
+cz
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+al
+gY
+gY
+gY
+"}
+(78,1,1) = {"
+gY
+Wc
+Wc
+dl
+AH
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Sa
+al
+Ba
+al
+gY
+"}
+(79,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Yf
+yr
+gY
+gY
+gY
+"}
+(80,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+OX
+Wc
+Wc
+gY
+"}
+(81,1,1) = {"
+gY
+Wc
+Wc
+cz
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+OX
+Wc
+Wc
+gY
+"}
+(82,1,1) = {"
+gY
+Wc
+Wc
+dl
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+OX
+Wc
+Wc
+gY
+"}
+(83,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+Kf
+Wc
+Wc
+gY
+"}
+(84,1,1) = {"
+gY
+Wc
+Wc
+tO
+AH
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+Sa
+OX
+gY
+Wc
+gY
+"}
+(85,1,1) = {"
+gY
+Wc
+Wc
+cz
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+OX
+Wc
+Wc
+gY
+"}
+(86,1,1) = {"
+gY
+Wc
+Wc
+dl
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+OX
+Wc
+Wc
+gY
+"}
+(87,1,1) = {"
+gY
+Wc
+Wc
+tO
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+Kf
+Wc
+Wc
+gY
+"}
+(88,1,1) = {"
+gY
+Wc
+Wc
+tO
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+OX
+Wc
+Wc
+gY
+"}
+(89,1,1) = {"
+gY
+Wc
+Wc
+cz
+Zq
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+sG
+Po
+Wc
+Wc
+gY
+"}
+(90,1,1) = {"
+gY
+Wc
+Wc
+dl
+GQ
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Sa
+al
+Wc
+Wc
+gY
+"}
+(91,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(92,1,1) = {"
+gY
+Wc
+gY
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+Wc
+Wc
+gY
+"}
+(93,1,1) = {"
+gY
+Wc
+Wc
+cz
+dA
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+Yf
+al
+ex
+aT
+gY
+"}
+(94,1,1) = {"
+gY
+Wc
+Wc
+dl
+dA
+An
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+An
+sG
+al
+iM
+Pc
+gY
+"}
+(95,1,1) = {"
+gY
+Wc
+Wc
+tO
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+sG
+al
+Lf
+vv
+gY
+"}
+(96,1,1) = {"
+gY
+Wc
+Wc
+tO
+AH
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+BJ
+LI
+wT
+KR
+gY
+"}
+(97,1,1) = {"
+gY
+Wc
+Wc
+cz
+Zq
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+mD
+ZV
+zV
+TE
+dO
+gY
+"}
+(98,1,1) = {"
+gY
+Wc
+Wc
+al
+PW
+rN
+rN
+rN
+rN
+hV
+rN
+hV
+rN
+rN
+rN
+hV
+rN
+rN
+rN
+hV
+rN
+rN
+hV
+hV
+rN
+rN
+rN
+hV
+rN
+rN
+rN
+hV
+hV
+rN
+rN
+rN
+hV
+rN
+rN
+rN
+hV
+rN
+rN
+rN
+hV
+rN
+rN
+ou
+mH
+AB
+zx
+Fy
+wX
+ne
+GB
+gf
+yu
+jV
+WE
+tv
+AB
+MI
+PH
+Jj
+ls
+to
+Ob
+ZM
+aw
+pb
+Ko
+gY
+"}
+(99,1,1) = {"
+gY
+Wc
+Wc
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
+Ua
+lO
+yS
+CS
+eN
+QI
+wJ
+Wq
+Ua
+al
+nY
+Ua
+al
+al
+ft
+UK
+gY
+oK
+gY
+xz
+gY
+"}
+(100,1,1) = {"
+gY
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+gY
+gY
+gY
+gY
+AX
+me
+ZA
+Wc
+Wc
+gY
+gY
+Px
+Px
+Px
+gY
+Wc
+Wc
+yC
+me
+SK
+Wc
+Wc
+Wc
+gY
+Wb
+jM
+NH
+gY
+"}
+(101,1,1) = {"
+gY
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+Wc
+gY
+IH
+gY
+iF
+Xb
+rt
+jm
+Wc
+Wc
+gY
+Wc
+Wc
+Wc
+gY
+Wc
+GA
+bY
+Xb
+SK
+gO
+Wc
+Wc
+gY
+zf
+Wb
+fO
+gY
+"}
+(102,1,1) = {"
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+Wc
+Wc
+gY
+gY
+gY
+wz
+Dk
+Fz
+VM
+jm
+Wc
+vp
+Px
+Px
+Px
+gY
+wI
+Tb
+vj
+uM
+CN
+Wm
+qs
+Wc
+gY
+gY
+Mf
+cp
+gY
+"}
+(103,1,1) = {"
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+gY
+Wc
+Wc
+yR
+yR
+yL
+yN
+wz
+uF
+Xb
+VM
+CT
+CT
+CT
+CT
+CT
+XA
+wp
+me
+uM
+CN
+ea
+Ns
+Fi
+Wc
+Wc
+gY
+xy
+HH
+gY
+"}
+(104,1,1) = {"
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+gY
+Wc
+Wc
+Wc
+yR
+cF
+yL
+yN
+wz
+uF
+Xb
+Xb
+me
+me
+me
+me
+me
+Xb
+oj
+DV
+Ns
+ui
+ea
+Fi
+Wc
+Wc
+gY
+gY
+gY
+gY
+"}
+(105,1,1) = {"
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+gY
+Wc
+Wc
+Wc
+yR
+yR
+yR
+yL
+yN
+wz
+Jh
+HJ
+zB
+zB
+Jh
+HJ
+Jh
+zB
+DV
+Ta
+fh
+Ns
+fU
+Sw
+WP
+Wc
+gY
+dJ
+dJ
+dJ
+"}
+(106,1,1) = {"
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+gY
+gY
+Wc
+Wc
+Wc
+yR
+yR
+yR
+yL
+oN
+oN
+gY
+Wc
+AZ
+Wc
+gY
+Up
+Xb
+Uw
+gY
+FY
+Pe
+OA
+qQ
+Ly
+gY
+gY
+dJ
+dJ
+dJ
+"}
+(107,1,1) = {"
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+gY
+gY
+Wc
+gY
+JI
+yR
+yR
+cF
+yR
+gY
+gY
+gY
+gY
+gY
+vp
+Up
+Xb
+So
+gY
+gY
+bE
+IO
+Vx
+iV
+Bk
+gY
+dJ
+dJ
+dJ
+"}
+(108,1,1) = {"
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+gY
+gY
+gY
+gY
+yR
+yR
+yR
+gE
+gY
+nM
+nM
+RX
+iv
+fT
+Xu
+Xb
+Uw
+sY
+gY
+DW
+cH
+Vx
+cA
+dW
+gY
+dJ
+dJ
+dJ
+"}
+(109,1,1) = {"
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+gY
+gY
+gY
+gY
+gY
+gY
+nM
+nM
+nM
+NS
+Xb
+Xb
+Bw
+Uw
+lt
+gY
+QP
+Rr
+Xo
+Bj
+dW
+gY
+dJ
+dJ
+dJ
+"}
+(110,1,1) = {"
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+gY
+nM
+nM
+nM
+NS
+TJ
+TJ
+TJ
+ir
+sY
+gY
+gY
+UM
+qG
+dW
+gY
+gY
+dJ
+dJ
+dJ
+"}
+(111,1,1) = {"
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+gY
+gY
+gY
+gY
+gY
+Ii
+WK
+AR
+Ag
+gY
+gY
+gY
+gY
+gY
+gY
+gY
+dJ
+dJ
+dJ
+dJ
+"}
+(112,1,1) = {"
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+gY
+gY
+gY
+gY
+gY
+gY
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+dJ
+"}
