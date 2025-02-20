@@ -37,3 +37,9 @@
 
 /datum/faction/syndicate
 	prefixes = list("SEV", "SSV", "SMMV", "PCAC", "SSASV", "SSSV", "SOSSV", "TSSV", "SABSV", "BSSV", "ASSV", "MSSV", "LSSV", "DSSV")
+
+/datum/faction/death_match_arena
+	name = FACTION_PIRATES
+	short_name = "DMA"
+	parent_faction = /datum/faction/death_match_arena
+	prefixes = list("PIRATE")

@@ -445,3 +445,42 @@
 /obj/machinery/computer/cargo/faction/nanotrasen/ui_static_data(mob/user)
 	var/list/data = faction_ui_static_data(user, /datum/faction/nt)
 	return data
+
+// MARK: EVENT
+/*
+	Nanotrasen
+*/
+/obj/machinery/computer/cargo/faction/death_match_arena
+	name = "Airdrop console"
+	desc = "That console is ErRor342rr!!22r."
+	icon_screen = "targeting"
+	circuit = /obj/item/circuitboard/computer/cargo
+	light_color = LIGHT_COLOR_BLOOD_MAGIC
+
+	contraband = TRUE
+	self_paid = TRUE
+
+	podType = /obj/structure/closet/supplypod/death_match_airpod
+
+	charge_account = ACCOUNT_DMA
+
+/obj/machinery/computer/cargo/faction/death_match_arena/ui_interact(mob/user, datum/tgui/ui)
+	faction_ui_interact(user, ui, "OutpostCommunicationsFactionSyndicate", src)
+
+/obj/machinery/computer/cargo/faction/death_match_arena/generate_pack_data()
+	supply_pack_data = generate_faction_pack_data(/datum/faction/death_match_arena)
+
+/obj/machinery/computer/cargo/faction/death_match_arena/ui_static_data(mob/user)
+	var/list/data = faction_ui_static_data(user, /datum/faction/death_match_arena)
+	return data
+
+
+/obj/structure/closet/supplypod/death_match_airpod
+	name = "Arena airpod lootbox"
+	desc = "A specalised, lootbox."
+	specialised = TRUE
+	style = STYLE_BOX_ARENA
+	bluespace = TRUE
+	explosionSize = list(0,0,0,1)
+	delays = list(POD_TRANSIT = 60, POD_FALLING = 30, POD_OPENING = 5, POD_LEAVING = 5)
+	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | UNACIDABLE | ACID_PROOF

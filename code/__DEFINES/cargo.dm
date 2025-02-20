@@ -16,18 +16,19 @@
 #define STYLE_STANDARD 1
 #define STYLE_BLUESPACE 2
 #define STYLE_ELYSIUM 3
-#define STYLE_CENTCOM 4
-#define STYLE_SYNDICATE 5
-#define STYLE_BLUE 6
-#define STYLE_CULT 7
-#define STYLE_MISSILE 8
-#define STYLE_RED_MISSILE 9
-#define STYLE_BOX 10
-#define STYLE_HONK 11
-#define STYLE_FRUIT 12
-#define STYLE_INVISIBLE 13
-#define STYLE_GONDOLA 14
-#define STYLE_SEETHROUGH 15
+#define STYLE_BOX_ARENA 4
+#define STYLE_CENTCOM 5
+#define STYLE_SYNDICATE 6
+#define STYLE_BLUE 7
+#define STYLE_CULT 8
+#define STYLE_MISSILE 9
+#define STYLE_RED_MISSILE 10
+#define STYLE_BOX 11
+#define STYLE_HONK 12
+#define STYLE_FRUIT 13
+#define STYLE_INVISIBLE 14
+#define STYLE_GONDOLA 15
+#define STYLE_SEETHROUGH 16
 // [/CELADON-EDIT]
 
 #define POD_SHAPE 1
@@ -61,6 +62,7 @@ GLOBAL_LIST_INIT(podstyles, list(\
 	list(POD_SHAPE_NORML, "advpod",		TRUE,	"bluespace",	"blue",		RUBBLE_NORMAL,	"bluespace supply pod",	"A Nanotrasen Bluespace supply pod. Teleports back to CentCom after delivery."),\
 	// [CELADON-ADD] - CELADON_ELYSIUMPOD
 	list(POD_SHAPE_NORML, "elysiumpod",		TRUE,	"elysium",	"green",		RUBBLE_NORMAL,	"\improper Elysium supply pod",	"An Elysium supply pod. Teleports back to warehouse after delivery."),\
+	list(POD_SHAPE_OTHER, "boxarena",		TRUE,	"deathmatcharena",			"red",		RUBBLE_WIDE,	"\improper Arena supply crate", "Arena supply box."),\
 	// [/CELADON-ADD]
 	list(POD_SHAPE_NORML, "advpod",		TRUE,	"centcom",		"blue",		RUBBLE_NORMAL,	"\improper CentCom supply pod", "A Nanotrasen supply pod, this one has been marked with Central Command's designations. Teleports back to CentCom after delivery."),\
 	list(POD_SHAPE_NORML, "darkpod",	TRUE,	"syndicate",	"red",		RUBBLE_NORMAL,	"blood-red supply pod", "An intimidating supply pod, covered in the blood-red markings of the Syndicate. It's probably best to stand back from this."),\

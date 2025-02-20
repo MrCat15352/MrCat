@@ -11,6 +11,8 @@
 #define ACCOUNT_IND_NAME "Independent Budget"
 #define ACCOUNT_NTN "NTN"
 #define ACCOUNT_NTN_NAME "Nanotrasen Budget"
+#define ACCOUNT_DMA "DMA"
+#define ACCOUNT_DMA_NAME "Death Match Arena Budget"
 //[/CELADON-ADD]
 
 SUBSYSTEM_DEF(economy)
@@ -33,7 +35,8 @@ SUBSYSTEM_DEF(economy)
 										ACCOUNT_INT = ACCOUNT_INT_NAME,
 										ACCOUNT_SLF = ACCOUNT_SLF_NAME,
 										ACCOUNT_IND = ACCOUNT_IND_NAME,
-										ACCOUNT_NTN = ACCOUNT_NTN_NAME)
+										ACCOUNT_NTN = ACCOUNT_NTN_NAME,
+										ACCOUNT_DMA = ACCOUNT_DMA_NAME)
 	var/list/departmental_accounts = list()
 //[/CELADON-ADD]
 
