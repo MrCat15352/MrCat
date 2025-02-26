@@ -2158,6 +2158,7 @@
 #include "code\modules\economy\pay_stand.dm"
 #include "code\modules\economy\selling_pad.dm"
 #include "code\modules\emoji\emoji_parse.dm"
+#include "code\modules\emoji\emojipedia.dm"
 #include "code\modules\error_handler\error_handler.dm"
 #include "code\modules\error_handler\error_viewer.dm"
 #include "code\modules\events\_event.dm"
