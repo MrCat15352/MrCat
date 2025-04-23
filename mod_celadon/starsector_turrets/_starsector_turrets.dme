@@ -1,0 +1,11 @@
+#ifndef MODPACK_CELADON_STARSECTOR_TURRETS
+#define MODPACK_CELADON_STARSECTOR_TURRETS
+
+#include "_starsector_turrets.dm"
+
+#include "code/large_special_turrets.dm"
+#include "code/large_turrets.dm"
+#include "code/medium_turrets.dm"
+#include "code/small_turrets.dm"
+
+#endif
