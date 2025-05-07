@@ -1,0 +1,10 @@
+#ifndef MODPACK_CELADON_MK17_REACTOR
+#define MODPACK_CELADON_MK17_REACTOR
+
+#include "_mk17_reactor.dm"
+
+#include "code/circuit.dm"
+#include "code/fuelcell.dm"
+#include "code/reactor.dm"
+
+#endif
