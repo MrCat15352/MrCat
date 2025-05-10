@@ -190,6 +190,7 @@
 #include "code\__DEFINES\dcs\signals\signals_obj\signals_machine\signals_machinery.dm"
 #include "code\__DEFINES\dcs\signals\signals_obj\signals_machine\signals_supermatter.dm"
 #include "mod_celadon\mod_defines.dme"
+#include "mod_astralone\mod_astralone_defines.dme"
 #include "code\__HELPERS\_auxtools_api.dm"
 #include "code\__HELPERS\_lists.dm"
 #include "code\__HELPERS\_logging.dm"
@@ -3677,4 +3678,7 @@
 
 // CELADON
 #include "mod_celadon\mod_celadon.dme"
+
+// ASTRALONE
+#include "mod_astralone\mod_astralone.dme"
 
