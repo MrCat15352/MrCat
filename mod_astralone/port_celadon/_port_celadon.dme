@@ -1,0 +1,8 @@
+#ifndef MODPACK_ASTRALONE_PORT_CELADON
+#define MODPACK_ASTRALONE_PORT_CELADON
+
+#include "_port_celadon.dm"
+
+#include "code/port_celadon.dm"
+
+#endif
