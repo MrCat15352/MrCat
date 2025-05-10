@@ -2278,7 +2278,7 @@
 /turf/open/floor/plasteel/white,
 /area/outpost/medical/hall_2)
 "boy" = (
-/turf/open/floor/plating/asteroid/dirt/grass/jungle,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle/yellow,
 /area/outpost/crew/garden)
 "boR" = (
 /turf/closed/indestructible/necropolis,
@@ -20040,7 +20040,7 @@
 	},
 /area/outpost/medical/surgery_1)
 "lLY" = (
-/turf/open/floor/plating/asteroid/dirt/grass/jungle,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle/dark,
 /area/outpost/crew/garden)
 "lMd" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -20502,7 +20502,7 @@
 /area/outpost/crew/cryo)
 "mbO" = (
 /obj/machinery/hydroponics/soil,
-/turf/open/floor/plating/asteroid/dirt/grass/jungle,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle/dark,
 /area/outpost/crew/garden)
 "mbR" = (
 /obj/effect/turf_decal/siding/blue{
@@ -20549,7 +20549,7 @@
 /area/outpost/fraction/solfed)
 "mct" = (
 /obj/structure/flora/tree/chapel,
-/turf/open/floor/plating/asteroid/dirt/grass/jungle,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle/dark,
 /area/outpost/crew/garden)
 "mcH" = (
 /obj/item/storage/fancy/candle_box{
@@ -22098,7 +22098,7 @@
 /area/outpost/operations/outpost_command)
 "nbZ" = (
 /obj/structure/flora/tree/jungle,
-/turf/open/floor/plating/asteroid/dirt/grass/jungle,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle/dark,
 /area/outpost/crew/garden)
 "ncd" = (
 /obj/structure/transit_tube/curved{

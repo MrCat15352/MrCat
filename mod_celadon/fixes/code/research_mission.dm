@@ -86,7 +86,7 @@
 	spread_chance = 25
 	chain_rate = 4
 	meteor_types = list(
-		/obj/effect/meteor/carp = 8
+		/obj/effect/meteor/carp=8
 	)
 
 /datum/overmap/event/carp/major
@@ -96,8 +96,8 @@
 	spread_chance = 25
 	chain_rate = 4
 	meteor_types = list(
-		/obj/effect/meteor/carp = 7,
-		/obj/effect/meteor/carp/big = 1,
+		/obj/effect/meteor/carp=7,
+		/obj/effect/meteor/carp/big=1,
 	)
 
 // dust clouds throw dust if you go Way Fast

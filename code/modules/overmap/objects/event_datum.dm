@@ -89,7 +89,6 @@
 	interference_power = 15
 
 	empty_space_mapgen = /datum/map_generator/planet_generator/asteroid
-
 	// [CELADON-EDIT] - CELADON_FIXES
 	// var/safe_speed = 3
 	// var/list/meteor_types = list(
