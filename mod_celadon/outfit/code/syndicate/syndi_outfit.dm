@@ -6,6 +6,7 @@
 		if (istype(O, /obj/item/storage/wallet))
 			W = O
 			break
+			clamp()
 	if (W)
 		var/obj/item/card/id/I = null
 		for (var/obj/item/O in W.contents)
