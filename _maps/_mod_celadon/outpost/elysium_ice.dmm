@@ -950,7 +950,7 @@
 /area/outpost/exterior)
 "aBJ" = (
 /obj/effect/spawner/structure/window/reinforced/indestructible,
-/turf/open/floor/plating/grass/beach/dark,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/garden)
 "aCv" = (
 /obj/structure/statue_ships/nt_darect/sw,
@@ -2278,7 +2278,7 @@
 /turf/open/floor/plasteel/white,
 /area/outpost/medical/hall_2)
 "boy" = (
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/garden)
 "boR" = (
 /turf/closed/indestructible/necropolis,
@@ -2487,7 +2487,7 @@
 /area/outpost/fraction/nanotrasen)
 "bxm" = (
 /obj/machinery/hydroponics/soil,
-/turf/open/floor/plating/grass/beach/dark,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/garden)
 "bxu" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -4194,7 +4194,7 @@
 "cAJ" = (
 /obj/machinery/light/small/directional/west,
 /obj/structure/flora/grass/jungle,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/canteen)
 "cBm" = (
 /obj/effect/turf_decal/corner/opaque/green/diagonal,
@@ -5502,7 +5502,7 @@
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/machinery/light/directional/south,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/medical/relax_room)
 "drd" = (
 /obj/effect/turf_decal/techfloor,
@@ -6054,7 +6054,7 @@
 /obj/structure/neon_spline/green{
 	dir = 4
 	},
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/maintenance/starboard)
 "dHy" = (
 /turf/closed/indestructible/reinforced,
@@ -6566,7 +6566,7 @@
 "dTJ" = (
 /obj/structure/flora/grass/jungle,
 /mob/living/simple_animal/cow,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/canteen)
 "dUy" = (
 /obj/item/lighter/zippo/ironic{
@@ -10817,7 +10817,7 @@
 	dir = 4
 	},
 /obj/structure/window/reinforced/spawner,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/canteen)
 "gmW" = (
 /obj/structure/flora/grass/green{
@@ -11505,7 +11505,7 @@
 	},
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/bush,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/canteen)
 "gIH" = (
 /obj/structure/painting{
@@ -15357,7 +15357,7 @@
 	dir = 10;
 	color = "#792f27"
 	},
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/cargo)
 "iTp" = (
 /turf/closed/indestructible/titanium/nodiagnonal,
@@ -18033,7 +18033,7 @@
 	dir = 5;
 	color = "#792f27"
 	},
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/cargo)
 "kCJ" = (
 /obj/effect/turf_decal/corner/opaque/neutral/full,
@@ -18852,7 +18852,7 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/medical/hall_1)
 "lfv" = (
 /obj/effect/turf_decal/techfloor/corner{
@@ -19016,7 +19016,7 @@
 	color = "#792f27"
 	},
 /obj/item/lighter/zippo/corgi,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/cargo)
 "lju" = (
 /obj/structure/fluff/hedge,
@@ -20040,7 +20040,7 @@
 	},
 /area/outpost/medical/surgery_1)
 "lLY" = (
-/turf/open/floor/plating/grass/beach/dark,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/garden)
 "lMd" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -20502,7 +20502,7 @@
 /area/outpost/crew/cryo)
 "mbO" = (
 /obj/machinery/hydroponics/soil,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/garden)
 "mbR" = (
 /obj/effect/turf_decal/siding/blue{
@@ -20549,7 +20549,7 @@
 /area/outpost/fraction/solfed)
 "mct" = (
 /obj/structure/flora/tree/chapel,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/garden)
 "mcH" = (
 /obj/item/storage/fancy/candle_box{
@@ -21187,7 +21187,7 @@
 "mxn" = (
 /obj/structure/flora/grass/jungle,
 /obj/structure/flora/ausbushes/brflowers,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/medical/relax_room)
 "myd" = (
 /obj/machinery/door/window/northleft{
@@ -21726,7 +21726,7 @@
 /obj/structure/window/reinforced/spawner{
 	dir = 4
 	},
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/canteen)
 "mQv" = (
 /obj/structure/bodycontainer/morgue{
@@ -22098,7 +22098,7 @@
 /area/outpost/operations/outpost_command)
 "nbZ" = (
 /obj/structure/flora/tree/jungle,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/garden)
 "ncd" = (
 /obj/structure/transit_tube/curved{
@@ -22140,7 +22140,7 @@
 	dir = 2;
 	req_one_access_txt = "8124"
 	},
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/canteen)
 "ncS" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -26013,7 +26013,7 @@
 	dir = 6;
 	color = "#792f27"
 	},
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/cargo)
 "pmI" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4,
@@ -32099,6 +32099,9 @@
 /obj/effect/turf_decal/corner/opaque/green/diagonal,
 /turf/open/floor/plasteel/white,
 /area/outpost/crew/garden)
+"sSm" = (
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
+/area/outpost/crew/garden)
 "sSA" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer2{
@@ -32140,7 +32143,7 @@
 /obj/structure/window/reinforced/spawner,
 /obj/structure/flora/grass/jungle,
 /mob/living/simple_animal/chicken/rabbit,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/canteen)
 "sTi" = (
 /obj/structure/cable{
@@ -32595,7 +32598,7 @@
 "tei" = (
 /obj/structure/flora/grass/jungle,
 /mob/living/simple_animal/chicken,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/canteen)
 "teB" = (
 /obj/effect/turf_decal/trimline/opaque/beige/filled/line,
@@ -32965,7 +32968,7 @@
 	dir = 4
 	},
 /obj/structure/sign/flag/elysium/directional/west,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/maintenance/starboard)
 "tqk" = (
 /obj/structure/cable{
@@ -34529,7 +34532,7 @@
 /obj/structure/neon_spline/green{
 	dir = 4
 	},
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/maintenance/starboard)
 "unH" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -35884,7 +35887,7 @@
 /area/outpost/crew/bar/theatre)
 "vir" = (
 /obj/structure/flora/grass/jungle,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/canteen)
 "viw" = (
 /obj/structure/plasticflaps/opaque{
@@ -40285,7 +40288,7 @@
 	},
 /obj/structure/flora/grass/jungle,
 /mob/living/simple_animal/chick/holo,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/canteen)
 "xHh" = (
 /obj/effect/turf_decal/corner/opaque/lime/half{
@@ -40564,7 +40567,7 @@
 /area/outpost/security/bay)
 "xOh" = (
 /obj/structure/flora/tree/jungle/small,
-/turf/open/floor/plating/grass/beach/dark,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/garden)
 "xOj" = (
 /obj/effect/turf_decal/siding/white,
@@ -41050,7 +41053,7 @@
 	},
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/bush,
-/turf/open/floor/plating/grass,
+/turf/open/floor/plating/asteroid/dirt/grass/jungle,
 /area/outpost/crew/canteen)
 "ydv" = (
 /obj/machinery/camera/autoname{
@@ -55301,10 +55304,10 @@ ePa
 gok
 aBJ
 boy
+sSm
+sSm
+sSm
 lLY
-lLY
-lLY
-boy
 lLY
 aji
 qlB
@@ -55487,10 +55490,10 @@ gok
 gok
 gok
 aBJ
-lLY
+boy
 xOh
-lLY
-lLY
+sSm
+sSm
 xOh
 lLY
 aji
@@ -55674,12 +55677,12 @@ juA
 gok
 gok
 aBJ
-lLY
-lLY
-lLY
-lLY
-lLY
-lLY
+sSm
+sSm
+sSm
+sSm
+sSm
+sSm
 aji
 qlB
 sRL
@@ -55861,12 +55864,12 @@ gok
 ebM
 gok
 aBJ
-lLY
-lLY
+sSm
+sSm
 mct
-lLY
-lLY
-lLY
+sSm
+sSm
+sSm
 aji
 xJz
 pCc
@@ -56048,11 +56051,11 @@ gok
 gok
 gok
 aBJ
-lLY
-lLY
-lLY
-lLY
-lLY
+sSm
+sSm
+sSm
+sSm
+sSm
 xOh
 aji
 sRL
@@ -56235,12 +56238,12 @@ vqN
 uOJ
 gok
 aBJ
-lLY
-lLY
-lLY
+sSm
+boy
+boy
 xOh
-lLY
-lLY
+sSm
+sSm
 eqH
 sRL
 pCc
@@ -56422,10 +56425,10 @@ gok
 gok
 gok
 aBJ
-lLY
+sSm
 nbZ
-lLY
-lLY
+sSm
+sSm
 lLY
 lLY
 wkl
@@ -56609,10 +56612,10 @@ vqN
 juA
 gok
 aBJ
+sSm
+sSm
+sSm
 lLY
-lLY
-lLY
-boy
 lLY
 lLY
 aji
@@ -56796,7 +56799,7 @@ gok
 gok
 gok
 aBJ
-lLY
+sSm
 bxm
 bxm
 bxm
