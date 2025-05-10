@@ -4,7 +4,7 @@
 	"map_short_name": "Qurk",
 	"description": "Большой медицинско-исследовательское судно со всем что может пригодится медику и исследователю. От морга и крио до экспериментора и отдела робототехники. В ЩИТСПАВНЕ ПО ПРИЧИНЕ: нарушение баланса. Слишком продвинутое РнД!",
 	"map_path": "_maps/_mod_celadon/shuttles/independent/independent_qurk.dmm",
-	"enabled": false,
+	"enabled": true,
 	"limit": 1,
 	"sensor_range": 4,
 	"prefix": "ISV",
