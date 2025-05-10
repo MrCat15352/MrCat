@@ -11,6 +11,7 @@
 ## Портирование с Целадона
 
 ID мода: ASTRALONE_PORT_CELADON
+ASTRALONE_PORT_1759
 <!--
   Название модпака прописными буквами, СОЕДИНЁННЫМИ_ПОДЧЁРКИВАНИЕМ,
   которое ты будешь использовать для обозначения файлов.
@@ -40,7 +41,13 @@ ID мода: ASTRALONE_PORT_CELADON
 
 ### Изменения *кор кода*
 
-- Отсутствуют
+[TWEAK] Переработка задания минет менов #1759
+- `code/datums/ruins/icemoon.dm`
+- `code/modules/ruins/icemoonruin_code/tesla_lab.dm`
+- `mod_celadon/maps/code/dynamic_mission/mission.dm`
+
+
+
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.

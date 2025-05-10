@@ -53,11 +53,13 @@
 
 /datum/mission/ruin/daughter
 	name = "find our daughter!"
-	desc = "Our daughter was recently deployed out to the Frontier - and we haven't heard from her, or the Minutemen - or anyone in weeks! Please find her and make sure she's okay..."
+	// desc = "Our daughter was recently deployed out to the Frontier - and we haven't heard from her, or the Minutemen - or anyone in weeks! Please find her and make sure she's okay..."	// ORIGINAL
+	desc = "Our daughter was recently deployed out to the Frontier - and we haven't heard from her, or the SolFed - or anyone in weeks! Please find her and make sure she's okay..."	// ASTR-EDIT - ASTRALONE_PORT_1759
 	value = 2000
 	mission_limit = 1
 	author = "Concerned Parents"
-	faction = /datum/faction/clip
+	// faction = /datum/faction/clip	// ORIGINAL
+	faction = /datum/faction/solgov	// ASTR-EDIT - ASTRALONE_PORT_1759
 	mission_reward = /obj/item/gun/ballistic/automatic/smg/cm5/compact
 	setpiece_item = /mob/living/carbon/human
 
