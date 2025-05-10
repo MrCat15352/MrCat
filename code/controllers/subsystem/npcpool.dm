@@ -39,10 +39,11 @@ SUBSYSTEM_DEF(npcpool)
 		if(!SA.ckey && !SA.notransform)
 			if(SA.stat != DEAD)
 				SA.handle_automated_movement()
-			if(SA.stat != DEAD)
+			// if(SA.stat != DEAD) // CEL-REMOVE — IDLE_NPC_SLEEP
 				SA.handle_automated_action()
-			if(SA.stat != DEAD)
+			// if(SA.stat != DEAD) // CEL-REMOVE — IDLE_NPC_SLEEP
 				SA.handle_automated_speech()
+				SA.check_should_sleep()	// CEL-ADD — IDLE_NPC_SLEEP
 		if (MC_TICK_CHECK)
 			--failed_fires
 			return

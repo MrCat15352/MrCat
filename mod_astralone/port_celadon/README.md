@@ -46,7 +46,10 @@ ASTRALONE_PORT_1759
 - `code/modules/ruins/icemoonruin_code/tesla_lab.dm`
 - `mod_celadon/maps/code/dynamic_mission/mission.dm`
 
-
+[ALPHA-TEST] ai-idle-test #1754 - IDLE_NPC_SLEEP
+- `code/controllers/subsystem/ai_controllers.dm`
+- `code/controllers/subsystem/npcpool.dm`
+- `code/datums/ai/_ai_controller.dm`
 
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
