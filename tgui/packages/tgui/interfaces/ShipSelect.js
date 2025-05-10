@@ -318,7 +318,7 @@ export const ShipSelect = (props, context) => {
                           '.png'
                         }
                         alt={
-                          '[Данные о карте не были получены. Обратитесь к Хосту (Voiko).]'
+                          '[Данные о карте не были получены. Обратитесь к Хосту Celadon (Voiko).]'
                         }
                         style={{
                           width: template.width || '600px',
