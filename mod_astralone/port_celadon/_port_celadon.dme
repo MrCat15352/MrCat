@@ -3,6 +3,4 @@
 
 #include "_port_celadon.dm"
 
-#include "code/port_celadon.dm"
-
 #endif
