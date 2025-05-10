@@ -51,6 +51,9 @@ ASTRALONE_PORT_1759
 - `code/controllers/subsystem/npcpool.dm`
 - `code/datums/ai/_ai_controller.dm`
 
+Outpost collision protection #1736
+- `code/controllers/subsystem/overmap_move.dm`
+
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
