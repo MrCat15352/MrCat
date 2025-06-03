@@ -63,3 +63,4 @@
 	setpiece_item = /obj/item/storage/bottles/moonshine/sealed
 	specific_item = FALSE
 	required_count = 3
+
