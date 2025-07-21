@@ -116,6 +116,11 @@
 		destination = get_step_multiz(src, going)
 	else
 		destination = going
+	
+	// Send signal to allow special elevators to intercept travel
+	if(SEND_GLOBAL_SIGNAL(COMSIG_GLOB_ELEVATOR_PLATFORM_TRAVEL, src, destination) & COMPONENT_CANCEL_ELEVATOR_TRAVEL)
+		return
+		
 	// has to happen before anything is moved, obviously
 	// currently unused.
 	if(do_crush)
