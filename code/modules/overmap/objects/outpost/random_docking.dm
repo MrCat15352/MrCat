@@ -1,0 +1,11 @@
+/datum/overmap/outpost/get_dockable_locations(datum/overmap/requesting_interactor)
+	var/list/docks = list()
+	for(var/datum/hangar_shaft/h_shaft as anything in shaft_datums)
+		for(var/obj/docking_port/stationary/h_dock as anything in h_shaft.hangar_docks)
+			if(!h_dock.docked && !h_dock.current_docking_ticket)
+				LAZYADD(docks, h_dock)
+	for(var/obj/docking_port/stationary/reserve_dock as anything in reserve_docks)
+		if(!reserve_dock.docked && !reserve_dock.current_docking_ticket)
+			LAZYADD(docks, reserve_dock)
+	// Перемешиваем список доступных стыковочных мест для случайного порядка
+	return shuffle(docks)

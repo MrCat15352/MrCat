@@ -268,9 +268,15 @@
 	if(override_dock)
 		return new /datum/docking_ticket(override_dock, src, dock_requester)
 
+	// Собираем список всех доступных стыковочных портов
+	var/list/available_docks = list()
 	for(var/obj/docking_port/stationary/docking_port in shuttle_port.docking_points)
 		if(dock_requester.shuttle_port.check_dock(docking_port))
-			return new /datum/docking_ticket(docking_port, src, dock_requester)
+			available_docks += docking_port
+	
+	// Если есть доступные порты, выбираем случайный
+	if(length(available_docks))
+		return new /datum/docking_ticket(pick(available_docks), src, dock_requester)
 	return ..()
 
 /datum/overmap/ship/controlled/get_dockable_locations(datum/overmap/requesting_interactor)

@@ -262,7 +262,8 @@
 	for(var/obj/docking_port/stationary/reserve_dock as anything in reserve_docks)
 		if(!reserve_dock.docked && !reserve_dock.current_docking_ticket)
 			LAZYADD(docks, reserve_dock)
-	return docks
+	// Перемешиваем список доступных стыковочных мест для случайного порядка
+	return shuffle(docks)
 
 /datum/overmap/outpost/post_docked(datum/overmap/ship/controlled/dock_requester)
 	for(var/mob/M as anything in GLOB.player_list)
@@ -330,6 +331,8 @@
 
 /datum/overmap/outpost/proc/ensure_hangar(datum/map_template/outpost/hangar/h_template)
 	RETURN_TYPE(/obj/docking_port/stationary)
+	var/list/available_docks = list()
+	// Собираем все доступные стыковочные площадки
 	for(var/datum/hangar_shaft/h_shaft as anything in shaft_datums)
 		for(var/obj/docking_port/stationary/h_dock as anything in h_shaft.hangar_docks)
 			// a dock/undock cycle may leave the stationary port w/ flipped width and height,
@@ -341,9 +344,15 @@
 					(h_dock.width == h_template.dock_height && h_dock.height == h_template.dock_width) \
 				) \
 			)
-				return h_dock
+				available_docks += h_dock
+	
+	// Если есть доступные площадки, выбираем случайную
+	if(length(available_docks))
+		// Принудительно перемешиваем список для большей случайности
+		available_docks = shuffle(available_docks)
+		return pick(available_docks)
 
-	// we didn't find a valid hangar, so we have to make one
+	// Если не нашли подходящую площадку, создаем новую
 	var/datum/hangar_shaft/chosen_shaft = pick(shaft_datums)
 	return make_hangar(h_template, chosen_shaft)
 
