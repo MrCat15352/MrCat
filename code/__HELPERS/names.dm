@@ -56,7 +56,7 @@ GLOBAL_VAR(command_name)
 	return GLOB.station_name
 
 /proc/set_station_name(newname)
-	GLOB.station_name = newname
+	GLOB.station_name = "Celadon: Shiptest | [newname]"	// [CELADON-EDIT] - CELADON_MASTER_FILES // GLOB.station_name = newname // ORIGINAL
 
 	var/config_server_name = CONFIG_GET(string/servername)
 	if(config_server_name)
