@@ -486,9 +486,10 @@
 /mob/living/simple_animal/pig
 	name = "pig"
 	desc = "A fat, lazy pig. Oink oink!"
-	icon_state = "pig"
-	icon_living = "pig"
-	icon_dead = "pig_dead"
+	icon = 'mod_celadon/_storge_icons/icons/mobs/pig.dmi'
+	icon_state = "samak"
+	icon_living = "samak"
+	icon_dead = "samak_dead"
 	gender = NEUTER
 	mob_biotypes = MOB_ORGANIC|MOB_BEAST
 	speak = list("oink", "oink oink", "snort")
@@ -511,7 +512,7 @@
 	maxHealth = 60
 	blood_volume = BLOOD_VOLUME_NORMAL
 	footstep_type = FOOTSTEP_MOB_SHOE
-	
+
 	var/fullness = 0
 	var/max_fullness = 100
 	var/size_multiplier = 1.0
@@ -523,7 +524,7 @@
 	. = ..()
 
 /mob/living/simple_animal/pig/attackby(obj/item/O, mob/user, params)
-	if(istype(O, /obj/item/food) || istype(O, /obj/item/book/bible) || istype(O, /obj/item/stack/sheet/iron))
+	if(istype(O, /obj/item/food) || istype(O, /obj/item/storage/book/bible) || istype(O, /obj/item/stack/sheet/metal))
 		feed_pig(O, user)
 		return
 	return ..()
@@ -532,23 +533,23 @@
 	if(fullness >= max_fullness)
 		to_chat(user, span_warning("[src] is too full!"))
 		return
-		
+
 	user.visible_message(span_notice("[user] feeds [food_item] to [src]."))
-	
+
 	if(istype(food_item, /obj/item/food/grown/cannabis))
 		mutate_pig("rainbow")
-	else if(istype(food_item, /obj/item/book/bible))
+	else if(istype(food_item, /obj/item/storage/book/bible))
 		mutate_pig("holy")
-	else if(istype(food_item, /obj/item/stack/sheet/iron))
+	else if(istype(food_item, /obj/item/stack/sheet/metal))
 		mutate_pig("cyborg")
 	else if(istype(food_item, /obj/item/food/badrecipe))
 		fullness += 15
 		grow_pig()
 	else
 		fullness += 5
-	
+
 	qdel(food_item)
-	
+
 	if(fullness >= max_fullness)
 		become_turbo_pig()
 
@@ -562,9 +563,9 @@
 /mob/living/simple_animal/pig/proc/mutate_pig(mutation)
 	if(mutation_type == mutation)
 		return
-		
+
 	mutation_type = mutation
-	
+
 	switch(mutation)
 		if("rainbow")
 			name = "rainbow pig"
@@ -578,7 +579,7 @@
 			name = "cyborg pig"
 			desc = "A mechanical pig."
 			add_atom_colour("#C0C0C0", ADMIN_COLOUR_PRIORITY)
-			
+
 	visible_message(span_boldnotice("[src] transforms!"))
 
 /mob/living/simple_animal/pig/proc/become_turbo_pig()
@@ -592,12 +593,12 @@
 	. = ..()
 	if(!. || stat)
 		return
-		
+
 	if(world.time - last_oink > (60 / oink_frequency))
 		if(prob(30))
 			audible_message("[src] oinks!")
 		last_oink = world.time
-	
+
 	if(fullness > 0)
 		fullness = max(0, fullness - 0.5)
 
@@ -618,10 +619,10 @@
 	. = ..()
 	if(!. || stat)
 		return
-		
+
 	if(prob(33))
 		audible_message(span_warning("[src] OINKS LOUDLY!"))
-	
+
 	if(prob(15))
 		var/turf/T = get_turf(src)
 		if(T && !locate(/obj/effect/decal/cleanable/dirt) in T)
