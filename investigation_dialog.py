@@ -7,6 +7,7 @@ class InvestigationDialog(QDialog):
     def __init__(self, log_data, parent=None):
         super().__init__(parent)
         self.log_data = log_data
+        self.parent_window = parent
         self.setWindowTitle("🔍 Расследование")
         self.setGeometry(200, 200, 800, 600)
         self.setup_ui()
@@ -77,10 +78,20 @@ class InvestigationDialog(QDialog):
         filter_layout = QHBoxLayout()
         filter_layout.addWidget(QLabel("Типы:"))
         
-        self.colors = {
-            'ACCESS': '#4CAF50', 'GAME': '#2196F3', 'EMOTE': '#FF9800',
-            'SAY': '#9C27B0', 'ADMIN': '#F44336', 'ERROR': '#FF0000'
-        }
+        # Получаем цвета и типы из родительского окна
+        if self.parent_window and hasattr(self.parent_window, 'colors'):
+            self.colors = self.parent_window.colors.copy()
+        else:
+            self.colors = {
+                'ACCESS': '#4CAF50', 'GAME': '#2196F3', 'EMOTE': '#FF9800',
+                'SAY': '#9C27B0', 'ADMIN': '#F44336', 'ERROR': '#FF0000'
+            }
+        
+        # Находим все уникальные типы в данных
+        found_types = set(entry['type'] for entry in self.log_data)
+        for event_type in found_types:
+            if event_type not in self.colors:
+                self.colors[event_type] = '#888888'
         
         self.filter_checkboxes = {}
         for event_type, color in self.colors.items():
@@ -95,10 +106,23 @@ class InvestigationDialog(QDialog):
         colors_btn.clicked.connect(self.configure_colors)
         filter_layout.addWidget(colors_btn)
         
+        # Переключатель вида
+        self.view_toggle = QPushButton("📊 Таблица")
+        self.view_toggle.clicked.connect(self.toggle_view)
+        filter_layout.addWidget(self.view_toggle)
+        
         layout.addLayout(filter_layout)
         
-        # Результаты
+        # Результаты - таблица
         self.results_table = QTableWidget()
+        
+        # Результаты - текст
+        self.results_text = QTextEdit()
+        self.results_text.setFont(QFont("Consolas", 10))
+        self.results_text.setLineWrapMode(QTextEdit.NoWrap)
+        self.results_text.hide()
+        
+        self.table_mode = True
         self.results_table.setFont(QFont("Consolas", 9))
         self.results_table.setAlternatingRowColors(True)
         self.results_table.setSelectionBehavior(QAbstractItemView.SelectRows)
@@ -110,6 +134,7 @@ class InvestigationDialog(QDialog):
         header.customContextMenuRequested.connect(self.show_column_menu)
         
         layout.addWidget(self.results_table)
+        layout.addWidget(self.results_text)
         
         # Кнопки
         buttons_layout = QHBoxLayout()
@@ -204,8 +229,11 @@ class InvestigationDialog(QDialog):
     
     def display_results(self, search_info, radius, grouped_logs):
         if not grouped_logs:
-            self.results_table.setRowCount(0)
-            self.results_table.setColumnCount(0)
+            if self.table_mode:
+                self.results_table.setRowCount(0)
+                self.results_table.setColumnCount(0)
+            else:
+                self.results_text.clear()
             return
         
         # Фильтруем события по типам
@@ -215,6 +243,12 @@ class InvestigationDialog(QDialog):
                 if self.filter_checkboxes.get(entry['type'], QCheckBox()).isChecked():
                     all_events.append((entry, coords, distance, z_level))
         
+        if self.table_mode:
+            self.display_table_results(all_events)
+        else:
+            self.display_text_results(all_events)
+    
+    def display_table_results(self, all_events):
         # Настраиваем таблицу
         columns = ['Время', 'Тип', 'X', 'Y', 'Z', 'Расст.', 'Сообщение']
         self.results_table.setColumnCount(len(columns))
@@ -246,6 +280,33 @@ class InvestigationDialog(QDialog):
         
         # Автоподбор ширины колонок
         self.results_table.resizeColumnsToContents()
+    
+    def display_text_results(self, all_events):
+        html_content = "<pre style='font-family: Consolas, monospace; font-size: 10pt;'>"
+        
+        for entry, coords, distance, z_level in all_events:
+            x, y, z = coords
+            color = self.colors.get(entry['type'], '#000000')
+            line = f"[{entry['timestamp']}] {entry['type']}: {entry['message']}"
+            html_content += f"<div style='color: {color}; font-weight: bold;'>{line}</div>"
+        
+        html_content += "</pre>"
+        self.results_text.setHtml(html_content)
+    
+    def toggle_view(self):
+        self.table_mode = not self.table_mode
+        if self.table_mode:
+            self.view_toggle.setText("📊 Таблица")
+            self.results_table.show()
+            self.results_text.hide()
+        else:
+            self.view_toggle.setText("📄 Текст")
+            self.results_table.hide()
+            self.results_text.show()
+        
+        if hasattr(self, 'last_results'):
+            search_info, radius, grouped_logs = self.last_results
+            self.display_results(search_info, radius, grouped_logs)
     
     def apply_type_filter(self):
         # Перерисовываем результаты с учетом фильтров

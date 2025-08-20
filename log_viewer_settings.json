@@ -5,7 +5,8 @@
     "EMOTE": "#eb9500",
     "SAY": "#9C27B0",
     "ADMIN": "#a22c24",
-    "ERROR": "#FF0000"
+    "ERROR": "#FF0000",
+    "EMOTE (SUBTLER)": "#ff29fb"
   },
   "highlight_colors": [
     "#ff54f6",
@@ -18,7 +19,7 @@
     "family": "Century",
     "size": 16
   },
-  "theme": "default",
+  "theme": "uplink",
   "hidden_columns": [],
-  "workspace_color": "#ffffff"
+  "workspace_color": "#464646"
 }
