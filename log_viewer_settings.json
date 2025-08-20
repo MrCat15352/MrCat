@@ -1,24 +1,24 @@
 {
   "colors": {
-    "ACCESS": "#005d2f",
-    "GAME": "#00007f",
-    "EMOTE": "#980003",
+    "ACCESS": "#00c717",
+    "GAME": "#52a3bc",
+    "EMOTE": "#eb9500",
     "SAY": "#9C27B0",
-    "ADMIN": "#F44336",
+    "ADMIN": "#a22c24",
     "ERROR": "#FF0000"
   },
   "highlight_colors": [
-    "#ffffff",
+    "#ff54f6",
     "#ffffff",
     "#ffffff",
     "#ffffff",
     "#ffffff"
   ],
   "font": {
-    "family": "Consolas",
-    "size": 10
+    "family": "Century",
+    "size": 16
   },
-  "theme": "dark_grey",
+  "theme": "default",
   "hidden_columns": [],
-  "workspace_color": "#564aff"
+  "workspace_color": "#ffffff"
 }
