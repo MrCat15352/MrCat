@@ -328,6 +328,7 @@ class LogViewer(QMainWindow):
                         content = f.read()
                     self.parse_log(content)
 
+                self.update_filter_checkboxes()
                 self.display_log()
                 self.update_stats()
                 self.statusBar().showMessage(f"Загружено: {file_path}")
@@ -418,7 +419,7 @@ class LogViewer(QMainWindow):
     def parse_single_line(self, line, line_num):
         """Парсит одну строку лога"""
         if line.strip():
-            pattern = r'\[([^\]]+)\] (\w+): (.+)'
+            pattern = r'\[([^\]]+)\] (\w+(?:\s*\([^)]+\))?): (.+)'
             match = re.match(pattern, line)
             if match:
                 timestamp, event_type, message = match.groups()
@@ -482,7 +483,7 @@ class LogViewer(QMainWindow):
 
     def parse_log_fast(self, lines):
         # Максимально быстрый парсинг без лишних проверок
-        pattern = re.compile(r'\[([^\]]+)\] (\w+): (.+)')
+        pattern = re.compile(r'\[([^\]]+)\] (\w+(?:\s*\([^)]+\))?): (.+)')
         timestamp_pattern = re.compile(r'\[([^\]]+)\] (.+)')
 
         for line_num, line in enumerate(lines, 1):
@@ -528,7 +529,7 @@ class LogViewer(QMainWindow):
         progress.setWindowModality(Qt.WindowModal)
         progress.show()
 
-        pattern = re.compile(r'\[([^\]]+)\] (\w+): (.+)')
+        pattern = re.compile(r'\[([^\]]+)\] (\w+(?:\s*\([^)]+\))?): (.+)')
         timestamp_pattern = re.compile(r'\[([^\]]+)\] (.+)')
         batch_size = 1000  # Обрабатываем батчами
 
@@ -1011,6 +1012,25 @@ class LogViewer(QMainWindow):
 
         return "0.3" if (not (type_visible and date_ok and key_ok) and self.dim_radio.isChecked()) else "1.0"
 
+    def update_filter_checkboxes(self):
+        # Находим все уникальные типы в данных
+        found_types = set(entry['type'] for entry in self.log_data)
+
+        # Добавляем новые типы
+        for event_type in found_types:
+            if event_type not in self.filter_checkboxes:
+                # Используем цвет из настроек или цвет по умолчанию
+                color = self.colors.get(event_type, '#888888')
+
+                cb = QCheckBox(event_type)
+                cb.setChecked(True)
+                cb.setStyleSheet(f"QCheckBox {{ color: {color}; font-weight: bold; }}")
+                cb.stateChanged.connect(self.apply_filters)
+                self.filter_checkboxes[event_type] = cb
+
+                # Вставляем перед stretch
+                self.filter_layout.insertWidget(self.filter_layout.count() - 1, cb)
+
     def update_stats(self):
         if not self.log_data:
             return
@@ -1251,7 +1271,12 @@ class LogViewer(QMainWindow):
 
         self.color_buttons = {}
 
-        for event_type, color in self.colors.items():
+        # Получаем все типы из фильтров (включая динамически добавленные)
+        all_types = {}
+        for event_type in self.filter_checkboxes.keys():
+            all_types[event_type] = self.colors.get(event_type, '#888888')
+
+        for event_type, color in all_types.items():
             row = QHBoxLayout()
             row.addWidget(QLabel(event_type))
 
@@ -1328,7 +1353,7 @@ class LogViewer(QMainWindow):
                 self.colors = settings.get('colors', {
                     'ACCESS': '#4CAF50', 'GAME': '#2196F3', 'EMOTE': '#FF9800',
                     'SAY': '#9C27B0', 'ADMIN': '#F44336', 'ERROR': '#FF0000',
-                    'SYSTEM': '#808080', 'OTHER': '#606060'
+                    'SYSTEM': '#808080', 'OTHER': '#606060', 'SUBTLER': '#E91E63'
                 })
 
                 self.highlight_colors = settings.get('highlight_colors',
@@ -1355,7 +1380,7 @@ class LogViewer(QMainWindow):
         self.colors = {
             'ACCESS': '#4CAF50', 'GAME': '#2196F3', 'EMOTE': '#FF9800',
             'SAY': '#9C27B0', 'ADMIN': '#F44336', 'ERROR': '#FF0000',
-            'SYSTEM': '#808080', 'OTHER': '#606060'
+            'SYSTEM': '#808080', 'OTHER': '#606060', 'SUBTLER': '#E91E63'
         }
         self.highlight_colors = ['#FFFFFF', '#FFFFFF', '#FFFFFF', '#FFFFFF', '#FFFFFF']
         self.default_font = QFont('Consolas', 10)
@@ -1403,7 +1428,7 @@ class LogViewer(QMainWindow):
     def show_about(self):
         about_text = """
 <h2>Shiptest Log Viewer Advanced</h2>
-<p><b>Версия:</b> 1.0.1</p>
+<p><b>Версия:</b> 1.1</p>
 <p><b>Создатель:</b> MrCat15352</p>
 <p>Все права принадлежат дискорд серверу<br>
 <a href="https://discord.gg/celadon-1100198143456465067">Celadon</a></p>
