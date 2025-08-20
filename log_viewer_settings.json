@@ -1,0 +1,24 @@
+{
+  "colors": {
+    "ACCESS": "#005d2f",
+    "GAME": "#00007f",
+    "EMOTE": "#980003",
+    "SAY": "#9C27B0",
+    "ADMIN": "#F44336",
+    "ERROR": "#FF0000"
+  },
+  "highlight_colors": [
+    "#ffffff",
+    "#ffffff",
+    "#ffffff",
+    "#ffffff",
+    "#ffffff"
+  ],
+  "font": {
+    "family": "Consolas",
+    "size": 10
+  },
+  "theme": "dark_grey",
+  "hidden_columns": [],
+  "workspace_color": "#564aff"
+}
