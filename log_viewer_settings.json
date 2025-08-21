@@ -3,14 +3,14 @@
     "ACCESS": "#00c717",
     "GAME": "#52a3bc",
     "EMOTE": "#eb9500",
-    "SAY": "#9C27B0",
+    "SAY": "#9c27b0",
     "ADMIN": "#a22c24",
-    "ERROR": "#FF0000",
+    "ERROR": "#ff0000",
     "EMOTE (SUBTLER)": "#ff29fb"
   },
   "highlight_colors": [
     "#ff54f6",
-    "#ffffff",
+    "#ffff00",
     "#ffffff",
     "#ffffff",
     "#ffffff"
@@ -19,7 +19,24 @@
     "family": "Century",
     "size": 16
   },
-  "theme": "uplink",
+  "theme": "dark_grey",
   "hidden_columns": [],
-  "workspace_color": "#464646"
+  "workspace_color": "#464646",
+  "table_style": "alternating",
+  "window_positions": {
+    "main": {
+      "x": -1632,
+      "y": -326,
+      "width": 1118,
+      "height": 719
+    },
+    "settings": {
+      "x": -1169,
+      "y": -38
+    },
+    "investigation": {
+      "x": -1306,
+      "y": -78
+    }
+  }
 }

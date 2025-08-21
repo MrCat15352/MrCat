@@ -7,6 +7,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from investigation_dialog import InvestigationDialog
+from settings_dialog import SettingsDialog
 from concurrent.futures import ThreadPoolExecutor
 import threading
 
@@ -14,7 +15,6 @@ class LogViewer(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Shiptest Log Viewer Advanced")
-        self.setGeometry(100, 100, 1400, 900)
 
         self.colors = {
             'ACCESS': '#4CAF50', 'GAME': '#2196F3', 'EMOTE': '#FF9800',
@@ -27,6 +27,14 @@ class LogViewer(QMainWindow):
         self.page_size = 1000
         self.settings_file = 'log_viewer_settings.json'
         self.load_settings()
+
+        # Устанавливаем позицию и размер окна
+        if 'main' in self.window_positions:
+            pos = self.window_positions['main']
+            self.setGeometry(pos['x'], pos['y'], pos.get('width', 1400), pos.get('height', 900))
+        else:
+            self.setGeometry(100, 100, 1400, 900)
+
         self.setup_ui()
         self.apply_theme()
 
@@ -79,38 +87,9 @@ class LogViewer(QMainWindow):
 
         toolbar.addSeparator()
 
-        # Меню оформления
-        style_menu = QMenu("🎨 Оформление", self)
-
-        colors_action = QAction("🎨 Цвета типов", self)
-        colors_action.triggered.connect(self.configure_colors)
-        style_menu.addAction(colors_action)
-
-        highlight_colors_action = QAction("✨ Цвета подсветки", self)
-        highlight_colors_action.triggered.connect(self.configure_highlight_colors)
-        style_menu.addAction(highlight_colors_action)
-
-        style_menu.addSeparator()
-
-        font_action = QAction("🔤 Шрифт", self)
-        font_action.triggered.connect(self.configure_font)
-        style_menu.addAction(font_action)
-
-        style_menu.addSeparator()
-
-        theme_action = QAction("🎨 Тема", self)
-        theme_action.triggered.connect(self.configure_theme)
-        style_menu.addAction(theme_action)
-
-        workspace_color_action = QAction("📝 Цвет рабочей области", self)
-        workspace_color_action.triggered.connect(self.configure_workspace_color)
-        style_menu.addAction(workspace_color_action)
-
-        style_button = QToolButton()
-        style_button.setText("🎨 Оформление")
-        style_button.setMenu(style_menu)
-        style_button.setPopupMode(QToolButton.InstantPopup)
-        toolbar.addWidget(style_button)
+        settings_action = QAction("⚙️ Настройки", self)
+        settings_action.triggered.connect(self.open_settings)
+        toolbar.addAction(settings_action)
 
         toolbar.addSeparator()
 
@@ -127,8 +106,12 @@ class LogViewer(QMainWindow):
 
         self.search_edit = QLineEdit()
         self.search_edit.setPlaceholderText("Введите текст для поиска...")
-        self.search_edit.textChanged.connect(self.on_search)
+        self.search_edit.returnPressed.connect(self.on_search)
         search_layout.addWidget(self.search_edit)
+
+        search_btn = QPushButton("Поиск")
+        search_btn.clicked.connect(self.on_search)
+        search_layout.addWidget(search_btn)
 
         clear_search_btn = QPushButton("✕")
         clear_search_btn.setMaximumWidth(25)
@@ -136,11 +119,9 @@ class LogViewer(QMainWindow):
         search_layout.addWidget(clear_search_btn)
 
         self.case_sensitive = QCheckBox("Учитывать регистр")
-        self.case_sensitive.stateChanged.connect(self.on_search)
         search_layout.addWidget(self.case_sensitive)
 
         self.regex_search = QCheckBox("Regex")
-        self.regex_search.stateChanged.connect(self.on_search)
         search_layout.addWidget(self.regex_search)
 
         regex_help = QPushButton("?")
@@ -200,8 +181,12 @@ class LogViewer(QMainWindow):
         date_filter_layout.addWidget(QLabel("CKey:"))
         self.key_filter = QLineEdit()
         self.key_filter.setPlaceholderText("Фильтр по CKey (пусто = все)")
-        self.key_filter.textChanged.connect(self.apply_filters)
+        self.key_filter.returnPressed.connect(self.apply_filters)
         date_filter_layout.addWidget(self.key_filter)
+
+        key_search_btn = QPushButton("Поиск")
+        key_search_btn.clicked.connect(self.apply_filters)
+        date_filter_layout.addWidget(key_search_btn)
 
         date_filter_layout.addWidget(QLabel("Режим фильтров:"))
 
@@ -231,7 +216,7 @@ class LogViewer(QMainWindow):
             edit = QLineEdit()
             edit.setPlaceholderText(f"Текст {i+1}")
             edit.setStyleSheet(f"background-color: {self.highlight_colors[i]}; color: #000;")
-            edit.textChanged.connect(self.apply_filters)
+            edit.returnPressed.connect(self.apply_filters)
             self.highlight_edits.append(edit)
             highlight_layout.addWidget(edit)
 
@@ -239,6 +224,10 @@ class LogViewer(QMainWindow):
             clear_btn.setMaximumWidth(20)
             clear_btn.clicked.connect(lambda checked, idx=i: self.highlight_edits[idx].clear())
             highlight_layout.addWidget(clear_btn)
+
+        highlight_search_btn = QPushButton("Поиск")
+        highlight_search_btn.clicked.connect(self.apply_filters)
+        highlight_layout.addWidget(highlight_search_btn)
 
 
 
@@ -778,6 +767,7 @@ class LogViewer(QMainWindow):
             ]
 
             for col, item in enumerate(items):
+                # Применяем стиль в зависимости от настроек
                 if highlight_color:
                     item.setBackground(bg_color)
                     item.setForeground(QColor('#000000'))
@@ -785,7 +775,9 @@ class LogViewer(QMainWindow):
                     item.setBackground(QColor('#ffff00'))
                     item.setForeground(QColor('#000000'))
                 else:
-                    item.setForeground(color)
+                    # Цвет только для колонки типа
+                    if col == 1:
+                        item.setForeground(color)
 
                 if col == 1:  # Колонка типа
                     font = item.font()
@@ -793,8 +785,9 @@ class LogViewer(QMainWindow):
                     item.setFont(font)
 
                 # Применяем затемнение
-                if float(opacity) < 1.0:
-                    dimmed_color = QColor(color)
+                if float(opacity) < 1.0 and not (highlight_color or is_search_match):
+                    current_color = item.foreground().color()
+                    dimmed_color = QColor(current_color)
                     dimmed_color.setAlpha(int(255 * float(opacity)))
                     item.setForeground(dimmed_color)
 
@@ -1342,7 +1335,19 @@ class LogViewer(QMainWindow):
         dialog = InvestigationDialog(self.log_data, self)
         # Применяем тему к диалогу
         dialog.setStyleSheet(self.styleSheet())
-        dialog.exec_()
+
+        # Восстанавливаем позицию
+        if 'investigation' in self.window_positions:
+            pos = self.window_positions['investigation']
+            dialog.move(pos['x'], pos['y'])
+
+        dialog.show()
+
+        # Сохраняем позицию при закрытии
+        def save_position():
+            self.window_positions['investigation'] = {'x': dialog.x(), 'y': dialog.y()}
+            self.save_settings()
+        dialog.finished.connect(save_position)
 
     def load_settings(self):
         if os.path.exists(self.settings_file):
@@ -1369,6 +1374,12 @@ class LogViewer(QMainWindow):
                 self.current_theme = settings.get('theme', 'default')
                 self.hidden_columns = settings.get('hidden_columns', [])
                 self.workspace_color = settings.get('workspace_color', '#ffffff')
+                self.table_style = settings.get('table_style', 'alternating')
+                # Проверяем что стиль существует
+                if self.table_style not in ['alternating', 'solid']:
+                    self.table_style = 'alternating'
+
+                self.window_positions = settings.get('window_positions', {})
 
             except Exception as e:
                 print(f"Ошибка загрузки настроек: {e}")
@@ -1387,6 +1398,8 @@ class LogViewer(QMainWindow):
         self.current_theme = 'default'
         self.hidden_columns = []
         self.workspace_color = '#ffffff'
+        self.table_style = 'alternating'  # alternating, solid
+        self.window_positions = {}
 
 
 
@@ -1400,7 +1413,15 @@ class LogViewer(QMainWindow):
             },
             'theme': self.current_theme,
             'hidden_columns': self.get_hidden_columns(),
-            'workspace_color': self.workspace_color
+            'workspace_color': self.workspace_color,
+            'table_style': self.table_style,
+            'window_positions': self.window_positions
+        }
+
+        # Сохраняем позицию главного окна
+        self.window_positions['main'] = {
+            'x': self.x(), 'y': self.y(),
+            'width': self.width(), 'height': self.height()
         }
 
         try:
@@ -1428,7 +1449,7 @@ class LogViewer(QMainWindow):
     def show_about(self):
         about_text = """
 <h2>Shiptest Log Viewer Advanced</h2>
-<p><b>Версия:</b> 1.1</p>
+<p><b>Версия:</b> 1.2</p>
 <p><b>Создатель:</b> MrCat15352</p>
 <p>Все права принадлежат дискорд серверу<br>
 <a href="https://discord.gg/celadon-1100198143456465067">Celadon</a></p>
@@ -1456,11 +1477,15 @@ class LogViewer(QMainWindow):
             'dark_grey': 'Тёмно-серая'
         }
 
-        theme, ok = QInputDialog.getItem(self, 'Выбор темы', 'Тема:',
-                                        list(themes.values()),
-                                        list(themes.values()).index(themes[self.current_theme]),
-                                        False)
-        if ok:
+        dialog = QInputDialog(self)
+        dialog.setStyleSheet("QInputDialog, QInputDialog QLabel, QInputDialog QPushButton, QInputDialog QComboBox { color: #000000; background-color: #ffffff; }")
+        dialog.setWindowTitle('Выбор темы')
+        dialog.setLabelText('Тема:')
+        dialog.setComboBoxItems(list(themes.values()))
+        dialog.setTextValue(themes[self.current_theme])
+
+        if dialog.exec_() == QDialog.Accepted:
+            theme = dialog.textValue()
             for key, value in themes.items():
                 if value == theme:
                     self.current_theme = key
@@ -1489,6 +1514,8 @@ class LogViewer(QMainWindow):
         QApplication.instance().setStyleSheet(self.styleSheet())
         # Применяем цвет рабочей области
         self.apply_workspace_color()
+        # Применяем стиль таблиц
+        self.apply_table_style()
 
     def apply_pirate_theme(self):
         pirate_style = """
@@ -1952,6 +1979,21 @@ class LogViewer(QMainWindow):
         """
         self.setStyleSheet(dark_grey_style)
 
+    def open_settings(self):
+        dialog = SettingsDialog(self)
+        dialog.setStyleSheet("QDialog, QDialog QLabel, QDialog QPushButton, QDialog QComboBox, QDialog QGroupBox, QDialog QTabWidget, QDialog QTabBar { color: #000000; background-color: #ffffff; }")
+
+        # Восстанавливаем позицию
+        if 'settings' in self.window_positions:
+            pos = self.window_positions['settings']
+            dialog.move(pos['x'], pos['y'])
+
+        dialog.exec_()
+
+        # Сохраняем позицию
+        self.window_positions['settings'] = {'x': dialog.x(), 'y': dialog.y()}
+        self.save_settings()
+
     def configure_workspace_color(self):
         color = QColorDialog.getColor(QColor(self.workspace_color), self)
         if color.isValid():
@@ -1972,6 +2014,46 @@ class LogViewer(QMainWindow):
         current_style = self.styleSheet()
         self.setStyleSheet(current_style + workspace_style)
         QApplication.instance().setStyleSheet(self.styleSheet())
+
+    def configure_table_style(self):
+        styles = {
+            'alternating': 'Чередующиеся строки',
+            'solid': 'Однотонный фон'
+        }
+
+        dialog = QInputDialog(self)
+        dialog.setStyleSheet("QInputDialog, QInputDialog QLabel, QInputDialog QPushButton, QInputDialog QComboBox { color: #000000; background-color: #ffffff; }")
+        dialog.setWindowTitle('Выбор стиля таблиц')
+        dialog.setLabelText('Стиль:')
+        dialog.setComboBoxItems(list(styles.values()))
+        dialog.setTextValue(styles.get(self.table_style, styles['alternating']))
+
+        if dialog.exec_() == QDialog.Accepted:
+            style = dialog.textValue()
+            for key, value in styles.items():
+                if value == style:
+                    self.table_style = key
+                    break
+
+            self.apply_table_style()
+            self.save_settings()
+
+    def apply_table_style(self):
+        if not hasattr(self, 'table_widget'):
+            return
+
+        if self.table_style == 'alternating':
+            self.table_widget.setAlternatingRowColors(True)
+            if hasattr(self, 'table_widget2'):
+                self.table_widget2.setAlternatingRowColors(True)
+        else:  # solid
+            self.table_widget.setAlternatingRowColors(False)
+            if hasattr(self, 'table_widget2'):
+                self.table_widget2.setAlternatingRowColors(False)
+
+        # Перерисовываем таблицу
+        if hasattr(self, 'log_data') and self.log_data and self.table_mode:
+            self.display_log()
 
 def main():
     app = QApplication(sys.argv)

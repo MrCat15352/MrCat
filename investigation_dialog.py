@@ -10,6 +10,7 @@ class InvestigationDialog(QDialog):
         self.parent_window = parent
         self.setWindowTitle("🔍 Расследование")
         self.setGeometry(200, 200, 800, 600)
+        self.setWindowFlags(Qt.Window)
         self.setup_ui()
     
     def setup_ui(self):
@@ -23,11 +24,13 @@ class InvestigationDialog(QDialog):
         row1.addWidget(QLabel("CKey цели:"))
         self.ckey_edit = QLineEdit()
         self.ckey_edit.setPlaceholderText("Введите CKey игрока")
+        self.ckey_edit.returnPressed.connect(self.perform_investigation)
         row1.addWidget(self.ckey_edit)
         
         row1.addWidget(QLabel("или имя:"))
         self.character_edit = QLineEdit()
         self.character_edit.setPlaceholderText("Имя персонажа")
+        self.character_edit.returnPressed.connect(self.perform_investigation)
         row1.addWidget(self.character_edit)
         
         row1.addWidget(QLabel("Радиус:"))
@@ -376,9 +379,9 @@ class InvestigationDialog(QDialog):
         )
         
         if file_path:
-            with open(file_path, 'w', encoding='utf-8', newline='') as f:
-                import csv
-                writer = csv.writer(f)
+            import csv
+            with open(file_path, 'w', encoding='utf-8-sig', newline='') as f:
+                writer = csv.writer(f, delimiter=';', quoting=csv.QUOTE_ALL)
                 
                 # Заголовки
                 headers = []
