@@ -1,4 +1,4 @@
-/* [CELADON-REMOVE] - Перенесено в mod_celadon\fixes\code\newscaster.dm
+/* [CELADON-REMOVE] - Перенесено в mod_celadon\newscaster
 GLOBAL_DATUM_INIT(news_network, /datum/newscaster/feed_network, new)
 GLOBAL_LIST_EMPTY(allCasters)
 

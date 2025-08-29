@@ -1,0 +1,11 @@
+#ifndef MODPACK_CELADON_NEWSCASTER
+#define MODPACK_CELADON_NEWSCASTER
+
+#include "_newscaster.dm"
+
+#include "code/legacy_compatibility.dm"
+#include "code/newscaster_data.dm"
+#include "code/newscaster_machine.dm"
+#include "code/newspaper.dm"
+
+#endif
