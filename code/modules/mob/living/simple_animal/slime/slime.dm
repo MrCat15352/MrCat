@@ -148,6 +148,9 @@
 
 /mob/living/simple_animal/slime/updatehealth()
 	. = ..()
+	// Фикс бага: ограничиваем здоровье нулем только при наличии токсинов
+	if(getToxLoss() > 0 && health < 0)
+		health = 0
 	var/mod = 0
 	if(!HAS_TRAIT(src, TRAIT_IGNOREDAMAGESLOWDOWN))
 		var/health_deficiency = (maxHealth - health)
