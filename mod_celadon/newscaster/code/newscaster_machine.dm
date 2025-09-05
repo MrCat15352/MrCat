@@ -121,6 +121,46 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/newscaster/security_unit, 30)
 /obj/machinery/newscaster/proc/newsAlert(channel, update_alert = TRUE)
 	news_alert(channel, update_alert)
 
+// Создание виртуальных каналов для газеты
+/obj/machinery/newscaster/proc/create_virtual_channels()
+	// Удаляем старые виртуальные каналы
+	for(var/datum/feed_channel/channel in GLOB.news_network.network_channels)
+		if(channel.author == "Виртуальный канал")
+			GLOB.news_network.network_channels -= channel
+			qdel(channel)
+	
+	// Создаем новые виртуальные каналы если реальных мало
+	if(GLOB.news_network.network_channels.len < 4)
+		var/list/templates = list(
+			list("channel" = "Новости смены", "title" = "Сводка дня", "body" = "Сегодня на станции было относительно спокойно. Отдел инженерии сообщает о стабильной работе всех систем.", "author" = "Корреспондент Грифона"),
+			list("channel" = "Медицинские новости", "title" = "Напоминание о здоровье", "body" = "Медбай напоминает всем сотрудникам о необходимости прохождения плановых медосмотров. Помните: здоровье - это ваше богатство!", "author" = "Главврач станции"),
+			list("channel" = "Отдел снабжения", "title" = "Новые поставки", "body" = "На складе появились новые поставки оборудования. Квартирмейстер просит всех ответственно относиться к имуществу компании.", "author" = "Отдел снабжения"),
+			list("channel" = "Развлечения", "title" = "Спортивные новости", "body" = "В рекреационной зоне состоялся турнир по настольному теннису. Победитель получил почетный кубок и дополнительные выходные.", "author" = "Спортобозреватель")
+		)
+		
+		var/channels_to_add = min(4 - GLOB.news_network.network_channels.len, templates.len)
+		for(var/i = 1 to channels_to_add)
+			var/list/template = pick(templates)
+			templates -= template
+			
+			// Создаем виртуальный канал
+			var/datum/feed_channel/virtual_channel = new /datum/feed_channel
+			virtual_channel.channel_name = template["channel"]
+			virtual_channel.author = "Виртуальный канал"
+			virtual_channel.channel_desc = "Автоматически сгенерированный контент"
+			virtual_channel.locked = TRUE
+			
+			// Создаем сообщение в канале
+			var/datum/feed_message/virtual_message = new /datum/feed_message
+			virtual_message.author = template["author"]
+			virtual_message.body = template["body"]
+			virtual_message.time_stamp = station_time_timestamp()
+			virtual_message.creation_time = GLOB.news_network.last_action
+			virtual_message.message_ID = ++GLOB.news_network.message_count
+			
+			virtual_channel.messages += virtual_message
+			GLOB.news_network.network_channels += virtual_channel
+
 /obj/machinery/newscaster/ui_interact(mob/user, datum/tgui/ui)
 	. = ..()
 	if(ishuman(user) || issilicon(user))
@@ -238,7 +278,9 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/newscaster/security_unit, 30)
 		if("print_newspaper")
 			if(paper_remaining > 0)
 				paper_remaining--
-				new /obj/item/newspaper(loc)
+				// Создаем виртуальные каналы для газеты
+			create_virtual_channels()
+			new /obj/item/newspaper(loc)
 				. = TRUE
 				
 		if("create_channel")
