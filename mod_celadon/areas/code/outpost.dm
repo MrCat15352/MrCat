@@ -205,7 +205,7 @@
 	icon_state = "faction_separatist"
 	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 
-/// CARGO FACTION
+// CARGO FACTION
 
 /area/outpost/cargo/faction
 	name = "Cargo faction"
