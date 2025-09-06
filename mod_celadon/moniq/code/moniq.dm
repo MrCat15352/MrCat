@@ -18,9 +18,6 @@
 	pixel_x = -8
 	sign_path = /obj/structure/sign/moniq
 
-/obj/item/sign/moniq/proc/can_hear()
-	return TRUE
-
 /obj/item/sign/moniq/Initialize()
 	. = ..()
 	var/matrix/M = transform
@@ -126,7 +123,7 @@
 				return TRUE
 
 /obj/item/sign/moniq/proc/activate_music()
-	var/jukeboxslottotake = SSjukeboxes.addjukebox(src, selection, 1) // Изменил falloff на 1
+	var/jukeboxslottotake = SSjukeboxes.addjukebox(src, selection, 2) //WS Edit Cit #7367 & #7458
 	if(jukeboxslottotake)
 		active = TRUE
 		update_appearance()
@@ -163,6 +160,7 @@
 	icon = 'mod_celadon/moniq/icons/jukebox.dmi'
 	icon_state = "moniq_wallmount"
 	verb_say = "states"
+	verb_say = "states"
 	density = FALSE
 	var/active = FALSE
 	var/list/rangers = list()
@@ -171,9 +169,6 @@
 	/// Volume of the songs played
 	var/volume = 70
 	pixel_x = -8
-
-/obj/structure/sign/moniq/proc/can_hear()
-	return TRUE
 
 
 /obj/structure/sign/moniq/Destroy()
@@ -275,7 +270,7 @@
 				return TRUE
 
 /obj/structure/sign/moniq/proc/activate_music()
-	var/jukeboxslottotake = SSjukeboxes.addjukebox(src, selection, 1) // Изменил falloff на 1
+	var/jukeboxslottotake = SSjukeboxes.addjukebox(src, selection, 2) //WS Edit Cit #7367 & #7458
 	if(jukeboxslottotake)
 		active = TRUE
 		update_appearance()

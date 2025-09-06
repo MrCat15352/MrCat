@@ -4793,7 +4793,7 @@
 /area/outpost/medical/surgery_2)
 "cOc" = (
 /obj/effect/turf_decal/corner/opaque/grey/mono,
-/obj/structure/bodycontainer/morgue/with_corpse{
+/obj/structure/bodycontainer/morgue{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
@@ -10118,7 +10118,7 @@
 /area/outpost/maintenance/fore)
 "fFx" = (
 /obj/effect/turf_decal/corner/opaque/grey/mono,
-/obj/structure/bodycontainer/morgue/with_corpse{
+/obj/structure/bodycontainer/morgue{
 	dir = 2
 	},
 /turf/open/floor/plasteel/dark,
@@ -13342,7 +13342,7 @@
 /turf/open/floor/plating,
 /area/outpost/operations/outpost_command)
 "hwL" = (
-/obj/effect/spawner/random/outpost_loot,
+/obj/item/storage/cans/sixbeer,
 /turf/open/floor/plating,
 /area/outpost/engineering)
 "hxd" = (
@@ -14850,7 +14850,7 @@
 /turf/open/floor/plasteel/patterned,
 /area/outpost/crew/bathroom)
 "ikk" = (
-/obj/structure/dirt_pile,
+/obj/item/storage/cans/sixbeer,
 /obj/item/clothing/head/helmet/space/hardsuit/security/gamma/white_squadron_rig,
 /obj/item/clothing/gloves/combat/gamma,
 /obj/item/clothing/shoes/gamma,
@@ -17569,7 +17569,7 @@
 /turf/closed/wall/r_wall,
 /area/outpost/vacant_rooms/office)
 "jJv" = (
-/obj/structure/dirt_pile/safe,
+/obj/item/storage/cans/sixbeer,
 /turf/open/floor/plating/asteroid/snow/temperatre/snow{
 	layer = 2.454
 	},
@@ -18807,7 +18807,7 @@
 	pixel_y = 16;
 	pixel_x = 11
 	},
-/obj/structure/dirt_pile/safe,
+/obj/item/storage/cans/sixbeer,
 /turf/open/floor/plating/asteroid/snow/temperatre/snow{
 	layer = 2.454
 	},
@@ -20516,7 +20516,7 @@
 /obj/structure/flora/grass/both{
 	layer = 3.1
 	},
-/obj/structure/dirt_pile/random,
+/obj/item/storage/cans/sixbeer,
 /turf/open/floor/plating/asteroid/snow/temperatre/snow{
 	layer = 2.454
 	},
@@ -35810,7 +35810,7 @@
 /obj/structure/window{
 	pixel_y = -9
 	},
-/obj/structure/dirt_pile/random,
+/obj/item/storage/cans/sixbeer,
 /turf/open/floor/plating/asteroid/snow/temperatre/snow{
 	layer = 2.454
 	},
@@ -36624,7 +36624,7 @@
 /area/outpost/crew/canteen)
 "uxB" = (
 /obj/item/spacecash/bundle/c10,
-/obj/structure/dirt_pile/random,
+/obj/item/storage/cans/sixbeer,
 /turf/open/floor/plating/asteroid/snow/temperatre/snow{
 	layer = 2.454
 	},
@@ -41932,7 +41932,7 @@
 /turf/open/floor/plating/asteroid/icerock/temperate,
 /area/outpost/exterior)
 "xvR" = (
-/obj/structure/dirt_pile/random,
+/obj/item/storage/cans/sixbeer,
 /turf/open/floor/plating/asteroid/snow/temperatre/snow{
 	layer = 2.454
 	},

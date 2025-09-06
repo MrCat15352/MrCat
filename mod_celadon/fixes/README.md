@@ -192,9 +192,6 @@ FIXES_MOTH_EATING_CLOTHING
   Изменений нет - напиши "Отсутствуют"
 -->
 
-FIXES_JUKEBOX
-- EDIT: `code/controllers/subsystem/jukeboxes.dm` - правим нахождение звука и типа, для работы muz-tv нужно
-
 ### Оверрайды
 
 - `mod_celadon/fixes/code/research_mission.dm` - вроде перезаписывает

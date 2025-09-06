@@ -18090,7 +18090,7 @@
 /turf/open/floor/plasteel/telecomms_floor,
 /area/outpost/crew/cryo)
 "mUl" = (
-/obj/structure/bodycontainer/morgue/with_corpse{
+/obj/structure/bodycontainer/morgue{
 	dir = 8
 	},
 /turf/open/floor/plasteel/heavymetal/var4,
