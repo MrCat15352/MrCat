@@ -1,0 +1,27 @@
+===Лекарства для синтетиков===
+Эта химия работает только на синтетических формах жизни, таких как [[ИПС|IPC]].
+{| class="wikitable sortable" style="width:100%; text-align:left; border: 3px solid #FFDD66; cellspacing=0; cellpadding=2; background-color:white;"
+! scope="col" style="width:150px; background-color:#FFDD66;" |Название
+! class="unsortable" scope="col" style="width:150px; background-color:#FFDD66;" |Формула
+! scope="col" style="width:80px; background-color:#FFDD66;" |Лечение
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Описание
+! scope="col" style="width:100px; background-color:#FFDD66;" |Скорость метаболизации
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог передозировки
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог зависимости
+|-
+! style="background-color:#FFEE88;" |{{anchor|System Cleaner}}System Cleaner <span style="color:#F1C40F;background-color:white">▮</span>
+|{{RecursiveChem/System Cleaner}}
+|<font color="green">Токсинов</font>
+|Лечит 2 урона токсинами и очищает кровоток от 1u других реагентов за тих.
+|0.5 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Liquid Solder}}Liquid Solder <span style="color:#727272;background-color:white">▮</span>
+|{{RecursiveChem/Liquid Solder}}
+|<font color="pink">Мозга</font>
+|Лечит 3 единицы урона мозгу и имеет 30% шанс вылечить особые травмы и 10% шанс незначительные травмы.
+|0.2 units за тик
+|N/A
+|N/A
+|}

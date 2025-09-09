@@ -1,0 +1,204 @@
+===Уникальные лекарства===
+Эти лекарства выполняют уникальную функцию, которая не часто встречается в игре.
+{| class="wikitable sortable" style="width:100%; text-align:left; border: 3px solid #FFDD66; cellspacing=0; cellpadding=2; background-color:white;"
+! scope="col" style="width:150px; background-color:#FFDD66;" |Название
+! class="unsortable" scope="col" style="width:150px; background-color:#FFDD66;" |Формула
+! scope="col" style="width:80px; background-color:#FFDD66;" |Лечение
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Описание
+! scope="col" style="width:100px; background-color:#FFDD66;" |Скорость метаболизации
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог передозировки
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог зависимости
+|-
+! style="background-color:#FFEE88;" |{{anchor|Leporazine}}Leporazine <span style="color:#DB90C6;background-color:white">▮</span>
+|{{RecursiveChem/Leporazine}}
+|Температуру тела
+|Очень эффективно стабилизирует температуру тела.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Rezadone}}Rezadone <span style="color:#669900;background-color:white">▮</span>
+|{{RecursiveChem/Rezadone}}
+|<font color="#2AB77C">Клетки</font>, Мумификацию
+|Мгновенно лечит весь клеточный урон, а также лечит 1 урон от ожогов и травм. Мгновенно восстанавливает мумифицированное тело, если количество урона ожогами меньше 50 единиц.
+При передозировке наносит 1 единицу урона токсинами, а также вызывает головокружение и дрожь.
+|0.2 units за тик
+| 30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Spaceacillin}}Spaceacillin <span style="color:#E1F2E6;background-color:white">▮</span>
+|
+{{RecursiveChem/Spaceacillin}}
+|Вирусы
+|Предотвращает распространение заболеваний, которыми пациент заражен в данный момент. Также лечит от некоторых вирусов.
+|0.1 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Oculine}}Oculine <span style="color:#404040;background-color:white">▮</span>
+|
+{{RecursiveChem/Oculine}}
+|Глаза
+|Лечит глаза на 2 единицы, а также близорукость и слепоту.
+|0.25 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Inacusiate}}Inacusiate <span style="color:#606060;background-color:white">▮</span>
+|
+{{RecursiveChem/Inacusiate}}
+|Уши
+|Восстанавливает слух пациента, но не лечит глухоту.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Synaptizine}}Synaptizine <span style="color:#FF00FF;background-color:white">▮</span>
+|{{RecursiveChem/Synaptizine}}
+|Галлюцинации
+|Увеличивает сопротивление различным потерям контроля над телом, галлюцинациям, очищает организм от 5u [[#Mindbreaker Toxin|Mindbreaker Toxin]], а также имеет шанс в 30% нанести 1 урона токсинами.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Miner's Salve}}Miner's Salve <span style="color:#6D6374;background-color:white">▮</span>
+|{{RecursiveChem/Miner's Salve}}
+|<font color="red">Травмы</font>, <font color="orange">Ожоги</font>
+|Сильное обезболивающее. Лечит 0.25 урона ушибами и ожогами, но пока химикат в организме, заставит мозг думать что тело полностью цело.
+|0.4 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Potassium Iodide}}Potassium Iodide <span style="color:#BAA15D;background-color:white">▮</span>
+|{{RecursiveChem/Potassium Iodide}}
+|<font color="cfd51e">Радиации</font>
+|Выводит малые дозы радиации из организма.
+|2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pentetic Acid}}Pentetic Acid <span style="color:#E6FFF0;background-color:white">▮</span>
+|{{RecursiveChem/Pentetic Acid}}
+|<font color="cfd51e">Радиации</font>, <font color="green">Токсины</font>
+|Выводит большие дозы радиации и лечит 2 единицы токсинов, выводя 2 единицы прочих препаратов из крови.
+|0.5 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Diphenhydramine}}Diphenhydramine <span style="color:#64FFE6;background-color:white">▮</span>
+|{{RecursiveChem/Diphenhydramine}}
+|Антигистаминное
+|Быстро выводит [[#Histamine|Histamine]] из организма, снижает дрожь, а также имеется шанс вызвать лёгкую сонливость.
+(В результате получается 4u, вместо 5u)
+|0.5 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Epinephrine}}Epinephrine <span style="color:#D2FFFA;background-color:white">▮</span>
+|{{RecursiveChem/Epinephrine}}
+|Крит, Оглушение
+|Имеет 20% шанс немного снизить время оглушения. Если пациент в критическом состоянии, лечит 0.5 единицы удушья, токсинов, травм и ожогов, а также предотвращет удушье, вызванное критическим состоянием.
+С передозировкой имеется 33% шанс нанести малый урон выносливости и 1 урон токсинами.
+|0.25 units за тик
+| 30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Strange Reagent}}Strange Reagent <span style="color:#A0E85E;background-color:white">▮</span>
+|
+{{RecursiveChem/Strange Reagent}}
+|Смерть
+|Чудотворный препарат, который возвращает мертвецов к жизни. Работает только при употреблении внутрь. Требуемое количество препарата зависит от количества урона, что имеет труп (максимум 10 единиц при 200 единицах совместного грубого урона и ожогов). Дополнительное количество препарата будет понемногу лечить внутренние органы и восстанавливать кровь в случае успешного воскрешения. Препарат не работает, если у трупа большее 200 единиц совместного урона (грубого и ожогов) или если он мумифицирован.
+В живых людях случайным образом наносит 0-2.5 единицы грубого урона и ожогов. Может также воскрешать симплмобов.
+|1.25 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mutadone}}Mutadone <span style="color:#5096C8;background-color:white">▮</span>
+|{{RecursiveChem/Mutadone}}
+|Мутации
+|Убирает дрожь и восстанавливает генетические дефекты.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Antihol}}Antihol <span style="color:#00B4C8;background-color:white">▮</span>
+|{{RecursiveChem/Antihol}}
+|Алкоголизм
+|Выводит алкогольные напитки из крови и ликвидирует их последствия.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Haloperidol}}Haloperidol <span style="color:#27870a;background-color:white">▮</span>
+|{{RecursiveChem/Haloperidol}}
+|Наркотики
+|Ускоряет вывод большинства наркотических препаратов из организма. Снижает джорь и наркотический эффект, наносит малый урон выносливости и мозгу, а также вызывает сонливость.
+|0.4 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Regenerative Jelly}}Regenerative Jelly <span style="color:#CC23FF;background-color:white">▮</span>
+|{{RecursiveChem/Regenerative Jelly}}
+|Базовые типы урона
+|Лечит 1.5 урона от травм, ожогов, токсинов и удушья без риска навредить слаймолюдям.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Morphine}}Morphine <span style="color:#A9FBFB;background-color:white">▮</span>
+|{{RecursiveChem/Morphine}}
+|Замедление
+|Позволяет вам бежать на полной скорости при тяжелый ранах. Вызывает сонливость после 12 циклов и сон после 24 циклов. Пока препарат находится в крови - пациент не проснётся. Дает 20 единиц обезболивания.
+
+При передозировке вызывает нервозность, головокружение и заставляет жертву ронять предметы из рук.
+При зависимости наносит 1, 2, а позже 3 единицы урона токсинами, а также усиленный эффект передозировки.
+|0.5 units за тик
+| 30 units
+|25 units
+|-
+! style="background-color:#FFEE88;" |{{anchor|Modafinil}}Modafinil <span style="color:#BEF7D8;background-color:white">▮</span>
+|
+{{RecursiveChem/Modafinil}}
+|Сон
+|Медленно усваиваемый препарат. Лечит головокружение, сонливость и даёт невосприимчивость ко сну. Немного уменьшает время оглушения.
+При передозировке вызывает нервозность, проблемы с речью, головокружение, имеет 50% шанс вызвать удушье. После 41 цикла имеет 20% шанс оглушения. После 82 циклов вводит в состояние бесконечного сна, нанося при этом 1.5 единица урон выносливости и удушья.
+Не вызывает привыкание, но имеет очень хитрый порог передозировки.
+|0.02-0.08 units за тик
+| 20 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Psicodine}}Psicodine <span style="color:#07E79E;background-color:white">▮</span>
+|{{RecursiveChem/Psicodine}}
+|Фобии
+|Подавляет фобии и поднимает настроение с плохого до нейтрального. Снижает нервозность, головокружение, замешательство и отвращение.
+
+При передозировке вызывает галлюцинации и наносит 1 единицу урона токсинами каждый тик.
+|0.25 units за тик
+| 30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Corazone}}Corazone <span style="color:#F49797;background-color:white">▮</span>
+|{{RecursiveChem/Corazone}}
+|Сердце, Печень
+|Пока реагент в теле - пациент не страдает от повреждённого или отсутствующего сердца или печени.
+|0.4 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lavaland Extract}}Lavaland Extract <span style="color:#6B372E;background-color:white">▮</span>
+|{{RecursiveChem/Lavaland Extract}}
+|Все базовые типы урона
+|Лечит 1 единицу травм, ожогов и токсинов, а также 1 единицу удушья, если пациент в критическом состоянии. Пока реагент находится в крови, конечности всегда будут активны, вне зависимости от полученного ими урона (Это не защищает их от отделения).
+
+При передозировке периодически будет вызывать сильную боль по телу.
+|0.4 units за тик
+|10 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|C4L-Z1UM Agent}}C4L-Z1UM Agent <span style="color:#000000;background-color:white">▮</span>
+|{{RecursiveChem/C4L-Z1UM Agent}}
+|Кости
+|Вызывает сонливость и усталость до 30 тика. После 31 вызывает сон и лечит поломанные кости и повреждённые органы.
+|0 units в течении 31 цикла, 10 units за тик после
+|N/A
+|N/A

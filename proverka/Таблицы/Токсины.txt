@@ -28,7 +28,7 @@
 |-
 ! style="background-color:#FFEE88;" |{{Anchor|Fentanyl}}Fentanyl
 |
-{{RecursiveChem/Fentanyl}}
+1 part Space Drugs
 |<font color="green">Токсины</font>, <font color="pink">Мозг</font>
 |Фентанил подавляет работу мозга и вызывает токсическое повреждение, прежде чем в конечном итоге вывести жертву из строя.
 |0.5 units за тик
@@ -67,14 +67,14 @@
 |-
 ! style="background-color:#FFEE88;" |{{Anchor|Sulfonal}}Sulfonal
 |
-{{RecursiveChem/Sulfonal}}
+1 part Acetone<br>1 part Diethylamine<br>1 part Sulfur
 |<font color="green">Токсины</font>, Потеря сознания
 |Скрытный яд, который наносит незначительный урон токсинами, и в конечном итоге усыпляет цель.
 |0.125 units за тик
 |-
 ! style="background-color:#FFEE88;" |{{Anchor|Lipolicide}}Lipolicide
 |
-{{RecursiveChem/Lipolicide}}
+1 part Mercury<br>1 part Diethylamine<br>1 part Ephedrine
 |Питательность
 |Сильнодействующий токсин который уничтожает жировые клетки, значительно снижая массу тела за короткое время. Смертельно опасен для тех, у кого в организме нет питательных веществ.
 |0.5 units за тик
@@ -87,7 +87,7 @@
 |-
 ! style="background-color:#FFEE88;" |{{Anchor|Lexorin}}Lexorin
 |
-{{RecursiveChem/Lexorin}}
+1 part Plasma<br>1 part Hydrogen<br>1 part Salbutamol
 |<font color="blue">Удушья</font>
 |Сильнодействующий яд используемый для остановки дыхания.
 |0.4 units за тик
@@ -148,7 +148,7 @@
 |-
 ! style="background-color:#FFEE88;" |{{Anchor|Anacea}}Anacea
 |
-{{RecursiveChem/Anacea}}
+1 part Haloperidol<br>1 part Impedrezene<br>1 part Radium
 |<font color="green">Токсины</font>
 |Токсин быстро выводящий медикаменты, и очень медленно метаболизирующийся.
 |0.08 units за тик
@@ -375,7 +375,7 @@
 |N/A
 |-
 ! style="background-color:#FFEE88;" |{{anchor|Plasma}}Plasma <span style="color:#8228A0;background-color:white">▮</span>
-|{{RecursiveChem/Plasma}}
+|1 part Plasma<br>1 part Virus Food
 |Plasma in its liquid form.
 |0.2 units за тик
 |N/A
@@ -389,7 +389,7 @@
 |N/A
 |-
 ! style="background-color:#FFEE88;" |{{anchor|Lexorin}}Lexorin <span style="color:#7DC3A0;background-color:white">▮</span>
-|{{RecursiveChem/Lexorin}}
+|1 part Plasma<br>1 part Hydrogen<br>1 part Salbutamol
 |A powerful poison used to stop respiration.
 |0.2 units за тик
 |N/A
@@ -515,7 +515,7 @@
 |N/A
 |-
 ! style="background-color:#FFEE88;" |{{anchor|Fentanyl}}Fentanyl <span style="color:#64916E;background-color:white">▮</span>
-|{{RecursiveChem/Fentanyl}}
+|1 part Space Drugs
 |Fentanyl will inhibit brain function and cause toxin damage before eventually knocking out its victim.
 |0.2 units за тик
 |N/A
@@ -557,7 +557,7 @@
 |N/A
 |-
 ! style="background-color:#FFEE88;" |{{anchor|Sulfonal}}Sulfonal <span style="color:#7DC3A0;background-color:white">▮</span>
-|{{RecursiveChem/Sulfonal}}
+|1 part Acetone<br>1 part Diethylamine<br>1 part Sulfur
 |A stealthy poison that deals minor toxin damage and eventually puts the target to sleep.
 |0.2 units за тик
 |N/A
@@ -571,7 +571,7 @@
 |N/A
 |-
 ! style="background-color:#FFEE88;" |{{anchor|Lipolicide}}Lipolicide <span style="color:#F0FFF0;background-color:white">▮</span>
-|{{RecursiveChem/Lipolicide}}
+|1 part Mercury<br>1 part Diethylamine<br>1 part Ephedrine
 |A powerful toxin that will destroy fat cells, massively reducing body weight in a short time. Deadly to those without nutriment in their body.
 |0.2 units за тик
 |N/A
@@ -606,7 +606,7 @@
 |N/A
 |-
 ! style="background-color:#FFEE88;" |{{anchor|Anacea}}Anacea <span style="color:#3C5133;background-color:white">▮</span>
-|{{RecursiveChem/Anacea}}
+|1 part Haloperidol<br>1 part Impedrezene<br>1 part Radium
 |A toxin that quickly purges medicines and metabolizes very slowly.
 |0.2 units за тик
 |N/A
@@ -669,7 +669,7 @@
 |N/A
 |-
 ! style="background-color:#FFEE88;" |{{anchor|Ethanol}}Ethanol <span style="color:#404030;background-color:white">▮</span>
-|{{RecursiveChem/Ethanol}}
+|1 part Asphalt
 |A well-known alcohol with a variety of applications.
 |0.2 units за тик
 |N/A

@@ -46,7 +46,7 @@
 |-
 ! style="background-color:#FFEE88;" |{{anchor|Wittel}}Wittel <span style="color:#FFFFFF;background-color:white">▮</span>
 |{{RecursiveChem/Wittel}}
-|С маленьким шансом появляется в химических гейзерах на большинства планетах. Используется в некоторых продвинутых рецептах.
+|An extremely rare metallic-white substance only found on demon-class planets.
 |-
 ! style="background-color:#FFEE88;" |{{anchor|Orange Juice}}Orange Juice <span style="color:#E78108;background-color:white">▮</span>
 |{{RecursiveChem/Orange Juice}}

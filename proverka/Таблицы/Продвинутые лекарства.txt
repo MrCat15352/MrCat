@@ -1,0 +1,110 @@
+===Продвинутые лекарства===
+Эти лекарства труднее сделать, чем базовые лекарства, но их эффективность гораздо выше.
+
+{| class="wikitable sortable" style="width:100%; text-align:left; border: 3px solid #FFDD66; cellspacing=0; cellpadding=2; background-color:white;"
+! scope="col" style="width:150px; background-color:#FFDD66;" |Название
+! class="unsortable" scope="col" style="width:150px; background-color:#FFDD66;" |Формула
+! scope="col" style="width:80px; background-color:#FFDD66;" |Лечение
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Описание
+! scope="col" style="width:100px; background-color:#FFDD66;" |Скорость метаболизации
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог передозировки
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог зависимости
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bicaridine Plus}}Bicaridine Plus <span style="color:#bf0000;background-color:white">▮</span>
+|{{RecursiveChem/Bicaridine Plus}}
+|<font color="red">Травм</font>
+|Лечит 2 грубого урона и замедляет скорость кровотечения.
+Передозировка будет наносить 6 грубого урона.
+|0.4 units за тик
+|25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Salicylic Acid}}Salicylic Acid <span style="color:#D2D2D2;background-color:white">▮</span>
+|{{RecursiveChem/Salicylic Acid}}
+|<font color="red">Травм</font>
+|Если у вас более 25 единиц грубого урона, лечит 4 единицы. Если у вас 25 и менее единиц грубого урона, лечит 0.5 единицы.
+Передозировка усугубит травмы.
+|0.5 units за тик
+| 25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dermaline}}Dermaline <span style="color:#FF8000;background-color:white">▮</span>
+|{{RecursiveChem/Dermaline}}
+|<font color="orange">Ожогов</font>
+|Лечит 2 урона ожогами.
+Передозировка наносит 6 урона ожогами.
+|0.2 units за тик
+| 25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Oxandrolone}}Oxandrolone <span style="color:#1E8BFF;background-color:white">▮</span>
+|{{RecursiveChem/Oxandrolone}}
+|<font color="orange">Ожогов</font>
+|Если у вас более 25 единиц урона ожогами, лечит 4 единицы. Если у вас 25 и менее, лечит 0.5 единицы.
+При передозировке усугиб имеющиеся ожоги.
+|0.5 units за тик
+| 25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tetracordrazine}}Tetracordrazine <span style="color:#C8A5DC;background-color:white">▮</span>
+|
+{{RecursiveChem/Tetracordrazine}}
+|Все базовые типы урона
+|Лечит 0.25 урона от травм, ожогов и токсинов и 0.5 урона удушением.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Omnizine}}Omnizine <span style="color:#DCDCDC;background-color:white">▮</span>
+|{{RecursiveChem/Omnizine}}
+|Все базовые типы урона
+|Лечит 0.5 урона от травм, ожогов, токсинов и удушья.
+Передозировка будет наносить 1.5 вместо лечения.
+|0.1 units за тик
+| 30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Perfluorodecalin}}Perfluorodecalin <span style="color:#FF6464;background-color:white">▮</span>
+|{{RecursiveChem/Perfluorodecalin}}
+|<font color="blue">Удушья</font>
+|Эффектино лечит удушье, паралельно нанося малое количество токсичного урона. Также имеется шанс восстановить дыхание.
+Передозировка ускорит вывод химиката из крови, но выработка токсинов в крови будет происходить вне зависимости от лечение удушья.
+|0.25 units за тик
+|35 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dexalin Plus}}Dexalin Plus <span style="color:#0040FF;background-color:white">▮</span>
+|{{RecursiveChem/Dexalin Plus}}
+|<font color="blue">Удушья</font>
+|Лечит 2 урона удушением.
+Передозировка наносит 6 урона удушением.
+|0.2 units за тик
+| 25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Calomel}}Calomel <span style="color:#19C832;background-color:white">▮</span>
+|{{RecursiveChem/Calomel}}
+|<font color="green">Токсинов</font>
+|Очищает организм от 3u всех реагентов. Наносит 1 токсиного урона, если здоровье больше 20.
+|0.5 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Carthatoline}}Carthatoline <span style="color:#225722;background-color:white">▮</span>
+|{{RecursiveChem/Carthatoline}}
+|<font color="green">Токсинов</font> и печени
+|Лечит организм от 2 единиц токсичного урона. С 10% шансов вызывает рвоту, очищая от 2u [[#Toxins|токсичных]] реагентов.
+Передозировка будет наносить 6 урона токсинами.
+|0.2 units за тик
+| 25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Atropine}}Atropine <span style="color:#1D3535;background-color:white">▮</span>
+|{{RecursiveChem/Atropine}}
+|Все базовые типы урона
+|Если вы находитесь в критическом состоянии, лечит 2 урона от травм, ожогов и токсинов, 5 урона гипоскией, а также предотвращает урон от удушья. С 20% шансом вызовет дрожь и головокружение.
+Передозировка будет наносить 0.5 урона токсинами и вызывать дрожь и головокружение.
+|0.25 units за тик
+| 35 units
+|N/A
+|}
