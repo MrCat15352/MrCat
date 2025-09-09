@@ -57,7 +57,7 @@
 |При первоначальной реакции охлаждается до 20К. Постепенно потребляет весь жидкий кислород в контейнере и охлаждает его. Эффект не зависит от количества Cryostylane - одна единица работает также, как 50. Не реагирует с воздухом в атмосфере. Внутри организма каждый тик потребляет 0.5 единицы кислорода и охлаждает тело на 15К.
 |0.5 units за тик
 |-
-! style="background-color:#FFEE88;" |{{anchor|Chlorine Trifluoride}}Chlorine Trifluoride <span style="color:#FFC8C8;background-color:white">▮</span>
+! style="background-color:#FFEE88;" |{{anchor|Chlorine Trifluoride}}Chlorine Trifluoride <span style="color:#FFFB89;background-color:white">▮</span>
 |{{RecursiveChem/Chlorine Trifluoride}}
 |Во время реакции создает огненный шар размером 3х3. В начале реакции разогревается до 1000К. Легковоспламеняющаяся субстанция, которая при достаточно количестве может мгновенно расплавить пол и его основание. Воспламеняет всё, к чем прикасается, а при употреблении внутрь наносит 6 единиц ожогов каждый тик, но быстро выводится из организма.
 |4 units за тик
@@ -132,5 +132,68 @@
 |
 {{RecursiveChem/TaTP}}
 |Суицидальная взрывчатка. Формируется и мгновенно детонирует при случайной температуре между 401К и 499К. Может быть стабилизировано при помощи [[#Stabilizing Agent|Stabilizing Agent]]. Если стабилизирована, взрывается при случайной температуре между 501К и 599К. Чем больше вещества взорвано, тем больше сила взрыва при максимуме силы в 0.67 при 2100 единиц вещества. В результате получается 1u, вместо 3u.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hell Ramen}}Hell Ramen <span style="color:#302000;background-color:white">▮</span>
+|{{RecursiveChem/Hell Ramen}}
+|The noodles are boiled, the flavors are artificial, just like being back in school.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|BBQ Sauce}}BBQ Sauce <span style="color:#78280A;background-color:white">▮</span>
+|{{RecursiveChem/BBQ Sauce}}
+|Sweet, smoky, savory, and gets everywhere. Perfect for grilling.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Chlorine Trifluoride}}Chlorine Trifluoride <span style="color:#FFFB89;background-color:white">▮</span>
+|{{RecursiveChem/Chlorine Trifluoride}}
+|Makes a temporary 3x3 fireball when it comes into existence, so be careful when mixing. ClF3 applied to a surface burns things that wouldn't otherwise burn, including typically-robust flooring, potentially exposing it to the vacuum of space.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Smoke Powder}}Smoke Powder <span style="color:#C8C8C8;background-color:white">▮</span>
+|{{RecursiveChem/Smoke Powder}}
+|Makes a large cloud of smoke that can carry reagents.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dense Smoke Powder}}Dense Smoke Powder <span style="color:#C8C8C8;background-color:white">▮</span>
+|{{RecursiveChem/Dense Smoke Powder}}
+|Makes a large cloud of thick smoke that can carry reagents.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Firefighting Foam}}Firefighting Foam <span style="color:#A6FAFF55;background-color:white">▮</span>
+|{{RecursiveChem/Firefighting Foam}}
+|A historical fire suppressant. Originally believed to simply displace oxygen to starve fires, it actually interferes with the combustion reaction itself. Vastly superior to the cheap water-based extinguishers found on NT vessels.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Whiskey}}Whiskey <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Whiskey}}
+|A well-aged whiskey.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|The Shortstop}}The Shortstop <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/The Shortstop}}
+|Beer and ale, brought together in a very grain-flavored mix.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bullet Hell}}Bullet Hell <span style="color:#c33206;background-color:white">▮</span>
+|{{RecursiveChem/Bullet Hell}}
+|An incredibly potent combination drink and fire hazard, typically served in a brass shell casing. May spontaneously combust.
+|0.2 units за тик
+|N/A
 |N/A
 |}

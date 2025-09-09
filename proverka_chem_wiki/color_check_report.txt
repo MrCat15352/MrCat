@@ -1,0 +1,28 @@
+=== ОТЧЕТ О ПРОВЕРКЕ ЦВЕТОВ РЕАГЕНТОВ ===
+
+Всего реагентов в коде: 614
+Найдено несоответствий цветов: 21
+Обновлено цветов: 21
+
+=== ДЕТАЛИЗАЦИЯ НЕСООТВЕТСТВИЙ ===
+Plasma: #5f2010 → #8228A0
+Aloe: #0064C8 → #664300
+Water: #808080 → #AAAAAA77
+Hydrogen: #AAAAAA77 → #808080
+Vodka: #664300 → #0064C8
+Silver: #C8A5DC → #D0D0D0
+Dexalin: #0040FF → #0080FF
+Potassium: #BAA15D → #A0A0A0
+Silver: #C8A5DC → #D0D0D0
+Potassium: #BAA15D → #A0A0A0
+Dexalin: #0040FF → #0080FF
+Lithium: #b3acaa → #808080
+Silver: #C8A5DC → #D0D0D0
+Potassium: #BAA15D → #A0A0A0
+Dexalin: #0040FF → #0080FF
+Lithium: #b3acaa → #808080
+Chlorine: #FFC8C8 → #FFFB89
+Chlorine: #FFC8C8 → #FFFB89
+Coffee: #5B2E0D → #572b07
+Sodium: #6496FA → #808080
+Toxin: #FFFFFF → #CF3600

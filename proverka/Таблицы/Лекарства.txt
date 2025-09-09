@@ -83,7 +83,7 @@
 |N/A
 |N/A
 |-
-! style="background-color:#FFEE88;" |{{anchor|Silver Sulfadiazine}}Silver Sulfadiazine <span style="color:#C8A5DC;background-color:white">▮</span>
+! style="background-color:#FFEE88;" |{{anchor|Silver Sulfadiazine}}Silver Sulfadiazine <span style="color:#D0D0D0;background-color:white">▮</span>
 |{{RecursiveChem/Silver Sulfadiazine}}
 |<font color="orange">Ожогов</font>
 |При нанесении моментально вылечит 1 урон ожогами, а затем 2 урона ожогами пока химикат находится в организме. Если реагент был введён в организм вместо нанесения, то он также нанесёт 0.5 урона токсинами.
@@ -172,7 +172,7 @@
 |N/A
 |N/A
 |-
-! style="background-color:#FFEE88;" |{{anchor|Tricordrazine}}Tricordrazine <span style="color:#C8A5DC;background-color:white">▮</span>
+! style="background-color:#FFEE88;" |{{anchor|Tricordrazine}}Tricordrazine <span style="color:#D0D0D0;background-color:white">▮</span>
 |
 1 part Bicaridine<br>1 part Kelotane<br>1 part Antitoxin
 |<font color="red">Травм</font>, <font color="orange">Ожогов</font>, <font color="green">Токсинов</font>
@@ -333,7 +333,7 @@
 | 25 units
 |N/A
 |-
-! style="background-color:#FFEE88;" |{{anchor|Tetracordrazine}}Tetracordrazine <span style="color:#C8A5DC;background-color:white">▮</span>
+! style="background-color:#FFEE88;" |{{anchor|Tetracordrazine}}Tetracordrazine <span style="color:#D0D0D0;background-color:white">▮</span>
 |
 {{RecursiveChem/Tetracordrazine}}
 |Все базовые типы урона
@@ -360,7 +360,7 @@
 |35 units
 |N/A
 |-
-! style="background-color:#FFEE88;" |{{anchor|Dexalin Plus}}Dexalin Plus <span style="color:#0040FF;background-color:white">▮</span>
+! style="background-color:#FFEE88;" |{{anchor|Dexalin Plus}}Dexalin Plus <span style="color:#0080FF;background-color:white">▮</span>
 |{{RecursiveChem/Dexalin Plus}}
 |<font color="blue">Удушья</font>
 |Лечит 2 урона удушением.
@@ -466,7 +466,7 @@
 |N/A
 |N/A
 |-
-! style="background-color:#FFEE88;" |{{anchor|Potassium Iodide}}Potassium Iodide <span style="color:#BAA15D;background-color:white">▮</span>
+! style="background-color:#FFEE88;" |{{anchor|Potassium Iodide}}Potassium Iodide <span style="color:#A0A0A0;background-color:white">▮</span>
 |{{RecursiveChem/Potassium Iodide}}
 |<font color="cfd51e">Радиации</font>
 |Выводит малые дозы радиации из организма.
@@ -701,6 +701,664 @@
 |<font color="orange">Ожогов</font>
 |Создаёт 6 Burn Ointment Slurry. Одно использование лечит 40 ожогов.
 |N/A
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Category two reagent}}Category two reagent <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Category two reagent}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Probital}}Probital <span style="color:#FFFF6B;background-color:white">▮</span>
+|{{RecursiveChem/Probital}}
+|Originally developed as a prototype-gym supliment for those looking for quick workout turnover, this oral medication quickly repairs broken muscle tissue but causes lactic acid buildup, tiring the patient. Overdosing can cause extreme drowsiness. An Influx of nutrients promotes the muscle repair even further.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lenturi}}Lenturi <span style="color:#6171FF;background-color:white">▮</span>
+|{{RecursiveChem/Lenturi}}
+|Used to treat burns. Makes you move slower while it is in your system. Applies stomach damage when it leaves your system.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hercuri}}Hercuri <span style="color:#F7FFA5;background-color:white">▮</span>
+|{{RecursiveChem/Hercuri}}
+|Not to be confused with element Mercury, this medicine excels in reverting effects of dangerous high-temperature environments. Prolonged exposure can cause hypothermia.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Convermol}}Convermol <span style="color:#FF6464;background-color:white">▮</span>
+|{{RecursiveChem/Convermol}}
+|Restores oxygen deprivation while producing a lesser amount of toxic byproducts. Both scale with exposure to the drug and current amount of oxygen deprivation. Overdose causes toxic byproducts regardless of oxygen deprivation.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Synthflesh (Instabitaluri)}}Synthflesh (Instabitaluri) <span style="color:#FFEBEB;background-color:white">▮</span>
+|{{RecursiveChem/Synthflesh (Instabitaluri)}}
+|Heals brute and burn damage at the cost of toxicity (66% of damage healed). Touch application only.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Medicine}}Medicine <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Medicine}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Quantum Medicine}}Quantum Medicine <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Quantum Medicine}}
+|Rare and experimental particles, that apparently swap the user's body with one from an alternate dimension where it's completely healthy.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Diphen-Synaptizine}}Diphen-Synaptizine <span style="color:#EC536D;background-color:white">▮</span>
+|{{RecursiveChem/Diphen-Synaptizine}}
+|Reduces drowsiness, hallucinations, and Histamine from body.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Silver Sulfadiazine}}Silver Sulfadiazine <span style="color:#C8A5DC;background-color:white">▮</span>
+|{{RecursiveChem/Silver Sulfadiazine}}
+|If used in touch-based applications, immediately restores burn wounds as well as restoring more over time. If ingested through other means or overdosed, deals minor toxin damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Styptic Powder}}Styptic Powder <span style="color:#FF9696;background-color:white">▮</span>
+|{{RecursiveChem/Styptic Powder}}
+|If used in touch-based applications, immediately restores bruising as well as restoring more over time. If ingested through other means or overdosed, deals minor toxin damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Saline-Glucose Solution}}Saline-Glucose Solution <span style="color:#DCDCDC;background-color:white">▮</span>
+|{{RecursiveChem/Saline-Glucose Solution}}
+|Has a 33% chance per metabolism cycle to heal brute and burn damage. Can be used as a temporary blood substitute.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Miner's Salve}}Miner's Salve <span style="color:#6D6374;background-color:white">▮</span>
+|{{RecursiveChem/Miner's Salve}}
+|A powerful painkiller. Restores bruising and burns in addition to making the patient believe they are fully healed.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|System Cleaner}}System Cleaner <span style="color:#F1C40F;background-color:white">▮</span>
+|{{RecursiveChem/System Cleaner}}
+|Neutralizes harmful chemical compounds inside synthetic systems.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Liquid Solder}}Liquid Solder <span style="color:#727272;background-color:white">▮</span>
+|{{RecursiveChem/Liquid Solder}}
+|Repairs brain damage in synthetics.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Protozine}}Protozine <span style="color:#d8c7b7;background-color:white">▮</span>
+|{{RecursiveChem/Protozine}}
+|A less environmentally friendly and somewhat weaker variant of omnizine.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Potassium Iodide}}Potassium Iodide <span style="color:#A0A0A0;background-color:white">▮</span>
+|{{RecursiveChem/Potassium Iodide}}
+|Efficiently restores low radiation damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pentetic Acid}}Pentetic Acid <span style="color:#E6FFF0;background-color:white">▮</span>
+|{{RecursiveChem/Pentetic Acid}}
+|Reduces massive amounts of radiation and toxin damage while purging other chemicals from the body.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Emergency Radiation Purgant}}Emergency Radiation Purgant <span style="color:#E6FFF0;background-color:white">▮</span>
+|{{RecursiveChem/Emergency Radiation Purgant}}
+|Rapidly purges radiation from the body.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Salicylic Acid}}Salicylic Acid <span style="color:#D2D2D2;background-color:white">▮</span>
+|{{RecursiveChem/Salicylic Acid}}
+|Stimulates the healing of severe bruises. Extremely rapidly heals severe bruising and slowly heals minor ones. Overdose will worsen existing bruising.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tramal}}Tramal <span style="color:#34eeee;background-color:white">▮</span>
+|{{RecursiveChem/Tramal}}
+|A low intensity, high duration painkiller. Causes slight drowiness in extended use.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dimorlin}}Dimorlin <span style="color:#71adad;background-color:white">▮</span>
+|{{RecursiveChem/Dimorlin}}
+|A powerful opiate-derivative analgesiac. Extremely habit forming
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Strange Reagent}}Strange Reagent <span style="color:#A0E85E;background-color:white">▮</span>
+|{{RecursiveChem/Strange Reagent}}
+|A miracle drug capable of bringing the dead back to life. Works topically unless anotamically complex, in which case works orally. Only works if the target has less than 200 total brute and burn damage and hasn't been husked and requires more reagent depending on damage inflicted. Causes damage to the living.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Indoril}}Indoril <span style="color:#78008C;background-color:white">▮</span>
+|{{RecursiveChem/Indoril}}
+|Increases stun resistance and movement speed in addition to restoring minor damage and weakness. Overdose causes weakness and toxin damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Insulin}}Insulin <span style="color:#FFFFF0;background-color:white">▮</span>
+|{{RecursiveChem/Insulin}}
+|Increases sugar depletion rates.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bicaridine Plus}}Bicaridine Plus <span style="color:#bf0000;background-color:white">▮</span>
+|{{RecursiveChem/Bicaridine Plus}}
+|Restores bruising and slowly stems bleeding. Overdose causes it instead. More effective than standardized Bicaridine.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dexalin Plus}}Dexalin Plus <span style="color:#0080FF;background-color:white">▮</span>
+|{{RecursiveChem/Dexalin Plus}}
+|Restores oxygen loss and purges Lexorin. Overdose causes it instead. More effective than standardized Dexalin.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Inaprovaline}}Inaprovaline <span style="color:#A4D8D8;background-color:white">▮</span>
+|{{RecursiveChem/Inaprovaline}}
+|Stabilizes the breathing of patients. Good for those in critical condition.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Regenerative Jelly}}Regenerative Jelly <span style="color:#CC23FF;background-color:white">▮</span>
+|{{RecursiveChem/Regenerative Jelly}}
+|Gradually regenerates all types of damage, without harming slime anatomy.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lavaland Extract}}Lavaland Extract <span style="color:#6B372E;background-color:white">▮</span>
+|{{RecursiveChem/Lavaland Extract}}
+|An extract of lavaland atmospheric and mineral elements. Heals the user in small doses, but is extremely toxic otherwise.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Changeling Adrenaline}}Changeling Adrenaline <span style="color:#C1151D;background-color:white">▮</span>
+|{{RecursiveChem/Changeling Adrenaline}}
+|Reduces the duration of unconciousness, knockdown and stuns. Restores stamina, but deals toxin damage when overdosed.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Changeling Haste}}Changeling Haste <span style="color:#AE151D;background-color:white">▮</span>
+|{{RecursiveChem/Changeling Haste}}
+|Drastically increases movement speed, but deals toxin damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cordiolis Hepatico}}Cordiolis Hepatico <span style="color:#000000;background-color:white">▮</span>
+|{{RecursiveChem/Cordiolis Hepatico}}
+|A strange, pitch-black reagent that seems to absorb all light. Effects unknown.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Muscle Stimulant}}Muscle Stimulant <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Muscle Stimulant}}
+|A potent chemical that allows someone under its influence to be at full physical ability even when under massive amounts of pain.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mitogen Metabolism Factor}}Mitogen Metabolism Factor <span style="color:#FFBE00;background-color:white">▮</span>
+|{{RecursiveChem/Mitogen Metabolism Factor}}
+|This enzyme catalyzes the conversion of nutricious food into healing peptides.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Silibinin}}Silibinin <span style="color:#FFFFD0;background-color:white">▮</span>
+|{{RecursiveChem/Silibinin}}
+|A thistle derrived hepatoprotective flavolignan mixture that help reverse damage to the liver.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|C4L-Z1UM Agent}}C4L-Z1UM Agent <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/C4L-Z1UM Agent}}
+|A peculiar substance capable of instantly regenerating live tissue.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Soulus Dust}}Soulus Dust <span style="color:#302f20;background-color:white">▮</span>
+|{{RecursiveChem/Soulus Dust}}
+|Ground legion cores. The dust quickly seals wounds yet slowly causes the tissue to undergo necrosis.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Purified Soulus Dust}}Purified Soulus Dust <span style="color:#302f20;background-color:white">▮</span>
+|{{RecursiveChem/Purified Soulus Dust}}
+|Ground legion cores.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Skeleton’s Boon}}Skeleton’s Boon <span style="color:#dbdfa2;background-color:white">▮</span>
+|{{RecursiveChem/Skeleton’s Boon}}
+|A robust solution of minerals that greatly strengthens the bones.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lithium Carbonate}}Lithium Carbonate <span style="color:#808080;background-color:white">▮</span>
+|{{RecursiveChem/Lithium Carbonate}}
+|A mood stabilizer discovered by most spacefaring civilizations. Fairly widespread as a result.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Human Sleep Hormone}}Human Sleep Hormone <span style="color:#e1b1e1;background-color:white">▮</span>
+|{{RecursiveChem/Human Sleep Hormone}}
+|A compound typically found within Solarians. The exact effects vary on the species it is administered to.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Stasis}}Stasis <span style="color:#51b5cb;background-color:white">▮</span>
+|{{RecursiveChem/Stasis}}
+|A liquid blue chemical that causes the body to enter a chemically induced stasis, irregardless of current state.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Carfencadrizine}}Carfencadrizine <span style="color:#859480;background-color:white">▮</span>
+|{{RecursiveChem/Carfencadrizine}}
+|A highly potent synthetic painkiller held in a suspension of stimulating agents. Allows people to keep moving long beyond when they should stop.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|chitosan}}chitosan <span style="color:#bb2424;background-color:white">▮</span>
+|{{RecursiveChem/chitosan}}
+|Vastly improves the blood's natural ability to coagulate and stop bleeding by hightening platelet production and effectiveness. Overdosing will cause extreme blood clotting, resulting in potential brain damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Godblood}}Godblood <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Godblood}}
+|Slowly heals all damage types. Has a rather high overdose threshold. Glows with mysterious power.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|virus rations}}virus rations <span style="color:#D18AA5;background-color:white">▮</span>
+|{{RecursiveChem/virus rations}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Category two reagent}}Category two reagent <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Category two reagent}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Probital}}Probital <span style="color:#FFFF6B;background-color:white">▮</span>
+|{{RecursiveChem/Probital}}
+|Originally developed as a prototype-gym supliment for those looking for quick workout turnover, this oral medication quickly repairs broken muscle tissue but causes lactic acid buildup, tiring the patient. Overdosing can cause extreme drowsiness. An Influx of nutrients promotes the muscle repair even further.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lenturi}}Lenturi <span style="color:#6171FF;background-color:white">▮</span>
+|{{RecursiveChem/Lenturi}}
+|Used to treat burns. Makes you move slower while it is in your system. Applies stomach damage when it leaves your system.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hercuri}}Hercuri <span style="color:#F7FFA5;background-color:white">▮</span>
+|{{RecursiveChem/Hercuri}}
+|Not to be confused with element Mercury, this medicine excels in reverting effects of dangerous high-temperature environments. Prolonged exposure can cause hypothermia.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Convermol}}Convermol <span style="color:#FF6464;background-color:white">▮</span>
+|{{RecursiveChem/Convermol}}
+|Restores oxygen deprivation while producing a lesser amount of toxic byproducts. Both scale with exposure to the drug and current amount of oxygen deprivation. Overdose causes toxic byproducts regardless of oxygen deprivation.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Synthflesh (Instabitaluri)}}Synthflesh (Instabitaluri) <span style="color:#FFEBEB;background-color:white">▮</span>
+|{{RecursiveChem/Synthflesh (Instabitaluri)}}
+|Heals brute and burn damage at the cost of toxicity (66% of damage healed). Touch application only.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Medicine}}Medicine <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Medicine}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Quantum Medicine}}Quantum Medicine <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Quantum Medicine}}
+|Rare and experimental particles, that apparently swap the user's body with one from an alternate dimension where it's completely healthy.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Diphen-Synaptizine}}Diphen-Synaptizine <span style="color:#EC536D;background-color:white">▮</span>
+|{{RecursiveChem/Diphen-Synaptizine}}
+|Reduces drowsiness, hallucinations, and Histamine from body.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Silver Sulfadiazine}}Silver Sulfadiazine <span style="color:#C8A5DC;background-color:white">▮</span>
+|{{RecursiveChem/Silver Sulfadiazine}}
+|If used in touch-based applications, immediately restores burn wounds as well as restoring more over time. If ingested through other means or overdosed, deals minor toxin damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Styptic Powder}}Styptic Powder <span style="color:#FF9696;background-color:white">▮</span>
+|{{RecursiveChem/Styptic Powder}}
+|If used in touch-based applications, immediately restores bruising as well as restoring more over time. If ingested through other means or overdosed, deals minor toxin damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Saline-Glucose Solution}}Saline-Glucose Solution <span style="color:#DCDCDC;background-color:white">▮</span>
+|{{RecursiveChem/Saline-Glucose Solution}}
+|Has a 33% chance per metabolism cycle to heal brute and burn damage. Can be used as a temporary blood substitute.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Miner's Salve}}Miner's Salve <span style="color:#6D6374;background-color:white">▮</span>
+|{{RecursiveChem/Miner's Salve}}
+|A powerful painkiller. Restores bruising and burns in addition to making the patient believe they are fully healed.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|System Cleaner}}System Cleaner <span style="color:#F1C40F;background-color:white">▮</span>
+|{{RecursiveChem/System Cleaner}}
+|Neutralizes harmful chemical compounds inside synthetic systems.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Liquid Solder}}Liquid Solder <span style="color:#727272;background-color:white">▮</span>
+|{{RecursiveChem/Liquid Solder}}
+|Repairs brain damage in synthetics.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Protozine}}Protozine <span style="color:#d8c7b7;background-color:white">▮</span>
+|{{RecursiveChem/Protozine}}
+|A less environmentally friendly and somewhat weaker variant of omnizine.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Potassium Iodide}}Potassium Iodide <span style="color:#A0A0A0;background-color:white">▮</span>
+|{{RecursiveChem/Potassium Iodide}}
+|Efficiently restores low radiation damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pentetic Acid}}Pentetic Acid <span style="color:#E6FFF0;background-color:white">▮</span>
+|{{RecursiveChem/Pentetic Acid}}
+|Reduces massive amounts of radiation and toxin damage while purging other chemicals from the body.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Emergency Radiation Purgant}}Emergency Radiation Purgant <span style="color:#E6FFF0;background-color:white">▮</span>
+|{{RecursiveChem/Emergency Radiation Purgant}}
+|Rapidly purges radiation from the body.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Salicylic Acid}}Salicylic Acid <span style="color:#D2D2D2;background-color:white">▮</span>
+|{{RecursiveChem/Salicylic Acid}}
+|Stimulates the healing of severe bruises. Extremely rapidly heals severe bruising and slowly heals minor ones. Overdose will worsen existing bruising.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tramal}}Tramal <span style="color:#34eeee;background-color:white">▮</span>
+|{{RecursiveChem/Tramal}}
+|A low intensity, high duration painkiller. Causes slight drowiness in extended use.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dimorlin}}Dimorlin <span style="color:#71adad;background-color:white">▮</span>
+|{{RecursiveChem/Dimorlin}}
+|A powerful opiate-derivative analgesiac. Extremely habit forming
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Strange Reagent}}Strange Reagent <span style="color:#A0E85E;background-color:white">▮</span>
+|{{RecursiveChem/Strange Reagent}}
+|A miracle drug capable of bringing the dead back to life. Works topically unless anotamically complex, in which case works orally. Only works if the target has less than 200 total brute and burn damage and hasn't been husked and requires more reagent depending on damage inflicted. Causes damage to the living.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Indoril}}Indoril <span style="color:#78008C;background-color:white">▮</span>
+|{{RecursiveChem/Indoril}}
+|Increases stun resistance and movement speed in addition to restoring minor damage and weakness. Overdose causes weakness and toxin damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Insulin}}Insulin <span style="color:#FFFFF0;background-color:white">▮</span>
+|{{RecursiveChem/Insulin}}
+|Increases sugar depletion rates.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bicaridine Plus}}Bicaridine Plus <span style="color:#bf0000;background-color:white">▮</span>
+|{{RecursiveChem/Bicaridine Plus}}
+|Restores bruising and slowly stems bleeding. Overdose causes it instead. More effective than standardized Bicaridine.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dexalin Plus}}Dexalin Plus <span style="color:#0080FF;background-color:white">▮</span>
+|{{RecursiveChem/Dexalin Plus}}
+|Restores oxygen loss and purges Lexorin. Overdose causes it instead. More effective than standardized Dexalin.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Inaprovaline}}Inaprovaline <span style="color:#A4D8D8;background-color:white">▮</span>
+|{{RecursiveChem/Inaprovaline}}
+|Stabilizes the breathing of patients. Good for those in critical condition.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Regenerative Jelly}}Regenerative Jelly <span style="color:#CC23FF;background-color:white">▮</span>
+|{{RecursiveChem/Regenerative Jelly}}
+|Gradually regenerates all types of damage, without harming slime anatomy.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lavaland Extract}}Lavaland Extract <span style="color:#6B372E;background-color:white">▮</span>
+|{{RecursiveChem/Lavaland Extract}}
+|An extract of lavaland atmospheric and mineral elements. Heals the user in small doses, but is extremely toxic otherwise.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Changeling Adrenaline}}Changeling Adrenaline <span style="color:#C1151D;background-color:white">▮</span>
+|{{RecursiveChem/Changeling Adrenaline}}
+|Reduces the duration of unconciousness, knockdown and stuns. Restores stamina, but deals toxin damage when overdosed.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Changeling Haste}}Changeling Haste <span style="color:#AE151D;background-color:white">▮</span>
+|{{RecursiveChem/Changeling Haste}}
+|Drastically increases movement speed, but deals toxin damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cordiolis Hepatico}}Cordiolis Hepatico <span style="color:#000000;background-color:white">▮</span>
+|{{RecursiveChem/Cordiolis Hepatico}}
+|A strange, pitch-black reagent that seems to absorb all light. Effects unknown.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Muscle Stimulant}}Muscle Stimulant <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Muscle Stimulant}}
+|A potent chemical that allows someone under its influence to be at full physical ability even when under massive amounts of pain.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mitogen Metabolism Factor}}Mitogen Metabolism Factor <span style="color:#FFBE00;background-color:white">▮</span>
+|{{RecursiveChem/Mitogen Metabolism Factor}}
+|This enzyme catalyzes the conversion of nutricious food into healing peptides.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Silibinin}}Silibinin <span style="color:#FFFFD0;background-color:white">▮</span>
+|{{RecursiveChem/Silibinin}}
+|A thistle derrived hepatoprotective flavolignan mixture that help reverse damage to the liver.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|C4L-Z1UM Agent}}C4L-Z1UM Agent <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/C4L-Z1UM Agent}}
+|A peculiar substance capable of instantly regenerating live tissue.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Soulus Dust}}Soulus Dust <span style="color:#302f20;background-color:white">▮</span>
+|{{RecursiveChem/Soulus Dust}}
+|Ground legion cores. The dust quickly seals wounds yet slowly causes the tissue to undergo necrosis.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Purified Soulus Dust}}Purified Soulus Dust <span style="color:#302f20;background-color:white">▮</span>
+|{{RecursiveChem/Purified Soulus Dust}}
+|Ground legion cores.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Skeleton’s Boon}}Skeleton’s Boon <span style="color:#dbdfa2;background-color:white">▮</span>
+|{{RecursiveChem/Skeleton’s Boon}}
+|A robust solution of minerals that greatly strengthens the bones.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lithium Carbonate}}Lithium Carbonate <span style="color:#808080;background-color:white">▮</span>
+|{{RecursiveChem/Lithium Carbonate}}
+|A mood stabilizer discovered by most spacefaring civilizations. Fairly widespread as a result.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Human Sleep Hormone}}Human Sleep Hormone <span style="color:#e1b1e1;background-color:white">▮</span>
+|{{RecursiveChem/Human Sleep Hormone}}
+|A compound typically found within Solarians. The exact effects vary on the species it is administered to.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Stasis}}Stasis <span style="color:#51b5cb;background-color:white">▮</span>
+|{{RecursiveChem/Stasis}}
+|A liquid blue chemical that causes the body to enter a chemically induced stasis, irregardless of current state.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Carfencadrizine}}Carfencadrizine <span style="color:#859480;background-color:white">▮</span>
+|{{RecursiveChem/Carfencadrizine}}
+|A highly potent synthetic painkiller held in a suspension of stimulating agents. Allows people to keep moving long beyond when they should stop.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|chitosan}}chitosan <span style="color:#bb2424;background-color:white">▮</span>
+|{{RecursiveChem/chitosan}}
+|Vastly improves the blood's natural ability to coagulate and stop bleeding by hightening platelet production and effectiveness. Overdosing will cause extreme blood clotting, resulting in potential brain damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Godblood}}Godblood <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Godblood}}
+|Slowly heals all damage types. Has a rather high overdose threshold. Glows with mysterious power.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|virus rations}}virus rations <span style="color:#D18AA5;background-color:white">▮</span>
+|{{RecursiveChem/virus rations}}
+|
+|0.2 units за тик
 |N/A
 |N/A
 |}

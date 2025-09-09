@@ -282,4 +282,417 @@
 |<font color="green">Токсины</font>
 |Наносит сильный урон сердцу, а также вызывает головокружение
 |0.2 units за тик
+|-
+! style="background-color:#FFEE88;" |{{anchor|Poison Berry Juice}}Poison Berry Juice <span style="color:#a7315e;background-color:white">▮</span>
+|{{RecursiveChem/Poison Berry Juice}}
+|A tasty juice blended from various kinds of very deadly and toxic berries.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mulligan Toxin}}Mulligan Toxin <span style="color:#5EFF3B;background-color:white">▮</span>
+|{{RecursiveChem/Mulligan Toxin}}
+|This toxin will rapidly change the DNA of human beings. Commonly used by Syndicate spies and assassins in need of an emergency ID change.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Advanced Mutation Toxin}}Advanced Mutation Toxin <span style="color:#13BC5E;background-color:white">▮</span>
+|{{RecursiveChem/Advanced Mutation Toxin}}
+|An advanced corruptive toxin produced by slimes.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Gluttony's Blessing}}Gluttony's Blessing <span style="color:#5EFF3B;background-color:white">▮</span>
+|{{RecursiveChem/Gluttony's Blessing}}
+|An advanced corruptive toxin produced by something terrible.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Stimulum}}Stimulum <span style="color:E1A116;background-color:white">▮</span>
+|{{RecursiveChem/Stimulum}}
+|An unstable experimental gas that greatly increases the energy of those that inhale it.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cyan Carpet}}Cyan Carpet <span style="color:#00B4FF;background-color:white">▮</span>
+|{{RecursiveChem/Cyan Carpet}}
+|For those that need a throwback to the years of using poison as a construction material. Smells like asbestos.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|mutagenic agar}}mutagenic agar <span style="color:#A3C00F;background-color:white">▮</span>
+|{{RecursiveChem/mutagenic agar}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|sucrose agar}}sucrose agar <span style="color:#41B0C0;background-color:white">▮</span>
+|{{RecursiveChem/sucrose agar}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|virus plasma}}virus plasma <span style="color:#A270A8;background-color:white">▮</span>
+|{{RecursiveChem/virus plasma}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|weakened virus plasma}}weakened virus plasma <span style="color:#A28CA5;background-color:white">▮</span>
+|{{RecursiveChem/weakened virus plasma}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tiring Solution}}Tiring Solution <span style="color:#CF3600;background-color:white">▮</span>
+|{{RecursiveChem/Tiring Solution}}
+|An extremely weak stamina-toxin that tires out the target. Completely harmless.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Amatoxin}}Amatoxin <span style="color:#792300;background-color:white">▮</span>
+|{{RecursiveChem/Amatoxin}}
+|A powerful poison derived from certain species of mushroom.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Unstable mutagen}}Unstable mutagen <span style="color:#00FF00;background-color:white">▮</span>
+|{{RecursiveChem/Unstable mutagen}}
+|Might cause unpredictable mutations. Keep away from children.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Plasma}}Plasma <span style="color:#8228A0;background-color:white">▮</span>
+|{{RecursiveChem/Plasma}}
+|Plasma in its liquid form.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hot Ice Slush}}Hot Ice Slush <span style="color:#724cb8;background-color:white">▮</span>
+|{{RecursiveChem/Hot Ice Slush}}
+|Frozen plasma. To the right people, it's worth its weight in gold
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lexorin}}Lexorin <span style="color:#7DC3A0;background-color:white">▮</span>
+|{{RecursiveChem/Lexorin}}
+|A powerful poison used to stop respiration.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Slime Jelly}}Slime Jelly <span style="color:#801E28;background-color:white">▮</span>
+|{{RecursiveChem/Slime Jelly}}
+|A gooey semi-liquid produced from one of the deadliest lifeforms in existence. SO REAL.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mint Toxin}}Mint Toxin <span style="color:#CF3600;background-color:white">▮</span>
+|{{RecursiveChem/Mint Toxin}}
+|Useful for dealing with undesirable customers.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Zombie Powder}}Zombie Powder <span style="color:#669900;background-color:white">▮</span>
+|{{RecursiveChem/Zombie Powder}}
+|A strong neurotoxin that puts the subject into a death-like state.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ghoul Powder}}Ghoul Powder <span style="color:#664700;background-color:white">▮</span>
+|{{RecursiveChem/Ghoul Powder}}
+|A strong neurotoxin that slows metabolism to a death-like state, while keeping the patient fully active. Causes toxin buildup if used too long.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mindbreaker Toxin}}Mindbreaker Toxin <span style="color:#B31008;background-color:white">▮</span>
+|{{RecursiveChem/Mindbreaker Toxin}}
+|A powerful hallucinogen. Not a thing to be messed with. For some mental patients. it counteracts their symptoms and anchors them to reality.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Plant-B-Gone}}Plant-B-Gone <span style="color:#49002E;background-color:white">▮</span>
+|{{RecursiveChem/Plant-B-Gone}}
+|A harmful toxic mixture to kill plantlife. Do not ingest!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Weed Killer}}Weed Killer <span style="color:#4B004B;background-color:white">▮</span>
+|{{RecursiveChem/Weed Killer}}
+|A harmful toxic mixture to kill weeds. Do not ingest!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pest Killer}}Pest Killer <span style="color:#4B004B;background-color:white">▮</span>
+|{{RecursiveChem/Pest Killer}}
+|A harmful toxic mixture to kill pests. Do not ingest!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Spore Toxin}}Spore Toxin <span style="color:#9ACD32;background-color:white">▮</span>
+|{{RecursiveChem/Spore Toxin}}
+|A natural toxin produced by blob spores that inhibits vision when ingested.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Burning Spore Toxin}}Burning Spore Toxin <span style="color:#9ACD32;background-color:white">▮</span>
+|{{RecursiveChem/Burning Spore Toxin}}
+|A natural toxin produced by blob spores that induces combustion in its victim.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Chloral Hydrate}}Chloral Hydrate <span style="color:#000067;background-color:white">▮</span>
+|{{RecursiveChem/Chloral Hydrate}}
+|A powerful sedative that induces confusion and drowsiness before putting its target to sleep.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Coffee Grounds}}Coffee Grounds <span style="color:#572b07;background-color:white">▮</span>
+|{{RecursiveChem/Coffee Grounds}}
+|Finely ground coffee beans, used to make coffee.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ground Tea Leaves}}Ground Tea Leaves <span style="color:#7F8400;background-color:white">▮</span>
+|{{RecursiveChem/Ground Tea Leaves}}
+|Finely shredded tea leaves, used for making tea.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tirizene}}Tirizene <span style="color:#6E2828;background-color:white">▮</span>
+|{{RecursiveChem/Tirizene}}
+|A nonlethal poison that causes extreme fatigue and weakness in its victim.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Polonium}}Polonium <span style="color:#787878;background-color:white">▮</span>
+|{{RecursiveChem/Polonium}}
+|An extremely radioactive material in liquid form. Ingestion results in fatal irradiation.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Histamine}}Histamine <span style="color:#FA6464;background-color:white">▮</span>
+|{{RecursiveChem/Histamine}}
+|Histamine's effects become more dangerous depending on the dosage amount. They range from mildly annoying to incredibly lethal.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Venom}}Venom <span style="color:#F0FFF0;background-color:white">▮</span>
+|{{RecursiveChem/Venom}}
+|An exotic poison extracted from highly toxic fauna. Causes scaling amounts of toxin damage and bruising depending and dosage. Often decays into Histamine.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Fentanyl}}Fentanyl <span style="color:#64916E;background-color:white">▮</span>
+|{{RecursiveChem/Fentanyl}}
+|Fentanyl will inhibit brain function and cause toxin damage before eventually knocking out its victim.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bad Food}}Bad Food <span style="color:#d6d6d8;background-color:white">▮</span>
+|{{RecursiveChem/Bad Food}}
+|The result of some abomination of cookery, food so bad it's toxic.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Itching Powder}}Itching Powder <span style="color:#C8C8C8;background-color:white">▮</span>
+|{{RecursiveChem/Itching Powder}}
+|A powder that induces itching upon contact with the skin. Causes the victim to scratch at their itches and has a very low chance to decay into Histamine.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Initropidril}}Initropidril <span style="color:#7F10C0;background-color:white">▮</span>
+|{{RecursiveChem/Initropidril}}
+|A powerful poison with insidious effects. It can cause stuns, lethal breathing failure, and cardiac arrest.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pancuronium}}Pancuronium <span style="color:#195096;background-color:white">▮</span>
+|{{RecursiveChem/Pancuronium}}
+|An undetectable toxin that swiftly incapacitates its victim. May also cause breathing failure.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sodium Thiopental}}Sodium Thiopental <span style="color:#808080;background-color:white">▮</span>
+|{{RecursiveChem/Sodium Thiopental}}
+|Sodium Thiopental induces heavy weakness in its target as well as unconsciousness.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sulfonal}}Sulfonal <span style="color:#7DC3A0;background-color:white">▮</span>
+|{{RecursiveChem/Sulfonal}}
+|A stealthy poison that deals minor toxin damage and eventually puts the target to sleep.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Amanitin}}Amanitin <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Amanitin}}
+|A very powerful delayed toxin. Upon full metabolization, a massive amount of toxin damage will be dealt depending on how long it has been in the victim's bloodstream.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lipolicide}}Lipolicide <span style="color:#F0FFF0;background-color:white">▮</span>
+|{{RecursiveChem/Lipolicide}}
+|A powerful toxin that will destroy fat cells, massively reducing body weight in a short time. Deadly to those without nutriment in their body.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Coniine}}Coniine <span style="color:#7DC3A0;background-color:white">▮</span>
+|{{RecursiveChem/Coniine}}
+|Coniine metabolizes extremely slowly, but deals high amounts of toxin damage and stops breathing.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Spewium}}Spewium <span style="color:#2f6617;background-color:white">▮</span>
+|{{RecursiveChem/Spewium}}
+|A powerful emetic, causes uncontrollable vomiting.  May result in vomiting organs at high doses.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Curare}}Curare <span style="color:#191919;background-color:white">▮</span>
+|{{RecursiveChem/Curare}}
+|Causes slight toxin damage followed by chain-stunning and oxygen damage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Skewium}}Skewium <span style="color:#ADBDCD;background-color:white">▮</span>
+|{{RecursiveChem/Skewium}}
+|A strange, dull coloured liquid that appears to warp back and forth inside its container. Causes any consumer to experience a visual phenomena similar to said warping.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Anacea}}Anacea <span style="color:#3C5133;background-color:white">▮</span>
+|{{RecursiveChem/Anacea}}
+|A toxin that quickly purges medicines and metabolizes very slowly.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sulphuric acid}}Sulphuric acid <span style="color:#00FF32;background-color:white">▮</span>
+|{{RecursiveChem/Sulphuric acid}}
+|A strong mineral acid with the molecular formula H2SO4.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Fluorosulfuric acid}}Fluorosulfuric acid <span style="color:#5050FF;background-color:white">▮</span>
+|{{RecursiveChem/Fluorosulfuric acid}}
+|Fluorosulfuric acid is an extremely corrosive chemical substance.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Nitric acid}}Nitric acid <span style="color:#5050FF;background-color:white">▮</span>
+|{{RecursiveChem/Nitric acid}}
+|Nitric acid is an extremely corrosive chemical substance that violently reacts with living organic tissue.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Toxin Microcapsules}}Toxin Microcapsules <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Toxin Microcapsules}}
+|Causes heavy toxin damage after a brief time of inactivity.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mime's Bane}}Mime's Bane <span style="color:#F0F8FF;background-color:white">▮</span>
+|{{RecursiveChem/Mime's Bane}}
+|A nonlethal neurotoxin that interferes with the victim's ability to gesture.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bungotoxin}}Bungotoxin <span style="color:#EBFF8E;background-color:white">▮</span>
+|{{RecursiveChem/Bungotoxin}}
+|A horrible cardiotoxin that protects the humble bungo pit.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lead Acetate}}Lead Acetate <span style="color:#2b2b2b;background-color:white">▮</span>
+|{{RecursiveChem/Lead Acetate}}
+|Used hundreds of years ago as a sweetener, before it was realized that it's incredibly poisonous.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lavaland Microbes}}Lavaland Microbes <span style="color:#f7cd90;background-color:white">▮</span>
+|{{RecursiveChem/Lavaland Microbes}}
+|Microbes isolated from the dirt.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ethanol}}Ethanol <span style="color:#404030;background-color:white">▮</span>
+|{{RecursiveChem/Ethanol}}
+|A well-known alcohol with a variety of applications.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Toxins Special}}Toxins Special <span style="color:#780162;background-color:white">▮</span>
+|{{RecursiveChem/Toxins Special}}
+|It's a bit tasteless to name your drink after industrial accidents.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Neurotoxin}}Neurotoxin <span style="color:#3c3c84;background-color:white">▮</span>
+|{{RecursiveChem/Neurotoxin}}
+|A strong neurotoxin that puts the subject into a death-like state.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Stunball}}Stunball <span style="color:#33ff33;background-color:white">▮</span>
+|{{RecursiveChem/Stunball}}
+|A harsh, acrid, bitter drink, for those who need something to brace themselves.
+|0.2 units за тик
+|N/A
+|N/A
 |}

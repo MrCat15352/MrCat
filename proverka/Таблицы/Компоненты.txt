@@ -15,7 +15,7 @@
 ||1 part Water<br>1 part Chlorine<br>1 part Fuel|An aromatic ring of carbon with a hydroxyl group. A useful precursor to some medicines, but has no healing properties on its own.|-
 ! style="background-color:#FFEE88;" |{{anchor|Acetone}}Acetone <span style="color:#AF14B7;background-color:white">▮</span>
 ||1 part Fuel<br>1 part Fuel<br>1 part Oxygen|A slick, slightly carcinogenic liquid. Has a multitude of mundane uses in everyday life.|-
-! style="background-color:#FFEE88;" |{{anchor|Sodium Chloride}}Sodium Chloride <span style="color:#FFFFFF;background-color:white">▮</span>
+! style="background-color:#FFEE88;" |{{anchor|Sodium Chloride}}Sodium Chloride <span style="color:#808080;background-color:white">▮</span>
 ||1 part Water<br>1 part Sodium<br>1 part Chlorine|A soft silver metal that can easily be cut with a knife. It's not salt just yet, so refrain from putting it on your chips.
 |-
 ! style="background-color:#FFEE88;" |{{anchor|Ammonia}}Ammonia <span style="color:#404030;background-color:white">▮</span>
@@ -32,7 +32,7 @@
 |{{RecursiveChem/Lye}}
 |Ингредиент для приготовления [[#Soap|мыла]].
 |-
-! style="background-color:#FFEE88;" |{{anchor|Hydrogen Peroxide}}Hydrogen Peroxide <span style="color:#AAAAAA77;background-color:white">▮</span>
+! style="background-color:#FFEE88;" |{{anchor|Hydrogen Peroxide}}Hydrogen Peroxide <span style="color:#808080;background-color:white">▮</span>
 ||3 part Carbon<br>1 part Diethylamine<br>1 part Oxygen<br>1 part Phenol|A colorless, odorless, nonmetallic, tasteless, highly combustible diatomic gas.
 |-
 ! style="background-color:#FFEE88;" |{{anchor|Pentaerythritol}}Pentaerythritol <span style="color:#E66FFF;background-color:white">▮</span>
@@ -41,10 +41,2751 @@
 |{{RecursiveChem/Acetaldehyde}}
 |Ингредиент для приготовления [[#Pentaerythritol|Pentaerythritol]].
 |-
-! style="background-color:#FFEE88;" |{{anchor|Acetone Oxide}}Acetone Oxide <span style="color:#C8A5DC;background-color:white">▮</span>
+! style="background-color:#FFEE88;" |{{anchor|Acetone Oxide}}Acetone Oxide <span style="color:#AF14B7;background-color:white">▮</span>
 ||1 part Fuel<br>1 part Fuel<br>1 part Oxygen|A slick, slightly carcinogenic liquid. Has a multitude of mundane uses in everyday life.
 |-
 ! style="background-color:#FFEE88;" |{{anchor|Wittel}}Wittel <span style="color:#FFFFFF;background-color:white">▮</span>
 |{{RecursiveChem/Wittel}}
 |С маленьким шансом появляется в химических гейзерах на большинства планетах. Используется в некоторых продвинутых рецептах.
+|-
+! style="background-color:#FFEE88;" |{{anchor|Orange Juice}}Orange Juice <span style="color:#E78108;background-color:white">▮</span>
+|{{RecursiveChem/Orange Juice}}
+|Both delicious AND rich in Vitamin C, what more do you need?
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tomato Juice}}Tomato Juice <span style="color:#92160d;background-color:white">▮</span>
+|{{RecursiveChem/Tomato Juice}}
+|Tomatoes made into juice. What a waste of big, juicy tomatoes, huh?
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lime Juice}}Lime Juice <span style="color:#669933;background-color:white">▮</span>
+|{{RecursiveChem/Lime Juice}}
+|The sweet-sour juice of limes.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Carrot Juice}}Carrot Juice <span style="color:#cb650c;background-color:white">▮</span>
+|{{RecursiveChem/Carrot Juice}}
+|It is just like a carrot but without crunching.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Berry Juice}}Berry Juice <span style="color:#983939;background-color:white">▮</span>
+|{{RecursiveChem/Berry Juice}}
+|A delicious blend of several different kinds of berries.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Apple Juice}}Apple Juice <span style="color:#ECFF56;background-color:white">▮</span>
+|{{RecursiveChem/Apple Juice}}
+|The sweet juice of an apple, fit for all ages.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dote Juice}}Dote Juice <span style="color:#2359a0;background-color:white">▮</span>
+|{{RecursiveChem/Dote Juice}}
+|A delicious juice made from Dote berries
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dotu Juice}}Dotu Juice <span style="color:#2359a0;background-color:white">▮</span>
+|{{RecursiveChem/Dotu Juice}}
+|A neutral juice made from ripe Dote fruit.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Refa-Li Juice}}Refa-Li Juice <span style="color:#d8702b;background-color:white">▮</span>
+|{{RecursiveChem/Refa-Li Juice}}
+|Refa-Li is spicy, unless the seeds have been removed, in which case it takes on a more mellow, earthly tone
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Watermelon Juice}}Watermelon Juice <span style="color:#b23b3b;background-color:white">▮</span>
+|{{RecursiveChem/Watermelon Juice}}
+|Delicious juice made from watermelon.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lemon Juice}}Lemon Juice <span style="color:#caad19;background-color:white">▮</span>
+|{{RecursiveChem/Lemon Juice}}
+|This juice is VERY sour.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Banana Juice}}Banana Juice <span style="color:#e6d283;background-color:white">▮</span>
+|{{RecursiveChem/Banana Juice}}
+|The raw essence of a banana.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Nothing}}Nothing <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Nothing}}
+|Absolutely nothing.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Laughter}}Laughter <span style="color:#FF4DD2;background-color:white">▮</span>
+|{{RecursiveChem/Laughter}}
+|Some say that this is the best medicine, but recent studies have proven that to be untrue.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Super Laughter}}Super Laughter <span style="color:#FF4DD2;background-color:white">▮</span>
+|{{RecursiveChem/Super Laughter}}
+|Funny until you're the one laughing.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Potato Juice}}Potato Juice <span style="color:#9e8045;background-color:white">▮</span>
+|{{RecursiveChem/Potato Juice}}
+|Juice of the potato. Bleh.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Grape Juice}}Grape Juice <span style="color:#790b79;background-color:white">▮</span>
+|{{RecursiveChem/Grape Juice}}
+|The juice of a bunch of grapes. Guaranteed non-alcoholic.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Milk}}Milk <span style="color:#DFDFDF;background-color:white">▮</span>
+|{{RecursiveChem/Milk}}
+|An opaque white liquid produced by the mammary glands of mammals, some arthropods, biogenerators, chemical factories...
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tiris Milk}}Tiris Milk <span style="color:#e2c5c5;background-color:white">▮</span>
+|{{RecursiveChem/Tiris Milk}}
+|A strong, tangy milk made by a Tiris. Makes a very good cheese.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Soy Milk}}Soy Milk <span style="color:#DFDFC7;background-color:white">▮</span>
+|{{RecursiveChem/Soy Milk}}
+|An opaque white liquid made from soybeans.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cream}}Cream <span style="color:#DFD7AF;background-color:white">▮</span>
+|{{RecursiveChem/Cream}}
+|The fatty, still liquid part of milk.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Coffee Creamer}}Coffee Creamer <span style="color:#572b07;background-color:white">▮</span>
+|{{RecursiveChem/Coffee Creamer}}
+|Powdered milk for cheap coffee. How delightful.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tea}}Tea <span style="color:#5f4a05;background-color:white">▮</span>
+|{{RecursiveChem/Tea}}
+|Warm, dark tea.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lemonade}}Lemonade <span style="color:#FFE978;background-color:white">▮</span>
+|{{RecursiveChem/Lemonade}}
+|Sweet, tangy lemonade. Good for the soul.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Arnold Palmer}}Arnold Palmer <span style="color:#FFB766;background-color:white">▮</span>
+|{{RecursiveChem/Arnold Palmer}}
+|Iced sweet tea and lemonade.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Iced Tea}}Iced Tea <span style="color:#104038;background-color:white">▮</span>
+|{{RecursiveChem/Iced Tea}}
+|Iced, sweetened tea.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cola}}Cola <span style="color:#743c05;background-color:white">▮</span>
+|{{RecursiveChem/Cola}}
+|A refreshing beverage.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Crosstalk}}Crosstalk <span style="color:#EEFF00;background-color:white">▮</span>
+|{{RecursiveChem/Crosstalk}}
+|Crosstalk! Share the energy with everyone!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Comet Trail}}Comet Trail <span style="color:#c4ff2d;background-color:white">▮</span>
+|{{RecursiveChem/Comet Trail}}
+|A citrusy drink from the Kepori space installation known as The Ring.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tadrixx}}Tadrixx <span style="color:#732a03;background-color:white">▮</span>
+|{{RecursiveChem/Tadrixx}}
+|A Kalixcian drink made from a plant that tastes similar to sassafrass, which is used in root beer. A stumpy drake holding a mug of it is on the front.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Space-Up}}Space-Up <span style="color:#00FF00;background-color:white">▮</span>
+|{{RecursiveChem/Space-Up}}
+|Tastes like a hull breach in your mouth.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Molten Bubbles}}Molten Bubbles <span style="color:#8228A0;background-color:white">▮</span>
+|{{RecursiveChem/Molten Bubbles}}
+|A spicy soft drink made from a coca-like plant from Kalixcis. Popularly served both cold -and- hot, depending on the weather.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Plasma Fizz}}Plasma Fizz <span style="color:#8228A0;background-color:white">▮</span>
+|{{RecursiveChem/Plasma Fizz}}
+|A  spinoff of the popular Molten Bubbles drink from Kalixcis, made to emulate the flavor of spiced grape instead. It's... not exactly convincing or a very good mix.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sandblast Sarsaparilla}}Sandblast Sarsaparilla <span style="color:#af9938;background-color:white">▮</span>
+|{{RecursiveChem/Sandblast Sarsaparilla}}
+|Extra refreshing for those long desert days.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lemon Lime}}Lemon Lime <span style="color:#8CFF00;background-color:white">▮</span>
+|{{RecursiveChem/Lemon Lime}}
+|A tangy substance made of 0.5% natural citrus!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|PAC-Fuel}}PAC-Fuel <span style="color:#9385bf;background-color:white">▮</span>
+|{{RecursiveChem/PAC-Fuel}}
+|A carbonated energy drink themed after the purple coloration, similar to plasma.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Shoal Punch}}Shoal Punch <span style="color:#f00060;background-color:white">▮</span>
+|{{RecursiveChem/Shoal Punch}}
+|Sugary, and from the Shoal.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Soda Water}}Soda Water <span style="color:#619494;background-color:white">▮</span>
+|{{RecursiveChem/Soda Water}}
+|A can of club soda.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tonic Water}}Tonic Water <span style="color:#709fce;background-color:white">▮</span>
+|{{RecursiveChem/Tonic Water}}
+|It tastes strange, and it's not like malaria is much of an issue anymore.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ice}}Ice <span style="color:#619494;background-color:white">▮</span>
+|{{RecursiveChem/Ice}}
+|Frozen water, your dentist wouldn't like you chewing this.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|The Doctor's Delight}}The Doctor's Delight <span style="color:#FF8CFF;background-color:white">▮</span>
+|{{RecursiveChem/The Doctor's Delight}}
+|A homemade curative. A mixture of juices that helps your body heal against most damage, at the cost of leaving you hungry.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Chocolate Pudding}}Chocolate Pudding <span style="color:#800000;background-color:white">▮</span>
+|{{RecursiveChem/Chocolate Pudding}}
+|A great dessert for chocolate lovers.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Vanilla Pudding}}Vanilla Pudding <span style="color:#FAFAD2;background-color:white">▮</span>
+|{{RecursiveChem/Vanilla Pudding}}
+|A great dessert for vanilla lovers.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cherry Shake}}Cherry Shake <span style="color:#FFB6C1;background-color:white">▮</span>
+|{{RecursiveChem/Cherry Shake}}
+|A cherry flavored milkshake.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Blue Cherry Shake}}Blue Cherry Shake <span style="color:#00F1FF;background-color:white">▮</span>
+|{{RecursiveChem/Blue Cherry Shake}}
+|An exotic milkshake.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pumpkin Latte}}Pumpkin Latte <span style="color:#F4A460;background-color:white">▮</span>
+|{{RecursiveChem/Pumpkin Latte}}
+|A mix of spices and coffee. It doesn't actually contain any pumpkin, though.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tadrixx Float}}Tadrixx Float <span style="color:#732a03;background-color:white">▮</span>
+|{{RecursiveChem/Tadrixx Float}}
+|Ice cream on top of a glass of Tadrixx.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pumpkin Juice}}Pumpkin Juice <span style="color:#FFA500;background-color:white">▮</span>
+|{{RecursiveChem/Pumpkin Juice}}
+|Juiced from real pumpkins.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Blumpkin Juice}}Blumpkin Juice <span style="color:#00BFFF;background-color:white">▮</span>
+|{{RecursiveChem/Blumpkin Juice}}
+|Juiced from real blumpkin.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Triple Citrus}}Triple Citrus <span style="color:#EEFF00;background-color:white">▮</span>
+|{{RecursiveChem/Triple Citrus}}
+|A solution.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Grape soda}}Grape soda <span style="color:#E6CDFF;background-color:white">▮</span>
+|{{RecursiveChem/Grape soda}}
+|Artificial grape soda.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Chocolate Milk}}Chocolate Milk <span style="color:#7D4E29;background-color:white">▮</span>
+|{{RecursiveChem/Chocolate Milk}}
+|Milk mixed with chocolate powder. Beloved by children everywhere.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lunapunch}}Lunapunch <span style="color:#7D4E29;background-color:white">▮</span>
+|{{RecursiveChem/Lunapunch}}
+|An herbal-sweet carbonated drink with a bitter bite.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hot Cocoa}}Hot Cocoa <span style="color:#4f3a11;background-color:white">▮</span>
+|{{RecursiveChem/Hot Cocoa}}
+|Made with love and cocoa beans. Or from a vending machine.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Menthol}}Menthol <span style="color:#80AF9C;background-color:white">▮</span>
+|{{RecursiveChem/Menthol}}
+|Alleviates coughing symptoms one might have.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Grenadine}}Grenadine <span style="color:#EA1D26;background-color:white">▮</span>
+|{{RecursiveChem/Grenadine}}
+|More blackcurrant than cherry, actually.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Parsnip Juice}}Parsnip Juice <span style="color:#FFA500;background-color:white">▮</span>
+|{{RecursiveChem/Parsnip Juice}}
+|Starchy and uncommon.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pineapple Juice}}Pineapple Juice <span style="color:#F7D435;background-color:white">▮</span>
+|{{RecursiveChem/Pineapple Juice}}
+|Tart, tropical, and sweet.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cream Soda}}Cream Soda <span style="color:#DFD7AF;background-color:white">▮</span>
+|{{RecursiveChem/Cream Soda}}
+|A classic vanilla flavored soft drink.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sol Dry}}Sol Dry <span style="color:#f7d26a;background-color:white">▮</span>
+|{{RecursiveChem/Sol Dry}}
+|A soothing, mellow drink made from ginger.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Red Queen}}Red Queen <span style="color:#e6ddc3;background-color:white">▮</span>
+|{{RecursiveChem/Red Queen}}
+|You feel inclined to drink it, somehow.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bungo Juice}}Bungo Juice <span style="color:#F9E43D;background-color:white">▮</span>
+|{{RecursiveChem/Bungo Juice}}
+|A botanical experiment gone right.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Beef Broth}}Beef Broth <span style="color:#100800;background-color:white">▮</span>
+|{{RecursiveChem/Beef Broth}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|pruno mixture}}pruno mixture <span style="color:#E78108;background-color:white">▮</span>
+|{{RecursiveChem/pruno mixture}}
+|Fruit, sugar, yeast, and water pulped together into a pungent slurry.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Aloe Juice}}Aloe Juice <span style="color:#0064C8;background-color:white">▮</span>
+|{{RecursiveChem/Aloe Juice}}
+|A healthy and refreshing juice.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lean}}Lean <span style="color:#DE55ED;background-color:white">▮</span>
+|{{RecursiveChem/Lean}}
+|The drank that makes you go wheezy.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Consumable}}Consumable <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Consumable}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Nutriment}}Nutriment <span style="color:#664330;background-color:white">▮</span>
+|{{RecursiveChem/Nutriment}}
+|All the vitamins, minerals, and carbohydrates the body needs in pure form.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Vitamin}}Vitamin <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Vitamin}}
+|All the best vitamins, minerals, and carbohydrates the body needs in pure form.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cooking Oil}}Cooking Oil <span style="color:#EADD6B;background-color:white">▮</span>
+|{{RecursiveChem/Cooking Oil}}
+|A variety of cooking oil derived from fat or plants. Used in food preparation and frying.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Virus Food}}Virus Food <span style="color:#899613;background-color:white">▮</span>
+|{{RecursiveChem/Virus Food}}
+|A mixture of water and milk. Virus cells can use this mixture to reproduce.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Soysauce}}Soysauce <span style="color:#792300;background-color:white">▮</span>
+|{{RecursiveChem/Soysauce}}
+|A salty sauce made from the soy plant.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ketchup}}Ketchup <span style="color:#731008;background-color:white">▮</span>
+|{{RecursiveChem/Ketchup}}
+|Ketchup, catsup, whatever. It's tomato paste.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Capsaicin Oil}}Capsaicin Oil <span style="color:#B31008;background-color:white">▮</span>
+|{{RecursiveChem/Capsaicin Oil}}
+|This is what makes chilis hot.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Frost Oil}}Frost Oil <span style="color:#8BA6E9;background-color:white">▮</span>
+|{{RecursiveChem/Frost Oil}}
+|A special oil that noticeably chills the body. Extracted from chilly peppers and slimes.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Condensed Capsaicin}}Condensed Capsaicin <span style="color:#B31008;background-color:white">▮</span>
+|{{RecursiveChem/Condensed Capsaicin}}
+|A chemical agent used for self-defense and in police work.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Table Salt}}Table Salt <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Table Salt}}
+|A salt made of sodium chloride. Commonly used to season food.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Black Pepper}}Black Pepper <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Black Pepper}}
+|A powder ground from peppercorns. *AAAACHOOO*
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Coco Powder}}Coco Powder <span style="color:#302000;background-color:white">▮</span>
+|{{RecursiveChem/Coco Powder}}
+|A fatty, bitter paste made from coco beans.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sprinkles}}Sprinkles <span style="color:#FF00FF;background-color:white">▮</span>
+|{{RecursiveChem/Sprinkles}}
+|Multi-colored little bits of sugar, commonly found on donuts. Loved by cops.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Corn Oil}}Corn Oil <span style="color:#302000;background-color:white">▮</span>
+|{{RecursiveChem/Corn Oil}}
+|An oil derived from various types of corn.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Universal Enzyme}}Universal Enzyme <span style="color:#365E30;background-color:white">▮</span>
+|{{RecursiveChem/Universal Enzyme}}
+|A universal enzyme used in the preparation of certain chemicals and foods.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dry Ramen}}Dry Ramen <span style="color:#302000;background-color:white">▮</span>
+|{{RecursiveChem/Dry Ramen}}
+|Space age food, since August 25, 1958. Contains dried noodles, vegetables, and chemicals that boil in contact with water.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hot Ramen}}Hot Ramen <span style="color:#302000;background-color:white">▮</span>
+|{{RecursiveChem/Hot Ramen}}
+|The noodles are boiled, the flavors are artificial, just like being back in school.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Nutraslop}}Nutraslop <span style="color:#3E4A00;background-color:white">▮</span>
+|{{RecursiveChem/Nutraslop}}
+|Mixture of leftover prison foods served on previous days.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Flour}}Flour <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Flour}}
+|This is what you rub all over yourself to pretend to be a ghost.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cherry Jelly}}Cherry Jelly <span style="color:#801E28;background-color:white">▮</span>
+|{{RecursiveChem/Cherry Jelly}}
+|Totally the best. Only to be spread on foods with excellent lateral symmetry.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Blue Cherry Jelly}}Blue Cherry Jelly <span style="color:#00F0FF;background-color:white">▮</span>
+|{{RecursiveChem/Blue Cherry Jelly}}
+|Blue and tastier kind of cherry jelly.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Rice}}Rice <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Rice}}
+|tiny nutritious grains
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Vanilla Powder}}Vanilla Powder <span style="color:#FFFACD;background-color:white">▮</span>
+|{{RecursiveChem/Vanilla Powder}}
+|A fatty, bitter paste made from vanilla pods.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Egg Yolk}}Egg Yolk <span style="color:#FFB500;background-color:white">▮</span>
+|{{RecursiveChem/Egg Yolk}}
+|It's full of protein.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Corn Starch}}Corn Starch <span style="color:#DBCE95;background-color:white">▮</span>
+|{{RecursiveChem/Corn Starch}}
+|A slippery solution.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Corn Syrup}}Corn Syrup <span style="color:#DBCE95;background-color:white">▮</span>
+|{{RecursiveChem/Corn Syrup}}
+|Decays into sugar.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Honey}}Honey <span style="color:#d3a308;background-color:white">▮</span>
+|{{RecursiveChem/Honey}}
+|Sweet sweet honey that decays into sugar. Has antibacterial and natural healing properties.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mayonnaise}}Mayonnaise <span style="color:#DFDFDF;background-color:white">▮</span>
+|{{RecursiveChem/Mayonnaise}}
+|An white and oily mixture of mixed egg yolks.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tear Juice}}Tear Juice <span style="color:#c0c9a0;background-color:white">▮</span>
+|{{RecursiveChem/Tear Juice}}
+|A blinding substance extracted from certain onions.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Stabilized Nutriment}}Stabilized Nutriment <span style="color:#664330;background-color:white">▮</span>
+|{{RecursiveChem/Stabilized Nutriment}}
+|A bioengineered protien-nutrient structure designed to decompose in high saturation. In layman's terms, it won't get you fat.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Entropic Polypnium}}Entropic Polypnium <span style="color:#1d043d;background-color:white">▮</span>
+|{{RecursiveChem/Entropic Polypnium}}
+|An ichor, derived from a certain mushroom, makes for a bad time.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tinea Luxor}}Tinea Luxor <span style="color:#b5a213;background-color:white">▮</span>
+|{{RecursiveChem/Tinea Luxor}}
+|A stimulating ichor which causes luminescent fungi to grow on the skin. 
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Vitrium Froth}}Vitrium Froth <span style="color:#d3a308;background-color:white">▮</span>
+|{{RecursiveChem/Vitrium Froth}}
+|A bubbly paste that heals wounds of the skin.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Clown's Tears}}Clown's Tears <span style="color:#eef442;background-color:white">▮</span>
+|{{RecursiveChem/Clown's Tears}}
+|The sorrow and melancholy of a thousand bereaved clowns, forever denied their Honkmechs.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Liquid Electricity}}Liquid Electricity <span style="color:#97ee63;background-color:white">▮</span>
+|{{RecursiveChem/Liquid Electricity}}
+|A glowing, viscous substance that radiates pure energy.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Electrolytes}}Electrolytes <span style="color:#8effdd;background-color:white">▮</span>
+|{{RecursiveChem/Electrolytes}}
+|It's what crystal-plant-dragons crave.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Secret Sauce}}Secret Sauce <span style="color:#792300;background-color:white">▮</span>
+|{{RecursiveChem/Secret Sauce}}
+|What could it be?
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Peptides}}Peptides <span style="color:#BBD4D9;background-color:white">▮</span>
+|{{RecursiveChem/Peptides}}
+|These restorative peptides not only speed up wound healing, but are nutritious as well!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Caramel}}Caramel <span style="color:#D98736;background-color:white">▮</span>
+|{{RecursiveChem/Caramel}}
+|Who would have guessed that heated sugar could be so delicious?
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Laughin' Syrup}}Laughin' Syrup <span style="color:#803280;background-color:white">▮</span>
+|{{RecursiveChem/Laughin' Syrup}}
+|The product of juicing Laughin' Peas. Fizzy, and seems to change flavour based on what it's used with!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pyre Elementum}}Pyre Elementum <span style="color:#d30639;background-color:white">▮</span>
+|{{RecursiveChem/Pyre Elementum}}
+|This is what makes Fireblossoms even hotter.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Fervor Ignium}}Fervor Ignium <span style="color:#b6a076;background-color:white">▮</span>
+|{{RecursiveChem/Fervor Ignium}}
+|Healing chem made from mushrooms.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cheese Spread}}Cheese Spread <span style="color:#FBDB65;background-color:white">▮</span>
+|{{RecursiveChem/Cheese Spread}}
+|I cant believe its not cheese!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Peanut Butter}}Peanut Butter <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Peanut Butter}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tiris blood}}Tiris blood <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Tiris blood}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tiris-Sele}}Tiris-Sele <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Tiris-Sele}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tiris-Sale}}Tiris-Sale <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Tiris-Sale}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Blood}}Blood <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Blood}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Liquid gibs}}Liquid gibs <span style="color:#CC4633;background-color:white">▮</span>
+|{{RecursiveChem/Liquid gibs}}
+|You don't even want to think about what's in here.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Vaccine}}Vaccine <span style="color:#C81040;background-color:white">▮</span>
+|{{RecursiveChem/Vaccine}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Fungal TB Vaccine}}Fungal TB Vaccine <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Fungal TB Vaccine}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Water}}Water <span style="color:#808080;background-color:white">▮</span>
+|{{RecursiveChem/Water}}
+|An ubiquitous chemical substance that is composed of hydrogen and oxygen.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Holy Water}}Holy Water <span style="color:#E0E8EF;background-color:white">▮</span>
+|{{RecursiveChem/Holy Water}}
+|Water blessed by some deity.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hollow Water}}Hollow Water <span style="color:#88878777;background-color:white">▮</span>
+|{{RecursiveChem/Hollow Water}}
+|An ubiquitous chemical substance that is composed of hydrogen and oxygen, but it looks kinda hollow.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hydrogen peroxide}}Hydrogen peroxide <span style="color:#AAAAAA77;background-color:white">▮</span>
+|{{RecursiveChem/Hydrogen peroxide}}
+|An ubiquitous chemical substance that is composed of hydrogen and oxygen and oxygen.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Space Lube}}Space Lube <span style="color:#009CA8;background-color:white">▮</span>
+|{{RecursiveChem/Space Lube}}
+|Lubricant is a substance introduced between two moving surfaces to reduce the friction and wear between them. giggity.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Super Duper Lube}}Super Duper Lube <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Super Duper Lube}}
+|This \[REDACTED\] has been outlawed after the incident on \[DATA EXPUNGED\].
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Serotrotium}}Serotrotium <span style="color:#202040;background-color:white">▮</span>
+|{{RecursiveChem/Serotrotium}}
+|A chemical compound that promotes concentrated production of the serotonin neurotransmitter in humans.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Oxygen}}Oxygen <span style="color:#808080;background-color:white">▮</span>
+|{{RecursiveChem/Oxygen}}
+|A colorless, odorless gas. Grows on trees but is still pretty valuable.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ozone}}Ozone <span style="color:#a1a1e6;background-color:white">▮</span>
+|{{RecursiveChem/Ozone}}
+|A pale blue gas, with a distinct smell. While it is oxygen with an extra molecule attached, it is quite dangerous.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Copper}}Copper <span style="color:#6E3B08;background-color:white">▮</span>
+|{{RecursiveChem/Copper}}
+|A highly ductile metal. Things made out of copper aren't very durable, but it makes a decent material for electrical wiring.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Nitrogen}}Nitrogen <span style="color:#808080;background-color:white">▮</span>
+|{{RecursiveChem/Nitrogen}}
+|A colorless, odorless, tasteless gas. A simple asphyxiant that can silently displace vital oxygen.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mercury}}Mercury <span style="color:#484848;background-color:white">▮</span>
+|{{RecursiveChem/Mercury}}
+|A curious metal that's a liquid at room temperature. Neurodegenerative and very bad for the mind.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sulfur}}Sulfur <span style="color:#f0e518;background-color:white">▮</span>
+|{{RecursiveChem/Sulfur}}
+|A sickly yellow solid mostly known for its nasty smell. It's actually much more helpful than it looks in biochemisty.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Carbon}}Carbon <span style="color:#1C1300;background-color:white">▮</span>
+|{{RecursiveChem/Carbon}}
+|A crumbly black solid that, while unexciting on a physical level, forms the base of all known life. Kind of a big deal.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hydrogen Chloride}}Hydrogen Chloride <span style="color:#808080;background-color:white">▮</span>
+|{{RecursiveChem/Hydrogen Chloride}}
+|A colorless gas that turns into hydrochloric acid in the presence of water.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Fluorine}}Fluorine <span style="color:#808080;background-color:white">▮</span>
+|{{RecursiveChem/Fluorine}}
+|A comically-reactive chemical element. The universe does not want this stuff to exist in this form in the slightest.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Phosphorus}}Phosphorus <span style="color:#832828;background-color:white">▮</span>
+|{{RecursiveChem/Phosphorus}}
+|A ruddy red powder that burns readily. Though it comes in many colors, the general theme is always the same.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lithium}}Lithium <span style="color:#808080;background-color:white">▮</span>
+|{{RecursiveChem/Lithium}}
+|A silver metal, its claim to fame is its remarkably low density. Using it is a bit too effective in calming oneself down.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Glycerol}}Glycerol <span style="color:#D3B913;background-color:white">▮</span>
+|{{RecursiveChem/Glycerol}}
+|Glycerol is a simple polyol compound. Glycerol is sweet-tasting and of low toxicity.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sterilizine}}Sterilizine <span style="color:#D0EFEE;background-color:white">▮</span>
+|{{RecursiveChem/Sterilizine}}
+|Sterilizes wounds in preparation for surgery.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Iron}}Iron <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Iron}}
+|Pure iron is a metal.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Gold}}Gold <span style="color:#F7C430;background-color:white">▮</span>
+|{{RecursiveChem/Gold}}
+|Gold is a dense, soft, shiny metal and the most malleable and ductile metal known.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Uranium}}Uranium <span style="color:#5E9964;background-color:white">▮</span>
+|{{RecursiveChem/Uranium}}
+|A jade-green metallic chemical element in the actinide series, weakly radioactive.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Radium}}Radium <span style="color:#00CC00;background-color:white">▮</span>
+|{{RecursiveChem/Radium}}
+|Radium is an alkaline earth metal. It is extremely radioactive.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bluespace Dust}}Bluespace Dust <span style="color:#0000CC;background-color:white">▮</span>
+|{{RecursiveChem/Bluespace Dust}}
+|A dust composed of microscopic bluespace crystals, with minor space-warping properties.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Aluminium}}Aluminium <span style="color:#A8A8A8;background-color:white">▮</span>
+|{{RecursiveChem/Aluminium}}
+|A silvery white and ductile member of the boron group of chemical elements.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Silicon}}Silicon <span style="color:#A8A8A8;background-color:white">▮</span>
+|{{RecursiveChem/Silicon}}
+|A tetravalent metalloid, silicon is less reactive than its chemical analog carbon.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Welding fuel}}Welding fuel <span style="color:#660000;background-color:white">▮</span>
+|{{RecursiveChem/Welding fuel}}
+|Required for welders. Flammable.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Space cleaner}}Space cleaner <span style="color:#A5F0EE;background-color:white">▮</span>
+|{{RecursiveChem/Space cleaner}}
+|A compound used to clean things. Now with 50% more sodium hypochlorite!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|EZ Clean}}EZ Clean <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/EZ Clean}}
+|A powerful, acidic cleaner sold by Waffle Co. Affects organic matter while leaving other objects unaffected.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Impedrezene}}Impedrezene <span style="color:#E07DDD;background-color:white">▮</span>
+|{{RecursiveChem/Impedrezene}}
+|Impedrezene is a narcotic that impedes one's ability by slowing down the higher brain cell functions.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Nanomachines}}Nanomachines <span style="color:#535E66;background-color:white">▮</span>
+|{{RecursiveChem/Nanomachines}}
+|Microscopic construction robots.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Xenomicrobes}}Xenomicrobes <span style="color:#535E66;background-color:white">▮</span>
+|{{RecursiveChem/Xenomicrobes}}
+|Microbes with an entirely alien cellular structure.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tubercle bacillus Cosmosis microbes}}Tubercle bacillus Cosmosis microbes <span style="color:#92D17D;background-color:white">▮</span>
+|{{RecursiveChem/Tubercle bacillus Cosmosis microbes}}
+|Active fungal spores.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Agent-S}}Agent-S <span style="color:#003300;background-color:white">▮</span>
+|{{RecursiveChem/Agent-S}}
+|Virological agent that infects the subject with Gastrolosis.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Carbon Dioxide}}Carbon Dioxide <span style="color:#1C1300;background-color:white">▮</span>
+|{{RecursiveChem/Carbon Dioxide}}
+|A gas commonly produced by burning carbon fuels. You're constantly producing this in your lungs.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Nitrous Oxide}}Nitrous Oxide <span style="color:#808080;background-color:white">▮</span>
+|{{RecursiveChem/Nitrous Oxide}}
+|A potent oxidizer used as fuel in rockets and as an anaesthetic during surgery.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Carbon Monoxide}}Carbon Monoxide <span style="color:#1C1300;background-color:white">▮</span>
+|{{RecursiveChem/Carbon Monoxide}}
+|A highly dangerous gas for sapients.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Nitryl}}Nitryl <span style="color:90560B;background-color:white">▮</span>
+|{{RecursiveChem/Nitryl}}
+|A highly reactive gas that makes you feel faster.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Freon}}Freon <span style="color:90560B;background-color:white">▮</span>
+|{{RecursiveChem/Freon}}
+|A powerful heat adsorbant.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mundane Powder}}Mundane Powder <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Mundane Powder}}
+|A powder that is used for coloring things.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Red Powder}}Red Powder <span style="color:#DA0000;background-color:white">▮</span>
+|{{RecursiveChem/Red Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Orange Powder}}Orange Powder <span style="color:#FF9300;background-color:white">▮</span>
+|{{RecursiveChem/Orange Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Yellow Powder}}Yellow Powder <span style="color:#FFF200;background-color:white">▮</span>
+|{{RecursiveChem/Yellow Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Green Powder}}Green Powder <span style="color:#A8E61D;background-color:white">▮</span>
+|{{RecursiveChem/Green Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Blue Powder}}Blue Powder <span style="color:#00B7EF;background-color:white">▮</span>
+|{{RecursiveChem/Blue Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Purple Powder}}Purple Powder <span style="color:#DA00FF;background-color:white">▮</span>
+|{{RecursiveChem/Purple Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Invisible Powder}}Invisible Powder <span style="color:#FFFFFF00;background-color:white">▮</span>
+|{{RecursiveChem/Invisible Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Black Powder}}Black Powder <span style="color:#1C1C1C;background-color:white">▮</span>
+|{{RecursiveChem/Black Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|White Powder}}White Powder <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/White Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Red Crayon Powder}}Red Crayon Powder <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Red Crayon Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Orange Crayon Powder}}Orange Crayon Powder <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Orange Crayon Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Yellow Crayon Powder}}Yellow Crayon Powder <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Yellow Crayon Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Green Crayon Powder}}Green Crayon Powder <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Green Crayon Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Blue Crayon Powder}}Blue Crayon Powder <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Blue Crayon Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Purple Crayon Powder}}Purple Crayon Powder <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Purple Crayon Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Black Crayon Powder}}Black Crayon Powder <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Black Crayon Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|White Crayon Powder}}White Crayon Powder <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/White Crayon Powder}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Generic nutriment}}Generic nutriment <span style="color:#000000;background-color:white">▮</span>
+|{{RecursiveChem/Generic nutriment}}
+|Some kind of nutriment. You can't really tell what it is. You should probably report it, along with how you obtained it.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|E-Z-Nutrient}}E-Z-Nutrient <span style="color:#376400;background-color:white">▮</span>
+|{{RecursiveChem/E-Z-Nutrient}}
+|Contains electrolytes. It's what plants crave.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Left 4 Zed}}Left 4 Zed <span style="color:#1A1E4D;background-color:white">▮</span>
+|{{RecursiveChem/Left 4 Zed}}
+|Unstable nutriment that makes plants mutate more often than usual.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Robust Harvest}}Robust Harvest <span style="color:#9D9D00;background-color:white">▮</span>
+|{{RecursiveChem/Robust Harvest}}
+|Very potent nutriment that slows plants from mutating.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Enduro Grow}}Enduro Grow <span style="color:#a06fa7;background-color:white">▮</span>
+|{{RecursiveChem/Enduro Grow}}
+|A specialized nutriment, which decreases product quantity and potency, but strengthens the plants endurance.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Liquid Earthquake}}Liquid Earthquake <span style="color:#912e00;background-color:white">▮</span>
+|{{RecursiveChem/Liquid Earthquake}}
+|A specialized nutriment, which increases the plant's production speed, as well as it's susceptibility to weeds.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Stable Plasma}}Stable Plasma <span style="color:#2D2D2D;background-color:white">▮</span>
+|{{RecursiveChem/Stable Plasma}}
+|Non-flammable plasma locked into a liquid form that cannot ignite or become gaseous/solid.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Iodine}}Iodine <span style="color:#BC8A00;background-color:white">▮</span>
+|{{RecursiveChem/Iodine}}
+|Commonly added to table salt as a nutrient. On its own it tastes far less pleasing.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Black Carpet}}Black Carpet <span style="color:#1E1E1E;background-color:white">▮</span>
+|{{RecursiveChem/Black Carpet}}
+|The carpet also comes in... BLAPCK
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Blue Carpet}}Blue Carpet <span style="color:#0000DC;background-color:white">▮</span>
+|{{RecursiveChem/Blue Carpet}}
+|For those that really need to chill out for a while.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Green Carpet}}Green Carpet <span style="color:#A8E61D;background-color:white">▮</span>
+|{{RecursiveChem/Green Carpet}}
+|For those that need the perfect flourish for green eggs and ham.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Orange Carpet}}Orange Carpet <span style="color:#E78108;background-color:white">▮</span>
+|{{RecursiveChem/Orange Carpet}}
+|For those that prefer a healthy carpet to go along with their healthy diet.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Purple Carpet}}Purple Carpet <span style="color:#91D865;background-color:white">▮</span>
+|{{RecursiveChem/Purple Carpet}}
+|For those that need to waste copious amounts of healing jelly in order to look fancy.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Red Carpet}}Red Carpet <span style="color:#731008;background-color:white">▮</span>
+|{{RecursiveChem/Red Carpet}}
+|For those that need an even redder carpet.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Royal Carpet?}}Royal Carpet? <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Royal Carpet?}}
+|For those that break the game and need to make an issue report.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Royal Black Carpet}}Royal Black Carpet <span style="color:#000000;background-color:white">▮</span>
+|{{RecursiveChem/Royal Black Carpet}}
+|For those that feel the need to show off their timewasting skills.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Royal Blue Carpet}}Royal Blue Carpet <span style="color:#5A64C8;background-color:white">▮</span>
+|{{RecursiveChem/Royal Blue Carpet}}
+|For those that feel the need to show off their timewasting skills.. in BLUE.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Genesis Serum}}Genesis Serum <span style="color:#328242;background-color:white">▮</span>
+|{{RecursiveChem/Genesis Serum}}
+|A mysterious substance capable of spontaneously gestating plant life when given a surface to adhere to.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bromine}}Bromine <span style="color:#D35415;background-color:white">▮</span>
+|{{RecursiveChem/Bromine}}
+|A brownish liquid that's highly reactive. Useful for stopping free radicals, but not intended for human consumption.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Acetone oxide}}Acetone oxide <span style="color:#AF14B7;background-color:white">▮</span>
+|{{RecursiveChem/Acetone oxide}}
+|Enslaved oxygen
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Colorful Reagent}}Colorful Reagent <span style="color:#C8A5DC;background-color:white">▮</span>
+|{{RecursiveChem/Colorful Reagent}}
+|Thoroughly sample the rainbow.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Quantum Hair Dye}}Quantum Hair Dye <span style="color:#C8A5DC;background-color:white">▮</span>
+|{{RecursiveChem/Quantum Hair Dye}}
+|Has a high chance of making you look like a mad scientist.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Barber's Aid}}Barber's Aid <span style="color:#A86B45;background-color:white">▮</span>
+|{{RecursiveChem/Barber's Aid}}
+|A solution to hair loss across the world.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Concentrated Barber's Aid}}Concentrated Barber's Aid <span style="color:#7A4E33;background-color:white">▮</span>
+|{{RecursiveChem/Concentrated Barber's Aid}}
+|A concentrated solution to hair loss across the world.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Baldium}}Baldium <span style="color:#ecb2cf;background-color:white">▮</span>
+|{{RecursiveChem/Baldium}}
+|A major cause of hair loss across the world.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Drying agent}}Drying agent <span style="color:#A70FFF;background-color:white">▮</span>
+|{{RecursiveChem/Drying agent}}
+|A desiccant. Can be used to dry things.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|decaying uranium gel}}decaying uranium gel <span style="color:#67ADBA;background-color:white">▮</span>
+|{{RecursiveChem/decaying uranium gel}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|unstable uranium gel}}unstable uranium gel <span style="color:#2FF2CB;background-color:white">▮</span>
+|{{RecursiveChem/unstable uranium gel}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|stable uranium gel}}stable uranium gel <span style="color:#04506C;background-color:white">▮</span>
+|{{RecursiveChem/stable uranium gel}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|royal bee jelly}}royal bee jelly <span style="color:#00ff80;background-color:white">▮</span>
+|{{RecursiveChem/royal bee jelly}}
+|Royal Bee Jelly, if injected into a Queen Space Bee said bee will split into two bees.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Romerol}}Romerol <span style="color:#123524;background-color:white">▮</span>
+|{{RecursiveChem/Romerol}}
+|Romerol is a highly experimental bioterror agent \
+		which causes dormant nodules to be etched into the grey matter of \
+		the subject. These nodules only become active upon death of the \
+		host, upon which, the secondary structures activate and take control \
+		of the host body.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Magillitis}}Magillitis <span style="color:#00f041;background-color:white">▮</span>
+|{{RecursiveChem/Magillitis}}
+|An experimental serum which causes rapid muscular growth in Hominidae. Side-affects may include hypertrichosis, violent outbursts, and an unending affinity for bananas.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Growth Serum}}Growth Serum <span style="color:#ff0000;background-color:white">▮</span>
+|{{RecursiveChem/Growth Serum}}
+|A strange chemical that causes growth, but wears off over time. The growth effect is limited.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|plastic polymers}}plastic polymers <span style="color:#f7eded;background-color:white">▮</span>
+|{{RecursiveChem/plastic polymers}}
+|the petroleum based components of plastic.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|generic glitter}}generic glitter <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/generic glitter}}
+|if you can see this description, contact a coder.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|pink glitter}}pink glitter <span style="color:#ff8080;background-color:white">▮</span>
+|{{RecursiveChem/pink glitter}}
+|pink sparkles that get everywhere
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|white glitter}}white glitter <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/white glitter}}
+|white sparkles that get everywhere
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|blue glitter}}blue glitter <span style="color:#4040FF;background-color:white">▮</span>
+|{{RecursiveChem/blue glitter}}
+|blue sparkles that get everywhere
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pax}}Pax <span style="color:#AAAAAA55;background-color:white">▮</span>
+|{{RecursiveChem/Pax}}
+|A colorless liquid that suppresses violence in its subjects.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|BZ metabolites}}BZ metabolites <span style="color:#FAFF00;background-color:white">▮</span>
+|{{RecursiveChem/BZ metabolites}}
+|A harmless metabolite of BZ gas.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Synthpax}}Synthpax <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Synthpax}}
+|A colorless liquid that suppresses violence in its subjects. Cheaper to synthesize than normal Pax, but wears off faster.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Abstract Peaceborg Reagent}}Abstract Peaceborg Reagent <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Abstract Peaceborg Reagent}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dizzying Solution}}Dizzying Solution <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Dizzying Solution}}
+|Makes the target off balance and dizzy
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Spider Extract}}Spider Extract <span style="color:#ED2939;background-color:white">▮</span>
+|{{RecursiveChem/Spider Extract}}
+|A highly specialized extract coming from the Australicus sector, used to create broodmother spiders.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Organic Slurry}}Organic Slurry <span style="color:#545000;background-color:white">▮</span>
+|{{RecursiveChem/Organic Slurry}}
+|A mixture of various colors of fluid. Induces vomiting.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Monkey Powder}}Monkey Powder <span style="color:#9C5A19;background-color:white">▮</span>
+|{{RecursiveChem/Monkey Powder}}
+|Just add water!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Metalgen}}Metalgen <span style="color:#b000aa;background-color:white">▮</span>
+|{{RecursiveChem/Metalgen}}
+|A purple metal morphic liquid, said to impose it's metallic properties on whatever it touches.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Gravitum}}Gravitum <span style="color:#050096;background-color:white">▮</span>
+|{{RecursiveChem/Gravitum}}
+|A rare kind of null fluid, capable of temporalily removing all weight of whatever it touches.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cellulose Fibers}}Cellulose Fibers <span style="color:#E6E6DA;background-color:white">▮</span>
+|{{RecursiveChem/Cellulose Fibers}}
+|A crystaline polydextrose polymer, plants swear by this stuff.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Gravy}}Gravy <span style="color:#623301;background-color:white">▮</span>
+|{{RecursiveChem/Gravy}}
+|A mixture of flour, water, and the juices of cooked meat.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Liquid Adamantine}}Liquid Adamantine <span style="color:#10cca6;background-color:white">▮</span>
+|{{RecursiveChem/Liquid Adamantine}}
+|A legengary lifegiving metal liquified.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Concrete Mix}}Concrete Mix <span style="color:#a8988a;background-color:white">▮</span>
+|{{RecursiveChem/Concrete Mix}}
+|Pre-made concrete mix, ideal for lazy engineers.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cement}}Cement <span style="color:#c4c0bc;background-color:white">▮</span>
+|{{RecursiveChem/Cement}}
+|A sophisticated binding agent used to produce concrete.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hexement}}Hexement <span style="color:#969390;background-color:white">▮</span>
+|{{RecursiveChem/Hexement}}
+|An advanced, space-age binding agent used to produce reinforced concrete.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Road mixture}}Road mixture <span style="color:#5c6361;background-color:white">▮</span>
+|{{RecursiveChem/Road mixture}}
+|A mix of cement and asphalt. Looks less tasty than normal cement.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Concrete}}Concrete <span style="color:#a8988a;background-color:white">▮</span>
+|{{RecursiveChem/Concrete}}
+|A mix of cement and aggregate, commonly used as a bulk building material.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hexacrete}}Hexacrete <span style="color:#7b6e60;background-color:white">▮</span>
+|{{RecursiveChem/Hexacrete}}
+|Made with fortified cement, this mix of binder and aggregate is a useful, sturdy building material.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pavement}}Pavement <span style="color:#3f4543;background-color:white">▮</span>
+|{{RecursiveChem/Pavement}}
+|Road surface, blacktop, asphalt concrete, whatever you call it, it's the most common material used in constructing runways for ships and roadways for vehicles.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Calcium}}Calcium <span style="color:#68675c;background-color:white">▮</span>
+|{{RecursiveChem/Calcium}}
+|A dull gray metal important to bones.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ashen Fibers}}Ashen Fibers <span style="color:#5a4f42;background-color:white">▮</span>
+|{{RecursiveChem/Ashen Fibers}}
+|Ground plant fibers from a cave fern. Useful for medicines.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Titanium}}Titanium <span style="color:#c2c2c2;background-color:white">▮</span>
+|{{RecursiveChem/Titanium}}
+|A light, reflective grey metal used in ship construction.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Asphalt}}Asphalt <span style="color:#111212;background-color:white">▮</span>
+|{{RecursiveChem/Asphalt}}
+|A dark, viscous liquid. Often found in oil deposits, although sometimes it can seep to the surface.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Illestren Bacteria}}Illestren Bacteria <span style="color:#5a4f42;background-color:white">▮</span>
+|{{RecursiveChem/Illestren Bacteria}}
+|Bacteria native to the Saint-Roumain Militia home planet.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Anti-Radiation Foam}}Anti-Radiation Foam <span style="color:#A6FAFF55;background-color:white">▮</span>
+|{{RecursiveChem/Anti-Radiation Foam}}
+|A tried and tested foam, used for decontaminating nuclear disasters.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sulfur Dioxide}}Sulfur Dioxide <span style="color:#f0e518;background-color:white">▮</span>
+|{{RecursiveChem/Sulfur Dioxide}}
+|A transparent gas produced by geological activity and burning certain fuels.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Stabilizing Agent}}Stabilizing Agent <span style="color:#FFFF00;background-color:white">▮</span>
+|{{RecursiveChem/Stabilizing Agent}}
+|Keeps unstable chemicals stable. This does not work on everything.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Liquid Dark Matter}}Liquid Dark Matter <span style="color:#210021;background-color:white">▮</span>
+|{{RecursiveChem/Liquid Dark Matter}}
+|Sucks everything into the detonation point.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Flash Powder}}Flash Powder <span style="color:#C8C8C8;background-color:white">▮</span>
+|{{RecursiveChem/Flash Powder}}
+|Makes a very bright flash.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sonic Powder}}Sonic Powder <span style="color:#C8C8C8;background-color:white">▮</span>
+|{{RecursiveChem/Sonic Powder}}
+|Makes a deafening noise.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Energized Jelly}}Energized Jelly <span style="color:#CAFF43;background-color:white">▮</span>
+|{{RecursiveChem/Energized Jelly}}
+|Electrically-charged jelly. Boosts jellypeople's nervous system, but only shocks other lifeforms.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Trickwine}}Trickwine <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Trickwine}}
+|
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Wine Of Ash}}Wine Of Ash <span style="color:#7E4043;background-color:white">▮</span>
+|{{RecursiveChem/Wine Of Ash}}
+|A traditional sacrament for members of the Saint-Roumain Militia. Believed to grant visions, seeing use both in ritual and entertainment within the Militia.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Wine Of Ice}}Wine Of Ice <span style="color:#7E4043;background-color:white">▮</span>
+|{{RecursiveChem/Wine Of Ice}}
+|A specialized brew utilized by members of the Saint-Roumain Militia, designed to assist in temperature regulation while working in hot environments. Known to give one the cold shoulder when thrown.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lightning's Blessing}}Lightning's Blessing <span style="color:#FEFEB8;background-color:white">▮</span>
+|{{RecursiveChem/Lightning's Blessing}}
+|A stimulating brew utilized by members of the Saint-Roumain Militia, created to allow trackers to keep up with highly mobile prey. Known to have a shocking effect when thrown
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hearthflame}}Hearthflame <span style="color:#FEE185;background-color:white">▮</span>
+|{{RecursiveChem/Hearthflame}}
+|A fiery brew utilized by members of the Saint-Roumain Militia, engineered to heat the body and cauterize wounds. Goes out in a blaze of glory when thrown.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Forcewine}}Forcewine <span style="color:#709AAF;background-color:white">▮</span>
+|{{RecursiveChem/Forcewine}}
+|Creates a barrier on the skin that catches shrapnel and when reversed locks threats down with a barrier
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Prismwine}}Prismwine <span style="color:#F0F0F0;background-color:white">▮</span>
+|{{RecursiveChem/Prismwine}}
+|A glittering brew utilized by members of the Saint-Roumain Militia, mixed to defend against the blasts and burns of foes and fauna alike. Softens targets against your own burns when thrown.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Beer}}Beer <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Beer}}
+|An alcoholic beverage, brewed originally to keep a safe source of drinking water. A timeless classic.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Light Beer}}Light Beer <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Light Beer}}
+|An alcoholic beverage, brewed originally to keep a safe source of drinking water. This variety has reduced calorie and alcohol content.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Kahlua}}Kahlua <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Kahlua}}
+|A widely known coffee-flavoured liqueur. Still labeled under an old name from Earth, despite the loss of history.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Vodka}}Vodka <span style="color:#0064C8;background-color:white">▮</span>
+|{{RecursiveChem/Vodka}}
+|A clear, hard liquor. Doubles as a flammable fuel source, if you really need it.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Gin}}Gin <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Gin}}
+|A very sharp alcohol, with a flavor that's distinctly fresh.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Rum}}Rum <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Rum}}
+|The liquor of choice for sailors and spacers alike.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tequila}}Tequila <span style="color:#FFFF91;background-color:white">▮</span>
+|{{RecursiveChem/Tequila}}
+|A strongly flavoured spirit.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Vermouth}}Vermouth <span style="color:#91FF91;background-color:white">▮</span>
+|{{RecursiveChem/Vermouth}}
+|A fine wine to go with a meal.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Wine}}Wine <span style="color:#7E4043;background-color:white">▮</span>
+|{{RecursiveChem/Wine}}
+|An alcoholic beverage made from fermented grapes of all kinds.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Blueflame Pyrecask}}Blueflame Pyrecask <span style="color:#7E4043;background-color:white">▮</span>
+|{{RecursiveChem/Blueflame Pyrecask}}
+|A popular Zohil beverage, made by infusing specially-gathered cacti and grapes in ethanol.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Grappa}}Grappa <span style="color:#F8EBF1;background-color:white">▮</span>
+|{{RecursiveChem/Grappa}}
+|A fine brandy mixed with spirits.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Amaretto}}Amaretto <span style="color:#E17600;background-color:white">▮</span>
+|{{RecursiveChem/Amaretto}}
+|A gentle drink that carries a sweet aroma.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cognac}}Cognac <span style="color:#AB3C05;background-color:white">▮</span>
+|{{RecursiveChem/Cognac}}
+|A sweet and strongly alcoholic drink, made after numerous distillations and years of maturing.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Absinthe}}Absinthe <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Absinthe}}
+|A powerful alcoholic drink. Rumored to cause hallucinations if taken irresponsibly.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hooch}}Hooch <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Hooch}}
+|Low quality, low grade, and low expectations.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ale}}Ale <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Ale}}
+|A dark alcoholic beverage made with malted barley and yeast.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hard Cider}}Hard Cider <span style="color:#CD6839;background-color:white">▮</span>
+|{{RecursiveChem/Hard Cider}}
+|The alcoholic sibling to apple cider.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Triple Sec}}Triple Sec <span style="color:#ffcc66;background-color:white">▮</span>
+|{{RecursiveChem/Triple Sec}}
+|A sweet and vibrant orange liqueur.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Creme de Menthe}}Creme de Menthe <span style="color:#00cc00;background-color:white">▮</span>
+|{{RecursiveChem/Creme de Menthe}}
+|A minty liqueur excellent for refreshing, cool drinks.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Creme de Cacao}}Creme de Cacao <span style="color:#996633;background-color:white">▮</span>
+|{{RecursiveChem/Creme de Cacao}}
+|A chocolatey liqueur excellent for adding dessert notes to beverages.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Creme de Coconut}}Creme de Coconut <span style="color:#F7F0D0;background-color:white">▮</span>
+|{{RecursiveChem/Creme de Coconut}}
+|A coconut liqueur for smooth, creamy, tropical drinks.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sake}}Sake <span style="color:#DDDDDD;background-color:white">▮</span>
+|{{RecursiveChem/Sake}}
+|A sweet rice wine.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Fernet}}Fernet <span style="color:#2d4b3b;background-color:white">▮</span>
+|{{RecursiveChem/Fernet}}
+|An incredibly bitter herbal liqueur used as a digestif.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Applejack}}Applejack <span style="color:#ff6633;background-color:white">▮</span>
+|{{RecursiveChem/Applejack}}
+|The officially sponsored drink by the National Association for Anti-Gravity Automobile Dragracing (NAAGAD).
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dotusira}}Dotusira <span style="color:#9b9b78;background-color:white">▮</span>
+|{{RecursiveChem/Dotusira}}
+|A bitter liquor made from fermented dotu-fime.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Fara-Seta}}Fara-Seta <span style="color:#c5533a;background-color:white">▮</span>
+|{{RecursiveChem/Fara-Seta}}
+|A spicy cider known to floor those with sensitive tastes.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sososi-Mira}}Sososi-Mira <span style="color:#b9d6d8;background-color:white">▮</span>
+|{{RecursiveChem/Sososi-Mira}}
+|Sososi Leaves and Miras are used to make this variety of alcohol, a warm and sweet alcohol with a tendency to leave nasty hangovers. It’s typically served before a meal, to get conversation flowing.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sososi-Seta}}Sososi-Seta <span style="color:#c2d4d5;background-color:white">▮</span>
+|{{RecursiveChem/Sososi-Seta}}
+|A bitter drink made from the leaves of the Sososi plant. The sugars of the leaf are seeped out as it ferments, leaving behind a bitter spirit, that is then seasoned with cactus fruit and berries to be served as a digestif.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Fruit Wine}}Fruit Wine <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Fruit Wine}}
+|A wine made from grown plants.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Green Beer}}Green Beer <span style="color:#A8E61D;background-color:white">▮</span>
+|{{RecursiveChem/Green Beer}}
+|An alcoholic beverage, brewed originally to keep a safe source of drinking water. This variety is dyed green, but you're not sure why.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|candy corn liquor}}candy corn liquor <span style="color:#ccb800;background-color:white">▮</span>
+|{{RecursiveChem/candy corn liquor}}
+|Like they drank in 2D speakeasies.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bilk}}Bilk <span style="color:#895C4C;background-color:white">▮</span>
+|{{RecursiveChem/Bilk}}
+|This appears to be beer mixed with milk. Creative...?
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Three Mile Island Iced Tea}}Three Mile Island Iced Tea <span style="color:#666340;background-color:white">▮</span>
+|{{RecursiveChem/Three Mile Island Iced Tea}}
+|The extreme version of fruity cocktails.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Goldschlager}}Goldschlager <span style="color:#FFFF91;background-color:white">▮</span>
+|{{RecursiveChem/Goldschlager}}
+|100 proof cinnamon schnapps, made for the Student Unions' unbearable tastes.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Patron}}Patron <span style="color:#585840;background-color:white">▮</span>
+|{{RecursiveChem/Patron}}
+|Tequila with silver in it, often found in nightclubs.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Gin and Tonic}}Gin and Tonic <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Gin and Tonic}}
+|A classic cocktail, with quinine for flavor.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Rum and Coke}}Rum and Coke <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Rum and Coke}}
+|Rum, mixed with cola.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Frontier Libre}}Frontier Libre <span style="color:#692e01;background-color:white">▮</span>
+|{{RecursiveChem/Frontier Libre}}
+|For a freer Frontier, everywhere!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Whiskey Cola}}Whiskey Cola <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Whiskey Cola}}
+|Whiskey, mixed with cola. Surprisingly refreshing.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Classic Martini}}Classic Martini <span style="color:#9e8c67;background-color:white">▮</span>
+|{{RecursiveChem/Classic Martini}}
+|Vermouth with gin.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Vodka Martini}}Vodka Martini <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Vodka Martini}}
+|Vodka with gin.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|White Gezenan}}White Gezenan <span style="color:#A68340;background-color:white">▮</span>
+|{{RecursiveChem/White Gezenan}}
+|Cream and vodka.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Screwdriver}}Screwdriver <span style="color:#A68310;background-color:white">▮</span>
+|{{RecursiveChem/Screwdriver}}
+|Vodka mixed with orange juice.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Booger}}Booger <span style="color:#8CFF8C;background-color:white">▮</span>
+|{{RecursiveChem/Booger}}
+|Ewww...
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bloody Mary}}Bloody Mary <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Bloody Mary}}
+|A strange yet pleasurable mixture made of vodka, tomato and lime juice.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Brave Bull}}Brave Bull <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Brave Bull}}
+|Liquid courage is as good as any courage!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tequila Sunrise}}Tequila Sunrise <span style="color:#FFFF91;background-color:white">▮</span>
+|{{RecursiveChem/Tequila Sunrise}}
+|Tequila, grenadine, and orange juice.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Zohil Cream}}Zohil Cream <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Zohil Cream}}
+|Whiskey-imbued cream.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Long Island Iced Tea}}Long Island Iced Tea <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Long Island Iced Tea}}
+|The entire liquor cabinet brought together with enough sugar to hide it.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Moonshine}}Moonshine <span style="color:#AAAAAA77;background-color:white">▮</span>
+|{{RecursiveChem/Moonshine}}
+|You've really hit rock bottom now... your liver packed its bags and left last night.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|AM-G}}AM-G <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/AM-G}}
+|Coffee liquor, Zohil Cream, and cognac.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Gezenan Coffee}}Gezenan Coffee <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Gezenan Coffee}}
+|Coffee, and alcohol. Traditionally enjoyed in the morning on lazy days.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Margarita}}Margarita <span style="color:#8CFF8C;background-color:white">▮</span>
+|{{RecursiveChem/Margarita}}
+|A fruity, tropical drink with a salted rim around the glass.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Black Rachnid}}Black Rachnid <span style="color:#360000;background-color:white">▮</span>
+|{{RecursiveChem/Black Rachnid}}
+|An alternative take to the White Gezenan. Doubles as an option for those who can't handle lactose.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Twelve Crossings}}Twelve Crossings <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Twelve Crossings}}
+|A mixed drink popularized by a murder mystery book series from Teceti.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Whiskey Soda}}Whiskey Soda <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Whiskey Soda}}
+|Whiskey and soda water, a simple mixed drink.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Anti-freeze}}Anti-freeze <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Anti-freeze}}
+|The ultimate refreshment. Not actually made of antifreeze!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Barefoot}}Barefoot <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Barefoot}}
+|To be enjoyed on the beach or by a pool. You should keep your shoes on, though.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Snow White}}Snow White <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Snow White}}
+|A cold refreshment.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Vodka and Tonic}}Vodka and Tonic <span style="color:#0064C8;background-color:white">▮</span>
+|{{RecursiveChem/Vodka and Tonic}}
+|The stronger sibling of the Gin and Tonic.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Gin Fizz}}Gin Fizz <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Gin Fizz}}
+|Refreshingly lemony, deliciously dry.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bahama Mama}}Bahama Mama <span style="color:#FF7F3B;background-color:white">▮</span>
+|{{RecursiveChem/Bahama Mama}}
+|A tropical cocktail with a complex blend of fruity flavors.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Singulo}}Singulo <span style="color:#2E6671;background-color:white">▮</span>
+|{{RecursiveChem/Singulo}}
+|Named after a tragic industrial accident!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sbiten}}Sbiten <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Sbiten}}
+|Vodka with capsaicin for the extra feeling of intense warmth.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Drop-pod}}Drop-pod <span style="color:#C73C00;background-color:white">▮</span>
+|{{RecursiveChem/Drop-pod}}
+|A commemorative drink, made in the name of those who died during failed orbital drop-pod landings.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mead}}Mead <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Mead}}
+|Fermented honey. The gentler sibling to the beer.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Iced beer}}Iced beer <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Iced beer}}
+|Iced beer, served in a chilled glass.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Grog}}Grog <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Grog}}
+|Watered-down rum, to really stretch out your alcohol rations. A Belter classic.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Aloe}}Aloe <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Aloe}}
+|Zohil Cream and watermelon juice. Mellows out the alcoholic bite for a mild drink.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Andalusia}}Andalusia <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Andalusia}}
+|A nice, strangely named drink.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Canton Cocktail}}Canton Cocktail <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Canton Cocktail}}
+|A drink intended to be shared across the Solarian cantons.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cracked Moon}}Cracked Moon <span style="color:#365000;background-color:white">▮</span>
+|{{RecursiveChem/Cracked Moon}}
+|Typically made on a dare by CLIP-BARD crews. It's deadly if incorrectly prepared!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ren Kirsi}}Ren Kirsi <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Ren Kirsi}}
+|A Teceian drink mainly enjoyed on The Ring and it's sibling colonies.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Changeling Sting}}Changeling Sting <span style="color:#2E6671;background-color:white">▮</span>
+|{{RecursiveChem/Changeling Sting}}
+|Made by the superstitous. Keeps the changelings away... whereever they may be.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lightspeed}}Lightspeed <span style="color:#2E6671;background-color:white">▮</span>
+|{{RecursiveChem/Lightspeed}}
+|A shot of Zohil cream in a pinch of ale, meant to be downed in one chug - hits you as fast as the name.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Gorlex Surprise}}Gorlex Surprise <span style="color:#2E6671;background-color:white">▮</span>
+|{{RecursiveChem/Gorlex Surprise}}
+|Infamously named after the accusations of Syndicate-led bombings of space installations. It's a blast!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hivemind}}Hivemind <span style="color:#FF80FC;background-color:white">▮</span>
+|{{RecursiveChem/Hivemind}}
+|A vessel of pure flavor.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Terraformer Surprise}}Terraformer Surprise <span style="color:#2E6671;background-color:white">▮</span>
+|{{RecursiveChem/Terraformer Surprise}}
+|It's as green as the first terraforming experiments, allegedly.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Saltflat}}Saltflat <span style="color:#2E6671;background-color:white">▮</span>
+|{{RecursiveChem/Saltflat}}
+|Nigh-dehydratingly dry. Intended to be a challenge.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Creamtruck}}Creamtruck <span style="color:#FFFF91;background-color:white">▮</span>
+|{{RecursiveChem/Creamtruck}}
+|A distinctly non-kid friendly equivalent to the ice cream truck.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Choker}}Choker <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Choker}}
+|It takes a moment of quiet to really appreciate some drinks - this one doesn't give you the illusion of choice.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Drunken Blumpkin}}Drunken Blumpkin <span style="color:#1EA0FF;background-color:white">▮</span>
+|{{RecursiveChem/Drunken Blumpkin}}
+|A weird mix of whiskey and... chlorine-pumpkin juice?
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hearty Punch}}Hearty Punch <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Hearty Punch}}
+|Brave bull/syndicate bomb/absinthe mixture resulting in an energizing beverage. Mild alcohol content.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Atomic Bomb}}Atomic Bomb <span style="color:#666300;background-color:white">▮</span>
+|{{RecursiveChem/Atomic Bomb}}
+|Nuclear proliferation never tasted so good.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pan-Galactic Gargle Blaster}}Pan-Galactic Gargle Blaster <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Pan-Galactic Gargle Blaster}}
+|Whoah, this stuff looks volatile!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Between the Mandibles}}Between the Mandibles <span style="color:#664300;background-color:white">▮</span>
+|{{RecursiveChem/Between the Mandibles}}
+|Mushroom-supplied hallucinogens and strong alcohol.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Eggnog}}Eggnog <span style="color:#fcfdc6;background-color:white">▮</span>
+|{{RecursiveChem/Eggnog}}
+|For enjoying the Winter Solstice.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Quadruple Sec}}Quadruple Sec <span style="color:#cc0000;background-color:white">▮</span>
+|{{RecursiveChem/Quadruple Sec}}
+|Kicks just as hard as licking the powercell on a baton, but tastier.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Quintuple Sec}}Quintuple Sec <span style="color:#ff3300;background-color:white">▮</span>
+|{{RecursiveChem/Quintuple Sec}}
+|Law, order and alcohol distilled into one single elixir.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Grasshopper}}Grasshopper <span style="color:#00ff00;background-color:white">▮</span>
+|{{RecursiveChem/Grasshopper}}
+|A fresh and sweet dessert shooter.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Stinger}}Stinger <span style="color:#ccff99;background-color:white">▮</span>
+|{{RecursiveChem/Stinger}}
+|A snappy way to end the day.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bastion Bourbon}}Bastion Bourbon <span style="color:#00FFFF;background-color:white">▮</span>
+|{{RecursiveChem/Bastion Bourbon}}
+|Soothing hot herbal brew with restorative properties. Hints of citrus and berry flavors.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Squirt Cider}}Squirt Cider <span style="color:#FF0000;background-color:white">▮</span>
+|{{RecursiveChem/Squirt Cider}}
+|Fermented squirt extract with a nose of stale bread and ocean water. Whatever a squirt is.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Fringe Weaver}}Fringe Weaver <span style="color:#FFEAC4;background-color:white">▮</span>
+|{{RecursiveChem/Fringe Weaver}}
+|Bubbly, classy, and undoubtedly strong - a Glitch City classic.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sugar Rush}}Sugar Rush <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Sugar Rush}}
+|Sweet, light, and fruity - as girly as it gets.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Crevice Spike}}Crevice Spike <span style="color:#5BD231;background-color:white">▮</span>
+|{{RecursiveChem/Crevice Spike}}
+|Sour, bitter, and smashingly sobering.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Peppermint Patty}}Peppermint Patty <span style="color:#45ca7a;background-color:white">▮</span>
+|{{RecursiveChem/Peppermint Patty}}
+|This lightly alcoholic drink combines the benefits of menthol and cocoa.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ash-Shield}}Ash-Shield <span style="color:#F5E9D3;background-color:white">▮</span>
+|{{RecursiveChem/Ash-Shield}}
+|While not a traditional trickwine by any means, this mix is said to embolden a user's shield under certain circumstance.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Happy Huntsman}}Happy Huntsman <span style="color:#DBD5AE;background-color:white">▮</span>
+|{{RecursiveChem/Happy Huntsman}}
+|A cousin of the Ash-Shield, what it lacks in strength (and mysterious power), it makes up for in flavor.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bridge Bunny}}Bridge Bunny <span style="color:#FFC55B;background-color:white">▮</span>
+|{{RecursiveChem/Bridge Bunny}}
+|You're happy to not pilot the ship after having one of these.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Between the Sheets}}Between the Sheets <span style="color:#F4C35A;background-color:white">▮</span>
+|{{RecursiveChem/Between the Sheets}}
+|A provocatively named classic.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mothball}}Mothball <span style="color:#EEF191;background-color:white">▮</span>
+|{{RecursiveChem/Mothball}}
+|Vodka, triple sec, and lime juice. Moth dust not usually included.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mojito}}Mojito <span style="color:#DFFAD9;background-color:white">▮</span>
+|{{RecursiveChem/Mojito}}
+|A drink that looks as refreshing as it tastes.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Gorlex Gator}}Gorlex Gator <span style="color:#EEF1AA;background-color:white">▮</span>
+|{{RecursiveChem/Gorlex Gator}}
+|A chilly drink made in remembrance of Gorlex IV.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Weldline}}Weldline <span style="color:#390600;background-color:white">▮</span>
+|{{RecursiveChem/Weldline}}
+|A very popular and bittersweet digestif, ideal after a heavy meal. Best served on a sawed-off cola bottle as per tradition.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Fanciulli}}Fanciulli <span style="color:#CA933F;background-color:white">▮</span>
+|{{RecursiveChem/Fanciulli}}
+|What if the Manhattan cocktail ACTUALLY used a bitter herb liquour? Helps you sober up.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mirage}}Mirage <span style="color:#4B5746;background-color:white">▮</span>
+|{{RecursiveChem/Mirage}}
+|A refreshing mixture of bitter Fernet with mint creme liquour.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Blank Paper}}Blank Paper <span style="color:#DCDCDC;background-color:white">▮</span>
+|{{RecursiveChem/Blank Paper}}
+|A bubbling glass of blank paper. Just looking at it makes you feel fresh.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Wizz Fizz}}Wizz Fizz <span style="color:#4235d0;background-color:white">▮</span>
+|{{RecursiveChem/Wizz Fizz}}
+|A magical potion, fizzy and wild! However the taste, you will find, is quite mild.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Jackalope}}Jackalope <span style="color:#ff6633;background-color:white">▮</span>
+|{{RecursiveChem/Jackalope}}
+|A light cocktail named after a famous anti-gravity racer.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Turbo}}Turbo <span style="color:#e94c3a;background-color:white">▮</span>
+|{{RecursiveChem/Turbo}}
+|A turbulent cocktail associated with outlaw hoverbike racing. Not for the faint of heart.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Old Timer}}Old Timer <span style="color:#996835;background-color:white">▮</span>
+|{{RecursiveChem/Old Timer}}
+|An archaic potation enjoyed by old coots of all ages.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Rubberneck}}Rubberneck <span style="color:#ffe65b;background-color:white">▮</span>
+|{{RecursiveChem/Rubberneck}}
+|A quality rubberneck should not contain any gross natural ingredients.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|North-South}}North-South <span style="color:#50e5cf;background-color:white">▮</span>
+|{{RecursiveChem/North-South}}
+|An inseparable combination of two fruity drinks.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Trapper's Beer}}Trapper's Beer <span style="color:#390c00;background-color:white">▮</span>
+|{{RecursiveChem/Trapper's Beer}}
+|A strong dark ale brewed by the Saint Roumain Militia.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hyperspace Highball}}Hyperspace Highball <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Hyperspace Highball}}
+|A strange drink mixed with bluespace crystal flakes, which is already extremely expensive on its own merit.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Inner Fire}}Inner Fire <span style="color:#fe8308;background-color:white">▮</span>
+|{{RecursiveChem/Inner Fire}}
+|Extremely hot; not for the faint of heart!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Painkiller}}Painkiller <span style="color:#EAD677;background-color:white">▮</span>
+|{{RecursiveChem/Painkiller}}
+|Dulls your pain. Your emotional pain, that is.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pina Colada}}Pina Colada <span style="color:#FFF1B2;background-color:white">▮</span>
+|{{RecursiveChem/Pina Colada}}
+|A fresh pineapple drink with coconut rum. Yum.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ginger Amaretto}}Ginger Amaretto <span style="color:#EFB42A;background-color:white">▮</span>
+|{{RecursiveChem/Ginger Amaretto}}
+|A delightfully simple cocktail that pleases the senses.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Godfather}}Godfather <span style="color:#E68F00;background-color:white">▮</span>
+|{{RecursiveChem/Godfather}}
+|A rough cocktail with illegal connections.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Godmother}}Godmother <span style="color:#E68F00;background-color:white">▮</span>
+|{{RecursiveChem/Godmother}}
+|A twist on a classic, made as a sibling drink to the Godfather.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Miner's Milk}}Miner's Milk <span style="color:#dfc794;background-color:white">▮</span>
+|{{RecursiveChem/Miner's Milk}}
+|All the protein, vitamins and carbs of two full ration packs, plus 15% alcohol.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Spriter's Bane}}Spriter's Bane <span style="color:#800080;background-color:white">▮</span>
+|{{RecursiveChem/Spriter's Bane}}
+|A drink to fill your very SOUL.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hullbreach}}Hullbreach <span style="color:#ba3100;background-color:white">▮</span>
+|{{RecursiveChem/Hullbreach}}
+|Fire and ice combine in your mouth! Drinking slowly recommended.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Out of Touch}}Out of Touch <span style="color:#ff9200;background-color:white">▮</span>
+|{{RecursiveChem/Out of Touch}}
+|Perfect for when you're out of time.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Darkest Chocolate}}Darkest Chocolate <span style="color:#240c0c;background-color:white">▮</span>
+|{{RecursiveChem/Darkest Chocolate}}
+|Darkness within darkness awaits you, spacer!
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Out of Lime}}Out of Lime <span style="color:#c75295;background-color:white">▮</span>
+|{{RecursiveChem/Out of Lime}}
+|A spin on the classic. Artists and street fighters swear by this stuff.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Shot in the Dark}}Shot in the Dark <span style="color:#bbebff;background-color:white">▮</span>
+|{{RecursiveChem/Shot in the Dark}}
+|A coconut elixir with a golden tinge.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Homesick}}Homesick <span style="color:#a9c6e5;background-color:white">▮</span>
+|{{RecursiveChem/Homesick}}
+|A soft, creamy drink that tastes like home, and hurts just as much.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Synthanol}}Synthanol <span style="color:#1BB1FF;background-color:white">▮</span>
+|{{RecursiveChem/Synthanol}}
+|A runny liquid with conductive capacities. Its effects on synthetics are similar to those of alcohol on organics.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Robot Tears}}Robot Tears <span style="color:#363636;background-color:white">▮</span>
+|{{RecursiveChem/Robot Tears}}
+|An oily substance that an IPC could technically consider a 'drink'.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Trinary}}Trinary <span style="color:#adb21f;background-color:white">▮</span>
+|{{RecursiveChem/Trinary}}
+|A fruit drink meant only for synthetics, however that works.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Servo}}Servo <span style="color:#5b3210;background-color:white">▮</span>
+|{{RecursiveChem/Servo}}
+|A drink containing some organic ingredients, but meant only for synthetics.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Uplink}}Uplink <span style="color:#e7ae04;background-color:white">▮</span>
+|{{RecursiveChem/Uplink}}
+|A potent mix of alcohol and synthanol. Will only work on synthetics.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Synth and Soda}}Synth and Soda <span style="color:#7204e7;background-color:white">▮</span>
+|{{RecursiveChem/Synth and Soda}}
+|The classic drink adjusted for a robot's tastes.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Synthignon}}Synthignon <span style="color:#d004e7;background-color:white">▮</span>
+|{{RecursiveChem/Synthignon}}
+|Someone mixed wine and alcohol for robots. Hope you're proud of yourself.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Star Amnesia}}Star Amnesia <span style="color:#6b0059;background-color:white">▮</span>
+|{{RecursiveChem/Star Amnesia}}
+|Is it just a bottle of medical alcohol?
+|0.2 units за тик
+|N/A
+|N/A
 |}
