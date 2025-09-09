@@ -1,0 +1,119 @@
+=== Chemical Dispenser ===
+Раздатчики химикатов могут быть улучшены, чтобы разблокировать большее количество в них химикатов, увеличить скорость перезарядки и увеличить энергию в них. Если у вас закончилась энергия в раздатчике, вы можете разобрать его с помощью отвертки + ломика и восстановить его, сначала установив печатную плату на место, а затем все остальное, но используя заряженную батарейку, в место старой, для восполнения энергии. Или вы можете зарядить машину с помощью индуктора.
+'''Доступные химикаты''':<div class="toccolours mw-collapsible mw-collapsed">
+Нажмите развернуть, чтобы посмотреть, какие химические вещества доступны:<div class="mw-collapsible-content">
+{| class="wikitable" style="width:20%; border: 2px solid #C9C4F4; cellspacing=0; cellpadding=2;"
+! scope="col" style="background-color: #C9C4F4; width: 5%; margin: auto;" | Обычный
+! scope="col" style="background-color: #C9C4F4; margin: auto;" | Улучшенный (Femto manipulator)
+! scope="col" style="background-color: #C9C4F4; margin: auto;" | Взломанный
+|-
+|Hydrogen
+|[[#Acetone|Acetone]]
+|[[#Dropsight|Dropsight]]
+|-
+|Oxygen
+|[[#Ammonia|Ammonia]]
+|[[#Morphine|Morphine]]
+|-
+|Silicon
+|[[#Ash|Ash]]
+|[[#Toxin|Toxin]]
+|-
+|Phosphorus
+|[[#Diethylamine|Diethylamine]]
+|[[#Carpotoxin|Carpotoxin]]
+|-
+|Sulfur
+|[[#Oil|Oil]]
+|[[#Miner's Salve|Miner's Salve]]
+|-
+|Carbon
+|[[#Saltpetre|Saltpetre]]
+|
+|-
+|Nitrogen
+|
+|
+|-
+|Water
+|
+|
+|-
+|Lithium
+|
+|
+|-
+|Sugar
+|
+|
+|-
+|Sulphuric acid
+|
+|
+|-
+|Copper
+|
+|
+|-
+|Mercury
+|
+|
+|-
+|Sodium
+|
+|
+|-
+|Iodine
+|
+|
+|-
+|Bromine
+|
+|
+|-
+|Ethanol
+|
+|
+|-
+|Chlorine
+|
+|
+|-
+|Potassium
+|
+|
+|-
+|Aluminium
+|
+|
+|-
+|Radium
+|
+|
+|-
+|Fluorine
+|
+|
+|-
+|Iron
+|
+|
+|-
+|Welding fuel
+|
+|
+|-
+|Silver
+|
+|
+|-
+|Stable plasma
+|
+|
+|}</div></div>'''Улучшаемые детали в машине''':<div class="toccolours mw-collapsible mw-collapsed">
+Нажмите развернуть, чтобы просмотреть улучшения:<div class="mw-collapsible-content">
+*'''Matter bin:''' Влияет на скорость зарядки и количество энергии.
+*'''Capacitor:''' Влияет на скорость зарядки.
+*'''Power cell:''' Влияет на количество энергии в раздатчике.
+*'''Femto manipulator:''' Открывает больше химикатов.</div></div>
+<br>

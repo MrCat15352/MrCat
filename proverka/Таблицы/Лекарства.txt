@@ -1,0 +1,706 @@
+==Лекарства==
+===Базовые лекарства===
+Эти лекарства являются дешевыми и лёгкими химикатами, предназначенные для лечения наиболее базовых форм повреждений. Все остальные лечебные препараты за пределами этого раздела - это либо более сложные в изготовлении улучшенные версии, либо очень специфические формы лечения для более редких ситуаций.
+{| class="wikitable sortable" style="width:100%; text-align:left; border: 3px solid #FFDD66; cellspacing=0; cellpadding=2; background-color:white;"
+! scope="col" style="width:150px; background-color:#FFDD66;" |Название
+! class="unsortable" scope="col" style="width:150px; background-color:#FFDD66;" |Формула
+! scope="col" style="width:80px; background-color:#FFDD66;" |Лечение
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Описание
+! scope="col" style="width:100px; background-color:#FFDD66;" |Скорость метаболизации
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог передозировки
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог зависимости
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bicaridine}}Bicaridine <span style="color:#bf0000;background-color:white">▮</span>
+|1 part Carbon<br>1 part Oxygen<br>1 part Sugar
+|<font color="red">Травм</font>
+|Лечит 0.5 грубого урона.
+Передозировка будет наносит 2 грубого урона.
+|0.2 units за тик
+|30 units
+| N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Libital}}Libital <span style="color:#Libital;background-color:white">▮</span>
+|{{RecursiveChem/Libital}}
+|<font color="red">Травм</font>
+|Лечит 3 грубого урона и наносит 0.3 урона печени.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Styptic Powder}}Styptic Powder <span style="color:#FF9696;background-color:white">▮</span>
+|{{RecursiveChem/Styptic Powder}}
+|<font color="red">Травм</font>
+|При нанесении моментально вылечит 1 грубый урон, а затем 2 грубого урона пока химикат находится в организме. Если реагент был введён в организм вместо нанесения, то он также нанесёт 0.5 урона токсинами.
+Передозировка будет наносить 2.5 грубого урона и 0.5 урона токсинами.
+|0.2 units за тик
+|45 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Trophazole}}Trophazole <span style="color:#FFFF6B;background-color:white">▮</span>
+|1 part Copper<br>2 part Acetone<br>1 part Phosphorus
+|<font color="red">Травм</font>
+|Лечит 1.5 грубого урона. Также преобразовывает еду в '''Mitogen Metabolism Factor''', который дополнительно лечит 1.5 грубого урона и 0.5 урона ожогами.
+Передозировка будет наносить 3 грубого урона.
+|0.2 units за тик
+| 20 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Helbital}}Helbital <span style="color:#9400D3;background-color:white">▮</span>
+|{{RecursiveChem/Helbital}}
+|<font color="red">Травм</font>
+|Чем больше травм, тем сильнее лечит их.
+* Если не в критическом состоянии: Лечит (урон/50) грубого урона и наности 2 урона удушьем.
+* Если в критическом состоянии(softcrit): Лечит (урон/47) грубого урона и наности 1 урона удушьем.
+* Если в тяжелом состоянии(hardcrit): Лечит (урон/45) грубого урона. Также имеется 0.0001% шанс что смерть захочет сыграть с вами в "Камень-Ножницы-Бумага". Если вы победите - полностью исцелитесь, но если проиграете - превратитесь в пыль.
+Передозировка вызовет близорукость.
+|0.2 units за тик
+|35 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Converbital}}Converbital <span style="color:#7a1f13;background-color:white">▮</span>
+|1 part Fuel<br>1 part Acetone<br>1 part Kelotane
+|<font color="red">Травм</font>
+|При нанесении лечит 1 грубый урона и наносит 1 урон ожогами за юнит. При ином применении наносёт 0.5 урона ожогами за юнит. Пока реагент находится в системе, он будет наносить 0.25 урона ожогами за тик.
+Передозировка будет наносить 2.5 урона ожогами и 0.5 урона токсинами за тик.
+|1 unit за тик
+|25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Kelotane}}Kelotane <span style="color:#FFa800;background-color:white">▮</span>
+|1 part Carbon<br>1 part Silicon
+|<font color="orange">Ожогов</font>
+|Лечит 0.5 урона ожогами.
+Передозировка будет наносит 2 урона ожогами.
+|0.2 units за тик
+|30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Aiuri}}Aiuri <span style="color:#8C93FF;background-color:white">▮</span>
+|1 part Ammonia<br>1 part Acid<br>2 part Hydrogen
+|<font color="orange">Ожогов</font>
+|Лечит 2 урона ожогами и наносит 0.25 урона глазам.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Silver Sulfadiazine}}Silver Sulfadiazine <span style="color:#C8A5DC;background-color:white">▮</span>
+|{{RecursiveChem/Silver Sulfadiazine}}
+|<font color="orange">Ожогов</font>
+|При нанесении моментально вылечит 1 урон ожогами, а затем 2 урона ожогами пока химикат находится в организме. Если реагент был введён в организм вместо нанесения, то он также нанесёт 0.5 урона токсинами.
+Передозировка будет наносить 2.5 урона ожогами и 0.5 урона токсинами.
+|0.2 units за тик
+|45 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Rhigoxane}}Rhigoxane <span style="color:#F7FFA5;background-color:white">▮</span>
+|3 part Cryostylane<br>1 part Bromine<br>1 part Lye
+|<font color="orange">Ожогов</font>
+|Лечит 2 урона ожогами и стабилизирует температуру тела. В качестве дыма реагент будет охлаждать тела и тушить огонь.
+Передозировка будет наносить 3 урона ожогами и быстро понижать температуру тела.
+|0.2 units за тик
+|25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Convuri}}Convuri <span style="color:#b85505;background-color:white">▮</span>
+|1 part Fuel<br>1 part Ash<br>1 part Bicaridine
+|<font color="orange">Ожогов</font>
+|При нанесении лечит 1 урона ожогами и наносит 1 грубого урона за юнит. При ином применении наносёт 0.5 грубого урона за юнит. Пока реагент находится в системе, он будет наносить 0.25 грубого урона за тик.
+Передозировка будет наносить 2.5 грубого урона и 0.5 урона токсинами за тик.
+| 1 unit за тик
+|25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Synthflesh}}Synthflesh <span style="color:#FFEBEB;background-color:white">▮</span>
+|1 part Blood<br>1 part Carbon<br>1 part Styptic Powder
+|<font color="red">Травм</font>, <font color="orange">Ожогов</font>
+|Применение только нанесением.
+Моментально лечит 1.25 урона травмами и ожогами за 1u. При нанесении 100u за раз восстанавливает тело из состояния мумификации (Husk).
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Saline-Glucose Solution}}Saline-Glucose Solution <span style="color:#DCDCDC;background-color:white">▮</span>
+|{{RecursiveChem/Saline-Glucose Solution}}
+|<font color="red">Травм</font>, <font color="orange">Ожогов</font>, <font color="Maroon">Кровопотери</font>
+|С 33% шансом вылечит 0.5 урона ожогами и травмами. Используется в качестве временного заменителя крови.
+Передозировка имеет шанс в 33% нанести 0.5 урона ожогами и травмами, а также 3% шанс превратиться в 1u соли или сахара.
+|0.5 units за тик
+|60 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dylovene}}Dylovene <span style="color:#00a000;background-color:white">▮</span>
+|{{RecursiveChem/Dylovene}}
+|<font color="green">Токсинов</font>
+|Лечит 0.5 урона токсинами и очищает организм от 1u токсичных реагентов.
+Передозировка будет наносить 3 урона токсинами.
+|0.2 units за тик
+|30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Charcoal}}Charcoal <span style="color:#000000;background-color:white">▮</span>
+|1 part [[#Ash|Ash]] <br>
+1 part [[#Sodium Chloride|Sodium Chloride]]<br>
+Температура 380K
+|<font color="green">Токсинов</font>
+|Лечит 0.5 урона токсинами и очищает организм от 1u других реагентов. Все способы применения, кроме внутреннего, будут превращать в Carbon.
+|0.5 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Thializid}}Thializid <span style="color:#8CDF24;background-color:white">▮</span>
+|1 part Sulfur<br>1 part Fluorine<br>1 part Toxin<br>2 part Nitrous Oxide
+|<font color="green">Токсинов</font>
+|Мощный антидот внутривенного применения с узким терапевтическим индексом, является активным пролекарством [[#Oxalizid|Oxalizid]].
+|0.75 units за тик
+|6 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Oxalizid}}Oxalizid <span style="color:#DFD54E;background-color:white">▮</span>
+|{{RecursiveChem/Oxalizid}}
+|<font color="green">Токсинов</font>
+|Активный метаболит [[#Thializid|Thializid]]. Лечит 1 урона токсинами и наносит 1 урон печени.
+Передозировка вызывает слабость в мышцах и наносит 1.5 урона печени.
+|0.25 units за тик
+| 25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Seiver}}Seiver <span style="color:#000000;background-color:white">▮</span>
+|{{RecursiveChem/Seiver}}
+|<font color="cfd51e">Радиации</font>, <font color="green">Токсинов</font>
+|Лечит радиацию и токсины в зависимости от температуры химиката при попадании в организм. Если химикат холодный, он будет лечить до 45 единиц радиации за тик (плюс бонус 10-25% от общего числа радиации, если очень холодный). Если химикат горячий, он будет лечит токсины (чем горячее, тем лучше). Чистота также влияет на скорость выведения радиации и химикатов, вплоть до прибавки в 33%. Наносит урон сердцу в зависимости от величины выведеной радиации и токсинов.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tricordrazine}}Tricordrazine <span style="color:#C8A5DC;background-color:white">▮</span>
+|
+1 part Bicaridine<br>1 part Kelotane<br>1 part Antitoxin
+|<font color="red">Травм</font>, <font color="orange">Ожогов</font>, <font color="green">Токсинов</font>
+|Лечит 0.25 урона от травм, ожогов и токсинов с шансом в 80%.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dexalin}}Dexalin <span style="color:#0080FF;background-color:white">▮</span>
+|5 part Oxygen
+|<font color="blue">Удушья</font>
+|Лечит 0.5 урона удушением. Передозировка наносит 2 урона удушьем.
+| 0.2 units за тик
+|30 units
+| N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Salbutamol}}Salbutamol <span style="color:#00FFFF;background-color:white">▮</span>
+|1 part Sal Acid<br>1 part Lithium<br>1 part Aluminium<br>1 part Bromine<br>1 part Ammonia
+|<font color="blue">Удушья</font>
+|Лечит 3 урона удушением, а также замедляет получение нового.
+|0.25 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tirimol}}Tirimol <span style="color:#FF6464;background-color:white">▮</span>
+|3 part Nitrogen<br>2 part Acetone
+|<font color="blue">Удушья</font>
+|Лечит 3 урона удушением и наносит 2 урона выносливости. Вызывает сонливость после 15 секунд и каждые 45 секунд после. Если препарат находился в крови более 20 тиков, вы заснете на 10 секунд после окончания его действия.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Penthrite}}Penthrite <span style="color:#F5F5F5;background-color:white">▮</span>
+|
+1 part Pentaerythritol<br>1 part Acetone<br>1 part Nitracid<br>1 part Wittel
+|Сердце, Крит
+|Если вы не в критическом состоянии, стабилизирует сердце. Если здоровье ниже порога критического состояния, не дает в него войти: лечит 2 урона от токсинов, ожогов, и грубого урона, а также 6 единиц урона удушьем, но наносит 0.1 единицу урона сердцу. Если здоровье падает до -60, препарат мгновенно выводится из крови, вызывая сердечный приступ. Незначительно повреждает желудок.
+В результате реакции получается 3 части препарата вместо 4.
+Передозировка мгновенно вызывает сердечный приступ.
+|0.2 units за тик
+|50 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cryoxadone}}Cryoxadone <span style="color:#0000C8;background-color:white">▮</span>
+|1 part Stable Plasma<br>1 part Acetone<br>1 part Mutagen
+|Все базовые типы урона
+|Быстро лечит травмы, ожоги, токсины и удушение. Для работы реагента в системе температура тела должна быть ниже -3°C(270K), но чем ниже, тем лучше. Лучше всего работает в Криогенных камерах(Cryogenics Tube)
+|0.4 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pyroxadone}}Pyroxadone <span style="color:#f7832a;background-color:white">▮</span>
+|
+1 part Cryoxadone<br>1 part Slimejelly
+|Все базовые типы урона
+|Очень быстро лечит травмы, ожоги, токсины и удушение. В отличии от [[#Cryoxadone|Cryoxadone]], для работы данного реагента в организме температура тела должна быть выше 126°C(400K), но чем выше тем лучше. Эффективность сильно увеличивается, если тело охвачено огнём.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Clonexadone}}Clonexadone <span style="color:#3D3DC6;background-color:white">▮</span>
+|1 part Cryoxadone<br>1 part Sodium
+|<font color="#2AB77C">Клеток</font>
+|В отличии от [[#Cryoxadone|Cryoxadone]], лечит клеточный урон, но и ничего больше. Для работы реагента в системе температура тела должна быть ниже -3°C(270K), но чем ниже, тем лучше. Лучше всего работает в Криогенных камерах(Cryogenics Tube)
+|1.5 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mannitol}}Mannitol <span style="color:#A0A0A0;background-color:white">▮</span>
+|1 part Sugar<br>1 part Hydrogen<br>1 part Water
+|<font color="pink">Мозга</font>
+|Лечит мозг на 2 единицы.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Neurine}}Neurine <span style="color:#C0C0C0;background-color:white">▮</span>
+|1 part Mannitol<br>1 part Acetone<br>1 part Oxygen
+|Незначительные травмы <font color="pink">мозга</font>
+|Очищает организм от 5u [[Руководство по напиткам#Neurotoxin|нейротоксина]] в тик. С 15% шансом излечивает лёгкую травму мозга.
+|0.2 units за тик
+|N/A
+|N/A
+|}
+
+===Лекарства для синтетиков===
+Эта химия работает только на синтетических формах жизни, таких как [[ИПС|IPC]].
+{| class="wikitable sortable" style="width:100%; text-align:left; border: 3px solid #FFDD66; cellspacing=0; cellpadding=2; background-color:white;"
+! scope="col" style="width:150px; background-color:#FFDD66;" |Название
+! class="unsortable" scope="col" style="width:150px; background-color:#FFDD66;" |Формула
+! scope="col" style="width:80px; background-color:#FFDD66;" |Лечение
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Описание
+! scope="col" style="width:100px; background-color:#FFDD66;" |Скорость метаболизации
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог передозировки
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог зависимости
+|-
+! style="background-color:#FFEE88;" |{{anchor|System Cleaner}}System Cleaner <span style="color:#F1C40F;background-color:white">▮</span>
+|{{RecursiveChem/System Cleaner}}
+|<font color="green">Токсинов</font>
+|Лечит 2 урона токсинами и очищает кровоток от 1u других реагентов за тих.
+|0.5 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Liquid Solder}}Liquid Solder <span style="color:#727272;background-color:white">▮</span>
+|{{RecursiveChem/Liquid Solder}}
+|<font color="pink">Мозга</font>
+|Лечит 3 единицы урона мозгу и имеет 30% шанс вылечить особые травмы и 10% шанс незначительные травмы.
+|0.2 units за тик
+|N/A
+|N/A
+|}
+===Продвинутые лекарства===
+Эти лекарства труднее сделать, чем базовые лекарства, но их эффективность гораздо выше.
+
+{| class="wikitable sortable" style="width:100%; text-align:left; border: 3px solid #FFDD66; cellspacing=0; cellpadding=2; background-color:white;"
+! scope="col" style="width:150px; background-color:#FFDD66;" |Название
+! class="unsortable" scope="col" style="width:150px; background-color:#FFDD66;" |Формула
+! scope="col" style="width:80px; background-color:#FFDD66;" |Лечение
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Описание
+! scope="col" style="width:100px; background-color:#FFDD66;" |Скорость метаболизации
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог передозировки
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог зависимости
+|-
+! style="background-color:#FFEE88;" |{{anchor|Bicaridine Plus}}Bicaridine Plus <span style="color:#bf0000;background-color:white">▮</span>
+|{{RecursiveChem/Bicaridine Plus}}
+|<font color="red">Травм</font>
+|Лечит 2 грубого урона и замедляет скорость кровотечения.
+Передозировка будет наносить 6 грубого урона.
+|0.4 units за тик
+|25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Salicylic Acid}}Salicylic Acid <span style="color:#D2D2D2;background-color:white">▮</span>
+|{{RecursiveChem/Salicylic Acid}}
+|<font color="red">Травм</font>
+|Если у вас более 25 единиц грубого урона, лечит 4 единицы. Если у вас 25 и менее единиц грубого урона, лечит 0.5 единицы.
+Передозировка усугубит травмы.
+|0.5 units за тик
+| 25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dermaline}}Dermaline <span style="color:#FF8000;background-color:white">▮</span>
+|1 part Kelotane<br>1 part Acetone<br>1 part Phosphorus
+|<font color="orange">Ожогов</font>
+|Лечит 2 урона ожогами.
+Передозировка наносит 6 урона ожогами.
+|0.2 units за тик
+| 25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Oxandrolone}}Oxandrolone <span style="color:#1E8BFF;background-color:white">▮</span>
+|3 part Carbon<br>1 part Phenol<br>1 part Hydrogen<br>1 part Oxygen
+|<font color="orange">Ожогов</font>
+|Если у вас более 25 единиц урона ожогами, лечит 4 единицы. Если у вас 25 и менее, лечит 0.5 единицы.
+При передозировке усугиб имеющиеся ожоги.
+|0.5 units за тик
+| 25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Tetracordrazine}}Tetracordrazine <span style="color:#C8A5DC;background-color:white">▮</span>
+|
+{{RecursiveChem/Tetracordrazine}}
+|Все базовые типы урона
+|Лечит 0.25 урона от травм, ожогов и токсинов и 0.5 урона удушением.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Omnizine}}Omnizine <span style="color:#DCDCDC;background-color:white">▮</span>
+|{{RecursiveChem/Omnizine}}
+|Все базовые типы урона
+|Лечит 0.5 урона от травм, ожогов, токсинов и удушья.
+Передозировка будет наносить 1.5 вместо лечения.
+|0.1 units за тик
+| 30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Perfluorodecalin}}Perfluorodecalin <span style="color:#FF6464;background-color:white">▮</span>
+|1 part Hydrogen<br>1 part Fluorine<br>1 part Oil
+|<font color="blue">Удушья</font>
+|Эффектино лечит удушье, паралельно нанося малое количество токсичного урона. Также имеется шанс восстановить дыхание.
+Передозировка ускорит вывод химиката из крови, но выработка токсинов в крови будет происходить вне зависимости от лечение удушья.
+|0.25 units за тик
+|35 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Dexalin Plus}}Dexalin Plus <span style="color:#0040FF;background-color:white">▮</span>
+|{{RecursiveChem/Dexalin Plus}}
+|<font color="blue">Удушья</font>
+|Лечит 2 урона удушением.
+Передозировка наносит 6 урона удушением.
+|0.2 units за тик
+| 25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Calomel}}Calomel <span style="color:#19C832;background-color:white">▮</span>
+|1 part Mercury<br>1 part Chlorine
+|<font color="green">Токсинов</font>
+|Очищает организм от 3u всех реагентов. Наносит 1 токсиного урона, если здоровье больше 20.
+|0.5 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Carthatoline}}Carthatoline <span style="color:#225722;background-color:white">▮</span>
+|1 part Antitoxin<br>2 part Carbon
+|<font color="green">Токсинов</font> и печени
+|Лечит организм от 2 единиц токсичного урона. С 10% шансов вызывает рвоту, очищая от 2u [[#Toxins|токсичных]] реагентов.
+Передозировка будет наносить 6 урона токсинами.
+|0.2 units за тик
+| 25 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Atropine}}Atropine <span style="color:#1D3535;background-color:white">▮</span>
+|1 part Ethanol<br>1 part Acetone<br>1 part Diethylamine<br>1 part Phenol<br>1 part Acid
+|Все базовые типы урона
+|Если вы находитесь в критическом состоянии, лечит 2 урона от травм, ожогов и токсинов, 5 урона гипоскией, а также предотвращает урон от удушья. С 20% шансом вызовет дрожь и головокружение.
+Передозировка будет наносить 0.5 урона токсинами и вызывать дрожь и головокружение.
+|0.25 units за тик
+| 35 units
+|N/A
+|}
+===Уникальные лекарства===
+Эти лекарства выполняют уникальную функцию, которая не часто встречается в игре.
+{| class="wikitable sortable" style="width:100%; text-align:left; border: 3px solid #FFDD66; cellspacing=0; cellpadding=2; background-color:white;"
+! scope="col" style="width:150px; background-color:#FFDD66;" |Название
+! class="unsortable" scope="col" style="width:150px; background-color:#FFDD66;" |Формула
+! scope="col" style="width:80px; background-color:#FFDD66;" |Лечение
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Описание
+! scope="col" style="width:100px; background-color:#FFDD66;" |Скорость метаболизации
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог передозировки
+! scope="col" style="width:100px; background-color:#FFDD66;" |Порог зависимости
+|-
+! style="background-color:#FFEE88;" |{{anchor|Leporazine}}Leporazine <span style="color:#DB90C6;background-color:white">▮</span>
+|1 part Silicon<br>1 part Copper
+|Температуру тела
+|Очень эффективно стабилизирует температуру тела.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Rezadone}}Rezadone <span style="color:#669900;background-color:white">▮</span>
+|1 part Carpotoxin<br>1 part Cryptobiolin<br>1 part Copper
+|<font color="#2AB77C">Клетки</font>, Мумификацию
+|Мгновенно лечит весь клеточный урон, а также лечит 1 урон от ожогов и травм. Мгновенно восстанавливает мумифицированное тело, если количество урона ожогами меньше 50 единиц.
+При передозировке наносит 1 единицу урона токсинами, а также вызывает головокружение и дрожь.
+|0.2 units за тик
+| 30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Spaceacillin}}Spaceacillin <span style="color:#E1F2E6;background-color:white">▮</span>
+|
+1 part Cryptobiolin<br>1 part Epinephrine
+|Вирусы
+|Предотвращает распространение заболеваний, которыми пациент заражен в данный момент. Также лечит от некоторых вирусов.
+|0.1 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Oculine}}Oculine <span style="color:#404040;background-color:white">▮</span>
+|
+1 part Charcoal<br>1 part Carbon<br>1 part Hydrogen
+|Глаза
+|Лечит глаза на 2 единицы, а также близорукость и слепоту.
+|0.25 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Inacusiate}}Inacusiate <span style="color:#606060;background-color:white">▮</span>
+|
+1 part Water<br>1 part Carbon<br>1 part Charcoal
+|Уши
+|Восстанавливает слух пациента, но не лечит глухоту.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Synaptizine}}Synaptizine <span style="color:#FF00FF;background-color:white">▮</span>
+|1 part Sugar<br>1 part Lithium<br>1 part Water
+|Галлюцинации
+|Увеличивает сопротивление различным потерям контроля над телом, галлюцинациям, очищает организм от 5u [[#Mindbreaker Toxin|Mindbreaker Toxin]], а также имеет шанс в 30% нанести 1 урона токсинами.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Miner's Salve}}Miner's Salve <span style="color:#6D6374;background-color:white">▮</span>
+|{{RecursiveChem/Miner's Salve}}
+|<font color="red">Травмы</font>, <font color="orange">Ожоги</font>
+|Сильное обезболивающее. Лечит 0.25 урона ушибами и ожогами, но пока химикат в организме, заставит мозг думать что тело полностью цело.
+|0.4 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Potassium Iodide}}Potassium Iodide <span style="color:#BAA15D;background-color:white">▮</span>
+|{{RecursiveChem/Potassium Iodide}}
+|<font color="cfd51e">Радиации</font>
+|Выводит малые дозы радиации из организма.
+|2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pentetic Acid}}Pentetic Acid <span style="color:#E6FFF0;background-color:white">▮</span>
+|{{RecursiveChem/Pentetic Acid}}
+|<font color="cfd51e">Радиации</font>, <font color="green">Токсины</font>
+|Выводит большие дозы радиации и лечит 2 единицы токсинов, выводя 2 единицы прочих препаратов из крови.
+|0.5 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Diphenhydramine}}Diphenhydramine <span style="color:#64FFE6;background-color:white">▮</span>
+|1 part Oil<br>1 part Carbon<br>1 part Bromine<br>1 part Diethylamine<br>1 part Ethanol
+|Антигистаминное
+|Быстро выводит [[#Histamine|Histamine]] из организма, снижает дрожь, а также имеется шанс вызвать лёгкую сонливость.
+(В результате получается 4u, вместо 5u)
+|0.5 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Epinephrine}}Epinephrine <span style="color:#D2FFFA;background-color:white">▮</span>
+|1 part Phenol<br>1 part Acetone<br>1 part Diethylamine<br>1 part Oxygen<br>1 part Chlorine<br>1 part Hydrogen
+|Крит, Оглушение
+|Имеет 20% шанс немного снизить время оглушения. Если пациент в критическом состоянии, лечит 0.5 единицы удушья, токсинов, травм и ожогов, а также предотвращет удушье, вызванное критическим состоянием.
+С передозировкой имеется 33% шанс нанести малый урон выносливости и 1 урон токсинами.
+|0.25 units за тик
+| 30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Strange Reagent}}Strange Reagent <span style="color:#A0E85E;background-color:white">▮</span>
+|
+{{RecursiveChem/Strange Reagent}}
+|Смерть
+|Чудотворный препарат, который возвращает мертвецов к жизни. Работает только при употреблении внутрь. Требуемое количество препарата зависит от количества урона, что имеет труп (максимум 10 единиц при 200 единицах совместного грубого урона и ожогов). Дополнительное количество препарата будет понемногу лечить внутренние органы и восстанавливать кровь в случае успешного воскрешения. Препарат не работает, если у трупа большее 200 единиц совместного урона (грубого и ожогов) или если он мумифицирован.
+В живых людях случайным образом наносит 0-2.5 единицы грубого урона и ожогов. Может также воскрешать симплмобов.
+|1.25 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Mutadone}}Mutadone <span style="color:#5096C8;background-color:white">▮</span>
+|1 part Mutagen<br>1 part Acetone<br>1 part Bromine
+|Мутации
+|Убирает дрожь и восстанавливает генетические дефекты.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Antihol}}Antihol <span style="color:#00B4C8;background-color:white">▮</span>
+|1 part Ethanol<br>1 part Charcoal<br>1 part Copper
+|Алкоголизм
+|Выводит алкогольные напитки из крови и ликвидирует их последствия.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Haloperidol}}Haloperidol <span style="color:#27870a;background-color:white">▮</span>
+|1 part Chlorine<br>1 part Fluorine<br>1 part Aluminium<br>1 part Potass Iodide<br>1 part Oil
+|Наркотики
+|Ускоряет вывод большинства наркотических препаратов из организма. Снижает джорь и наркотический эффект, наносит малый урон выносливости и мозгу, а также вызывает сонливость.
+|0.4 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Regenerative Jelly}}Regenerative Jelly <span style="color:#CC23FF;background-color:white">▮</span>
+|{{RecursiveChem/Regenerative Jelly}}
+|Базовые типы урона
+|Лечит 1.5 урона от травм, ожогов, токсинов и удушья без риска навредить слаймолюдям.
+|0.2 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Morphine}}Morphine <span style="color:#A9FBFB;background-color:white">▮</span>
+|2 part Carbon<br>2 part Hydrogen<br>1 part Ethanol<br>1 part Oxygen
+|Замедление
+|Позволяет вам бежать на полной скорости при тяжелый ранах. Вызывает сонливость после 12 циклов и сон после 24 циклов. Пока препарат находится в крови - пациент не проснётся. Дает 20 единиц обезболивания.
+
+При передозировке вызывает нервозность, головокружение и заставляет жертву ронять предметы из рук.
+При зависимости наносит 1, 2, а позже 3 единицы урона токсинами, а также усиленный эффект передозировки.
+|0.5 units за тик
+| 30 units
+|25 units
+|-
+! style="background-color:#FFEE88;" |{{anchor|Modafinil}}Modafinil <span style="color:#BEF7D8;background-color:white">▮</span>
+|
+1 part Diethylamine<br>1 part Ammonia<br>1 part Phenol<br>1 part Acetone<br>1 part Acid
+|Сон
+|Медленно усваиваемый препарат. Лечит головокружение, сонливость и даёт невосприимчивость ко сну. Немного уменьшает время оглушения.
+При передозировке вызывает нервозность, проблемы с речью, головокружение, имеет 50% шанс вызвать удушье. После 41 цикла имеет 20% шанс оглушения. После 82 циклов вводит в состояние бесконечного сна, нанося при этом 1.5 единица урон выносливости и удушья.
+Не вызывает привыкание, но имеет очень хитрый порог передозировки.
+|0.02-0.08 units за тик
+| 20 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Psicodine}}Psicodine <span style="color:#07E79E;background-color:white">▮</span>
+|2 part Mannitol<br>2 part Water<br>1 part Impedrezene
+|Фобии
+|Подавляет фобии и поднимает настроение с плохого до нейтрального. Снижает нервозность, головокружение, замешательство и отвращение.
+
+При передозировке вызывает галлюцинации и наносит 1 единицу урона токсинами каждый тик.
+|0.25 units за тик
+| 30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Corazone}}Corazone <span style="color:#F49797;background-color:white">▮</span>
+|2 part Phenol<br>1 part Lithium
+|Сердце, Печень
+|Пока реагент в теле - пациент не страдает от повреждённого или отсутствующего сердца или печени.
+|0.4 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lavaland Extract}}Lavaland Extract <span style="color:#6B372E;background-color:white">▮</span>
+|{{RecursiveChem/Lavaland Extract}}
+|Все базовые типы урона
+|Лечит 1 единицу травм, ожогов и токсинов, а также 1 единицу удушья, если пациент в критическом состоянии. Пока реагент находится в крови, конечности всегда будут активны, вне зависимости от полученного ими урона (Это не защищает их от отделения).
+
+При передозировке периодически будет вызывать сильную боль по телу.
+|0.4 units за тик
+|10 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|C4L-Z1UM Agent}}C4L-Z1UM Agent <span style="color:#000000;background-color:white">▮</span>
+|{{RecursiveChem/C4L-Z1UM Agent}}
+|Кости
+|Вызывает сонливость и усталость до 30 тика. После 31 вызывает сон и лечит поломанные кости и повреждённые органы.
+|0 units в течении 31 цикла, 10 units за тик после
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Skeleton's Boon}}Skeleton's Boon <span style="color:#dbdfa2;background-color:white">▮</span>
+|{{RecursiveChem/Skeleton's Boon}}
+|Кости
+|Усиливает кости, даруя Плазмаменам и Скелетам увеличенное сопротивление грубому урону.
+(В результате получается 5u, вместо 7u)
+|0.125 units за тик
+|50 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Soulus Dust}}Soulus Dust <span style="color:#302f20;background-color:white">▮</span>
+|{{RecursiveChem/Soulus Dust}}
+|<font color="red">Травмы</font>, <font color="orange">Ожоги</font>
+|При '''нанесении''' моментально лечит травмы и ожоги пропорционально нанесённому количеству, после же начинает медленно лечить их. Наносит 0.25 клеточного урона.
+|0.2 units за тик
+|100 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Purified Soulus Dust}}Purified Soulus Dust <span style="color:#302f20;background-color:white">▮</span>
+|
+{{Шаблон:RecursiveChem/Purified Soulus Dust}}
+|<font color="red">Травмы</font>, <font color="orange">Ожоги</font>
+|То же самое, что и [[#Soulus Dust|Soulus Dust]], но без последствий в виде клеточного урона.
+|0.2 units за тик
+|100 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pucetylline Essence}}Pucetylline Essence <span style="color:#CC8899;background-color:white">▮</span>
+|{{RecursiveChem/Pucetylline Essence}}
+|<font color="green">Токсины</font>, <font color="#2AB77C">Клетки</font>
+|80% шанс лечения 1 единицу токсинов и 20% шанс лечения 1 единицу клеточного урона. Очищает организм от токсичных реагентов и [[#Soulus Dust|Soulus Dust]].
+|2.5 units за тик
+|30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Chartreuse Solution}}Chartreuse Solution <span style="color:#DFFF00;background-color:white">▮</span>
+|
+{{RecursiveChem/Chartreuse Solution}}
+|<font color="green">Токсины</font>, <font color="#2AB77C">Клетки</font>
+|80% шанс лечения 1 единицы токсинов и клеточного урона. Очищает организм от токсичных реагентов.
+|2.5 units за тик
+| 30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Fervor Ignium}}Fervor Ignium <span style="color:#b6a076;background-color:white">▮</span>
+|{{RecursiveChem/Fervor Ignium}}
+|<font color="red">Травмы</font>, <font color="orange">Ожоги</font>, Выносливость
+|80% шанс вылечить 2 единицы травм и ожогов, а также восстанавливает 5 единиц выносливости. Также незначительно повышает голод.
+|0.4 units за тик
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ephedrine}}Ephedrine <span style="color:#D2FFFA;background-color:white">▮</span>
+|1 part Sugar<br>1 part Oil<br>1 part Hydrogen<br>1 part Diethylamine
+|Оглушение
+|Уменьшает длительность эффектов затрудняющих движение и ускоряет передвижение, но с шансом 20% вызовет спазмы в руках и дрожь, заставляя выбросить предметы в руках.
+
+При передозировке имеется шанс вызвать сердечную недостаточность, токсичный урон и потерю дыхания.
+При зависимости имеется увеличивающся со стадиями шанс испытать судороги и 33% шанс вызвать токсичный урон и потерю дыхания.
+|0.5 units за тик
+| 30 units
+| 25 units
+|-
+! style="background-color:#FFEE88;" |{{anchor|Restorative Nanites}}Restorative Nanites <span style="color:#555555;background-color:white">▮</span>
+|{{RecursiveChem/Restorative Nanites}}
+|Все типы урона
+|Лечит 5 урона травмами, ожогами и токсинами, 15 урона удушьем и мозгу и 3 клеточного урона.
+Передозировка вызовет увеличенный метаболизм реагента и рвоту.
+|0.4 units за тик
+|30 units
+|N/A
+|-
+! style="background-color:#FFEE88;" |[[Файл:Medicated Suture.png]]{{anchor|Medicated Suture}}Medicated Suture
+|
+{{RecursiveChem/Medicated Suture}}
+|<font color="red">Травм</font>
+|Создаёт 15 Medicated Sutures. Одно использование лечит 15 травм.
+|N/A
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |[[Файл:Advanced Regenerative Mesh.png]]{{anchor|Advanced Regenerative Mesh}}Advanced Regenerative Mesh
+|{{RecursiveChem/Advanced Regenerative Mesh}}
+|<font color="orange">Ожогов</font>
+|Создаёт 15 Advanced Regenerative Mesh. Одно использование лечит 15 ожогов.
+|N/A
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |[[Файл:Ashen Herbal Pack.png]]{{anchor|Ashen Herbal Pack}}Ashen Herbal Pack
+|{{RecursiveChem/Ashen Herbal Pack}}
+|<font color="red">Травм</font>
+|Создаёт 6 Ashen Herbal Packs. Одно использование лечит 40 травм.
+|N/A
+|N/A
+|N/A
+|-
+! style="background-color:#FFEE88;" |[[Файл:Burn Ointment Slurry.png]]{{anchor|Burn Ointment Slurry}}Burn Ointment Slurry
+|{{RecursiveChem/Burn Ointment Slurry}}
+|<font color="orange">Ожогов</font>
+|Создаёт 6 Burn Ointment Slurry. Одно использование лечит 40 ожогов.
+|N/A
+|N/A
+|N/A
+|}

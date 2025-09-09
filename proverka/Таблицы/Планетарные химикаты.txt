@@ -1,0 +1,45 @@
+==Планетарные химикаты==
+Встречается в основном в планетарной флоре.
+{| class="wikitable sortable" style="width:100%; text-align:left; border: 3px solid #FFDD66; cellspacing=0; cellpadding=2; background-color:white;"
+! scope="col" style="width:150px; background-color:#FFDD66;" |Название
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Находится в
+! scope="col" style="background-color:#FFDD66;" |Тип
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Описание
+! scope="col" style="width:100px; background-color:#FFDD66;" |Скорость метаболизации
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Entropic Polypnium}}Entropic Polypnium
+|Грибная шляпка
+|Яд
+|Урон выносливости, мозгу, токсинами, гипоксии и немного глазам, о Боже! Более 5 единиц также парализуют человека.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Tinea Luxor}}Tinea Luxor
+|Грибные стебли
+|Другое
+|Заставляет потребившего сиять.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Vitrium Froth}}Vitrium Froth
+|Грибные листья
+|Медицина
+|80% шанс вылечить 1 урон ожогами и 1 грубый урон каждый тик.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Ash Fibers}}Ash Fibers
+|Пещерный папоротник
+|Другое
+|Используется как ингредиент в других рецептах.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Pyre Elementum}}Pyre Elementum
+|Огнецветы
+|Другое
+|Это то, что заставляет Огненные цветы быть ещё жарче.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Lava Microbes}}Lava Microbes
+|Почва лавового планетоида
+|Яд
+|Микробы, выделенные из грязи. Они могут быть заразными.
+|0.4 units за тик
+|}

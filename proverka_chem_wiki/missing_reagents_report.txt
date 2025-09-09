@@ -1,0 +1,21 @@
+=== ОТСУТСТВУЮЩИЕ РЕАГЕНТЫ ===
+
+--- Лекарства.txt ---
+- Seiver (anchor: Seiver)
+- Skeleton's (anchor: Skeleton's Boon)
+- Pucetylline (anchor: Pucetylline Essence)
+- Chartreuse (anchor: Chartreuse Solution)
+- Restorative (anchor: Restorative Nanites)
+- Medicated (anchor: Medicated Suture)
+
+--- Наркотики.txt ---
+- Krokodil (anchor: Krokodil)
+- Bath (anchor: Bath Salts)
+
+--- Пиротехника.txt ---
+- Fluorosurfactant (anchor: Fluorosurfactant)
+- {{anchor|Smoke (anchor: Smoke)
+- Explosion (anchor: Explosion)
+- EMP (anchor: EMP)
+- Teslium (anchor: Teslium Shock)
+

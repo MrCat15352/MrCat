@@ -1,0 +1,1293 @@
+== Химические компоненты ==
+
+{| class="wikitable sortable"
+! Название !! Формула !! Описание
+|-
+| = "none") || — || A rather mundane-looking powder. It doesn't look like it'd color much of anything...
+|-
+| AM-G || — || Coffee liquor, Zohil Cream, and cognac.
+|-
+| Absinthe || — || A powerful alcoholic drink. Rumored to cause hallucinations if taken irresponsibly.
+|-
+| Abstract Peaceborg Reagent || — || —
+|-
+| Acetaldehyde || /datum/reagent/acetone = 1, /datum/reagent/toxin/formaldehyde = 1, /datum/reagent/water = 1 || Similar to plastic. Tastes like dead people.
+|-
+| Acetone || /datum/reagent/fuel/oil = 1, /datum/reagent/fuel = 1, /datum/reagent/oxygen = 1 || A slick, slightly carcinogenic liquid. Has a multitude of mundane uses in everyday life.
+|-
+| Acetone oxide || — || Enslaved oxygen
+|-
+| Adminordrazine || — || It's magic. We don't have to explain it.
+|-
+| Advanced Mutation Toxin || — || An advanced corruptive toxin produced by slimes.
+|-
+| Agent-S || — || Virological agent that infects the subject with Gastrolosis.
+|-
+| Aiuri || /datum/reagent/ammonia = 1, /datum/reagent/toxin/acid = 1, /datum/reagent/hydrogen = 2 || Used to treat burns. Does minor eye damage.
+|-
+| Ale || — || A dark alcoholic beverage made with malted barley and yeast.
+|-
+| Aloe || — || Zohil Cream and watermelon juice. Mellows out the alcoholic bite for a mild drink.
+|-
+| Aloe Juice || — || A healthy and refreshing juice.
+|-
+| Aluminium || — || A silvery white and ductile member of the boron group of chemical elements.
+|-
+| Amanitin || — || A very powerful delayed toxin. Upon full metabolization, a massive amount of toxin damage will be dealt depending on how long it has been in the victim's bloodstream.
+|-
+| Amaretto || — || A gentle drink that carries a sweet aroma.
+|-
+| Amatoxin || — || A powerful poison derived from certain species of mushroom.
+|-
+| Ammonia || /datum/reagent/hydrogen = 3, /datum/reagent/nitrogen = 1 || A caustic substance commonly used in fertilizer or household cleaners.
+|-
+| Anacea || /datum/reagent/medicine/haloperidol = 1, /datum/reagent/impedrezene = 1, /datum/reagent/uranium/radium = 1 || A toxin that quickly purges medicines and metabolizes very slowly.
+|-
+| Andalusia || — || A nice, strangely named drink.
+|-
+| Anti-Radiation Foam || — || A tried and tested foam, used for decontaminating nuclear disasters.
+|-
+| Anti-freeze || — || The ultimate refreshment. Not actually made of antifreeze!
+|-
+| Antihol || /datum/reagent/consumable/ethanol = 1, /datum/reagent/medicine/charcoal = 1, /datum/reagent/copper = 1 || Purges alcoholic substance from the patient's body and eliminates its side effects.
+|-
+| Apple Juice || — || The sweet juice of an apple, fit for all ages.
+|-
+| Applejack || — || The officially sponsored drink by the National Association for Anti-Gravity Automobile Dragracing (NAAGAD).
+|-
+| Aranesp || /datum/reagent/medicine/epinephrine = 1, /datum/reagent/medicine/atropine = 1, /datum/reagent/medicine/morphine = 1 || Amps you up, gets you going, and rapidly restores stamina damage. Side effects include breathlessness and toxicity.
+|-
+| Arnold Palmer || — || Iced sweet tea and lemonade.
+|-
+| Ash || /datum/reagent/fuel/oil = 1 || Supposedly phoenixes rise from these, but you've never seen it.
+|-
+| Ash-Shield || — || While not a traditional trickwine by any means, this mix is said to embolden a user's shield under certain circumstance.
+|-
+| Ashen Fibers || — || Ground plant fibers from a cave fern. Useful for medicines.
+|-
+| Asphalt || — || A dark, viscous liquid. Often found in oil deposits, although sometimes it can seep to the surface.
+|-
+| Astrotame || — || A space age artifical sweetener.
+|-
+| Atomic Bomb || — || Nuclear proliferation never tasted so good.
+|-
+| Atropine || /datum/reagent/consumable/ethanol = 1, /datum/reagent/acetone = 1, /datum/reagent/diethylamine = 1, /datum/reagent/phenol = 1, /datum/reagent/toxin/acid = 1 || If a patient is in critical condition, rapidly heals all damage types as well as regulating oxygen in the body. Excellent for stabilizing wounded patients.
+|-
+| BBQ Sauce || — || Sweet, smoky, savory, and gets everywhere. Perfect for grilling.
+|-
+| BZ metabolites || — || A harmless metabolite of BZ gas.
+|-
+| Bacchus' Blessing || — || Unidentifiable mixture. Unmeasurably high alcohol content.
+|-
+| Bad Food || — || The result of some abomination of cookery, food so bad it's toxic.
+|-
+| Bahama Mama || — || A tropical cocktail with a complex blend of fruity flavors.
+|-
+| Baldium || /datum/reagent/uranium/radium = 1, /datum/reagent/toxin/acid = 1, /datum/reagent/lye = 1 || A major cause of hair loss across the world.
+|-
+| Banana Juice || — || The raw essence of a banana.
+|-
+| Barber's Aid || — || A solution to hair loss across the world.
+|-
+| Barefoot || — || To be enjoyed on the beach or by a pool. You should keep your shoes on, though.
+|-
+| Bastion Bourbon || — || Soothing hot herbal brew with restorative properties. Hints of citrus and berry flavors.
+|-
+| Beef Broth || — || Pure Beef Essence
+|-
+| Beepsky Smash || — || A drink for those who pick fights with automated security.
+|-
+| Beer || — || An alcoholic beverage, brewed originally to keep a safe source of drinking water. A timeless classic.
+|-
+| Beer? || — || A specially-engineered sedative disguised as beer. It induces instant sleep in its target.
+|-
+| Berry Juice || — || A delicious blend of several different kinds of berries.
+|-
+| Between the Mandibles || — || Mushroom-supplied hallucinogens and strong alcohol.
+|-
+| Between the Sheets || — || A provocatively named classic.
+|-
+| Bicaridine || /datum/reagent/carbon = 1, /datum/reagent/oxygen = 1, /datum/reagent/consumable/sugar = 1 || Restores bruising. Overdose causes it instead.
+|-
+| Bicaridine Plus || — || Restores bruising and slowly stems bleeding. Overdose causes it instead. More effective than standardized Bicaridine.
+|-
+| Bilk || — || This appears to be beer mixed with milk. Creative...?
+|-
+| Black Carpet || — || The carpet also comes in... BLAPCK
+|-
+| Black Crayon Powder || — || —
+|-
+| Black Pepper || — || A powder ground from peppercorns. *AAAACHOOO*
+|-
+| Black Powder || — || —
+|-
+| Black Rachnid || — || An alternative take to the White Gezenan. Doubles as an option for those who can't handle lactose.
+|-
+| Blank Paper || — || A bubbling glass of blank paper. Just looking at it makes you feel fresh.
+|-
+| Blood || /datum/reagent/consumable/virus_food = 1 || iron
+|-
+| Bloody Mary || — || A strange yet pleasurable mixture made of vodka, tomato and lime juice.
+|-
+| Blue Carpet || — || For those that really need to chill out for a while.
+|-
+| Blue Cherry Jelly || — || Blue and tastier kind of cherry jelly.
+|-
+| Blue Cherry Shake || — || An exotic milkshake.
+|-
+| Blue Crayon Powder || — || —
+|-
+| Blue Powder || — || —
+|-
+| Blueflame Pyrecask || — || A popular Zohil beverage, made by infusing specially-gathered cacti and grapes in ethanol.
+|-
+| Bluespace Dust || — || A dust composed of microscopic bluespace crystals, with minor space-warping properties.
+|-
+| Blumpkin Juice || — || Juiced from real blumpkin.
+|-
+| Bone Hurting Juice || — || A strange substance that looks a lot like water. Drinking it is oddly tempting. Oof ouch.
+|-
+| Booger || — || Ewww...
+|-
+| Brave Bull || — || Liquid courage is as good as any courage!
+|-
+| Bridge Bunny || — || You're happy to not pilot the ship after having one of these.
+|-
+| Bromine || — || A brownish liquid that's highly reactive. Useful for stopping free radicals, but not intended for human consumption.
+|-
+| Bullet Hell || — || An incredibly potent combination drink and fire hazard, typically served in a brass shell casing. May spontaneously combust.
+|-
+| Bungo Juice || — || A botanical experiment gone right.
+|-
+| Bungotoxin || — || A horrible cardiotoxin that protects the humble bungo pit.
+|-
+| Burning Spore Toxin || — || A natural toxin produced by blob spores that induces combustion in its victim.
+|-
+| C4L-Z1UM Agent || — || A peculiar substance capable of instantly regenerating live tissue.
+|-
+| Cafe Latte || — || A nice, strong and tasty beverage while you are reading.
+|-
+| Calcium || — || A dull gray metal important to bones.
+|-
+| Calomel || /datum/reagent/mercury = 1, /datum/reagent/chlorine = 1 || Quickly purges the body of all chemicals. Toxin damage is dealt if the patient is in good condition.
+|-
+| Canton Cocktail || — || A drink intended to be shared across the Solarian cantons.
+|-
+| Capsaicin Oil || — || This is what makes chilis hot.
+|-
+| Caramel || — || Who would have guessed that heated sugar could be so delicious?
+|-
+| Carbon || /datum/reagent/lithium = 1, /datum/reagent/carbon = 1, /datum/reagent/water = 1 || A crumbly black solid that, while unexciting on a physical level, forms the base of all known life. Kind of a big deal.
+|-
+| Carbon Dioxide || — || A gas commonly produced by burning carbon fuels. You're constantly producing this in your lungs.
+|-
+| Carbon Monoxide || — || A highly dangerous gas for sapients.
+|-
+| Carfencadrizine || /datum/reagent/medicine/dimorlin = 1, /datum/reagent/medicine/synaptizine = 1, /datum/reagent/consumable/sugar = 2 || A highly potent synthetic painkiller held in a suspension of stimulating agents. Allows people to keep moving long beyond when they should stop.
+|-
+| Carpet || /datum/reagent/drug/space_drugs = 1, /datum/reagent/blood = 1 || For those that need a more creative way to roll out a red carpet.
+|-
+| Carpotoxin || — || A deadly neurotoxin produced by the dreaded spess carp.
+|-
+| Carrot Juice || — || It is just like a carrot but without crunching.
+|-
+| Carthatoline || /datum/reagent/medicine/antitoxin = 1, /datum/reagent/carbon = 2 || An evacuant that induces vomiting and purges toxins, as well as healing toxin damage. Superior to Dylovene. Overdose causes toxin damage.
+|-
+| Category two reagent || — || —
+|-
+| Cellulose Fibers || — || A crystaline polydextrose polymer, plants swear by this stuff.
+|-
+| Cement || /datum/reagent/carbon = 2, /datum/reagent/hydrogen = 2, /datum/reagent/oxygen = 2, /datum/reagent/water = 1 || A sophisticated binding agent used to produce concrete.
+|-
+| Champagne || — || A sparkling wine known for its ability to strike fast and hard.
+|-
+| Changeling Adrenaline || — || Reduces the duration of unconciousness, knockdown and stuns. Restores stamina, but deals toxin damage when overdosed.
+|-
+| Changeling Haste || — || Drastically increases movement speed, but deals toxin damage.
+|-
+| Changeling Sting || — || Made by the superstitous. Keeps the changelings away... whereever they may be.
+|-
+| Charcoal || /datum/reagent/ash = 1, /datum/reagent/consumable/sodiumchloride = 1 || Heals toxin damage as well as slowly removing any other chemicals the patient has in their bloodstream.
+|-
+| Chartreuse Solution || — || Refined essence of puce crystals.
+|-
+| Cheese Spread || — || I cant believe its not cheese!
+|-
+| Cherry Jelly || — || Totally the best. Only to be spread on foods with excellent lateral symmetry.
+|-
+| Cherry Shake || — || A cherry flavored milkshake.
+|-
+| Chloral Hydrate || — || A powerful sedative that induces confusion and drowsiness before putting its target to sleep.
+|-
+| Chlorine || — || A pale yellow gas that's well known as an oxidizer. While it forms many harmless molecules in its elemental form it is far from harmless.
+|-
+| Chlorine Trifluoride || — || Makes a temporary 3x3 fireball when it comes into existence, so be careful when mixing. ClF3 applied to a surface burns things that wouldn't otherwise burn, including typically-robust flooring, potentially exposing it to the vacuum of space.
+|-
+| Chocolate Milk || — || Milk mixed with chocolate powder. Beloved by children everywhere.
+|-
+| Chocolate Pudding || — || A great dessert for chocolate lovers.
+|-
+| Choker || — || It takes a moment of quiet to really appreciate some drinks - this one doesn't give you the illusion of choice.
+|-
+| Classic Martini || — || Vermouth with gin.
+|-
+| Clonexadone || /datum/reagent/medicine/cryoxadone = 1, /datum/reagent/sodium = 1 || A chemical that derives from Cryoxadone. It specializes in healing clone damage, but nothing else. Requires very cold temperatures to properly metabolize, and metabolizes quicker than cryoxadone.
+|-
+| Clown's Tears || — || The sorrow and melancholy of a thousand bereaved clowns, forever denied their Honkmechs.
+|-
+| Coco Powder || — || A fatty, bitter paste made from coco beans.
+|-
+| Coffee || — || Coffee is a brewed drink prepared from roasted seeds, commonly called coffee beans, of the coffee plant.
+|-
+| Coffee Creamer || — || Powdered milk for cheap coffee. How delightful.
+|-
+| Coffee Grounds || — || Finely ground coffee beans, used to make coffee.
+|-
+| Cognac || — || A sweet and strongly alcoholic drink, made after numerous distillations and years of maturing.
+|-
+| Cola || — || A refreshing beverage.
+|-
+| Colorful Reagent || — || Thoroughly sample the rainbow.
+|-
+| Comet Trail || — || A citrusy drink from the Kepori space installation known as The Ring.
+|-
+| Concentrated Barber's Aid || — || A concentrated solution to hair loss across the world.
+|-
+| Concrete || /datum/reagent/concrete_mix = 5, /datum/reagent/water = 5 || A mix of cement and aggregate, commonly used as a bulk building material.
+|-
+| Concrete Mix || — || Pre-made concrete mix, ideal for lazy engineers.
+|-
+| Condensed Capsaicin || — || A chemical agent used for self-defense and in police work.
+|-
+| Coniine || — || Coniine metabolizes extremely slowly, but deals high amounts of toxin damage and stops breathing.
+|-
+| Consumable || /datum/reagent/water = 1, /datum/reagent/sodium = 1, /datum/reagent/chlorine = 1 || generic food
+|-
+| Converbital || /datum/reagent/fuel = 1, /datum/reagent/acetone = 1, /datum/reagent/medicine/kelotane = 1 || A substance capable of regenerating torn flesh, however, due to its extremely exothermic nature, use may result in burns
+|-
+| Convermol || /datum/reagent/hydrogen = 1, /datum/reagent/fluorine = 1, /datum/reagent/fuel/oil = 1 || Restores oxygen deprivation while producing a lesser amount of toxic byproducts. Both scale with exposure to the drug and current amount of oxygen deprivation. Overdose causes toxic byproducts regardless of oxygen deprivation.
+|-
+| Convuri || /datum/reagent/fuel = 1, /datum/reagent/ash =1, /datum/reagent/medicine/bicaridine = 1 || A substance capable of regenerating burnt skin with ease, however, the speed at which it does this has been known to cause muscular tearing
+|-
+| Cooking Oil || — || A variety of cooking oil derived from fat or plants. Used in food preparation and frying.
+|-
+| Copper || — || A highly ductile metal. Things made out of copper aren't very durable, but it makes a decent material for electrical wiring.
+|-
+| Corazone || /datum/reagent/phenol = 2, /datum/reagent/lithium = 1 || A medication used to treat pain, fever, and inflammation, along with heart attacks. Can also be used to stabilize livers.
+|-
+| Cordiolis Hepatico || — || A strange, pitch-black reagent that seems to absorb all light. Effects unknown.
+|-
+| Corn Oil || — || An oil derived from various types of corn.
+|-
+| Corn Starch || — || A slippery solution.
+|-
+| Corn Syrup || — || Decays into sugar.
+|-
+| Cracked Moon || — || Typically made on a dare by CLIP-BARD crews. It's deadly if incorrectly prepared!
+|-
+| Crank || /datum/reagent/medicine/diphenhydramine = 1, /datum/reagent/ammonia = 1, /datum/reagent/lithium = 1, /datum/reagent/toxin/acid = 1, /datum/reagent/fuel = 1 || Reduces stun times by about 200%. If overdosed or addicted it will deal significant Toxin, Brute and Brain damage.
+|-
+| Cream || — || The fatty, still liquid part of milk.
+|-
+| Cream Soda || — || A classic vanilla flavored soft drink.
+|-
+| Creamtruck || — || A distinctly non-kid friendly equivalent to the ice cream truck.
+|-
+| Creme de Cacao || — || A chocolatey liqueur excellent for adding dessert notes to beverages.
+|-
+| Creme de Coconut || — || A coconut liqueur for smooth, creamy, tropical drinks.
+|-
+| Creme de Menthe || — || A minty liqueur excellent for refreshing, cool drinks.
+|-
+| Crevice Spike || — || Sour, bitter, and smashingly sobering.
+|-
+| Crosstalk || — || Crosstalk! Share the energy with everyone!
+|-
+| Cryostylane || /datum/reagent/water = 1, /datum/reagent/stable_plasma = 1, /datum/reagent/nitrogen = 1 || Comes into existence at 20K. As long as there is sufficient oxygen for it to react with, Cryostylane slowly cools all other reagents in the container 0K.
+|-
+| Cryoxadone || /datum/reagent/stable_plasma = 1, /datum/reagent/acetone = 1, /datum/reagent/toxin/mutagen = 1 || A chemical mixture with almost magical healing powers. Its main limitation is that the patient's body temperature must be under 270K for it to metabolise correctly.
+|-
+| Cryptobiolin || /datum/reagent/potassium = 1, /datum/reagent/oxygen = 1, /datum/reagent/consumable/sugar = 1 || Cryptobiolin causes confusion and dizziness.
+|-
+| Crystal Reagent || — || A strange crystal substance. Heals faster than omnizine.
+|-
+| Curare || — || Causes slight toxin damage followed by chain-stunning and oxygen damage.
+|-
+| Cyan Carpet || — || For those that need a throwback to the years of using poison as a construction material. Smells like asbestos.
+|-
+| Cyanide || /datum/reagent/fuel/oil = 1, /datum/reagent/ammonia = 1, /datum/reagent/oxygen = 1 || An infamous poison known for its use in assassination. Causes small amounts of toxin damage with a small chance of oxygen damage or a stun.
+|-
+| Darkest Chocolate || — || Darkness within darkness awaits you, spacer!
+|-
+| Demon's Blood || — || A mix of two sodas, rum, and... real blood.
+|-
+| Dense Smoke Powder || — || Makes a large cloud of thick smoke that can carry reagents.
+|-
+| Dermaline || /datum/reagent/medicine/kelotane = 1, /datum/reagent/acetone = 1, /datum/reagent/phosphorus = 1 || Heals burn damage. Overdose causes it instead. Superior to standardized Kelotane in healing capacity.
+|-
+| Determination || — || For when you need to push on a little more. Do NOT allow near plants.
+|-
+| Devil's Kiss || — || Asking for a kiss to go with the blood drawing is pushing it.
+|-
+| Dexalin || /datum/reagent/oxygen = 5 || Restores oxygen loss. Overdose causes it instead.
+|-
+| Dexalin Plus || — || Restores oxygen loss and purges Lexorin. Overdose causes it instead. More effective than standardized Dexalin.
+|-
+| Diethylamine || — || A secondary amine, mildly corrosive.
+|-
+| Dimorlin || /datum/reagent/carbon = 3, /datum/reagent/diethylamine = 1, /datum/reagent/oxygen = 1, /datum/reagent/phenol = 1 || A powerful opiate-derivative analgesiac. Extremely habit forming
+|-
+| Diphen-Synaptizine || — || Reduces drowsiness, hallucinations, and Histamine from body.
+|-
+| Diphenhydramine || /datum/reagent/fuel/oil = 1, /datum/reagent/carbon = 1, /datum/reagent/bromine = 1, /datum/reagent/diethylamine = 1, /datum/reagent/consumable/ethanol = 1 || Rapidly purges the body of Histamine and reduces jitteriness. Slight chance of causing drowsiness.
+|-
+| Dizzying Solution || — || Makes the target off balance and dizzy
+|-
+| Dote Juice || — || A delicious juice made from Dote berries
+|-
+| Dotu Juice || — || A neutral juice made from ripe Dote fruit.
+|-
+| Dotusira || — || A bitter liquor made from fermented dotu-fime.
+|-
+| Drop-pod || — || A commemorative drink, made in the name of those who died during failed orbital drop-pod landings.
+|-
+| Dropsight || — || An illegal chemical compound used as drug.
+|-
+| Drug || /datum/reagent/mercury = 1, /datum/reagent/consumable/sugar = 1, /datum/reagent/lithium = 1 || bitterness
+|-
+| Drunken Blumpkin || — || A weird mix of whiskey and... chlorine-pumpkin juice?
+|-
+| Dry Ramen || — || Space age food, since August 25, 1958. Contains dried noodles, vegetables, and chemicals that boil in contact with water.
+|-
+| Drying agent || — || A desiccant. Can be used to dry things.
+|-
+| Dylovene || — || Heals toxin damage and removes toxins in the bloodstream. Overdose causes toxin damage.
+|-
+| E-Z-Nutrient || — || Contains electrolytes. It's what plants crave.
+|-
+| EZ Clean || — || A powerful, acidic cleaner sold by Waffle Co. Affects organic matter while leaving other objects unaffected.
+|-
+| Earthsblood || — || Ichor from an extremely powerful plant. Great for restoring wounds, but it's a little heavy on the brain. For some strange reason, it also induces temporary pacifism in those who imbibe it and semi-permanent pacifism in those who overdose on it.
+|-
+| Egg Yolk || — || It's full of protein.
+|-
+| Eggnog || — || For enjoying the Winter Solstice.
+|-
+| Electrolytes || — || It's what crystal-plant-dragons crave.
+|-
+| Emergency Radiation Purgant || — || Rapidly purges radiation from the body.
+|-
+| Enduro Grow || — || A specialized nutriment, which decreases product quantity and potency, but strengthens the plants endurance.
+|-
+| Energized Jelly || — || Electrically-charged jelly. Boosts jellypeople's nervous system, but only shocks other lifeforms.
+|-
+| Entropic Polypnium || — || An ichor, derived from a certain mushroom, makes for a bad time.
+|-
+| Ephedrine || /datum/reagent/consumable/sugar = 1, /datum/reagent/fuel/oil = 1, /datum/reagent/hydrogen = 1, /datum/reagent/diethylamine = 1 || Increases stun resistance and movement speed, giving you hand cramps. Overdose deals toxin damage and inhibits breathing.
+|-
+| Epinephrine || /datum/reagent/phenol = 1, /datum/reagent/acetone = 1, /datum/reagent/diethylamine = 1, /datum/reagent/oxygen = 1, /datum/reagent/chlorine = 1, /datum/reagent/hydrogen = 1 || Very minor boost to stun resistance. Slowly heals damage if a patient is in critical condition, as well as regulating oxygen loss. Overdose causes weakness and toxin damage.
+|-
+| Ethanol || /datum/reagent/asphalt = 1 || A well-known alcohol with a variety of applications.
+|-
+| Eudamonia || — || A fleeting, virtous drink that inspires vigorous debate.
+|-
+| Fanciulli || — || What if the Manhattan cocktail ACTUALLY used a bitter herb liquour? Helps you sober up.
+|-
+| Fara-Seta || — || A spicy cider known to floor those with sensitive tastes.
+|-
+| Fentanyl || /datum/reagent/drug/space_drugs = 1 || Fentanyl will inhibit brain function and cause toxin damage before eventually knocking out its victim.
+|-
+| Fernet || — || An incredibly bitter herbal liqueur used as a digestif.
+|-
+| Fervor Ignium || — || Healing chem made from mushrooms.
+|-
+| Finobranc || /datum/reagent/consumable/ethanol = 1, /datum/reagent/acetone = 1, /datum/reagent/medicine/mannitol = 1, /datum/reagent/phenol = 1, /datum/reagent/toxin/acid = 1 || A stimulant native to Sol. The seeds of the plant that serves as a precursor have spread throughout the frontier.
+|-
+| Firefighting Foam || — || A historical fire suppressant. Originally believed to simply displace oxygen to starve fires, it actually interferes with the combustion reaction itself. Vastly superior to the cheap water-based extinguishers found on NT vessels.
+|-
+| Flash Powder || — || Makes a very bright flash.
+|-
+| Flour || — || This is what you rub all over yourself to pretend to be a ghost.
+|-
+| Fluorine || — || A comically-reactive chemical element. The universe does not want this stuff to exist in this form in the slightest.
+|-
+| Fluorosulfuric acid || — || Fluorosulfuric acid is an extremely corrosive chemical substance.
+|-
+| Fluorosurfactant || /datum/reagent/fluorine = 2, /datum/reagent/carbon = 2, /datum/reagent/toxin/acid = 1 || A perfluoronated sulfonic acid that forms a foam when mixed with water.
+|-
+| Foaming agent || — || An agent that yields metallic foam when mixed with light metal and a strong acid.
+|-
+| Forcewine || — || Creates a barrier on the skin that catches shrapnel and when reversed locks threats down with a barrier
+|-
+| Formaldehyde || /datum/reagent/consumable/ethanol = 1, /datum/reagent/oxygen = 1, /datum/reagent/silver = 1 || Formaldehyde, on its own, is a fairly weak toxin. It contains trace amounts of Histamine, very rarely making it decay into Histamine.
+|-
+| Freon || — || A powerful heat adsorbant.
+|-
+| Fringe Weaver || — || Bubbly, classy, and undoubtedly strong - a Glitch City classic.
+|-
+| Frontier Libre || — || For a freer Frontier, everywhere!
+|-
+| Frost Oil || — || A special oil that noticeably chills the body. Extracted from chilly peppers and slimes.
+|-
+| Fruit Wine || — || A wine made from grown plants.
+|-
+| Fungal TB Vaccine || — || —
+|-
+| Garlic Juice || — || Crushed garlic. Chefs love it, but it can make you smell bad.
+|-
+| Generic nutriment || — || Some kind of nutriment. You can't really tell what it is. You should probably report it, along with how you obtained it.
+|-
+| Genesis Serum || — || A mysterious substance capable of spontaneously gestating plant life when given a surface to adhere to.
+|-
+| Gezenan Coffee || — || Coffee, and alcohol. Traditionally enjoyed in the morning on lazy days.
+|-
+| Ghoul Powder || — || A strong neurotoxin that slows metabolism to a death-like state, while keeping the patient fully active. Causes toxin buildup if used too long.
+|-
+| Gin || — || A very sharp alcohol, with a flavor that's distinctly fresh.
+|-
+| Gin Fizz || — || Refreshingly lemony, deliciously dry.
+|-
+| Gin and Tonic || — || A classic cocktail, with quinine for flavor.
+|-
+| Ginger Amaretto || — || A delightfully simple cocktail that pleases the senses.
+|-
+| Gluttony's Blessing || — || An advanced corruptive toxin produced by something terrible.
+|-
+| Glycerol || /datum/reagent/consumable/cornoil = 3, /datum/reagent/toxin/acid = 1 || Glycerol is a simple polyol compound. Glycerol is sweet-tasting and of low toxicity.
+|-
+| Godblood || — || Slowly heals all damage types. Has a rather high overdose threshold. Glows with mysterious power.
+|-
+| Godfather || — || A rough cocktail with illegal connections.
+|-
+| Godmother || — || A twist on a classic, made as a sibling drink to the Godfather.
+|-
+| Gold || — || Gold is a dense, soft, shiny metal and the most malleable and ductile metal known.
+|-
+| Goldschlager || — || 100 proof cinnamon schnapps, made for the Student Unions' unbearable tastes.
+|-
+| Gorlex Gator || — || A chilly drink made in remembrance of Gorlex IV.
+|-
+| Gorlex Surprise || — || Infamously named after the accusations of Syndicate-led bombings of space installations. It's a blast!
+|-
+| Grape Juice || — || The juice of a bunch of grapes. Guaranteed non-alcoholic.
+|-
+| Grape soda || — || Artificial grape soda.
+|-
+| Grappa || — || A fine brandy mixed with spirits.
+|-
+| Grasshopper || — || A fresh and sweet dessert shooter.
+|-
+| Gravitum || /datum/reagent/wittel = 1, /datum/reagent/sorium = 10 || A rare kind of null fluid, capable of temporalily removing all weight of whatever it touches.
+|-
+| Gravy || /datum/reagent/consumable/milk = 1, /datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/flour = 1 || A mixture of flour, water, and the juices of cooked meat.
+|-
+| Green Beer || — || An alcoholic beverage, brewed originally to keep a safe source of drinking water. This variety is dyed green, but you're not sure why.
+|-
+| Green Carpet || — || For those that need the perfect flourish for green eggs and ham.
+|-
+| Green Crayon Powder || — || —
+|-
+| Green Powder || — || —
+|-
+| Grenadine || — || More blackcurrant than cherry, actually.
+|-
+| Grog || — || Watered-down rum, to really stretch out your alcohol rations. A Belter classic.
+|-
+| Ground Tea Leaves || — || Finely shredded tea leaves, used for making tea.
+|-
+| Growth Serum || — || A strange chemical that causes growth, but wears off over time. The growth effect is limited.
+|-
+| Gunpowder || /datum/reagent/saltpetre = 1, /datum/reagent/medicine/charcoal = 1, /datum/reagent/sulfur = 1 || Explodes. Violently.
+|-
+| Haloperidol || /datum/reagent/chlorine = 1, /datum/reagent/fluorine = 1, /datum/reagent/aluminium = 1, /datum/reagent/medicine/potass_iodide = 1, /datum/reagent/fuel/oil = 1 || Increases depletion rates for most stimulating/hallucinogenic drugs. Reduces druggy effects and jitteriness. Severe stamina regeneration penalty, causes drowsiness. Small chance of brain damage.
+|-
+| Happiness || /datum/reagent/nitrous_oxide = 2, /datum/reagent/medicine/epinephrine = 1, /datum/reagent/consumable/ethanol = 1 || Fills you with ecstasic numbness and causes minor brain damage. Highly addictive. If overdosed causes sudden mood swings.
+|-
+| Happy Huntsman || — || A cousin of the Ash-Shield, what it lacks in strength (and mysterious power), it makes up for in flavor.
+|-
+| Hard Cider || — || The alcoholic sibling to apple cider.
+|-
+| Hearthflame || — || A fiery brew utilized by members of the Saint-Roumain Militia, engineered to heat the body and cauterize wounds. Goes out in a blaze of glory when thrown.
+|-
+| Hearty Punch || — || Brave bull/syndicate bomb/absinthe mixture resulting in an energizing beverage. Mild alcohol content.
+|-
+| Helbital || /datum/reagent/consumable/sugar = 1, /datum/reagent/fluorine = 1, /datum/reagent/carbon = 1 || Named after the norse goddess Hel, this medicine heals the patient's bruises the closer they are to death. Patients will find the medicine 'aids' their healing if not near death by causing asphyxiation.
+|-
+| Hell Ramen || — || The noodles are boiled, the flavors are artificial, just like being back in school.
+|-
+| Hell Water || — || YOUR FLESH! IT BURNS!
+|-
+| Heparin || /datum/reagent/toxin/formaldehyde = 1, /datum/reagent/sodium = 1, /datum/reagent/chlorine = 1, /datum/reagent/lithium = 1 || A powerful anticoagulant. All open cut wounds on the victim will open up and bleed much faster
+|-
+| Hercuri || /datum/reagent/cryostylane = 3, /datum/reagent/bromine = 1, /datum/reagent/lye = 1 || Not to be confused with element Mercury, this medicine excels in reverting effects of dangerous high-temperature environments. Prolonged exposure can cause hypothermia.
+|-
+| Hexacrete || — || Made with fortified cement, this mix of binder and aggregate is a useful, sturdy building material.
+|-
+| Hexement || /datum/reagent/cement = 6, /datum/reagent/stable_plasma = 1 || An advanced, space-age binding agent used to produce reinforced concrete.
+|-
+| Histamine || — || Histamine's effects become more dangerous depending on the dosage amount. They range from mildly annoying to incredibly lethal.
+|-
+| Hivemind || — || A vessel of pure flavor.
+|-
+| Hollow Water || — || An ubiquitous chemical substance that is composed of hydrogen and oxygen, but it looks kinda hollow.
+|-
+| Holy Water || — || Water blessed by some deity.
+|-
+| Homesick || — || A soft, creamy drink that tastes like home, and hurts just as much.
+|-
+| Honey || — || Sweet sweet honey that decays into sugar. Has antibacterial and natural healing properties.
+|-
+| Hooch || — || Low quality, low grade, and low expectations.
+|-
+| Hot Cocoa || — || Made with love and cocoa beans. Or from a vending machine.
+|-
+| Hot Ice Coffee || — || Coffee with pulsing ice shards
+|-
+| Hot Ice Slush || — || Frozen plasma. To the right people, it's worth its weight in gold
+|-
+| Hot Ramen || — || The noodles are boiled, the flavors are artificial, just like being back in school.
+|-
+| Hullbreach || — || Fire and ice combine in your mouth! Drinking slowly recommended.
+|-
+| Human Sleep Hormone || — || A compound typically found within Solarians. The exact effects vary on the species it is administered to.
+|-
+| Hydrogen || /datum/reagent/carbon = 3, /datum/reagent/diethylamine = 1, /datum/reagent/oxygen = 1, /datum/reagent/phenol = 1 || A colorless, odorless, nonmetallic, tasteless, highly combustible diatomic gas.
+|-
+| Hydrogen Chloride || — || A colorless gas that turns into hydrochloric acid in the presence of water.
+|-
+| Hydrogen peroxide || — || An ubiquitous chemical substance that is composed of hydrogen and oxygen and oxygen.
+|-
+| Hyperspace Highball || — || A strange drink mixed with bluespace crystal flakes, which is already extremely expensive on its own merit.
+|-
+| Ice || /datum/reagent/consumable/entpoly = 1, /datum/reagent/calcium = 1, /datum/reagent/toxin/plasma = 1 || Frozen water, your dentist wouldn't like you chewing this.
+|-
+| Iced Coffee || — || Coffee and ice, refreshing and cool.
+|-
+| Iced Tea || — || Iced, sweetened tea.
+|-
+| Iced beer || — || Iced beer, served in a chilled glass.
+|-
+| Illestren Bacteria || — || Bacteria native to the Saint-Roumain Militia home planet.
+|-
+| Impedrezene || /datum/reagent/mercury = 1, /datum/reagent/oxygen = 1, /datum/reagent/consumable/sugar = 1 || Impedrezene is a narcotic that impedes one's ability by slowing down the higher brain cell functions.
+|-
+| Inacusiate || /datum/reagent/water = 1, /datum/reagent/carbon = 1, /datum/reagent/medicine/charcoal = 1 || Instantly restores all hearing to the patient, but does not cure deafness.
+|-
+| Inaprovaline || — || Stabilizes the breathing of patients. Good for those in critical condition.
+|-
+| Indoril || — || Increases stun resistance and movement speed in addition to restoring minor damage and weakness. Overdose causes weakness and toxin damage.
+|-
+| Initropidril || — || A powerful poison with insidious effects. It can cause stuns, lethal breathing failure, and cardiac arrest.
+|-
+| Inner Fire || — || Extremely hot; not for the faint of heart!
+|-
+| Insulin || — || Increases sugar depletion rates.
+|-
+| Invisible Powder || — || —
+|-
+| Iodine || — || Commonly added to table salt as a nutrient. On its own it tastes far less pleasing.
+|-
+| Iron || — || Pure iron is a metal.
+|-
+| Itching Powder || — || A powder that induces itching upon contact with the skin. Causes the victim to scratch at their itches and has a very low chance to decay into Histamine.
+|-
+| Jackalope || — || A light cocktail named after a famous anti-gravity racer.
+|-
+| Kahlua || — || A widely known coffee-flavoured liqueur. Still labeled under an old name from Earth, despite the loss of history.
+|-
+| Kelotane || /datum/reagent/carbon = 1, /datum/reagent/silicon = 1 || Heals burn damage. Overdose causes it instead.
+|-
+| Ketchup || — || Ketchup, catsup, whatever. It's tomato paste.
+|-
+| Laughin' Syrup || — || The product of juicing Laughin' Peas. Fizzy, and seems to change flavour based on what it's used with!
+|-
+| Laughter || /datum/reagent/consumable/sugar = 1, /datum/reagent/consumable/banana = 1 || Some say that this is the best medicine, but recent studies have proven that to be untrue.
+|-
+| Lavaland Extract || — || An extract of lavaland atmospheric and mineral elements. Heals the user in small doses, but is extremely toxic otherwise.
+|-
+| Lavaland Microbes || — || Microbes isolated from the dirt.
+|-
+| Lead Acetate || — || Used hundreds of years ago as a sweetener, before it was realized that it's incredibly poisonous.
+|-
+| Lean || /datum/reagent/consumable/ethanol = 1, /datum/reagent/chlorine = 1, /datum/reagent/phenol = 2, /datum/reagent/potassium = 1 || The drank that makes you go wheezy.
+|-
+| Left 4 Zed || — || Unstable nutriment that makes plants mutate more often than usual.
+|-
+| Lemon Juice || — || This juice is VERY sour.
+|-
+| Lemon Lime || — || A tangy substance made of 0.5% natural citrus!
+|-
+| Lemonade || — || Sweet, tangy lemonade. Good for the soul.
+|-
+| Lenturi || /datum/reagent/ammonia = 1, /datum/reagent/silver = 1, /datum/reagent/sulfur = 1, /datum/reagent/oxygen = 1, /datum/reagent/chlorine = 1 || Used to treat burns. Makes you move slower while it is in your system. Applies stomach damage when it leaves your system.
+|-
+| Leporazine || /datum/reagent/silicon = 1, /datum/reagent/copper = 1 || Leporazine will effectively regulate a patient's body temperature, ensuring it never leaves safe levels.
+|-
+| Lexorin || /datum/reagent/toxin/plasma = 1, /datum/reagent/hydrogen = 1, /datum/reagent/medicine/salbutamol = 1 || A powerful poison used to stop respiration.
+|-
+| Libital || /datum/reagent/phenol = 1, /datum/reagent/oxygen = 1, /datum/reagent/nitrogen = 1 || A bruise reliever. Does minor liver damage.
+|-
+| Light Beer || — || An alcoholic beverage, brewed originally to keep a safe source of drinking water. This variety has reduced calorie and alcohol content.
+|-
+| Lightning's Blessing || — || A stimulating brew utilized by members of the Saint-Roumain Militia, created to allow trackers to keep up with highly mobile prey. Known to have a shocking effect when thrown
+|-
+| Lightspeed || — || A shot of Zohil cream in a pinch of ale, meant to be downed in one chug - hits you as fast as the name.
+|-
+| Lime Juice || — || The sweet-sour juice of limes.
+|-
+| Lipolicide || /datum/reagent/mercury = 1, /datum/reagent/diethylamine = 1, /datum/reagent/medicine/ephedrine = 1 || A powerful toxin that will destroy fat cells, massively reducing body weight in a short time. Deadly to those without nutriment in their body.
+|-
+| Liquid Adamantine || — || A legengary lifegiving metal liquified.
+|-
+| Liquid Dark Matter || — || Sucks everything into the detonation point.
+|-
+| Liquid Earthquake || — || A specialized nutriment, which increases the plant's production speed, as well as it's susceptibility to weeds.
+|-
+| Liquid Electricity || — || A glowing, viscous substance that radiates pure energy.
+|-
+| Liquid Solder || — || Repairs brain damage in synthetics.
+|-
+| Liquid gibs || — || You don't even want to think about what's in here.
+|-
+| Lithium || /datum/reagent/lithium = 1, /datum/reagent/carbon = 1, /datum/reagent/water = 1 || A silver metal, its claim to fame is its remarkably low density. Using it is a bit too effective in calming oneself down.
+|-
+| Lithium Carbonate || — || A mood stabilizer discovered by most spacefaring civilizations. Fairly widespread as a result.
+|-
+| Long Island Iced Tea || — || The entire liquor cabinet brought together with enough sugar to hide it.
+|-
+| Lunapunch || — || An herbal-sweet carbonated drink with a bitter bite.
+|-
+| Lye || /datum/reagent/sodium = 1, /datum/reagent/hydrogen = 1, /datum/reagent/oxygen = 1 || Also known as sodium hydroxide. As a profession making this is somewhat underwhelming.
+|-
+| Magillitis || — || An experimental serum which causes rapid muscular growth in Hominidae. Side-affects may include hypertrichosis, violent outbursts, and an unending affinity for bananas.
+|-
+| Mammoth || /datum/reagent/toxin/bad_food = 1, /datum/reagent/saltpetre = 1, /datum/reagent/consumable/nutriment = 1, /datum/reagent/space_cleaner = 1, /datum/reagent/consumable/enzyme = 1, /datum/reagent/consumable/tea = 1, /datum/reagent/mercury = 1 || A muscle stimulant said to turn the user into an unarmed fighting machine. Greatly increases stamina regeneration and allows the user to tackle.
+|-
+| Mannitol || /datum/reagent/consumable/sugar = 1, /datum/reagent/hydrogen = 1, /datum/reagent/water = 1 || Efficiently restores brain damage.
+|-
+| Margarita || — || A fruity, tropical drink with a salted rim around the glass.
+|-
+| Mayonnaise || — || An white and oily mixture of mixed egg yolks.
+|-
+| Mead || — || Fermented honey. The gentler sibling to the beer.
+|-
+| Medicine || /datum/reagent/consumable/sugar = 1, /datum/reagent/fluorine = 1, /datum/reagent/carbon = 1 || bitterness
+|-
+| Menthol || — || Alleviates coughing symptoms one might have.
+|-
+| Mercury || — || A curious metal that's a liquid at room temperature. Neurodegenerative and very bad for the mind.
+|-
+| Metalgen || /datum/reagent/metalgen = 1, /datum/reagent/liquid_dark_matter = 1 || A purple metal morphic liquid, said to impose it's metallic properties on whatever it touches.
+|-
+| Methamphetamine || /datum/reagent/medicine/ephedrine = 1, /datum/reagent/iodine = 1, /datum/reagent/phosphorus = 1, /datum/reagent/hydrogen = 1 || Reduces stun times by about 300%, speeds the user up, and allows the user to quickly recover stamina while dealing a small amount of Brain damage. If overdosed the subject will move randomly, drop items and suffer from Toxin and Brain damage. If addicted the subject will become dizzy, lose motor control and eventually suffer heavy toxin damage.
+|-
+| Milk || — || An opaque white liquid produced by the mammary glands of mammals, some arthropods, biogenerators, chemical factories...
+|-
+| Mime's Bane || — || A nonlethal neurotoxin that interferes with the victim's ability to gesture.
+|-
+| Mindbreaker Toxin || — || A powerful hallucinogen. Not a thing to be messed with. For some mental patients. it counteracts their symptoms and anchors them to reality.
+|-
+| Miner's Milk || — || All the protein, vitamins and carbs of two full ration packs, plus 15% alcohol.
+|-
+| Miner's Salve || — || A powerful painkiller. Restores bruising and burns in addition to making the patient believe they are fully healed.
+|-
+| Mint Toxin || — || Useful for dealing with undesirable customers.
+|-
+| Mirage || — || A refreshing mixture of bitter Fernet with mint creme liquour.
+|-
+| Mitogen Metabolism Factor || — || This enzyme catalyzes the conversion of nutricious food into healing peptides.
+|-
+| Modafinil || /datum/reagent/diethylamine = 1, /datum/reagent/ammonia = 1, /datum/reagent/phenol = 1, /datum/reagent/acetone = 1, /datum/reagent/toxin/acid = 1 || Long-lasting sleep suppressant that very slightly reduces stun and knockdown times. Overdosing has horrendous side effects and deals lethal oxygen damage, will knock you unconscious if not dealt with.
+|-
+| Mojito || — || A drink that looks as refreshing as it tastes.
+|-
+| Mold || — || This condiment will make any food break the mold. Or your stomach.
+|-
+| Molten Bubbles || — || A spicy soft drink made from a coca-like plant from Kalixcis. Popularly served both cold -and- hot, depending on the weather.
+|-
+| Monkey Powder || — || Just add water!
+|-
+| Moonshine || — || You've really hit rock bottom now... your liver packed its bags and left last night.
+|-
+| Morphine || /datum/reagent/carbon = 2, /datum/reagent/hydrogen = 2, /datum/reagent/consumable/ethanol = 1, /datum/reagent/oxygen = 1 || A painkiller that allows the patient to move at full speed even in bulky objects. Causes drowsiness and eventually unconsciousness in high doses. Overdose will cause a variety of effects, ranging from minor to lethal.
+|-
+| Mothball || — || Vodka, triple sec, and lime juice. Moth dust not usually included.
+|-
+| Mulligan Toxin || — || This toxin will rapidly change the DNA of human beings. Commonly used by Syndicate spies and assassins in need of an emergency ID change.
+|-
+| Multiver || /datum/reagent/ash = 1, /datum/reagent/consumable/sodiumchloride = 1 || A chem-purger that becomes more effective the more unique medicines present. Slightly heals toxicity but causes lung damage (mitigatable by unique medicines).
+|-
+| Mundane Powder || — || A powder that is used for coloring things.
+|-
+| Muscle Stimulant || — || A potent chemical that allows someone under its influence to be at full physical ability even when under massive amounts of pain.
+|-
+| Mushroom Hallucinogen || — || A strong hallucinogenic drug derived from certain species of mushroom.
+|-
+| Musiver || — || The active metabolite of syriniver. Causes muscle weakness on overdose
+|-
+| Mutadone || /datum/reagent/toxin/mutagen = 1, /datum/reagent/acetone = 1, /datum/reagent/bromine = 1 || Removes jitteriness and restores genetic defects.
+|-
+| Mute Toxin || — || A nonlethal poison that inhibits speech in its victim.
+|-
+| Nanomachines || — || Microscopic construction robots.
+|-
+| Napalm || /datum/reagent/fuel/oil = 1, /datum/reagent/fuel = 1, /datum/reagent/consumable/ethanol = 1 || Very flammable.
+|-
+| Neurine || /datum/reagent/medicine/mannitol = 1, /datum/reagent/acetone = 1, /datum/reagent/oxygen = 1 || Reacts with neural tissue, helping reform damaged connections. Can cure minor traumas.
+|-
+| Neurotoxin || — || A strong neurotoxin that puts the subject into a death-like state.
+|-
+| Nicotine || — || Slightly reduces stun times. If overdosed it will deal toxin and oxygen damage.
+|-
+| Nitric acid || — || Nitric acid is an extremely corrosive chemical substance that violently reacts with living organic tissue.
+|-
+| Nitrogen || — || A colorless, odorless, tasteless gas. A simple asphyxiant that can silently displace vital oxygen.
+|-
+| Nitroglycerin || /datum/reagent/glycerol = 1, /datum/reagent/toxin/acid/fluacid = 1, /datum/reagent/toxin/acid = 1 || Nitroglycerin is a heavy, colorless, oily, explosive liquid obtained by nitrating glycerol.
+|-
+| Nitrous Oxide || — || A potent oxidizer used as fuel in rockets and as an anaesthetic during surgery.
+|-
+| Nitryl || — || A highly reactive gas that makes you feel faster.
+|-
+| North-South || — || An inseparable combination of two fruity drinks.
+|-
+| Nothing || — || Absolutely nothing.
+|-
+| Nutraslop || — || Mixture of leftover prison foods served on previous days.
+|-
+| Nutriment || — || All the vitamins, minerals, and carbohydrates the body needs in pure form.
+|-
+| Oculine || /datum/reagent/medicine/charcoal = 1, /datum/reagent/carbon = 1, /datum/reagent/hydrogen = 1 || Quickly restores eye damage, cures nearsightedness, and has a chance to restore vision to the blind.
+|-
+| Oil || /datum/reagent/fuel = 1, /datum/reagent/carbon = 1, /datum/reagent/hydrogen = 1 || Burns in a small smoky fire, can be used to get Ash.
+|-
+| Old Timer || — || An archaic potation enjoyed by old coots of all ages.
+|-
+| Omnizine || — || Slowly heals all damage types. Overdose will cause damage in all types instead.
+|-
+| Orange Carpet || — || For those that prefer a healthy carpet to go along with their healthy diet.
+|-
+| Orange Crayon Powder || — || —
+|-
+| Orange Juice || — || Both delicious AND rich in Vitamin C, what more do you need?
+|-
+| Orange Powder || — || —
+|-
+| Organic Slurry || — || A mixture of various colors of fluid. Induces vomiting.
+|-
+| Out of Lime || — || A spin on the classic. Artists and street fighters swear by this stuff.
+|-
+| Out of Touch || — || Perfect for when you're out of time.
+|-
+| Oxalizid || — || The active metabolite of thializid. Causes muscle weakness on overdose
+|-
+| Oxandrolone || /datum/reagent/carbon = 3, /datum/reagent/phenol = 1, /datum/reagent/hydrogen = 1, /datum/reagent/oxygen = 1 || Stimulates the healing of severe burns. Extremely rapidly heals severe burns and slowly heals minor ones. Overdose will worsen existing burns.
+|-
+| Oxygen || /datum/reagent/consumable/liquidelectricity = 1, /datum/reagent/water = 10 || A colorless, odorless gas. Grows on trees but is still pretty valuable.
+|-
+| Ozone || — || A pale blue gas, with a distinct smell. While it is oxygen with an extra molecule attached, it is quite dangerous.
+|-
+| PAC-Fuel || — || A carbonated energy drink themed after the purple coloration, similar to plasma.
+|-
+| Painkiller || — || Dulls your pain. Your emotional pain, that is.
+|-
+| Pan-Galactic Gargle Blaster || — || Whoah, this stuff looks volatile!
+|-
+| Pancuronium || — || An undetectable toxin that swiftly incapacitates its victim. May also cause breathing failure.
+|-
+| Parsnip Juice || — || Starchy and uncommon.
+|-
+| Patron || — || Tequila with silver in it, often found in nightclubs.
+|-
+| Pavement || — || Road surface, blacktop, asphalt concrete, whatever you call it, it's the most common material used in constructing runways for ships and roadways for vehicles.
+|-
+| Pax || /datum/reagent/toxin/mindbreaker = 1, /datum/reagent/medicine/synaptizine = 1, /datum/reagent/water = 1 || A colorless liquid that suppresses violence in its subjects.
+|-
+| Peach Juice || — || Just peachy.
+|-
+| Peanut Butter || — || peanut
+|-
+| Pentaerythritol || /datum/reagent/acetaldehyde = 1, /datum/reagent/toxin/formaldehyde = 3, /datum/reagent/water = 1 || Slow down, it ain't no spelling bee!
+|-
+| Pentetic Acid || — || Reduces massive amounts of radiation and toxin damage while purging other chemicals from the body.
+|-
+| Penthrite || /datum/reagent/pentaerythritol = 1, /datum/reagent/acetone = 1,  /datum/reagent/toxin/acid/nitracid = 1 , /datum/reagent/wittel = 1 || An expensive medicine that aids with pumping blood around the body even without a heart, and prevents the heart from slowing down. It reacts violently with other emergency medication.
+|-
+| Peppermint Patty || — || This lightly alcoholic drink combines the benefits of menthol and cocoa.
+|-
+| Peptides || — || mint frosting
+|-
+| Perfluorodecalin || /datum/reagent/hydrogen = 1, /datum/reagent/fluorine = 1, /datum/reagent/fuel/oil = 1 || Restores oxygen deprivation while producing a lesser amount of toxic byproducts. Both scale with exposure to the drug and current amount of oxygen deprivation. Overdose causes toxic byproducts regardless of oxygen deprivation.
+|-
+| Pest Killer || — || A harmful toxic mixture to kill pests. Do not ingest!
+|-
+| Phenol || /datum/reagent/water = 1, /datum/reagent/chlorine = 1, /datum/reagent/fuel/oil = 1 || An aromatic ring of carbon with a hydroxyl group. A useful precursor to some medicines, but has no healing properties on its own.
+|-
+| Phlogiston || /datum/reagent/phosphorus = 1, /datum/reagent/toxin/acid = 1, /datum/reagent/stable_plasma = 1 || Catches you on fire and makes you ignite.
+|-
+| Phosphorus || — || A ruddy red powder that burns readily. Though it comes in many colors, the general theme is always the same.
+|-
+| Pina Colada || — || A fresh pineapple drink with coconut rum. Yum.
+|-
+| Pineapple Juice || — || Tart, tropical, and sweet.
+|-
+| Placebatol || — || An odorless, colorless, powdery substance that's sometimes prescribed. May not actually do anything...?
+|-
+| Plant-B-Gone || — || A harmful toxic mixture to kill plantlife. Do not ingest!
+|-
+| Plasma || /datum/reagent/toxin/plasma = 1, /datum/reagent/consumable/virus_food = 1 || Plasma in its liquid form.
+|-
+| Plasma Fizz || — || A  spinoff of the popular Molten Bubbles drink from Kalixcis, made to emulate the flavor of spiced grape instead. It's... not exactly convincing or a very good mix.
+|-
+| Poison Berry Juice || — || A tasty juice blended from various kinds of very deadly and toxic berries.
+|-
+| Polar Bear Fur || — || Fur obtained from griding up a polar bears hide
+|-
+| Polonium || — || An extremely radioactive material in liquid form. Ingestion results in fatal irradiation.
+|-
+| Polypyrylium Oligomers || — || A purple mixture of short polyelectrolyte chains not easily synthesized in the laboratory. It is valued as an intermediate in the synthesis of the cutting edge pharmaceuticals.
+|-
+| Potassium || — || A soft, low-melting solid that can easily be cut with a knife. Reacts violently with water.
+|-
+| Potassium Iodide || — || Efficiently restores low radiation damage.
+|-
+| Potato Juice || — || Juice of the potato. Bleh.
+|-
+| Prismwine || — || A glittering brew utilized by members of the Saint-Roumain Militia, mixed to defend against the blasts and burns of foes and fauna alike. Softens targets against your own burns when thrown.
+|-
+| Probital || /datum/reagent/copper = 1, /datum/reagent/acetone = 2,  /datum/reagent/phosphorus = 1 || Originally developed as a prototype-gym supliment for those looking for quick workout turnover, this oral medication quickly repairs broken muscle tissue but causes lactic acid buildup, tiring the patient. Overdosing can cause extreme drowsiness. An Influx of nutrients promotes the muscle repair even further.
+|-
+| Protein || — || A natural polyamide made up of amino acids. An essential constituent of mosts known forms of life.
+|-
+| Protozine || — || A less environmentally friendly and somewhat weaker variant of omnizine.
+|-
+| Psicodine || /datum/reagent/medicine/mannitol = 2, /datum/reagent/water = 2, /datum/reagent/impedrezene = 1 || Suppresses anxiety and other various forms of mental distress. Overdose causes hallucinations and minor toxin damage.
+|-
+| Pucetylline Essence || — || Ground essence of puce crystals.
+|-
+| Pump-Up || — || Take on the world! A fast acting, hard hitting drug that pushes the limit on what you can handle.
+|-
+| Pumpkin Juice || — || Juiced from real pumpkins.
+|-
+| Pumpkin Latte || — || A mix of spices and coffee. It doesn't actually contain any pumpkin, though.
+|-
+| Purified Soulus Dust || — || Ground legion cores.
+|-
+| Purple Carpet || — || For those that need to waste copious amounts of healing jelly in order to look fancy.
+|-
+| Purple Crayon Powder || — || —
+|-
+| Purple Powder || — || —
+|-
+| Pyre Elementum || — || This is what makes Fireblossoms even hotter.
+|-
+| Pyrosium || /datum/reagent/pyrosium = 1, /datum/reagent/oxygen = 1 || Comes into existence at 20K. As long as there is sufficient oxygen for it to react with, Pyrosium slowly heats all other reagents in the container.
+|-
+| Pyroxadone || /datum/reagent/medicine/cryoxadone = 1, /datum/reagent/toxin/slimejelly = 1 || A mixture of cryoxadone and slime jelly, that apparently inverses the requirement for its activation.
+|-
+| Quadruple Sec || — || Kicks just as hard as licking the powercell on a baton, but tastier.
+|-
+| Quantum Hair Dye || — || Has a high chance of making you look like a mad scientist.
+|-
+| Quantum Medicine || — || Rare and experimental particles, that apparently swap the user's body with one from an alternate dimension where it's completely healthy.
+|-
+| Quintuple Sec || — || Law, order and alcohol distilled into one single elixir.
+|-
+| RDX || /datum/reagent/phenol = 2, /datum/reagent/toxin/acid/nitracid = 1, /datum/reagent/acetone_oxide = 1 || Military grade explosive
+|-
+| Radium || — || Radium is an alkaline earth metal. It is extremely radioactive.
+|-
+| Red Carpet || — || For those that need an even redder carpet.
+|-
+| Red Crayon Powder || — || —
+|-
+| Red Powder || — || —
+|-
+| Red Queen || — || You feel inclined to drink it, somehow.
+|-
+| Refa-Li Juice || — || Refa-Li is spicy, unless the seeds have been removed, in which case it takes on a more mellow, earthly tone
+|-
+| Regenerative Jelly || — || Gradually regenerates all types of damage, without harming slime anatomy.
+|-
+| Ren Kirsi || — || A Teceian drink mainly enjoyed on The Ring and it's sibling colonies.
+|-
+| Restorative Nanites || — || Miniature medical robots that swiftly restore bodily damage.
+|-
+| Retukemi || — || A marginally psychoactive compound commonly found in the leaves of the Uke-misikeci Rasi plant.
+|-
+| Rezadone || /datum/reagent/toxin/carpotoxin = 1, /datum/reagent/cryptobiolin = 1, /datum/reagent/copper = 1 || A powder derived from fish toxin, Rezadone can effectively treat genetic damage as well as restoring minor wounds. Overdose will cause intense nausea and minor toxin damage.
+|-
+| Rhigoxane || /datum/reagent/cryostylane = 3, /datum/reagent/bromine = 1, /datum/reagent/lye = 1 || A second generation burn treatment agent exhibiting a cooling effect that is especially pronounced when deployed as a spray. Its high halogen content helps extinguish fires.
+|-
+| Rice || — || tiny nutritious grains
+|-
+| Road mixture || — || A mix of cement and asphalt. Looks less tasty than normal cement.
+|-
+| Robust Harvest || — || Very potent nutriment that slows plants from mutating.
+|-
+| Romerol || — || "Romerol is a highly experimental bioterror agent \
+|-
+| Rotatium || /datum/reagent/toxin/mindbreaker = 1, /datum/reagent/teslium = 1, /datum/reagent/toxin/fentanyl = 1 || A constantly swirling, oddly colourful fluid. Causes the consumer's sense of direction and hand-eye coordination to become wild.
+|-
+| Royal Black Carpet || — || For those that feel the need to show off their timewasting skills.
+|-
+| Royal Blue Carpet || — || For those that feel the need to show off their timewasting skills.. in BLUE.
+|-
+| Royal Carpet? || — || For those that break the game and need to make an issue report.
+|-
+| Rubberneck || — || A quality rubberneck should not contain any gross natural ingredients.
+|-
+| Rum || — || The liquor of choice for sailors and spacers alike.
+|-
+| Rum and Coke || — || Rum, mixed with cola.
+|-
+| Sake || — || A sweet rice wine.
+|-
+| Salbutamol || /datum/reagent/medicine/sal_acid = 1, /datum/reagent/lithium = 1, /datum/reagent/aluminium = 1, /datum/reagent/bromine = 1, /datum/reagent/ammonia = 1 || Rapidly restores oxygen deprivation as well as preventing more of it to an extent.
+|-
+| Salicylic Acid || — || Stimulates the healing of severe bruises. Extremely rapidly heals severe bruising and slowly heals minor ones. Overdose will worsen existing bruising.
+|-
+| Saline-Glucose Solution || — || Has a 33% chance per metabolism cycle to heal brute and burn damage. Can be used as a temporary blood substitute.
+|-
+| Saltflat || — || Nigh-dehydratingly dry. Intended to be a challenge.
+|-
+| Saltpetre || /datum/reagent/potassium = 1, /datum/reagent/nitrogen = 1, /datum/reagent/oxygen = 3 || Volatile. Controversial. Third Thing.
+|-
+| Sandblast Sarsaparilla || — || Extra refreshing for those long desert days.
+|-
+| Sbiten || — || Vodka with capsaicin for the extra feeling of intense warmth.
+|-
+| Screwdriver || — || Vodka mixed with orange juice.
+|-
+| Secret Sauce || — || What could it be?
+|-
+| Seiver || /datum/reagent/nitrogen = 1, /datum/reagent/potassium = 1, /datum/reagent/aluminium = 1 || A medicine that shifts functionality based on temperature. Colder temperatures incurs radiation removal while hotter temperatures promote antitoxicity. Damages the heart.
+|-
+| Serotrotium || — || A chemical compound that promotes concentrated production of the serotonin neurotransmitter in humans.
+|-
+| Shoal Punch || — || Sugary, and from the Shoal.
+|-
+| Shoalmix || — || An extremely potent mix of stimulants, painkillers, and performance enhancers that originated within the Shoal.
+|-
+| Shot in the Dark || — || A coconut elixir with a golden tinge.
+|-
+| Silibinin || — || A thistle derrived hepatoprotective flavolignan mixture that help reverse damage to the liver.
+|-
+| Silicon || — || A tetravalent metalloid, silicon is less reactive than its chemical analog carbon.
+|-
+| Silver || /datum/reagent/ammonia = 1, /datum/reagent/silver = 1, /datum/reagent/sulfur = 1, /datum/reagent/oxygen = 1, /datum/reagent/chlorine = 1 || A soft, white, lustrous transition metal, it has the highest electrical conductivity of any element and the highest thermal conductivity of any metal.
+|-
+| Silver Sulfadiazine || — || If used in touch-based applications, immediately restores burn wounds as well as restoring more over time. If ingested through other means or overdosed, deals minor toxin damage.
+|-
+| Singulo || — || Named after a tragic industrial accident!
+|-
+| Skeleton’s Boon || — || A robust solution of minerals that greatly strengthens the bones.
+|-
+| Skewium || — || A strange, dull coloured liquid that appears to warp back and forth inside its container. Causes any consumer to experience a visual phenomena similar to said warping.
+|-
+| Slime Jelly || — || A gooey semi-liquid produced from one of the deadliest lifeforms in existence. SO REAL.
+|-
+| Smart foaming agent || — || An agent that yields metallic foam which conforms to area boundaries when mixed with light metal and a strong acid.
+|-
+| Smoke Powder || — || Makes a large cloud of smoke that can carry reagents.
+|-
+| Snow White || — || A cold refreshment.
+|-
+| Soda Water || — || A can of club soda.
+|-
+| Sodium || /datum/reagent/water = 1, /datum/reagent/sodium = 1, /datum/reagent/chlorine = 1 || A soft silver metal that can easily be cut with a knife. It's not salt just yet, so refrain from putting it on your chips.
+|-
+| Sodium Thiopental || — || Sodium Thiopental induces heavy weakness in its target as well as unconsciousness.
+|-
+| Sol Dry || — || A soothing, mellow drink made from ginger.
+|-
+| Sonic Powder || — || Makes a deafening noise.
+|-
+| Sorium || /datum/reagent/mercury = 1, /datum/reagent/oxygen = 1, /datum/reagent/nitrogen = 1, /datum/reagent/carbon = 1 || Sends everything flying from the detonation point.
+|-
+| Sososi-Mira || — || Sososi Leaves and Miras are used to make this variety of alcohol, a warm and sweet alcohol with a tendency to leave nasty hangovers. It’s typically served before a meal, to get conversation flowing.
+|-
+| Sososi-Seta || — || A bitter drink made from the leaves of the Sososi plant. The sugars of the leaf are seeped out as it ferments, leaving behind a bitter spirit, that is then seasoned with cactus fruit and berries to be served as a digestif.
+|-
+| Soulus Dust || — || Ground legion cores. The dust quickly seals wounds yet slowly causes the tissue to undergo necrosis.
+|-
+| Soy Latte || — || A hot beverage for those who can't handle the lactose.
+|-
+| Soy Milk || — || An opaque white liquid made from soybeans.
+|-
+| Soysauce || — || A salty sauce made from the soy plant.
+|-
+| Space Lube || — || Lubricant is a substance introduced between two moving surfaces to reduce the friction and wear between them. giggity.
+|-
+| Space cleaner || — || A compound used to clean things. Now with 50% more sodium hypochlorite!
+|-
+| Space-Up || — || Tastes like a hull breach in your mouth.
+|-
+| Spaceacillin || /datum/reagent/cryptobiolin = 1, /datum/reagent/medicine/epinephrine = 1 || Spaceacillin will prevent a patient from conventionally spreading any diseases they are currently infected with.
+|-
+| Spewium || — || A powerful emetic, causes uncontrollable vomiting.  May result in vomiting organs at high doses.
+|-
+| Spider Extract || — || A highly specialized extract coming from the Australicus sector, used to create broodmother spiders.
+|-
+| Spore Toxin || — || A natural toxin produced by blob spores that inhibits vision when ingested.
+|-
+| Spray Tan || — || A substance applied to the skin to darken the skin.
+|-
+| Sprinkles || — || Multi-colored little bits of sugar, commonly found on donuts. Loved by cops.
+|-
+| Spriter's Bane || — || A drink to fill your very SOUL.
+|-
+| Squirt Cider || — || Fermented squirt extract with a nose of stale bread and ocean water. Whatever a squirt is.
+|-
+| Stabilized Nutriment || — || A bioengineered protien-nutrient structure designed to decompose in high saturation. In layman's terms, it won't get you fat.
+|-
+| Stabilizing Agent || — || Keeps unstable chemicals stable. This does not work on everything.
+|-
+| Stable Plasma || — || Non-flammable plasma locked into a liquid form that cannot ignite or become gaseous/solid.
+|-
+| Stardrop || /datum/reagent/mercury = 1, /datum/reagent/acetone = 1, /datum/reagent/consumable/carrotjuice = 2 || A vision-enhancing chemical that originated as a performance aid for industrial miners.
+|-
+| Starlight || /datum/reagent/drug/stardrop = 1, /datum/reagent/phenol = 1, /datum/reagent/sulfur = 1 || A vision-enhancing chemical derived from stardrop. The original formula was a N+S recipe leaked by a GEC worker.
+|-
+| Stasis || /datum/reagent/phenol = 1, /datum/reagent/copper = 1, /datum/reagent/medicine/salglu_solution = 3 || A liquid blue chemical that causes the body to enter a chemically induced stasis, irregardless of current state.
+|-
+| Sterilizine || /datum/reagent/consumable/ethanol = 1, /datum/reagent/medicine/charcoal = 1, /datum/reagent/chlorine = 1 || Sterilizes wounds in preparation for surgery.
+|-
+| Stimulum || — || An unstable experimental gas that greatly increases the energy of those that inhale it.
+|-
+| Stinger || — || A snappy way to end the day.
+|-
+| Strange Reagent || — || A miracle drug capable of bringing the dead back to life. Works topically unless anotamically complex, in which case works orally. Only works if the target has less than 200 total brute and burn damage and hasn't been husked and requires more reagent depending on damage inflicted. Causes damage to the living.
+|-
+| Stunball || — || A harsh, acrid, bitter drink, for those who need something to brace themselves.
+|-
+| Styptic Powder || — || If used in touch-based applications, immediately restores bruising as well as restoring more over time. If ingested through other means or overdosed, deals minor toxin damage.
+|-
+| Sugar || /datum/reagent/consumable/sugar = 1, /datum/reagent/toxin/mutagen/mutagenvirusfood = 1 || The organic compound commonly known as table sugar and sometimes called saccharose. This white, odorless, crystalline powder has a pleasing, sweet taste.
+|-
+| Sugar Rush || — || Sweet, light, and fruity - as girly as it gets.
+|-
+| Sulfonal || /datum/reagent/acetone = 1, /datum/reagent/diethylamine = 1, /datum/reagent/sulfur = 1 || A stealthy poison that deals minor toxin damage and eventually puts the target to sleep.
+|-
+| Sulfur || — || A sickly yellow solid mostly known for its nasty smell. It's actually much more helpful than it looks in biochemisty.
+|-
+| Sulfur Dioxide || — || A transparent gas produced by geological activity and burning certain fuels.
+|-
+| Sulphuric acid || — || A strong mineral acid with the molecular formula H2SO4.
+|-
+| Super Duper Lube || — || This \[REDACTED\] has been outlawed after the incident on \[DATA EXPUNGED\].
+|-
+| Super Laughter || — || Funny until you're the one laughing.
+|-
+| Synaptizine || /datum/reagent/consumable/sugar = 1, /datum/reagent/lithium = 1, /datum/reagent/water = 1 || Increases resistance to stuns as well as reducing drowsiness and hallucinations.
+|-
+| Synthflesh || /datum/reagent/blood = 1, /datum/reagent/carbon = 1, /datum/reagent/medicine/styptic_powder = 1 || Has a 100% chance of instantly healing brute and burn damage. One unit of the chemical will heal one point of damage. Touch application only.
+|-
+| Synthflesh (Instabitaluri) || — || Heals brute and burn damage at the cost of toxicity (66% of damage healed). Touch application only.
+|-
+| Synthpax || — || A colorless liquid that suppresses violence in its subjects. Cheaper to synthesize than normal Pax, but wears off faster.
+|-
+| Syriniver || /datum/reagent/sulfur = 1, /datum/reagent/fluorine = 1, /datum/reagent/toxin = 1, /datum/reagent/nitrous_oxide = 2 || A potent antidote for intravenous use with a narrow therapeutic index, it is considered an active prodrug of musiver.
+|-
+| System Cleaner || — || Neutralizes harmful chemical compounds inside synthetic systems.
+|-
+| TaTP || /datum/reagent/acetone_oxide = 1, /datum/reagent/toxin/acid/nitracid = 1, /datum/reagent/pentaerythritol = 1 || Suicide grade explosive
+|-
+| Table Salt || — || A salt made of sodium chloride. Commonly used to season food.
+|-
+| Tadrixx || — || A Kalixcian drink made from a plant that tastes similar to sassafrass, which is used in root beer. A stumpy drake holding a mug of it is on the front.
+|-
+| Tadrixx Float || — || Ice cream on top of a glass of Tadrixx.
+|-
+| Tea || — || Warm, dark tea.
+|-
+| Tear Juice || — || A blinding substance extracted from certain onions.
+|-
+| Tequila || — || A strongly flavoured spirit.
+|-
+| Tequila Sunrise || — || Tequila, grenadine, and orange juice.
+|-
+| Terraformer Surprise || — || It's as green as the first terraforming experiments, allegedly.
+|-
+| Teslium || /datum/reagent/stable_plasma = 1, /datum/reagent/silver = 1, /datum/reagent/gunpowder = 1 || An unstable, electrically-charged metallic slurry. Periodically electrocutes its victim, and makes electrocutions against them more deadly. Excessively heating teslium results in dangerous destabilization. Do not allow to come into contact with water.
+|-
+| Tetracordrazine || /datum/reagent/medicine/tricordrazine = 3, /datum/reagent/medicine/dexalin = 1 || A weak dilutant similar to Tricordrazine that slowly heals all damage types.
+|-
+| The Doctor's Delight || — || A homemade curative. A mixture of juices that helps your body heal against most damage, at the cost of leaving you hungry.
+|-
+| The Shortstop || — || Beer and ale, brought together in a very grain-flavored mix.
+|-
+| Thermite || /datum/reagent/aluminium = 1, /datum/reagent/iron = 1, /datum/reagent/oxygen = 1 || Thermite produces an aluminothermic reaction known as a thermite reaction. Can be used to melt walls.
+|-
+| Thializid || /datum/reagent/sulfur = 1, /datum/reagent/fluorine = 1, /datum/reagent/toxin = 1, /datum/reagent/nitrous_oxide = 2 || A potent antidote for intravenous use with a narrow therapeutic index, it is considered an active prodrug of oxalizid.
+|-
+| Three Eye || — || liquid starlight
+|-
+| Three Mile Island Iced Tea || — || The extreme version of fruity cocktails.
+|-
+| Tinea Luxor || — || A stimulating ichor which causes luminescent fungi to grow on the skin. 
+|-
+| Tirimol || /datum/reagent/nitrogen = 3, /datum/reagent/acetone = 2 || An oxygen deprivation medication that causes fatigue. Prolonged exposure causes the patient to fall asleep once the medicine metabolizes.
+|-
+| Tiring Solution || — || An extremely weak stamina-toxin that tires out the target. Completely harmless.
+|-
+| Tiris Milk || — || A strong, tangy milk made by a Tiris. Makes a very good cheese.
+|-
+| Tiris blood || — || bloody and earthy
+|-
+| Tiris-Sale || — || bloody piercing umami
+|-
+| Tiris-Sele || — || gently blossoming umami
+|-
+| Tirizene || — || A nonlethal poison that causes extreme fatigue and weakness in its victim.
+|-
+| Titanium || — || A light, reflective grey metal used in ship construction.
+|-
+| Tomato Juice || — || Tomatoes made into juice. What a waste of big, juicy tomatoes, huh?
+|-
+| Tonic Water || — || It tastes strange, and it's not like malaria is much of an issue anymore.
+|-
+| Toxin || /datum/reagent/nitrogen = 1, /datum/reagent/silicon = 1, /datum/reagent/potassium = 1 || A toxic chemical.
+|-
+| Toxin Microcapsules || — || Causes heavy toxin damage after a brief time of inactivity.
+|-
+| Toxins Special || — || It's a bit tasteless to name your drink after industrial accidents.
+|-
+| Tramal || /datum/reagent/carbon = 1, /datum/reagent/oxygen = 1 || A low intensity, high duration painkiller. Causes slight drowiness in extended use.
+|-
+| Trapper's Beer || — || A strong dark ale brewed by the Saint Roumain Militia.
+|-
+| Trickwine || — || —
+|-
+| Tricordrazine || /datum/reagent/medicine/bicaridine = 1, /datum/reagent/medicine/kelotane = 1, /datum/reagent/medicine/antitoxin = 1 || A weak dilutant that slowly heals brute, burn, and toxin damage.
+|-
+| Triple Citrus || — || A solution.
+|-
+| Triple Sec || — || A sweet and vibrant orange liqueur.
+|-
+| Trophazole || /datum/reagent/copper = 1, /datum/reagent/acetone = 2,  /datum/reagent/phosphorus = 1 || Orginally developed as fitness supplement, this chemical accelerates wound healing and if ingested turns nutriment into healing peptides
+|-
+| Tubercle bacillus Cosmosis microbes || — || Active fungal spores.
+|-
+| Turbo || — || A turbulent cocktail associated with outlaw hoverbike racing. Not for the faint of heart.
+|-
+| Twelve Crossings || — || A mixed drink popularized by a murder mystery book series from Teceti.
+|-
+| Unholy Water || — || Something that shouldn't exist on this plane of existence.
+|-
+| Universal Enzyme || — || A universal enzyme used in the preparation of certain chemicals and foods.
+|-
+| Unstable mutagen || — || Might cause unpredictable mutations. Keep away from children.
+|-
+| Uranium || /datum/reagent/uranium = 1, /datum/reagent/consumable/virus_food = 1 || A jade-green metallic chemical element in the actinide series, weakly radioactive.
+|-
+| Vaccine || — || slime
+|-
+| Vanilla Powder || — || A fatty, bitter paste made from vanilla pods.
+|-
+| Vanilla Pudding || — || A great dessert for vanilla lovers.
+|-
+| Venom || — || An exotic poison extracted from highly toxic fauna. Causes scaling amounts of toxin damage and bruising depending and dosage. Often decays into Histamine.
+|-
+| Vermouth || — || A fine wine to go with a meal.
+|-
+| Vimukti || — || A potent, fermented sweet lichen drink from the Shoal.
+|-
+| Virus Food || — || A mixture of water and milk. Virus cells can use this mixture to reproduce.
+|-
+| Vitamin || — || All the best vitamins, minerals, and carbohydrates the body needs in pure form.
+|-
+| Vitrium Froth || — || A bubbly paste that heals wounds of the skin.
+|-
+| Vodka || — || A clear, hard liquor. Doubles as a flammable fuel source, if you really need it.
+|-
+| Vodka Martini || — || Vodka with gin.
+|-
+| Vodka and Tonic || — || The stronger sibling of the Gin and Tonic.
+|-
+| Water || /datum/reagent/water/hollowwater = 1 || An ubiquitous chemical substance that is composed of hydrogen and oxygen.
+|-
+| Watermelon Juice || — || Delicious juice made from watermelon.
+|-
+| Weed Killer || — || A harmful toxic mixture to kill weeds. Do not ingest!
+|-
+| Welding fuel || — || Required for welders. Flammable.
+|-
+| Weldline || — || A very popular and bittersweet digestif, ideal after a heavy meal. Best served on a sawed-off cola bottle as per tradition.
+|-
+| Whiskey || — || A well-aged whiskey.
+|-
+| Whiskey Cola || — || Whiskey, mixed with cola. Surprisingly refreshing.
+|-
+| Whiskey Soda || — || Whiskey and soda water, a simple mixed drink.
+|-
+| Whiskey Sour || — || A mix of lemon juice, whiskey, and sugar.
+|-
+| White Crayon Powder || — || —
+|-
+| White Gezenan || — || Cream and vodka.
+|-
+| White Powder || — || —
+|-
+| Wine || — || An alcoholic beverage made from fermented grapes of all kinds.
+|-
+| Wine Of Ash || — || A traditional sacrament for members of the Saint-Roumain Militia. Believed to grant visions, seeing use both in ritual and entertainment within the Militia.
+|-
+| Wine Of Ice || — || A specialized brew utilized by members of the Saint-Roumain Militia, designed to assist in temperature regulation while working in hot environments. Known to give one the cold shoulder when thrown.
+|-
+| Wittel || — || An extremely rare metallic-white substance only found on demon-class planets.
+|-
+| Wizz Fizz || — || A magical potion, fizzy and wild! However the taste, you will find, is quite mild.
+|-
+| Xeno-Energy || — || An unbearably sugary, fizzy green drink.
+|-
+| Xenomicrobes || — || Microbes with an entirely alien cellular structure.
+|-
+| Yellow Crayon Powder || — || —
+|-
+| Yellow Powder || — || —
+|-
+| Zohil Cream || — || Whiskey-imbued cream.
+|-
+| Zombie Powder || — || A strong neurotoxin that puts the subject into a death-like state.
+|-
+| blue glitter || — || blue sparkles that get everywhere
+|-
+| candy corn liquor || — || Like they drank in 2D speakeasies.
+|-
+| chitosan || /datum/reagent/silicon = 1, /datum/reagent/consumable/sugar = 2, /datum/reagent/cryptobiolin = 1 || Vastly improves the blood's natural ability to coagulate and stop bleeding by hightening platelet production and effectiveness. Overdosing will cause extreme blood clotting, resulting in potential brain damage.
+|-
+| decaying uranium gel || — || the inside of a reactor
+|-
+| deep-fried [initial(T.name)] || — || —
+|-
+| generic glitter || — || if you can see this description, contact a coder.
+|-
+| glass of [name] || — || suicidally strong
+|-
+| mutagenic agar || — || sourness
+|-
+| pink glitter || — || pink sparkles that get everywhere
+|-
+| plastic polymers || — || the petroleum based components of plastic.
+|-
+| pruno || — || Fermented prison wine made from fruit, sugar, and despair.
+|-
+| pruno mixture || — || Fruit, sugar, yeast, and water pulped together into a pungent slurry.
+|-
+| royal bee jelly || — || Royal Bee Jelly, if injected into a Queen Space Bee said bee will split into two bees.
+|-
+| stable uranium gel || — || the inside of a reactor
+|-
+| sucrose agar || — || sweetness
+|-
+| unstable uranium gel || — || the inside of a reactor
+|-
+| virus plasma || — || bitterness
+|-
+| virus rations || — || bitterness
+|-
+| weakened virus plasma || — || bitterness
+|-
+| white glitter || — || white sparkles that get everywhere
+|}

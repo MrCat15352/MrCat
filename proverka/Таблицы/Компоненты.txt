@@ -1,0 +1,50 @@
+==Компоненты==
+Это очень простые химические вещества, которые вы будете использовать во множестве других рецептах для более сложных и хороших химикатов. Однако они все еще могут быть токсичными.
+{| class="wikitable sortable" style="width:100%; text-align:left; border: 3px solid #FFDD66; cellspacing=0; cellpadding=2; background-color:white;"
+! scope="col" style="width:150px; background-color:#FFDD66;" |Название
+! class="unsortable" scope="col" style="width:150px; background-color:#FFDD66;" |Формула
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Описание
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ash}}Ash <span style="color:#515151;background-color:white">▮</span>
+||1 part Fuel|Supposedly phoenixes rise from these, but you've never seen it.|-
+! style="background-color:#FFEE88;" |{{anchor|Oil}}Oil <span style="color:#2D2D2D;background-color:white">▮</span>
+|{{RecursiveChem/Oil}}
+|Сгорает небольшой дымкой если нагреть выше определённой температуры, оставляя [[#Ash|Ash]]. Также сгрести при помощи контейнера с уничтоженных киборгов и роботов. Ингредиент во многих рецептах.
+|-
+! style="background-color:#FFEE88;" |{{anchor|Phenol}}Phenol <span style="color:#E7EA91;background-color:white">▮</span>
+||1 part Water<br>1 part Chlorine<br>1 part Fuel|An aromatic ring of carbon with a hydroxyl group. A useful precursor to some medicines, but has no healing properties on its own.|-
+! style="background-color:#FFEE88;" |{{anchor|Acetone}}Acetone <span style="color:#AF14B7;background-color:white">▮</span>
+||1 part Fuel<br>1 part Fuel<br>1 part Oxygen|A slick, slightly carcinogenic liquid. Has a multitude of mundane uses in everyday life.|-
+! style="background-color:#FFEE88;" |{{anchor|Sodium Chloride}}Sodium Chloride <span style="color:#FFFFFF;background-color:white">▮</span>
+||1 part Water<br>1 part Sodium<br>1 part Chlorine|A soft silver metal that can easily be cut with a knife. It's not salt just yet, so refrain from putting it on your chips.
+|-
+! style="background-color:#FFEE88;" |{{anchor|Ammonia}}Ammonia <span style="color:#404030;background-color:white">▮</span>
+||3 part Hydrogen<br>1 part Nitrogen|A caustic substance commonly used in fertilizer or household cleaners.
+|-
+! style="background-color:#FFEE88;" |{{anchor|Diethylamine}}Diethylamine <span style="color:#604030;background-color:white">▮</span>
+|{{RecursiveChem/Diethylamine}}
+|A secondary amine, mildly corrosive.
+|-
+! style="background-color:#FFEE88;" |{{anchor|Saltpetre}}Saltpetre <span style="color:#60A584;background-color:white">▮</span>
+||1 part Potassium<br>1 part Nitrogen<br>3 part Oxygen|Volatile. Controversial. Third Thing.
+|-
+! style="background-color:#FFEE88;" |{{anchor|Lye}}Lye <span style="color:#FFFFD6;background-color:white">▮</span>
+|{{RecursiveChem/Lye}}
+|Ингредиент для приготовления [[#Soap|мыла]].
+|-
+! style="background-color:#FFEE88;" |{{anchor|Hydrogen Peroxide}}Hydrogen Peroxide <span style="color:#AAAAAA77;background-color:white">▮</span>
+||3 part Carbon<br>1 part Diethylamine<br>1 part Oxygen<br>1 part Phenol|A colorless, odorless, nonmetallic, tasteless, highly combustible diatomic gas.
+|-
+! style="background-color:#FFEE88;" |{{anchor|Pentaerythritol}}Pentaerythritol <span style="color:#E66FFF;background-color:white">▮</span>
+||1 part Acetaldehyde<br>3 part Toxin<br>1 part Water|Slow down, it ain't no spelling bee!|-
+! style="background-color:#FFEE88;" |{{anchor|Acetaldehyde}}Acetaldehyde <span style="color:#EEEEEF;background-color:white">▮</span>
+|{{RecursiveChem/Acetaldehyde}}
+|Ингредиент для приготовления [[#Pentaerythritol|Pentaerythritol]].
+|-
+! style="background-color:#FFEE88;" |{{anchor|Acetone Oxide}}Acetone Oxide <span style="color:#C8A5DC;background-color:white">▮</span>
+||1 part Fuel<br>1 part Fuel<br>1 part Oxygen|A slick, slightly carcinogenic liquid. Has a multitude of mundane uses in everyday life.
+|-
+! style="background-color:#FFEE88;" |{{anchor|Wittel}}Wittel <span style="color:#FFFFFF;background-color:white">▮</span>
+|{{RecursiveChem/Wittel}}
+|С маленьким шансом появляется в химических гейзерах на большинства планетах. Используется в некоторых продвинутых рецептах.
+|}

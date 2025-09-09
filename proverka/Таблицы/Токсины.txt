@@ -1,0 +1,285 @@
+==Токсины==
+Самые смертоносные из смертоносных химикатов. Некоторые из них доступны только в аплинке, но удачи в получении одного из них.
+{| class="wikitable sortable" style="width:100%; text-align:left; border: 3px solid #FFDD66; cellspacing=0; cellpadding=2; background-color:white;"
+! scope="col" style="width:150px; background-color:#FFDD66;" |Название
+! class="unsortable" scope="col" style="width:150px; background-color:#FFDD66;" |Формула
+! scope="col" style="background-color:#FFDD66;" |Тип урона
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Описание
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Скорость метаболизации
+|-
+! style="background-color:#FFEE88;" |{{anchor|Toxin}}Toxin <span style="color:#CF3600;background-color:white">▮</span>
+|1 part Nitrogen<br>1 part Silicon<br>1 part Potassium
+|<font color="green">Токсины</font>
+|Наносит 1.5 урона токсинами за тик.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Bad Food}}Bad Food
+|От употребления плохо приготовленной пищи
+|
+<font color="green">Токсины</font>
+|Наносит 0.5 урона токсинами за тик.
+|0.1 units за тик
+|-
+! style="background-color:#FFEE88;" |{{anchor|Formaldehyde}}Formaldehyde <span style="color:#B4004B;background-color:white">▮</span>
+|1 part Ethanol<br>1 part Oxygen<br>1 part Silver
+|<font color="green">Токсины</font>
+|Используется для сохранения трупов. Формальдегид сам по себе, довольно слабый токсин. Он содержит незначительные количества гистамина, который очень редко превращается в гистамин.
+|0.5 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Fentanyl}}Fentanyl
+|
+{{RecursiveChem/Fentanyl}}
+|<font color="green">Токсины</font>, <font color="pink">Мозг</font>
+|Фентанил подавляет работу мозга и вызывает токсическое повреждение, прежде чем в конечном итоге вывести жертву из строя.
+|0.5 units за тик
+|-
+! style="background-color:#FFEE88;" |{{anchor||Cyanide}}Cyanide <span style="color:#00B4FF;background-color:white">▮</span>
+|
+1 part Oil<br>1 part Ammonia<br>1 part Oxygen
+|<font color="green">Токсины</font>
+| Печально известный яд, известный своим использованием для убийств. Наносит небольшой урон токсинами с небольшим шансом нанести кислородный урон или оглушить.
+|0.125 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Itching Powder}}Itching Powder
+|
+{{RecursiveChem/Itching Powder}}
+|<font color="red">Травмы</font>
+|Порошок, вызывающий зуд при попадании на кожу. Вызывает у жертвы зуд и имеет очень низкую вероятность распада на гистамин.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{anchor|Sulphuric Acid}}Sulphuric Acid <span style="color:#COLORNUMBER;background-color:white">▮</span>
+|{{RecursiveChem/Sulphuric Acid}}
+|<font color="green">Токсины</font>, Кислота
+|Серная кислота - это умеренно коррозийное химическое вещество, используемое в производстве многих химических веществ.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{anchor|Fluorosulfuric Acid}}Fluorosulfuric Acid <span style="color:#5050FF;background-color:white">▮</span>
+|{{RecursiveChem/Fluorosulfuric Acid}}
+|<font color="green">Токсины</font>, Кислота
+|Фторсерная кислота - чрезвычайно коррозийное химическое вещество.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{anchor|Nitric Acid}}Nitric Acid <span style="color:#5050FF;background-color:white">▮</span>
+|{{RecursiveChem/Nitric Acid}}
+|<font color="green">Токсины</font>, Кислота
+|Азотная кислота - чрезвычайно коррозийное химическое вещество, которое бурно реагирует с живыми органическими тканями.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Sulfonal}}Sulfonal
+|
+{{RecursiveChem/Sulfonal}}
+|<font color="green">Токсины</font>, Потеря сознания
+|Скрытный яд, который наносит незначительный урон токсинами, и в конечном итоге усыпляет цель.
+|0.125 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Lipolicide}}Lipolicide
+|
+{{RecursiveChem/Lipolicide}}
+|Питательность
+|Сильнодействующий токсин который уничтожает жировые клетки, значительно снижая массу тела за короткое время. Смертельно опасен для тех, у кого в организме нет питательных веществ.
+|0.5 units за тик
+|-
+! style="background-color:#FFEE88;" |{{anchor|Unstable Mutagen}}Unstable Mutagen <span style="color:#00FF00;background-color:white">▮</span>
+|{{RecursiveChem/Unstable Mutagen}}
+|Мутации
+|Может вызвать непредсказуемые мутации. Храните в недоступном для детей месте.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Lexorin}}Lexorin
+|
+{{RecursiveChem/Lexorin}}
+|<font color="blue">Удушья</font>
+|Сильнодействующий яд используемый для остановки дыхания.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Chloral Hydrate}}Chloral Hydrate
+|1 part Ethanol
+3 parts Chlorine
+
+1 part Water
+|<font color="green">Токсины</font>, Потеря сознания
+|Мощное седативное средство, которое вызывает спутанность сознания и сонливость, прежде чем погрузить свою цель в сон.
+|
+1.5 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Mute Toxin}}Mute Toxin
+|2 parts Uranium
+1 part Water
+
+1 part Carbon
+|...
+|...
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Zombie Powder}}Zombie Powder
+|
+{{RecursiveChem/Zombie Powder}}
+|Другое
+|Сильный нейротоксин, который приводит субъекта до состояния, подобного смерти.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Ghoul Powder}}Ghoul Powder
+|
+{{RecursiveChem/Ghoul Powder}}
+|Другое
+|Сильный нейротоксин, который замедляет метаболизм до состояния, подобного смерти, сохраняя при этом полную активность пациента. При слишком длительном использовании вызывает накопление токсинов.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Mindbreaker Toxin}}Mindbreaker Toxin
+|
+{{RecursiveChem/Mindbreaker Toxin}}
+|Галлюцинации
+|Сильнодействующий галлюциноген. Не стоит с этим связываться. Для некоторых психически больных, это нейтрализует их симптомы и возвращает их к реальности.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Heparin}}Heparin
+|
+{{RecursiveChem/Heparin}}
+|Кровотечение
+|Сильный антикоагулянт. Жертвы будут бесконтрольно истекать кровью и страдать от увеличивающихся кровотечений.
+|0.2 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Rotatium}}Rotatium
+|
+{{RecursiveChem/Rotatium}}
+|Галлюцинации
+|Постоянно бурлящая жидкость необычного цвета. У потребителя обостряется чувство направления и зрительно-моторная координация.
+|0.6 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Anacea}}Anacea
+|
+{{RecursiveChem/Anacea}}
+|<font color="green">Токсины</font>
+|Токсин быстро выводящий медикаменты, и очень медленно метаболизирующийся.
+|0.08 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Mime's Bane}}Mime's Bane
+|
+{{RecursiveChem/Mime's Bane}}
+|Другое
+|Нелетальный нейротоксин, который нарушает способность жертвы жестикулировать.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Bone Hurting Juice}}Bone Hurting Juice
+|
+{{RecursiveChem/Bone Hurting Juice}}
+|Стамина, Кости
+|Странная субстанция, похожая на воду, пить ее странно заманчиво. Ой-ой-ой.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Initropidril}}Initropidril
+|Аплинк
+|Остановка сердца
+|Со временем наносит сильный урон токсинами и с вероятностью 25% может привести к одному из следующих действий: оглушению, потере дыхания и кислородному голоданию или остановке сердца. В крайнем случае, боритесь с последними с помощью ударов электрическим током от решеток и дверей или более надежного метода - дефибриллятора.
+|0.2 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Tirizene}}Tirizene
+|Слипипен, Взломанный раздатчик содовой, Смертоягоды, Волчья ягода/
+|Выносливость
+|Со временем наносит урон выносливости, замедляя и вызывая обмороки в больших дозах, но в остальном безвреден.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Tiring Solution}}Tiring Solution
+|Киборги-миротворцы
+|Выносливость
+|Со временем наносит урон выносливости, замедляет передвиженик. Урон выносливости не может быть выше 50.
+|0.6 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Polonium}}Polonium
+|Аплинк
+|<font color="cfd51e">Радиации</font>
+|Со временем вызывает значительные повреждения от радиации. Метаболизируется очень медленно.
+|0.1 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Pancuronium}}Pancuronium
+|Аплинк
+|Паралич и <font color="blue">Удушье</font>
+|Парализует вас через 10 секунд, с 20% шансов вызвать потерю дыхания на 4 секунды.
+|
+0.1 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Sodium Thiopental}}Sodium Thiopental
+|Аплинк
+|Потеря сознания и выносливость
+|Потеря сознания через 11 секунд и уничтожение выносливости.
+|0.3 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Amanitin}}Amanitin
+|Аплинк
+|
+Отложенный урон <font color="green">Токсинами</font>
+|В последнюю секунду нахождения в организме, наносит урон токсинами, основанный на том, как долго яд находился в организме. Большие дозы означают более длительный период ожидания, но и больший урон.
+|0.2 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Coniine}}Coniine
+|Аплинк
+|<font color="green">Токсины</font> and <font color="blue">Удушье</font>
+|1.75 урона токсинами и 5 потери дыхания за тик. КРАЙНЕ медленная метаболизация.
+|0.024 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Curare}}Curare
+|Аплинк
+|Потеря сознания, <font color="blue">Удушье</font>, <font color="green">Токсины</font>
+|Каждую секунду выделяет 1u токсина и 1u кислорода и вырубает вас через 11 секунд. Метаболизируется медленно.
+|0.05 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Histamine}}Histamine
+|
+{{RecursiveChem/Histamine}}
+|<font color="red">Травмы</font>, <font color="green">Токсины</font>, <font color="blue">Удушье</font>, Зрение
+|Имеет шанс каждый тик нанести небольшое количество грубого урона, или замылить зрение. При передозировке(30u) он также
+будет наносить значительное количество грубого урона, токсинов и гипоксии за каждый тик.
+|0.1 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Venom}}Venom
+|Аплинк, пауки
+|<font color="red">Травмы</font>, <font color="green">Токсины</font>
+|Наносит урон токсинами и травмами, в зависимости от количества яда в организме. Имеет шанс превратиться в 5-10 единиц гистамина.
+|0.1 units за тик
+|-
+! style="background-color:#FFEE88;" |{{anchor|Carpotoxin}}Carpotoxin <span style="color:#003333;background-color:white">▮</span>
+|{{RecursiveChem/Carpotoxin}}
+|<font color="green">Токсины</font>
+|Наносит постоянный урон от токсинов с течением времени.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Mint Toxin}}Mint Toxin
+|Измельчить мяту
+|Условная смерть
+|Моментально взрывает '''толстых''' людей при попатании в организм.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{anchor|Slime Jelly}} Slime Jelly <span stylte="color:#801E28;background-color:white">▮</span>
+|
+{{RecursiveChem/Slime Jelly}}
+|<font color="green">Токсины</font>
+|Со временем лечит грубый урон, но случайным образом наносит 20-60 ед. урона от токсинов, что делает его полезным для слаймолюдей, у которых токсины имеют обратный эффект урон/лечение.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Weed Killer}}Weed Killer
+|
+{{RecursiveChem/Weed Killer}}
+|<font color="green">Токсины</font>
+|Уничтожает сорняки, нанонит небольшой урон токсинами гуманоидам.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Pest Killer}}Pest Killer
+|1 part Toxin
+4 parts Ethanol
+|<font color="green">Токсины</font>
+|Уничтожает сорняки в ботаническиз лотказ, нанонит небольшой урон токсинами гуманоидам. Наносит большой урон токсинами flyperson.
+|0.4 units за тик.
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Plant-B-Gone}}Plant-B-Gone
+|1 part Toxin
+4 parts Water
+|<font color="green">Токсины</font>
+|Мощный гербицид, который полезен для замены ограниченного запаса, с которого ботаник начинает свою работу. Нанонит небольшой урон токсинами гуманоидам. Наносит большой урон токсинами podperson.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Bungotoxin}}Bungotoxin
+|Измельчить Бунго
+|<font color="green">Токсины</font>
+|Наносит сильный урон сердцу, а также вызывает головокружение
+|0.2 units за тик
+|}

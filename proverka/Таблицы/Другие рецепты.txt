@@ -1,0 +1,432 @@
+==Другие рецепты==
+Ниже представлены химикаты, которые, как правило, не имеют медицинского применения.
+{| class="wikitable sortable"
+! scope="col" style="width:150px; background-color:#FFDD66;" |Название
+! class="unsortable" scope="col" style="width:150px; background-color:#FFDD66;" |Формула
+! class="unsortable" scope="col" style="background-color:#FFDD66;" |Описание
+! scope="col" style="width:100px; background-color:#FFDD66;" |Скорость метаболизации
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Ice}}Ice
+|{{RecursiveChem/Ice}}
+|Охлаждает.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Baldium}}Baldium
+|
+{{RecursiveChem/Baldium}}
+|При нанесении на персонажа его волосы выпадут. (В результате получается 1u, вместо 3u)
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Barber's Aid}}Barber's Aid
+|
+{{RecursiveChem/Barber's Aid}}
+|При нанесении на персонажа сменит вид причёски. (В результате получается 5u, вместо 3u)
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Bluespace Dust}}Bluespace Dust
+|Раздробить блюспейс кристалл
+|Время от времени телепортирует случайным образом на короткую дистанцию. Если вылить на кого-нибудь, телепортирует его на 1 тайл за каждые 5 единиц препарата.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|BZ Metabolites}}BZ Metabolites
+|Вдохнуть BZ газ
+|Вызывает галлюцинации. А также медленно опустошает запас химикатов генокрада и не позволяет ему общаться по средствам канала улья.
+|0.08 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Concentrated Barber's Aid}}Concentrated Barber's Aid
+|
+{{RecursiveChem/Concentrated Barber's Aid}}
+|Если распылить или вылить на персонажа, то он отрастит очень длинные волосы. Ничего не делает при употреблении внутрь.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;"|{{Anchor|Candle}}Candle
+|{{RecursiveChem/Candle}}
+|CСоздает красную свечу для декоративных целей или ритуалов. Не работает внутри организма.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Carbon Dioxide}}Carbon Dioxide
+|{{RecursiveChem/Carbon Dioxide}}
+|Создает CO2 в жидкой форме. Если разлить жидкость, то она мгновенно превратится в газ.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{anchor|Carpet}}Carpet <span style="color:#771100;background-color:white">▮</span>
+|
+{{RecursiveChem/Carpet}}
+|Создает на полу ковёр. Лучше всего использовать в генераторе [[#Smoke|дыма]], гранатах или спрее. Ингредиент в [[#Barber's Aid|Barber's Aid]].
+Может быть смешан в соотношении 1 к 1 с другими химикатами для создания ковров разного типа:<br>
+<div class="toccolours mw-collapsible mw-collapsed">
+Нажмите, чтобы увидеть список рецептов.
+<div class="mw-collapsible-content">
+{{Tooltip|[[#Carpet|Carpet]]|{{RecursiveChem/Carpet}}}} + {{Tooltip|[[#Oil|Oil]]|{{RecursiveChem/Oil}}}} = Black Carpet (черный)<br>
+{{Tooltip|[[#Carpet|Carpet]]|{{RecursiveChem/Carpet}}}} + {{Tooltip|[[#Cryostylane|Cryostylane]]|{{RecursiveChem/Cryostylane}}}} = Blue Carpet (синий)<br>
+{{Tooltip|[[#Carpet|Carpet]]|{{RecursiveChem/Carpet}}}} + {{Tooltip|[[#Cyanide|Cyanide]]|{{RecursiveChem/Cyanide}}}} = Cyan Carpet (голубой)<br>
+{{Tooltip|[[#Carpet|Carpet]]|{{RecursiveChem/Carpet}}}} + [[Guide_to_food_and_drinks#Green_Beer|Green Beer]] = Green Carpet (зеленый)<br>
+{{Tooltip|[[#Carpet|Carpet]]|{{RecursiveChem/Carpet}}}} + [[Guide_to_food_and_drinks#Orange_Juice|Orange Juice]] = Orange Carpet (оранжевый)<br>
+{{Tooltip|[[#Carpet|Carpet]]|{{RecursiveChem/Carpet}}}} + {{Tooltip|[[#Regenerative_Jelly|Regenerative Jelly]]|{{RecursiveChem/Regenerative_Jelly}}}} = Purple Carpet (пурпурный)<br>
+{{Tooltip|[[#Carpet|Carpet]]|{{RecursiveChem/Carpet}}}} + [[#Liquid_Gibs|Liquid Gibs]] = Red Carpet (красный)<br><br>
+Некоторые из этих химикатов могут быть дополнительно переработаны:<br>
+Black Carpet + {{Tooltip|[[#Royal_Bee_Jelly|Royal Bee Jelly]]|{{RecursiveChem/Royal_Bee_Jelly}}}} = Royal Black Carpet (королевский черный)<br>
+Blue Carpet + {{Tooltip|[[#Royal_Bee_Jelly|Royal Bee Jelly]]|{{RecursiveChem/Royal_Bee_Jelly}}}} = Royal Blue Carpet (королевский синий)
+</div>
+</div>
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Cement}}Cement
+|{{RecursiveChem/Cement}}
+|Нужен для создания [[#Concrete|Concrete]]. Вызывает урон мозгу.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Concrete}}Concrete
+|
+{{RecursiveChem/Concrete}}
+|Изготавливается путем погружения песка в [[#Cement|Cement]]. Можно залить в решетки для создания бетонных стен, а также заливать на решетчатый пол для создания бетонных полов.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Hexement}}Hexement
+|
+{{RecursiveChem/Hexement}}
+|Нужен для создания [[#Hexacrete|Hexacrete]].
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Hexacrete}}Hexacrete
+|
+{{RecursiveChem/Hexacrete}}
+|Изготавливается путем погружения песка в [[#Hexement|Hexement]]. Можно залить в решетки для создания железобетонных стен, а также заливать на решетчатый пол для создания железобетонных полов.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Asphalt}}Asphalt
+|{{RecursiveChem/Asphalt}}
+|Можно вылить на решетчатый пол для создания Asphalt.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Pavement}}Pavement
+|
+{{RecursiveChem/Pavement}}
+|Можно вылить на решетчатый пол для создания  Pavement.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Colorful Reagent}}Colorful Reagent
+|{{RecursiveChem/Colorful Reagent}}
+|Случайным образом окрашивает пол, предметы и людей. Держите подальше от клоуна.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Condensed Capsaicin}}Condensed Capsaicin
+|{{RecursiveChem/Condensed Capsaicin}}
+|Также известный как "перечный спрей". Химикат, используемый в целях самообороны и полицией. При попадании на цель эффект зависит от того, защищены ли её рот и глаза. Если цель не защищена, то будет сбита на 3 секунды, ослеплена на 6 секунд, получит расплывчатое зрение на 10 секунд, будет в смятении или замедленна на 10 секунд.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Life}}Life
+|
+{{RecursiveChem/Life}}
+|Создает одну или несколько агрессивных форм жизни. (В результате получается 1u, вместо 3u)
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Life (Friendly)}}Life (Дружелюбная)
+|
+{{RecursiveChem/Life (Friendly)}}
+|Создает одну или несколько дружественных форм жизни. Хорошо подходит для тех случаев, когда вы хотите оказаться в окружении пушистых корги или когда в карго есть награды за шкуры корги. (В результате получается 1u, вместо 3u)
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Firefighting Foam}}Firefighting Foam <span style="color:#A6FAFF;background-color:white">▮</span>
+|
+{{RecursiveChem/Firefighting Foam}}
+|Если распылить или развеять при помощи дыма, создает не скользкую пену, которая тушит огонь, горящих созданий, а также тушит и удаляет горящую плазму из воздуха, и конденсирует её на пол.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Cellulose Fibers}}Cellulose Fibers
+|{{RecursiveChem/Cellulose Fibers}}
+|Кристаллическая полидекстроза. Используется для производства [[#Medicated Suture|Medicated Suture]].
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Cellulose Carbonization}}Cellulose Carbonization
+|{{RecursiveChem/Cellulose Carbonization}}
+|Превращает целлюлозу в углерод.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Corgium}}Corgium
+|
+{{RecursiveChem/Corgium}}
+|Создает личного корги!
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Color Powder}}Color Powder
+|Радужный цветок
+|Окрашивает пол, предметы и людей. Существует несколько реагентов, определяющих цвет, например, Mundane Powder, Invisible Powder and Blue Powder. В игре нет просто реагента под названием "color powder".
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Crayon Powder}}Crayon Powder
+|Перемолоть мелок
+|Различные цветные порошки, которые работают тем же образом, за исключением того, что не могут окрашивать мобов.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{anchor|Cryptobiolin}}Cryptobiolin <span style="color:#ADB5DB;background-color:white">▮</span>
+|{{RecursiveChem/Cryptobiolin}}
+|Вызывает замешательство и головокружение. Ключевой ингредиент в изготовлении [[#Spaceacillin|Spaceacillin]].
+|0.6 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Drying Agent}}Drying Agent
+| 2 parts Stable Plasma
+1 part Ethanol
+
+1 part Sodium
+|Создает раствор, который если применить на галоши, заставляет их впитывать любую жидкость, если наступить на тайл с ней. (В результате получается 3u, вместо 4u)
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Foaming Agent}}Foaming Agent
+|1 part Lithium
+1 part Hydrogen
+|Используется в производстве [[#Metal Foam|Metal Foam]]. (В результате получается 1u, вместо 2u)
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Glitter}}Glitter
+|Приз из аркадных машин
+|Белые, синие и розовые блестки - три разных вещества, которые при соприкосновении с полом превращаются в ложные газы. Используются для подшучивания. Поверхности могут быть очищены при помощи стандартных чистящих инструментов.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Glycerol}}Glycerol
+|
+{{RecursiveChem/Glycerol}}
+|Для создание требуется перемолотая кукуруза. Нужен для создания [[#Nitroglycerin|Nitroglycerin]]. Вещество столь же скользкое, как вода. (В результате получается 1u, вместо 4u)
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Gravitum}}Gravitum
+|
+{{RecursiveChem/Gravitum}}
+|Пока вещество присутствует в организме, оно делает вас абсолютно невесомым. Можно распылить на предметы, чтобы также сделать их невесомыми на 1 минуту.
+|0.04 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Growth Serum}}Growth Serum
+|Мухомор
+|Пока вещество присутствует в организме, оно делает вас больше. Чем больше вы употребите, тем больше станете. Максимальный размер можно достигнуть, имея в организме 200u вещества.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Hollow Water}}Hollow Water
+|Извлечение из гейзера с помощью жидкостного насоса или с помощью бикера.
+|То же самое, что и простая вода, но превращает обычную воду в святую при смешивании.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Quantum Hair Dye}}Quantum Hair Dye
+|
+{{RecursiveChem/Quantum Hair Dye}}
+| Если распылить или разлить на персонажа, меняет цвет волос. (В результате получается 5u, вместо 3u)
+
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Laughter}}Laughter
+|1 part Sugar
+1 part Banana Juice
+|Заставляет вас смеятся. (В результате получается 10u, вместо 2u)
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Meat Product}}Meat Product
+| 10 parts Liquid Gibs
+10 parts Nutriment
+
+10 parts Carbon
+|Создает кусок искусственно созданного мяса. Не производится внутри тела.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Metal Foam}}Metal Foam
+|
+{{RecursiveChem/Metal Foam}}
+|Создает легкие металлические стены. И хотя их довольно легко разрушить, они полезны для заделывания дыр в обшивке или для блокирования турелей.
+Может быть изготовлена из железа или алюминия (влияет лишь на вешний вид). Пена может переносить прочие вещества. Не взаимодействует внутри тела.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Metalgen}}Metalgen
+|Меняется каждые 3 дня.
+Рецепт находится в руинах.
+|Очень редкий, интересный препарат, которым частенько злоупотребляют. Если его связать с каким-либо материалом, то при соприкосновении с предметами будет менять их материал на тот, с которым был связан. Реакции для связывания смотрите ниже. Не действует на персонажей. Делает очень уютные комнаты, превращая все предметы в золото или позволяет убить весь экипаж на шаттле, превратив кресла и пол в плазму или уран. Может быть использован для создания неисчерпаемого запаса ресурсов.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Metalgen Imprint}}Metalgen Imprint
+|
+{{RecursiveChem/Metalgen Imprint}}
+|Связывает [[#Metalgen|Metalgen]] с материалом, который был использован. Оставшийся metalgel будет иметь то же название, что и раньше, но будет менять материал предметов и структур на тот, с которым был связан, если он коснется тех. Имейте в виду, что некоторые материалы, например, алмазы, не имеют жидкой формы. Silicon (кремний) будет превращать всё в стекло.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Nanomachines}}Nanomachines
+|Робобургер из синего экстракта слайма
+|Вызывает болезнь, которая превращает персонажа в киборга с законами Азимова. Болезнь можено вылечить, если ввести медь.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Smart Foaming Agent}}Smart Foaming Agent
+|
+{{RecursiveChem/Smart Foaming Agent}}
+|Используется в создании [[#Smart Metal Foam|Smart Metal Foam]]. (В результате получается 3u, вместо 5u)
+
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Smart Metal Foam}}Smart Metal Foam
+|
+{{RecursiveChem/Smart Metal Foam}}
+|"Умная" версия металлической пены, которая взаимодействует с тайлом, соседствующим с космосом. Как правило не запирает персонажей и не блокирует проходы. Пена может переносить другие реагенты. Не взаимодействует ни с чем в организме.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{anchor|Nitrous Oxide}}Nitrous Oxide <span style="color:#808080;background-color:white">▮</span>
+|{{RecursiveChem/Nitrous Oxide}}
+|Создает N2O в жидкой форме. Если разогреть до 575К, разбрасывает всё вокруг, а затем взрывается. Вызывает сонливость, если разбрызгать на кого-нибудь. Находясь внутри организма вызывает анемию (потерю крови), смятение и потерю дыхания. Если разлить, высвобождает газ N2O в атмосферу. Если во время реакции чистота упадет ниже 30%, препарат начнет испаряться.
+|0.6 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Silver Solidification}}Silver Solidification
+| 20 parts Silver
+10 parts Carbon
+
+5 parts Frost Oil
+
+Температура 630K
+|Превращает большое количество жидкого серебра в твердое. Не работает в организме.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Gold Solidification}}Gold Solidification
+|20 parts Gold
+1 part Iron
+
+5 parts Frost Oil
+|Превращает большое количество жидкого золота в твердое. Не работает в организме.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Plasma Solidification}}Plasma Solidification
+|20 parts Plasma
+5 parts Iron
+
+5 parts Frost Oil
+|Превращает большое количество жидкой плазмы в твердую. Не работает в организме.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Uranium Solidification}}Uranium Solidification
+| 20 parts Uranium
+1 part Potassium
+
+5 parts Frost Oil
+|Превращает большое количество жидкого урана в твердое. Не работает в организме.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Titanium Solidification}}Titanium Solidification
+|20 parts Titanium
+1 part Iron
+
+5 parts Frost Oil
+|Превращает большое количество жидкого титана в твердое. Не работает в организме.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Plastic Sheets}}Plastic Sheets
+|
+{{RecursiveChem/Plastic Sheets}}
+|Создает листы пластика в соотношении 10 единиц препарата на 1 лист.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Romerol}}Romerol
+|Аплинк
+|Вызывает зомби-опухоль в головном мозге (festering ooze). Когда жертва умирает, она возрождает в качестве зомби, который может заражать других при нанесении урона. Препарат может быть применен непосредственно к трупу, что позволяет создавать зомби прямо в морге. Можно применять как прикосновением, так и проглатыванием. Опухоль можно удалить при помощи хирургической операции.
+|Моментально
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Royal Bee Jelly}}Royal Bee Jelly
+|
+{{RecursiveChem/Royal Bee Jelly}}
+|Заставляет пчеломатку (Queen Bee) разделиться на две при введении. (В результате получается 5u, вместо 50u)
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Serotrotium}}Serotrotium
+|Странные семяна
+|Заставляет вас беспорядочно дергаться, пускать слюни, стонать и задыхаться
+|0.1 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Soap}}Soap
+|
+{{RecursiveChem/Soap}}
+|Создает кусок мыла, который очищает на 10% быстрее, чем тот, что вы получаете на станции. Не реагирует внутри тела.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Space Cleaner}}Space Cleaner
+|
+{{RecursiveChem/Space Cleaner}}
+|Позволяет очистить практически любые поверхности от большинства видов загрязнений. Уборщик всегда будет рад пополнению. В отличие от чистящих инструментов, это средство не удаляет отпечатки пальцев.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Spray Tan}}Spray Tan
+|
+{{RecursiveChem/Spray Tan}}
+|Делает кожу более темной, если распылить или нанести пластырем. Если вы проглотите более 10 ед., Вы станете загорелыми, с колючими волосами, будете беспорядочно демонстрировать мышцы и извергать старый мем.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Space Lube}}Space Lube
+|1 part Oxygen
+1 part Silicon
+
+1 part Water
+|Space Lube - это высокоэффективная смазка. Если разбрызгать ее на напольные плитки, они станут очень скользкими на очень долгое время. Единственный способ удалить ее - снять/заменить напольную плитку или подождать. (Результат - 4u вместо 3u)
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Sterilizine}}Sterilizine
+|
+{{RecursiveChem/Sterilizine}}
+|Если нанести на поверхность или распылить, ускоряет хирургические манипуляции на 20%. Полезно для проведения хирургический операций в неидеальных условиях.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Synthmeat}}Synthmeat
+|
+{{RecursiveChem/Synthmeat}}
+|Создает кусок синтетического мяса.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Organic Slurry}}Organic Slurry
+|Окунуть мёртвую мышь в, как минимум, 3u Welding Fuel
+|Смесь различных цветных жидкостей. Работает только при употреблении внутрь. Если ввести инъекцией, превращается в сварочное топливо. Случайном образом вызывает рвоту, а позже ненадолго оглушает. Быстро выводится из организма вместе с рвотой и оглушением. (В результате получается 4u, вместо 3u)
+
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Pax}}Pax
+|
+{{RecursiveChem/Pax}}
+|Пацифицирует цель не позволяя той наносить прямой вред, использовать определенные виды оружия и позволяет использовать лишь пассивный и аргрессивный захват. Оружие, которое не наносит урон, например, disablers, может быть использовано.
+|0.1 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Synthpax}}Synthpax
+|Киборги-миротворцы
+|То же самое, что [[#Pax|Pax]], но усваивается много быстрее. Может быть использовано киборгами с модулем миротворца.
+|0.6 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Dizzying Solution}}Dizzying Solution
+|Киборги-миротворцы
+|Вызывает головокружение и замешательство. Может быть использовано киборгами с модулем миротворца.
+|0.6 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Tranquility}}Tranquility
+|Мясо Гондолы
+|Вызывает вирус, который создает Pax внутри больного и медленно превращает того в Гондолу. Может быть вылечен при помощи [[#Condensed Capsaicin|Condensed Capsaicin]].
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Liquid Electricity}}Liquid Electricity
+|Кровь Эфиреалов, некоторая еда
+|Время от времени шокирует не-эльзуосев. пока находится в организме. Изоляционные перчатки не спасают от действия препарата.
+|0.4 units за тик
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Monkey Powder}}Monkey Powder
+|2 parts Nutriment
+1 part Banana Juice
+
+1 part Liquid Gibs
+|Добавьте 1 единицу воды в 30 единиц препарата, чтобы создать мартышку. Разрывает мартышек, если другая мартышка появится внутри первой. (В результате получается 3u, вместо 4u).
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Electrolysis}}Electrolysis
+|
+{{RecursiveChem/Electrolysis}}
+|Превращает входящие ингредиенты в 3u Hydrogen и 1.5u Oxygen.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Scream}}Scream
+|
+{{RecursiveChem/Scream}}
+|При смешивании расходует входящие ингредиенты и заставляй раствор кричать. Крик тем сильнее, чем больше реакция.
+|N/A
+|-
+! style="background-color:#FFEE88;" |{{Anchor|Slime Extractification}}Slime Extractification
+| 30 parts Slime Jelly
+5 parts Frost Oil
+
+5 parts Plasma
+|Смесь конденсируется в экстракт серого слайма.
+|N/A
+|}

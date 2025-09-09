@@ -1,0 +1,2850 @@
+{
+  "helbital": {
+    "name": "helbital",
+    "results": "/datum/reagent/medicine/c2/helbital = 3",
+    "required_reagents": "/datum/reagent/consumable/sugar = 1, /datum/reagent/fluorine = 1, /datum/reagent/carbon = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\cat2_medicines.dm"
+  },
+  "libital": {
+    "name": "libital",
+    "results": "/datum/reagent/medicine/c2/libital = 3",
+    "required_reagents": "/datum/reagent/phenol = 1, /datum/reagent/oxygen = 1, /datum/reagent/nitrogen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\cat2_medicines.dm"
+  },
+  "probital": {
+    "name": "probital",
+    "results": "/datum/reagent/medicine/c2/probital = 4",
+    "required_reagents": "/datum/reagent/copper = 1, /datum/reagent/acetone = 2,  /datum/reagent/phosphorus = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\cat2_medicines.dm"
+  },
+  "lenturi": {
+    "name": "lenturi",
+    "results": "/datum/reagent/medicine/c2/lenturi = 5",
+    "required_reagents": "/datum/reagent/ammonia = 1, /datum/reagent/silver = 1, /datum/reagent/sulfur = 1, /datum/reagent/oxygen = 1, /datum/reagent/chlorine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\cat2_medicines.dm"
+  },
+  "aiuri": {
+    "name": "aiuri",
+    "results": "/datum/reagent/medicine/c2/aiuri = 4",
+    "required_reagents": "/datum/reagent/ammonia = 1, /datum/reagent/toxin/acid = 1, /datum/reagent/hydrogen = 2",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\cat2_medicines.dm"
+  },
+  "hercuri": {
+    "name": "hercuri",
+    "results": "/datum/reagent/medicine/c2/hercuri = 5",
+    "required_reagents": "/datum/reagent/cryostylane = 3, /datum/reagent/bromine = 1, /datum/reagent/lye = 1",
+    "required_catalysts": null,
+    "required_temp": "47",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\cat2_medicines.dm"
+  },
+  "convermol": {
+    "name": "convermol",
+    "results": "/datum/reagent/medicine/c2/convermol = 3",
+    "required_reagents": "/datum/reagent/hydrogen = 1, /datum/reagent/fluorine = 1, /datum/reagent/fuel/oil = 1",
+    "required_catalysts": null,
+    "required_temp": "370",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\cat2_medicines.dm"
+  },
+  "tirimol": {
+    "name": "tirimol",
+    "results": "/datum/reagent/medicine/c2/tirimol = 5",
+    "required_reagents": "/datum/reagent/nitrogen = 3, /datum/reagent/acetone = 2",
+    "required_catalysts": "/datum/reagent/toxin/acid = 1",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\cat2_medicines.dm"
+  },
+  "seiver": {
+    "name": "seiver",
+    "results": "/datum/reagent/medicine/c2/seiver = 3",
+    "required_reagents": "/datum/reagent/nitrogen = 1, /datum/reagent/potassium = 1, /datum/reagent/aluminium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\cat2_medicines.dm"
+  },
+  "multiver": {
+    "name": "multiver",
+    "results": "/datum/reagent/medicine/c2/multiver = 2",
+    "required_reagents": "/datum/reagent/ash = 1, /datum/reagent/consumable/sodiumchloride = 1",
+    "required_catalysts": null,
+    "required_temp": "380",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\cat2_medicines.dm"
+  },
+  "syriniver": {
+    "name": "syriniver",
+    "results": "/datum/reagent/medicine/c2/syriniver = 5",
+    "required_reagents": "/datum/reagent/sulfur = 1, /datum/reagent/fluorine = 1, /datum/reagent/toxin = 1, /datum/reagent/nitrous_oxide = 2",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\cat2_medicines.dm"
+  },
+  "penthrite": {
+    "name": "penthrite",
+    "results": "/datum/reagent/medicine/c2/penthrite = 3",
+    "required_reagents": "/datum/reagent/pentaerythritol = 1, /datum/reagent/acetone = 1,  /datum/reagent/toxin/acid/nitracid = 1 , /datum/reagent/wittel = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\cat2_medicines.dm"
+  },
+  "space_drugs": {
+    "name": "space_drugs",
+    "results": "/datum/reagent/drug/space_drugs = 3",
+    "required_reagents": "/datum/reagent/mercury = 1, /datum/reagent/consumable/sugar = 1, /datum/reagent/lithium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\drugs.dm"
+  },
+  "crank": {
+    "name": "crank",
+    "results": "/datum/reagent/drug/crank = 5",
+    "required_reagents": "/datum/reagent/medicine/diphenhydramine = 1, /datum/reagent/ammonia = 1, /datum/reagent/lithium = 1, /datum/reagent/toxin/acid = 1, /datum/reagent/fuel = 1",
+    "required_catalysts": null,
+    "required_temp": "390",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\drugs.dm"
+  },
+  "methamphetamine": {
+    "name": "methamphetamine",
+    "results": "/datum/reagent/drug/methamphetamine = 4",
+    "required_reagents": "/datum/reagent/medicine/ephedrine = 1, /datum/reagent/iodine = 1, /datum/reagent/phosphorus = 1, /datum/reagent/hydrogen = 1",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\drugs.dm"
+  },
+  "mammoth": {
+    "name": "mammoth",
+    "results": "/datum/reagent/drug/mammoth = 7",
+    "required_reagents": "/datum/reagent/toxin/bad_food = 1, /datum/reagent/saltpetre = 1, /datum/reagent/consumable/nutriment = 1, /datum/reagent/space_cleaner = 1, /datum/reagent/consumable/enzyme = 1, /datum/reagent/consumable/tea = 1, /datum/reagent/mercury = 1",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\drugs.dm"
+  },
+  "aranesp": {
+    "name": "aranesp",
+    "results": "/datum/reagent/drug/aranesp = 3",
+    "required_reagents": "/datum/reagent/medicine/epinephrine = 1, /datum/reagent/medicine/atropine = 1, /datum/reagent/medicine/morphine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\drugs.dm"
+  },
+  "happiness": {
+    "name": "happiness",
+    "results": "/datum/reagent/drug/happiness = 4",
+    "required_reagents": "/datum/reagent/nitrous_oxide = 2, /datum/reagent/medicine/epinephrine = 1, /datum/reagent/consumable/ethanol = 1",
+    "required_catalysts": "/datum/reagent/toxin/plasma = 5",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\drugs.dm"
+  },
+  "pumpup": {
+    "name": "pumpup",
+    "results": "/datum/reagent/drug/pumpup = 5",
+    "required_reagents": "/datum/reagent/medicine/epinephrine = 2, /datum/reagent/consumable/coffee = 5",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\drugs.dm"
+  },
+  "finobranc": {
+    "name": "finobranc",
+    "results": "/datum/reagent/drug/finobranc = 4",
+    "required_reagents": "/datum/reagent/consumable/ethanol = 1, /datum/reagent/acetone = 1, /datum/reagent/medicine/mannitol = 1, /datum/reagent/phenol = 1, /datum/reagent/toxin/acid = 1",
+    "required_catalysts": null,
+    "required_temp": "290",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\drugs.dm"
+  },
+  "shoalmix": {
+    "name": "shoalmix",
+    "results": "/datum/reagent/drug/combat_drug = 4",
+    "required_reagents": "/datum/reagent/consumable/ethanol/vimukti = 1, /datum/reagent/medicine/dimorlin = 2, /datum/reagent/phenol = 1, /datum/reagent/medicine/atropine = 2",
+    "required_catalysts": "/datum/reagent/stable_plasma = 5",
+    "required_temp": "451",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\drugs.dm"
+  },
+  "alt_shoalmix": {
+    "name": "alt_shoalmix",
+    "results": "/datum/reagent/drug/combat_drug = 2",
+    "required_reagents": "/datum/reagent/consumable/vitfro = 4, /datum/reagent/medicine/dimorlin = 1, /datum/reagent/medicine/atropine = 1",
+    "required_catalysts": "/datum/reagent/toxin/plasma = 5",
+    "required_temp": "400",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\drugs.dm"
+  },
+  "stardrop": {
+    "name": "stardrop",
+    "results": "/datum/reagent/drug/stardrop = 5",
+    "required_reagents": "/datum/reagent/mercury = 1, /datum/reagent/acetone = 1, /datum/reagent/consumable/carrotjuice = 2",
+    "required_catalysts": "/datum/reagent/stable_plasma = 5",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\drugs.dm"
+  },
+  "starlight": {
+    "name": "starlight",
+    "results": "/datum/reagent/drug/stardrop/starlight = 1",
+    "required_reagents": "/datum/reagent/drug/stardrop = 1, /datum/reagent/phenol = 1, /datum/reagent/sulfur = 1",
+    "required_catalysts": "/datum/reagent/toxin/plasma = 5",
+    "required_temp": "150",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\drugs.dm"
+  },
+  "bicaridine": {
+    "name": "bicaridine",
+    "results": "/datum/reagent/medicine/bicaridine = 3",
+    "required_reagents": "/datum/reagent/carbon = 1, /datum/reagent/oxygen = 1, /datum/reagent/consumable/sugar = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "bicaridinep": {
+    "name": "bicaridinep",
+    "results": "/datum/reagent/medicine/bicaridinep = 3",
+    "required_reagents": "/datum/reagent/medicine/bicaridine = 1, /datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/sodiumchloride = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "kelotane": {
+    "name": "kelotane",
+    "results": "/datum/reagent/medicine/kelotane = 2",
+    "required_reagents": "/datum/reagent/carbon = 1, /datum/reagent/silicon = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "dermaline": {
+    "name": "dermaline",
+    "results": "/datum/reagent/medicine/dermaline = 3",
+    "required_reagents": "/datum/reagent/medicine/kelotane = 1, /datum/reagent/acetone = 1, /datum/reagent/phosphorus = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "antitoxin": {
+    "name": "antitoxin",
+    "results": "/datum/reagent/medicine/antitoxin = 3",
+    "required_reagents": "/datum/reagent/nitrogen = 1, /datum/reagent/silicon = 1, /datum/reagent/potassium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "dexalin": {
+    "name": "dexalin",
+    "results": "/datum/reagent/medicine/dexalin = 5",
+    "required_reagents": "/datum/reagent/oxygen = 5",
+    "required_catalysts": "/datum/reagent/toxin/plasma = 1",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "dexalinp": {
+    "name": "dexalinp",
+    "results": "/datum/reagent/medicine/dexalinp = 3",
+    "required_reagents": "/datum/reagent/medicine/dexalin = 1, /datum/reagent/carbon = 1, /datum/reagent/iron = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "tricordrazine": {
+    "name": "tricordrazine",
+    "results": "/datum/reagent/medicine/tricordrazine = 3",
+    "required_reagents": "/datum/reagent/medicine/bicaridine = 1, /datum/reagent/medicine/kelotane = 1, /datum/reagent/medicine/antitoxin = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "tetracordrazine": {
+    "name": "tetracordrazine",
+    "results": "/datum/reagent/medicine/tetracordrazine = 4",
+    "required_reagents": "/datum/reagent/medicine/tricordrazine = 3, /datum/reagent/medicine/dexalin = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "synthflesh": {
+    "name": "synthflesh",
+    "results": "/datum/reagent/medicine/synthflesh = 3",
+    "required_reagents": "/datum/reagent/blood = 1, /datum/reagent/carbon = 1, /datum/reagent/medicine/styptic_powder = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "styptic_powder": {
+    "name": "styptic_powder",
+    "results": "/datum/reagent/medicine/styptic_powder = 4",
+    "required_reagents": "/datum/reagent/aluminium = 1, /datum/reagent/hydrogen = 1, /datum/reagent/oxygen = 1, /datum/reagent/toxin/acid = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "corazone": {
+    "name": "corazone",
+    "results": "/datum/reagent/medicine/corazone = 3",
+    "required_reagents": "/datum/reagent/phenol = 2, /datum/reagent/lithium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "carthatoline": {
+    "name": "carthatoline",
+    "results": "/datum/reagent/medicine/carthatoline = 3",
+    "required_reagents": "/datum/reagent/medicine/antitoxin = 1, /datum/reagent/carbon = 2",
+    "required_catalysts": "/datum/reagent/toxin/plasma = 1",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "hepanephrodaxon": {
+    "name": "hepanephrodaxon",
+    "results": "/datum/reagent/medicine/hepanephrodaxon = 5",
+    "required_reagents": "/datum/reagent/medicine/carthatoline = 2, /datum/reagent/carbon = 2, /datum/reagent/lithium = 1",
+    "required_catalysts": "/datum/reagent/toxin/plasma = 5",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "system_cleaner": {
+    "name": "system_cleaner",
+    "results": "/datum/reagent/medicine/system_cleaner = 4",
+    "required_reagents": "/datum/reagent/consumable/ethanol = 1, /datum/reagent/chlorine = 1, /datum/reagent/phenol = 2, /datum/reagent/potassium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "liquid_solder": {
+    "name": "liquid_solder",
+    "results": "/datum/reagent/medicine/liquid_solder = 3",
+    "required_reagents": "/datum/reagent/consumable/ethanol = 1, /datum/reagent/copper = 1, /datum/reagent/silver = 1",
+    "required_catalysts": null,
+    "required_temp": "370",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "perfluorodecalin": {
+    "name": "perfluorodecalin",
+    "results": "/datum/reagent/medicine/perfluorodecalin = 3",
+    "required_reagents": "/datum/reagent/hydrogen = 1, /datum/reagent/fluorine = 1, /datum/reagent/fuel/oil = 1",
+    "required_catalysts": null,
+    "required_temp": "370",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "leporazine": {
+    "name": "leporazine",
+    "results": "/datum/reagent/medicine/leporazine = 2",
+    "required_reagents": "/datum/reagent/silicon = 1, /datum/reagent/copper = 1",
+    "required_catalysts": "/datum/reagent/toxin/plasma = 5",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "rezadone": {
+    "name": "rezadone",
+    "results": "/datum/reagent/medicine/rezadone = 3",
+    "required_reagents": "/datum/reagent/toxin/carpotoxin = 1, /datum/reagent/cryptobiolin = 1, /datum/reagent/copper = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "spaceacillin": {
+    "name": "spaceacillin",
+    "results": "/datum/reagent/medicine/spaceacillin = 2",
+    "required_reagents": "/datum/reagent/cryptobiolin = 1, /datum/reagent/medicine/epinephrine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "oculine": {
+    "name": "oculine",
+    "results": "/datum/reagent/medicine/oculine = 3",
+    "required_reagents": "/datum/reagent/medicine/charcoal = 1, /datum/reagent/carbon = 1, /datum/reagent/hydrogen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "inacusiate": {
+    "name": "inacusiate",
+    "results": "/datum/reagent/medicine/inacusiate = 2",
+    "required_reagents": "/datum/reagent/water = 1, /datum/reagent/carbon = 1, /datum/reagent/medicine/charcoal = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "synaptizine": {
+    "name": "synaptizine",
+    "results": "/datum/reagent/medicine/synaptizine = 3",
+    "required_reagents": "/datum/reagent/consumable/sugar = 1, /datum/reagent/lithium = 1, /datum/reagent/water = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "charcoal": {
+    "name": "charcoal",
+    "results": "/datum/reagent/medicine/charcoal = 2",
+    "required_reagents": "/datum/reagent/ash = 1, /datum/reagent/consumable/sodiumchloride = 1",
+    "required_catalysts": null,
+    "required_temp": "380",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "silver_sulfadiazine": {
+    "name": "silver_sulfadiazine",
+    "results": "/datum/reagent/medicine/silver_sulfadiazine = 5",
+    "required_reagents": "/datum/reagent/ammonia = 1, /datum/reagent/silver = 1, /datum/reagent/sulfur = 1, /datum/reagent/oxygen = 1, /datum/reagent/chlorine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "salglu_solution": {
+    "name": "salglu_solution",
+    "results": "/datum/reagent/medicine/salglu_solution = 3",
+    "required_reagents": "/datum/reagent/consumable/sodiumchloride = 1, /datum/reagent/water = 1, /datum/reagent/consumable/sugar = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "mine_salve": {
+    "name": "mine_salve",
+    "results": "/datum/reagent/medicine/mine_salve = 3",
+    "required_reagents": "/datum/reagent/fuel/oil = 1, /datum/reagent/water = 1, /datum/reagent/iron = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "mine_salve2": {
+    "name": "mine_salve2",
+    "results": "/datum/reagent/medicine/mine_salve = 15",
+    "required_reagents": "/datum/reagent/toxin/plasma = 5, /datum/reagent/iron = 5, /datum/reagent/consumable/sugar = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "instabitaluri": {
+    "name": "instabitaluri",
+    "results": "/datum/reagent/medicine/c2/instabitaluri = 3",
+    "required_reagents": "/datum/reagent/blood = 1, /datum/reagent/carbon = 1, /datum/reagent/medicine/c2/libital = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "calomel": {
+    "name": "calomel",
+    "results": "/datum/reagent/medicine/calomel = 2",
+    "required_reagents": "/datum/reagent/mercury = 1, /datum/reagent/chlorine = 1",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "potass_iodide": {
+    "name": "potass_iodide",
+    "results": "/datum/reagent/medicine/potass_iodide = 2",
+    "required_reagents": "/datum/reagent/potassium = 1, /datum/reagent/iodine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "pen_acid": {
+    "name": "pen_acid",
+    "results": "/datum/reagent/medicine/pen_acid = 6",
+    "required_reagents": "/datum/reagent/fuel = 1, /datum/reagent/chlorine = 1, /datum/reagent/ammonia = 1, /datum/reagent/toxin/formaldehyde = 1, /datum/reagent/sodium = 1, /datum/reagent/toxin/cyanide = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "sal_acid": {
+    "name": "sal_acid",
+    "results": "/datum/reagent/medicine/sal_acid = 5",
+    "required_reagents": "/datum/reagent/sodium = 1, /datum/reagent/phenol = 1, /datum/reagent/carbon = 1, /datum/reagent/oxygen = 1, /datum/reagent/toxin/acid = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "oxandrolone": {
+    "name": "oxandrolone",
+    "results": "/datum/reagent/medicine/oxandrolone = 6",
+    "required_reagents": "/datum/reagent/carbon = 3, /datum/reagent/phenol = 1, /datum/reagent/hydrogen = 1, /datum/reagent/oxygen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "salbutamol": {
+    "name": "salbutamol",
+    "results": "/datum/reagent/medicine/salbutamol = 5",
+    "required_reagents": "/datum/reagent/medicine/sal_acid = 1, /datum/reagent/lithium = 1, /datum/reagent/aluminium = 1, /datum/reagent/bromine = 1, /datum/reagent/ammonia = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "ephedrine": {
+    "name": "ephedrine",
+    "results": "/datum/reagent/medicine/ephedrine = 4",
+    "required_reagents": "/datum/reagent/consumable/sugar = 1, /datum/reagent/fuel/oil = 1, /datum/reagent/hydrogen = 1, /datum/reagent/diethylamine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "diphenhydramine": {
+    "name": "diphenhydramine",
+    "results": "/datum/reagent/medicine/diphenhydramine = 4",
+    "required_reagents": "/datum/reagent/fuel/oil = 1, /datum/reagent/carbon = 1, /datum/reagent/bromine = 1, /datum/reagent/diethylamine = 1, /datum/reagent/consumable/ethanol = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "atropine": {
+    "name": "atropine",
+    "results": "/datum/reagent/medicine/atropine = 5",
+    "required_reagents": "/datum/reagent/consumable/ethanol = 1, /datum/reagent/acetone = 1, /datum/reagent/diethylamine = 1, /datum/reagent/phenol = 1, /datum/reagent/toxin/acid = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "epinephrine": {
+    "name": "epinephrine",
+    "results": "/datum/reagent/medicine/epinephrine = 6",
+    "required_reagents": "/datum/reagent/phenol = 1, /datum/reagent/acetone = 1, /datum/reagent/diethylamine = 1, /datum/reagent/oxygen = 1, /datum/reagent/chlorine = 1, /datum/reagent/hydrogen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "strange_reagent": {
+    "name": "strange_reagent",
+    "results": "/datum/reagent/medicine/strange_reagent = 3",
+    "required_reagents": "/datum/reagent/medicine/omnizine = 1, /datum/reagent/water/holywater = 1, /datum/reagent/toxin/mutagen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "strange_reagent/alt": {
+    "name": "strange_reagent/alt",
+    "results": "/datum/reagent/medicine/strange_reagent = 2",
+    "required_reagents": "/datum/reagent/medicine/omnizine/protozine = 1, /datum/reagent/water/holywater = 1, /datum/reagent/toxin/mutagen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "mannitol": {
+    "name": "mannitol",
+    "results": "/datum/reagent/medicine/mannitol = 3",
+    "required_reagents": "/datum/reagent/consumable/sugar = 1, /datum/reagent/hydrogen = 1, /datum/reagent/water = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "neurine": {
+    "name": "neurine",
+    "results": "/datum/reagent/medicine/neurine = 3",
+    "required_reagents": "/datum/reagent/medicine/mannitol = 1, /datum/reagent/acetone = 1, /datum/reagent/oxygen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "mutadone": {
+    "name": "mutadone",
+    "results": "/datum/reagent/medicine/mutadone = 3",
+    "required_reagents": "/datum/reagent/toxin/mutagen = 1, /datum/reagent/acetone = 1, /datum/reagent/bromine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "antihol": {
+    "name": "antihol",
+    "results": "/datum/reagent/medicine/antihol = 3",
+    "required_reagents": "/datum/reagent/consumable/ethanol = 1, /datum/reagent/medicine/charcoal = 1, /datum/reagent/copper = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "cryoxadone": {
+    "name": "cryoxadone",
+    "results": "/datum/reagent/medicine/cryoxadone = 3",
+    "required_reagents": "/datum/reagent/stable_plasma = 1, /datum/reagent/acetone = 1, /datum/reagent/toxin/mutagen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "pyroxadone": {
+    "name": "pyroxadone",
+    "results": "/datum/reagent/medicine/pyroxadone = 2",
+    "required_reagents": "/datum/reagent/medicine/cryoxadone = 1, /datum/reagent/toxin/slimejelly = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "clonexadone": {
+    "name": "clonexadone",
+    "results": "/datum/reagent/medicine/clonexadone = 2",
+    "required_reagents": "/datum/reagent/medicine/cryoxadone = 1, /datum/reagent/sodium = 1",
+    "required_catalysts": "/datum/reagent/toxin/plasma = 5",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "haloperidol": {
+    "name": "haloperidol",
+    "results": "/datum/reagent/medicine/haloperidol = 5",
+    "required_reagents": "/datum/reagent/chlorine = 1, /datum/reagent/fluorine = 1, /datum/reagent/aluminium = 1, /datum/reagent/medicine/potass_iodide = 1, /datum/reagent/fuel/oil = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "regen_jelly": {
+    "name": "regen_jelly",
+    "results": "/datum/reagent/medicine/regen_jelly = 1",
+    "required_reagents": "/datum/reagent/medicine/tetracordrazine = 1, /datum/reagent/toxin/slimejelly = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "regen_jelly2": {
+    "name": "regen_jelly2",
+    "results": "/datum/reagent/medicine/regen_jelly = 2",
+    "required_reagents": "/datum/reagent/medicine/omnizine = 1, /datum/reagent/toxin/slimejelly = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "morphine": {
+    "name": "morphine",
+    "results": "/datum/reagent/medicine/morphine = 2",
+    "required_reagents": "/datum/reagent/carbon = 2, /datum/reagent/hydrogen = 2, /datum/reagent/consumable/ethanol = 1, /datum/reagent/oxygen = 1",
+    "required_catalysts": null,
+    "required_temp": "480",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "tramal": {
+    "name": "tramal",
+    "results": "/datum/reagent/medicine/tramal = 2",
+    "required_reagents": "/datum/reagent/carbon = 1, /datum/reagent/oxygen = 1",
+    "required_catalysts": "/datum/reagent/ammonia = 2",
+    "required_temp": "340",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "dimorlin": {
+    "name": "dimorlin",
+    "results": "/datum/reagent/medicine/dimorlin = 2, /datum/reagent/hydrogen = 2",
+    "required_reagents": "/datum/reagent/carbon = 3, /datum/reagent/diethylamine = 1, /datum/reagent/oxygen = 1, /datum/reagent/phenol = 1",
+    "required_catalysts": null,
+    "required_temp": "730",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "modafinil": {
+    "name": "modafinil",
+    "results": "/datum/reagent/medicine/modafinil = 5",
+    "required_reagents": "/datum/reagent/diethylamine = 1, /datum/reagent/ammonia = 1, /datum/reagent/phenol = 1, /datum/reagent/acetone = 1, /datum/reagent/toxin/acid = 1",
+    "required_catalysts": "/datum/reagent/bromine = 1",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "psicodine": {
+    "name": "psicodine",
+    "results": "/datum/reagent/medicine/psicodine = 5",
+    "required_reagents": "/datum/reagent/medicine/mannitol = 2, /datum/reagent/water = 2, /datum/reagent/impedrezene = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "medmesh": {
+    "name": "medmesh",
+    "results": null,
+    "required_reagents": "/datum/reagent/cellulose = 20, /datum/reagent/consumable/aloejuice = 20, /datum/reagent/space_cleaner/sterilizine = 10",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "medmesh/on_reaction(datum/reagents/holder,": {
+    "name": "medmesh/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "converbital": {
+    "name": "converbital",
+    "results": "/datum/reagent/medicine/converbital = 3",
+    "required_reagents": "/datum/reagent/fuel = 1, /datum/reagent/acetone = 1, /datum/reagent/medicine/kelotane = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "convuri": {
+    "name": "convuri",
+    "results": "/datum/reagent/medicine/convuri = 3",
+    "required_reagents": "/datum/reagent/fuel = 1, /datum/reagent/ash =1, /datum/reagent/medicine/bicaridine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "trophazole": {
+    "name": "trophazole",
+    "results": "/datum/reagent/medicine/trophazole = 4",
+    "required_reagents": "/datum/reagent/copper = 1, /datum/reagent/acetone = 2,  /datum/reagent/phosphorus = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "rhigoxane": {
+    "name": "rhigoxane",
+    "results": "/datum/reagent/medicine/rhigoxane/ = 5",
+    "required_reagents": "/datum/reagent/cryostylane = 3, /datum/reagent/bromine = 1, /datum/reagent/lye = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "thializid": {
+    "name": "thializid",
+    "results": "/datum/reagent/medicine/thializid = 5",
+    "required_reagents": "/datum/reagent/sulfur = 1, /datum/reagent/fluorine = 1, /datum/reagent/toxin = 1, /datum/reagent/nitrous_oxide = 2",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "medsuture/ash": {
+    "name": "medsuture/ash",
+    "results": null,
+    "required_reagents": "/datum/reagent/ash_fibers = 10, /datum/reagent/toxin/formaldehyde = 20, /datum/reagent/medicine/polypyr = 15",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "medmesh/ash": {
+    "name": "medmesh/ash",
+    "results": null,
+    "required_reagents": "/datum/reagent/ash_fibers = 20, /datum/reagent/consumable/aloejuice = 20, /datum/reagent/space_cleaner/sterilizine = 10",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "lavaland_extract": {
+    "name": "lavaland_extract",
+    "results": "/datum/reagent/medicine/lavaland_extract = 5",
+    "required_reagents": "/datum/reagent/consumable/vitfro = 1, /datum/reagent/medicine/puce_essence = 2,  /datum/reagent/toxin/plasma = 2",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "bonefixingjuice": {
+    "name": "bonefixingjuice",
+    "results": "/datum/reagent/medicine/bonefixingjuice = 3",
+    "required_reagents": "/datum/reagent/consumable/entpoly = 1, /datum/reagent/calcium = 1, /datum/reagent/toxin/plasma = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "skele_boon": {
+    "name": "skele_boon",
+    "results": "/datum/reagent/medicine/skeletons_boon = 5",
+    "required_reagents": "/datum/reagent/medicine/lavaland_extract = 1, /datum/reagent/medicine/bonefixingjuice = 1, /datum/reagent/titanium = 5",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "pure_soulus_dust_hollow": {
+    "name": "pure_soulus_dust_hollow",
+    "results": "/datum/reagent/medicine/soulus/pure = 20,",
+    "required_reagents": "/datum/reagent/medicine/soulus = 20, /datum/reagent/water/hollowwater = 10",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "pure_soulus_dust_holy": {
+    "name": "pure_soulus_dust_holy",
+    "results": "/datum/reagent/medicine/soulus/pure = 20,",
+    "required_reagents": "/datum/reagent/medicine/soulus = 20, /datum/reagent/water/holywater = 10",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "chartreuse": {
+    "name": "chartreuse",
+    "results": "/datum/reagent/medicine/chartreuse = 10",
+    "required_reagents": "/datum/reagent/medicine/puce_essence = 5, /datum/reagent/consumable/tinlux = 5, /datum/reagent/consumable/entpoly = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "lithium_carbonate": {
+    "name": "lithium_carbonate",
+    "results": "/datum/reagent/medicine/lithium_carbonate = 3",
+    "required_reagents": "/datum/reagent/lithium = 1, /datum/reagent/carbon = 1, /datum/reagent/water = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "chitosan": {
+    "name": "chitosan",
+    "results": "/datum/reagent/medicine/chitosan = 10",
+    "required_reagents": "/datum/reagent/silicon = 1, /datum/reagent/consumable/sugar = 2, /datum/reagent/cryptobiolin = 1",
+    "required_catalysts": null,
+    "required_temp": "380",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "chitosan_failure": {
+    "name": "chitosan_failure",
+    "results": "/datum/reagent/carbon = 1",
+    "required_reagents": "/datum/reagent/medicine/chitosan = 1",
+    "required_catalysts": null,
+    "required_temp": "405",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "stasis": {
+    "name": "stasis",
+    "results": "/datum/reagent/medicine/stasis = 5",
+    "required_reagents": "/datum/reagent/phenol = 1, /datum/reagent/copper = 1, /datum/reagent/medicine/salglu_solution = 3",
+    "required_catalysts": "/datum/reagent/toxin/plasma = 5",
+    "required_temp": "207",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "carfen": {
+    "name": "carfen",
+    "results": "/datum/reagent/medicine/carfencadrizine = 4",
+    "required_reagents": "/datum/reagent/medicine/dimorlin = 1, /datum/reagent/medicine/synaptizine = 1, /datum/reagent/consumable/sugar = 2",
+    "required_catalysts": "/datum/reagent/toxin/plasma = 2",
+    "required_temp": "127",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\medicine.dm"
+  },
+  "sterilizine": {
+    "name": "sterilizine",
+    "results": "/datum/reagent/space_cleaner/sterilizine = 3",
+    "required_reagents": "/datum/reagent/consumable/ethanol = 1, /datum/reagent/medicine/charcoal = 1, /datum/reagent/chlorine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "lube": {
+    "name": "lube",
+    "results": "/datum/reagent/lube = 4",
+    "required_reagents": "/datum/reagent/water = 1, /datum/reagent/silicon = 1, /datum/reagent/oxygen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "spraytan": {
+    "name": "spraytan",
+    "results": "/datum/reagent/spraytan = 2",
+    "required_reagents": "/datum/reagent/consumable/orangejuice = 1, /datum/reagent/fuel/oil = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "spraytan2": {
+    "name": "spraytan2",
+    "results": "/datum/reagent/spraytan = 2",
+    "required_reagents": "/datum/reagent/consumable/orangejuice = 1, /datum/reagent/consumable/cornoil = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "impedrezene": {
+    "name": "impedrezene",
+    "results": "/datum/reagent/impedrezene = 2",
+    "required_reagents": "/datum/reagent/mercury = 1, /datum/reagent/oxygen = 1, /datum/reagent/consumable/sugar = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "cryptobiolin": {
+    "name": "cryptobiolin",
+    "results": "/datum/reagent/cryptobiolin = 3",
+    "required_reagents": "/datum/reagent/potassium = 1, /datum/reagent/oxygen = 1, /datum/reagent/consumable/sugar = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "glycerol": {
+    "name": "glycerol",
+    "results": "/datum/reagent/glycerol = 1",
+    "required_reagents": "/datum/reagent/consumable/cornoil = 3, /datum/reagent/toxin/acid = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "sodiumchloride": {
+    "name": "sodiumchloride",
+    "results": "/datum/reagent/consumable/sodiumchloride = 3",
+    "required_reagents": "/datum/reagent/water = 1, /datum/reagent/sodium = 1, /datum/reagent/chlorine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "plasmasolidification": {
+    "name": "plasmasolidification",
+    "results": null,
+    "required_reagents": "/datum/reagent/iron = 5, /datum/reagent/consumable/frostoil = 5, /datum/reagent/toxin/plasma = 20",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "plasmasolidification/on_reaction(datum/reagents/holder,": {
+    "name": "plasmasolidification/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "goldsolidification": {
+    "name": "goldsolidification",
+    "results": null,
+    "required_reagents": "/datum/reagent/consumable/frostoil = 5, /datum/reagent/gold = 20, /datum/reagent/iron = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "goldsolidification/on_reaction(datum/reagents/holder,": {
+    "name": "goldsolidification/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "adamantinesolidification": {
+    "name": "adamantinesolidification",
+    "results": null,
+    "required_reagents": "/datum/reagent/gold = 5, /datum/reagent/consumable/frostoil = 5, /datum/reagent/liquidadamantine = 10",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "adamantinesolidification/on_reaction(datum/reagents/holder,": {
+    "name": "adamantinesolidification/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "silversolidification": {
+    "name": "silversolidification",
+    "results": null,
+    "required_reagents": "/datum/reagent/silver = 20, /datum/reagent/consumable/frostoil = 5, /datum/reagent/carbon = 10",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "silversolidification/on_reaction(datum/reagents/holder,": {
+    "name": "silversolidification/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "uraniumsolidification": {
+    "name": "uraniumsolidification",
+    "results": null,
+    "required_reagents": "/datum/reagent/uranium = 20, /datum/reagent/consumable/frostoil = 5, /datum/reagent/potassium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "uraniumsolidification/on_reaction(datum/reagents/holder,": {
+    "name": "uraniumsolidification/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "titaniumsolidification": {
+    "name": "titaniumsolidification",
+    "results": null,
+    "required_reagents": "/datum/reagent/consumable/frostoil = 5, /datum/reagent/titanium = 20, /datum/reagent/iron = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "titaniumsolidification/on_reaction(datum/reagents/holder,": {
+    "name": "titaniumsolidification/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "capsaicincondensation": {
+    "name": "capsaicincondensation",
+    "results": "/datum/reagent/consumable/condensedcapsaicin = 5",
+    "required_reagents": "/datum/reagent/consumable/capsaicin = 1, /datum/reagent/consumable/ethanol = 5",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "gibsoapification": {
+    "name": "gibsoapification",
+    "results": null,
+    "required_reagents": "/datum/reagent/liquidgibs = 10, /datum/reagent/lye  = 10",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "gibsoapification/on_reaction(datum/reagents/holder,": {
+    "name": "gibsoapification/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "oilsoapification": {
+    "name": "oilsoapification",
+    "results": null,
+    "required_reagents": "/datum/reagent/consumable/cooking_oil = 10, /datum/reagent/lye  = 10",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "oilsoapification/on_reaction(datum/reagents/holder,": {
+    "name": "oilsoapification/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "omegasoapification": {
+    "name": "omegasoapification",
+    "results": null,
+    "required_reagents": "/datum/reagent/consumable/potato_juice = 10, /datum/reagent/consumable/ethanol/lizardwine = 10, /datum/reagent/monkey_powder = 10, /datum/reagent/toxin/acid/nitracid = 10, /datum/reagent/baldium = 10, /datum/reagent/consumable/ethanol/hooch = 10, /datum/reagent/bluespace = 10, /datum/reagent/drug/pumpup = 10, /datum/reagent/consumable/space_cola = 10",
+    "required_catalysts": null,
+    "required_temp": "999",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "omegasoapification/on_reaction(datum/reagents/holder,": {
+    "name": "omegasoapification/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "candlefication": {
+    "name": "candlefication",
+    "results": null,
+    "required_reagents": "/datum/reagent/liquidgibs = 5, /datum/reagent/oxygen  = 5",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "candlefication/on_reaction(datum/reagents/holder,": {
+    "name": "candlefication/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "meatification": {
+    "name": "meatification",
+    "results": null,
+    "required_reagents": "/datum/reagent/liquidgibs = 10, /datum/reagent/consumable/nutriment = 10, /datum/reagent/carbon = 10",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "meatification/on_reaction(datum/reagents/holder,": {
+    "name": "meatification/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "carbondioxide": {
+    "name": "carbondioxide",
+    "results": "/datum/reagent/carbondioxide = 3",
+    "required_reagents": "/datum/reagent/carbon = 1, /datum/reagent/oxygen = 2",
+    "required_catalysts": null,
+    "required_temp": "777",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "nitrous_oxide": {
+    "name": "nitrous_oxide",
+    "results": "/datum/reagent/nitrous_oxide = 5",
+    "required_reagents": "/datum/reagent/ammonia = 2, /datum/reagent/nitrogen = 1, /datum/reagent/oxygen = 2",
+    "required_catalysts": null,
+    "required_temp": "525",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "virus_food": {
+    "name": "virus_food",
+    "results": "/datum/reagent/consumable/virus_food = 15",
+    "required_reagents": "/datum/reagent/water = 5, /datum/reagent/consumable/milk = 5",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "virus_food_mutagen": {
+    "name": "virus_food_mutagen",
+    "results": "/datum/reagent/toxin/mutagen/mutagenvirusfood = 1",
+    "required_reagents": "/datum/reagent/toxin/mutagen = 1, /datum/reagent/consumable/virus_food = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "virus_food_synaptizine": {
+    "name": "virus_food_synaptizine",
+    "results": "/datum/reagent/medicine/synaptizine/synaptizinevirusfood = 1",
+    "required_reagents": "/datum/reagent/medicine/synaptizine = 1, /datum/reagent/consumable/virus_food = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "virus_food_plasma": {
+    "name": "virus_food_plasma",
+    "results": "/datum/reagent/toxin/plasma/plasmavirusfood = 1",
+    "required_reagents": "/datum/reagent/toxin/plasma = 1, /datum/reagent/consumable/virus_food = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "virus_food_plasma_synaptizine": {
+    "name": "virus_food_plasma_synaptizine",
+    "results": "/datum/reagent/toxin/plasma/plasmavirusfood/weak = 2",
+    "required_reagents": "/datum/reagent/medicine/synaptizine = 1, /datum/reagent/toxin/plasma/plasmavirusfood = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "virus_food_mutagen_sugar": {
+    "name": "virus_food_mutagen_sugar",
+    "results": "/datum/reagent/toxin/mutagen/mutagenvirusfood/sugar = 2",
+    "required_reagents": "/datum/reagent/consumable/sugar = 1, /datum/reagent/toxin/mutagen/mutagenvirusfood = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "virus_food_mutagen_salineglucose": {
+    "name": "virus_food_mutagen_salineglucose",
+    "results": "/datum/reagent/toxin/mutagen/mutagenvirusfood/sugar = 2",
+    "required_reagents": "/datum/reagent/medicine/salglu_solution = 1, /datum/reagent/toxin/mutagen/mutagenvirusfood = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "virus_food_uranium": {
+    "name": "virus_food_uranium",
+    "results": "/datum/reagent/uranium/uraniumvirusfood = 1",
+    "required_reagents": "/datum/reagent/uranium = 1, /datum/reagent/consumable/virus_food = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "virus_food_uranium_plasma": {
+    "name": "virus_food_uranium_plasma",
+    "results": "/datum/reagent/uranium/uraniumvirusfood/unstable = 1",
+    "required_reagents": "/datum/reagent/uranium = 5, /datum/reagent/toxin/plasma/plasmavirusfood = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "virus_food_uranium_plasma_gold": {
+    "name": "virus_food_uranium_plasma_gold",
+    "results": "/datum/reagent/uranium/uraniumvirusfood/stable = 1",
+    "required_reagents": "/datum/reagent/uranium = 10, /datum/reagent/gold = 10, /datum/reagent/toxin/plasma = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "virus_food_uranium_plasma_silver": {
+    "name": "virus_food_uranium_plasma_silver",
+    "results": "/datum/reagent/uranium/uraniumvirusfood/stable = 1",
+    "required_reagents": "/datum/reagent/uranium = 10, /datum/reagent/silver = 10, /datum/reagent/toxin/plasma = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus": {
+    "name": "mix_virus",
+    "results": "/datum/reagent/blood = 1",
+    "required_reagents": "/datum/reagent/consumable/virus_food = 1",
+    "required_catalysts": "/datum/reagent/blood = 1",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/on_reaction(datum/reagents/holder,": {
+    "name": "mix_virus/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/mix_virus_2": {
+    "name": "mix_virus/mix_virus_2",
+    "results": null,
+    "required_reagents": "/datum/reagent/toxin/mutagen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/mix_virus_3": {
+    "name": "mix_virus/mix_virus_3",
+    "results": null,
+    "required_reagents": "/datum/reagent/toxin/plasma = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/mix_virus_4": {
+    "name": "mix_virus/mix_virus_4",
+    "results": null,
+    "required_reagents": "/datum/reagent/uranium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/mix_virus_5": {
+    "name": "mix_virus/mix_virus_5",
+    "results": null,
+    "required_reagents": "/datum/reagent/toxin/mutagen/mutagenvirusfood = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/mix_virus_6": {
+    "name": "mix_virus/mix_virus_6",
+    "results": null,
+    "required_reagents": "/datum/reagent/toxin/mutagen/mutagenvirusfood/sugar = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/mix_virus_7": {
+    "name": "mix_virus/mix_virus_7",
+    "results": null,
+    "required_reagents": "/datum/reagent/toxin/plasma/plasmavirusfood/weak = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/mix_virus_8": {
+    "name": "mix_virus/mix_virus_8",
+    "results": null,
+    "required_reagents": "/datum/reagent/toxin/plasma/plasmavirusfood = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/mix_virus_9": {
+    "name": "mix_virus/mix_virus_9",
+    "results": null,
+    "required_reagents": "/datum/reagent/medicine/synaptizine/synaptizinevirusfood = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/mix_virus_10": {
+    "name": "mix_virus/mix_virus_10",
+    "results": null,
+    "required_reagents": "/datum/reagent/uranium/uraniumvirusfood = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/mix_virus_11": {
+    "name": "mix_virus/mix_virus_11",
+    "results": null,
+    "required_reagents": "/datum/reagent/uranium/uraniumvirusfood/unstable = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/mix_virus_12": {
+    "name": "mix_virus/mix_virus_12",
+    "results": null,
+    "required_reagents": "/datum/reagent/uranium/uraniumvirusfood/stable = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/rem_virus": {
+    "name": "mix_virus/rem_virus",
+    "results": null,
+    "required_reagents": "/datum/reagent/medicine/synaptizine = 1",
+    "required_catalysts": "/datum/reagent/blood = 1",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/rem_virus/on_reaction(datum/reagents/holder,": {
+    "name": "mix_virus/rem_virus/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/neuter_virus": {
+    "name": "mix_virus/neuter_virus",
+    "results": null,
+    "required_reagents": "/datum/reagent/toxin/formaldehyde = 1",
+    "required_catalysts": "/datum/reagent/blood = 1",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "mix_virus/neuter_virus/on_reaction(datum/reagents/holder,": {
+    "name": "mix_virus/neuter_virus/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "surfactant": {
+    "name": "surfactant",
+    "results": "/datum/reagent/fluorosurfactant = 5",
+    "required_reagents": "/datum/reagent/fluorine = 2, /datum/reagent/carbon = 2, /datum/reagent/toxin/acid = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "foam": {
+    "name": "foam",
+    "results": null,
+    "required_reagents": "/datum/reagent/fluorosurfactant = 1, /datum/reagent/water = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "foam/on_reaction(datum/reagents/holder,": {
+    "name": "foam/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "metalfoam": {
+    "name": "metalfoam",
+    "results": null,
+    "required_reagents": "/datum/reagent/aluminium = 3, /datum/reagent/foaming_agent = 1, /datum/reagent/toxin/acid/fluacid = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "metalfoam/on_reaction(datum/reagents/holder,": {
+    "name": "metalfoam/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "smart_foam": {
+    "name": "smart_foam",
+    "results": null,
+    "required_reagents": "/datum/reagent/aluminium = 3, /datum/reagent/smart_foaming_agent = 1, /datum/reagent/toxin/acid/fluacid = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "smart_foam/on_reaction(datum/reagents/holder,": {
+    "name": "smart_foam/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "ironfoam": {
+    "name": "ironfoam",
+    "results": null,
+    "required_reagents": "/datum/reagent/iron = 3, /datum/reagent/foaming_agent = 1, /datum/reagent/toxin/acid/fluacid = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "ironfoam/on_reaction(datum/reagents/holder,": {
+    "name": "ironfoam/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "foaming_agent": {
+    "name": "foaming_agent",
+    "results": "/datum/reagent/foaming_agent = 1",
+    "required_reagents": "/datum/reagent/lithium = 1, /datum/reagent/hydrogen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "smart_foaming_agent": {
+    "name": "smart_foaming_agent",
+    "results": "/datum/reagent/smart_foaming_agent = 3",
+    "required_reagents": "/datum/reagent/foaming_agent = 3, /datum/reagent/acetone = 1, /datum/reagent/iron = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "ammonia": {
+    "name": "ammonia",
+    "results": "/datum/reagent/ammonia = 3",
+    "required_reagents": "/datum/reagent/hydrogen = 3, /datum/reagent/nitrogen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "diethylamine": {
+    "name": "diethylamine",
+    "results": "/datum/reagent/diethylamine = 2",
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "space_cleaner": {
+    "name": "space_cleaner",
+    "results": "/datum/reagent/space_cleaner = 2",
+    "required_reagents": "/datum/reagent/ammonia = 1, /datum/reagent/water = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "plantbgone": {
+    "name": "plantbgone",
+    "results": "/datum/reagent/toxin/plantbgone = 5",
+    "required_reagents": "/datum/reagent/toxin = 1, /datum/reagent/water = 4",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "weedkiller": {
+    "name": "weedkiller",
+    "results": "/datum/reagent/toxin/plantbgone/weedkiller = 5",
+    "required_reagents": "/datum/reagent/toxin = 1, /datum/reagent/ammonia = 4",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "pestkiller": {
+    "name": "pestkiller",
+    "results": "/datum/reagent/toxin/pestkiller = 5",
+    "required_reagents": "/datum/reagent/toxin = 1, /datum/reagent/consumable/ethanol = 4",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "drying_agent": {
+    "name": "drying_agent",
+    "results": "/datum/reagent/drying_agent = 3",
+    "required_reagents": "/datum/reagent/stable_plasma = 2, /datum/reagent/consumable/ethanol = 1, /datum/reagent/sodium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "acetone": {
+    "name": "acetone",
+    "results": "/datum/reagent/acetone = 3",
+    "required_reagents": "/datum/reagent/fuel/oil = 1, /datum/reagent/fuel = 1, /datum/reagent/oxygen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "carpet": {
+    "name": "carpet",
+    "results": "/datum/reagent/carpet = 2",
+    "required_reagents": "/datum/reagent/drug/space_drugs = 1, /datum/reagent/blood = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "carpet/black": {
+    "name": "carpet/black",
+    "results": "/datum/reagent/carpet/black = 2",
+    "required_reagents": "/datum/reagent/carpet = 1, /datum/reagent/fuel/oil = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "carpet/blue": {
+    "name": "carpet/blue",
+    "results": "/datum/reagent/carpet/blue = 2",
+    "required_reagents": "/datum/reagent/carpet = 1, /datum/reagent/cryostylane = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "carpet/cyan": {
+    "name": "carpet/cyan",
+    "results": "/datum/reagent/carpet/cyan = 2",
+    "required_reagents": "/datum/reagent/carpet = 1, /datum/reagent/toxin/cyanide = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "carpet/green": {
+    "name": "carpet/green",
+    "results": "/datum/reagent/carpet/green = 2",
+    "required_reagents": "/datum/reagent/carpet = 1, /datum/reagent/consumable/ethanol/beer/green = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "carpet/orange": {
+    "name": "carpet/orange",
+    "results": "/datum/reagent/carpet/orange = 2",
+    "required_reagents": "/datum/reagent/carpet = 1, /datum/reagent/consumable/orangejuice = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "carpet/purple": {
+    "name": "carpet/purple",
+    "results": "/datum/reagent/carpet/purple = 2",
+    "required_reagents": "/datum/reagent/carpet = 1, /datum/reagent/medicine/regen_jelly = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "carpet/red": {
+    "name": "carpet/red",
+    "results": "/datum/reagent/carpet/red = 2",
+    "required_reagents": "/datum/reagent/carpet/ = 1, /datum/reagent/liquidgibs = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "carpet/royalblack": {
+    "name": "carpet/royalblack",
+    "results": "/datum/reagent/carpet/royal/black = 2",
+    "required_reagents": "/datum/reagent/carpet/black = 1, /datum/reagent/royal_bee_jelly = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "carpet/royalblue": {
+    "name": "carpet/royalblue",
+    "results": "/datum/reagent/carpet/royal/blue = 2",
+    "required_reagents": "/datum/reagent/carpet/blue = 1, /datum/reagent/royal_bee_jelly = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "genesis": {
+    "name": "genesis",
+    "results": "/datum/reagent/genesis = 10",
+    "required_reagents": "/datum/reagent/diethylamine = 10, /datum/reagent/medicine/strange_reagent = 1, /datum/reagent/teslium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "oil": {
+    "name": "oil",
+    "results": "/datum/reagent/fuel/oil = 3",
+    "required_reagents": "/datum/reagent/fuel = 1, /datum/reagent/carbon = 1, /datum/reagent/hydrogen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "phenol": {
+    "name": "phenol",
+    "results": "/datum/reagent/phenol = 3",
+    "required_reagents": "/datum/reagent/water = 1, /datum/reagent/chlorine = 1, /datum/reagent/fuel/oil = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "ash": {
+    "name": "ash",
+    "results": "/datum/reagent/ash = 1",
+    "required_reagents": "/datum/reagent/fuel/oil = 1",
+    "required_catalysts": null,
+    "required_temp": "480",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "colorful_reagent": {
+    "name": "colorful_reagent",
+    "results": "/datum/reagent/colorful_reagent = 5",
+    "required_reagents": "/datum/reagent/stable_plasma = 1, /datum/reagent/uranium/radium = 1, /datum/reagent/drug/space_drugs = 1, /datum/reagent/medicine/cryoxadone = 1, /datum/reagent/consumable/triple_citrus = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "corgium": {
+    "name": "corgium",
+    "results": null,
+    "required_reagents": "/datum/reagent/consumable/nutriment = 1, /datum/reagent/colorful_reagent = 1, /datum/reagent/medicine/strange_reagent = 1, /datum/reagent/blood = 1",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "corgium/on_reaction(datum/reagents/holder,": {
+    "name": "corgium/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "monkey_powder": {
+    "name": "monkey_powder",
+    "results": "/datum/reagent/monkey_powder = 3",
+    "required_reagents": "/datum/reagent/consumable/banana = 1, /datum/reagent/consumable/nutriment=2,/datum/reagent/liquidgibs = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "monkey": {
+    "name": "monkey",
+    "results": null,
+    "required_reagents": "/datum/reagent/monkey_powder = 30, /datum/reagent/water = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "monkey/on_reaction(datum/reagents/holder,": {
+    "name": "monkey/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "electrolysis": {
+    "name": "electrolysis",
+    "results": "/datum/reagent/oxygen = 20, /datum/reagent/hydrogen = 40",
+    "required_reagents": "/datum/reagent/consumable/liquidelectricity = 1, /datum/reagent/water = 10",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "butterflium": {
+    "name": "butterflium",
+    "results": null,
+    "required_reagents": "/datum/reagent/colorful_reagent = 1, /datum/reagent/medicine/omnizine = 1, /datum/reagent/medicine/strange_reagent = 1, /datum/reagent/consumable/nutriment = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "butterflium/on_reaction(datum/reagents/holder,": {
+    "name": "butterflium/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "scream": {
+    "name": "scream",
+    "results": null,
+    "required_reagents": "/datum/reagent/medicine/strange_reagent = 1, /datum/reagent/consumable/cream = 5, /datum/reagent/consumable/ethanol/lizardwine = 5",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "scream/on_reaction(datum/reagents/holder,": {
+    "name": "scream/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "hair_dye": {
+    "name": "hair_dye",
+    "results": "/datum/reagent/hair_dye = 5",
+    "required_reagents": "/datum/reagent/colorful_reagent = 1, /datum/reagent/uranium/radium = 1, /datum/reagent/drug/space_drugs = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "barbers_aid": {
+    "name": "barbers_aid",
+    "results": "/datum/reagent/barbers_aid = 5",
+    "required_reagents": "/datum/reagent/carpet = 1, /datum/reagent/uranium/radium = 1, /datum/reagent/drug/space_drugs = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "concentrated_barbers_aid": {
+    "name": "concentrated_barbers_aid",
+    "results": "/datum/reagent/concentrated_barbers_aid = 2",
+    "required_reagents": "/datum/reagent/barbers_aid = 1, /datum/reagent/toxin/mutagen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "baldium": {
+    "name": "baldium",
+    "results": "/datum/reagent/baldium = 1",
+    "required_reagents": "/datum/reagent/uranium/radium = 1, /datum/reagent/toxin/acid = 1, /datum/reagent/lye = 1",
+    "required_catalysts": null,
+    "required_temp": "395",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "saltpetre": {
+    "name": "saltpetre",
+    "results": "/datum/reagent/saltpetre = 3",
+    "required_reagents": "/datum/reagent/potassium = 1, /datum/reagent/nitrogen = 1, /datum/reagent/oxygen = 3",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "lye": {
+    "name": "lye",
+    "results": "/datum/reagent/lye = 3",
+    "required_reagents": "/datum/reagent/sodium = 1, /datum/reagent/hydrogen = 1, /datum/reagent/oxygen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "lye2": {
+    "name": "lye2",
+    "results": "/datum/reagent/lye = 2",
+    "required_reagents": "/datum/reagent/ash = 1, /datum/reagent/water = 1, /datum/reagent/carbon = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "royal_bee_jelly": {
+    "name": "royal_bee_jelly",
+    "results": "/datum/reagent/royal_bee_jelly = 5",
+    "required_reagents": "/datum/reagent/toxin/mutagen = 10, /datum/reagent/consumable/honey = 40",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "laughter": {
+    "name": "laughter",
+    "results": "/datum/reagent/consumable/laughter = 10",
+    "required_reagents": "/datum/reagent/consumable/sugar = 1, /datum/reagent/consumable/banana = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "plastic_polymers": {
+    "name": "plastic_polymers",
+    "results": null,
+    "required_reagents": "/datum/reagent/fuel/oil = 5, /datum/reagent/toxin/acid = 2, /datum/reagent/ash = 3",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "plastic_polymers/on_reaction(datum/reagents/holder,": {
+    "name": "plastic_polymers/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "pax": {
+    "name": "pax",
+    "results": "/datum/reagent/pax = 3",
+    "required_reagents": "/datum/reagent/toxin/mindbreaker = 1, /datum/reagent/medicine/synaptizine = 1, /datum/reagent/water = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "yuck": {
+    "name": "yuck",
+    "results": "/datum/reagent/yuck = 4",
+    "required_reagents": "/datum/reagent/fuel = 3",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "slimejelly": {
+    "name": "slimejelly",
+    "results": "/datum/reagent/toxin/slimejelly = 5",
+    "required_reagents": "/datum/reagent/fuel/oil = 3, /datum/reagent/uranium/radium = 2, /datum/reagent/consumable/tinlux =1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "metalgen_imprint": {
+    "name": "metalgen_imprint",
+    "results": "/datum/reagent/metalgen = 1",
+    "required_reagents": "/datum/reagent/metalgen = 1, /datum/reagent/liquid_dark_matter = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "metalgen_imprint/on_reaction(datum/reagents/holder,": {
+    "name": "metalgen_imprint/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "gravitum": {
+    "name": "gravitum",
+    "results": "/datum/reagent/gravitum = 10",
+    "required_reagents": "/datum/reagent/wittel = 1, /datum/reagent/sorium = 10",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "cellulose_carbonization": {
+    "name": "cellulose_carbonization",
+    "results": "/datum/reagent/carbon = 1",
+    "required_reagents": "/datum/reagent/cellulose = 1",
+    "required_catalysts": null,
+    "required_temp": "512",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "hydrogen_peroxide": {
+    "name": "hydrogen_peroxide",
+    "results": "/datum/reagent/hydrogen_peroxide = 3",
+    "required_reagents": "/datum/reagent/water = 1, /datum/reagent/oxygen = 1, /datum/reagent/chlorine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "acetone_oxide": {
+    "name": "acetone_oxide",
+    "results": "/datum/reagent/acetone_oxide = 2",
+    "required_reagents": "/datum/reagent/acetone = 2, /datum/reagent/oxygen = 1, /datum/reagent/hydrogen_peroxide = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "pentaerythritol": {
+    "name": "pentaerythritol",
+    "results": "/datum/reagent/pentaerythritol = 2",
+    "required_reagents": "/datum/reagent/acetaldehyde = 1, /datum/reagent/toxin/formaldehyde = 3, /datum/reagent/water = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "acetaldehyde": {
+    "name": "acetaldehyde",
+    "results": "/datum/reagent/acetaldehyde = 3",
+    "required_reagents": "/datum/reagent/acetone = 1, /datum/reagent/toxin/formaldehyde = 1, /datum/reagent/water = 1",
+    "required_catalysts": null,
+    "required_temp": "450",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "holywater": {
+    "name": "holywater",
+    "results": "/datum/reagent/water/holywater = 1",
+    "required_reagents": "/datum/reagent/water/hollowwater = 1",
+    "required_catalysts": "/datum/reagent/water/holywater = 1",
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "bone_gel": {
+    "name": "bone_gel",
+    "results": null,
+    "required_reagents": "/datum/reagent/calcium = 10, /datum/reagent/carbon = 10",
+    "required_catalysts": null,
+    "required_temp": "630",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "bone_gel/on_reaction(datum/reagents/holder,": {
+    "name": "bone_gel/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "gravy": {
+    "name": "gravy",
+    "results": "/datum/reagent/consumable/gravy = 3",
+    "required_reagents": "/datum/reagent/consumable/milk = 1, /datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/flour = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "cement": {
+    "name": "cement",
+    "results": "/datum/reagent/cement = 6",
+    "required_reagents": "/datum/reagent/carbon = 2, /datum/reagent/hydrogen = 2, /datum/reagent/oxygen = 2, /datum/reagent/water = 1",
+    "required_catalysts": null,
+    "required_temp": "400",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "quick_concrete": {
+    "name": "quick_concrete",
+    "results": "/datum/reagent/concrete = 5",
+    "required_reagents": "/datum/reagent/concrete_mix = 5, /datum/reagent/water = 5",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "hexement": {
+    "name": "hexement",
+    "results": "/datum/reagent/cement/hexement = 1",
+    "required_reagents": "/datum/reagent/cement = 6, /datum/reagent/stable_plasma = 1",
+    "required_catalysts": null,
+    "required_temp": "400",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "cellulose_carbonization/ash": {
+    "name": "cellulose_carbonization/ash",
+    "results": null,
+    "required_reagents": "/datum/reagent/ash_fibers = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "fervor": {
+    "name": "fervor",
+    "results": "/datum/reagent/consumable/fervor = 10",
+    "required_reagents": "/datum/reagent/consumable/vitfro = 5, /datum/reagent/consumable/tinlux = 5, /datum/reagent/consumable/pyre_elementum = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "herbal_brute": {
+    "name": "herbal_brute",
+    "results": null,
+    "required_reagents": "/datum/reagent/ash_fibers = 12, /datum/reagent/consumable/vitfro = 10, /datum/reagent/consumable/ethanol = 6, /datum/reagent/stabilizing_agent = 8",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "herbal_brute/on_reaction(datum/reagents/holder,": {
+    "name": "herbal_brute/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "herbal_burn": {
+    "name": "herbal_burn",
+    "results": null,
+    "required_reagents": "/datum/reagent/calcium = 10, /datum/reagent/consumable/pyre_elementum = 10, /datum/reagent/silver = 10, /datum/reagent/carbon = 8",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "herbal_burn/on_reaction(datum/reagents/holder,": {
+    "name": "herbal_burn/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "asphalt_heat": {
+    "name": "asphalt_heat",
+    "results": "/datum/reagent/carbon = 0.4, /datum/reagent/acetone = 0.2, /datum/reagent/consumable/ethanol = 0.2, /datum/reagent/consumable/ethanol = 0.2",
+    "required_reagents": "/datum/reagent/asphalt = 1",
+    "required_catalysts": null,
+    "required_temp": "418",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "pavement": {
+    "name": "pavement",
+    "results": "/datum/reagent/cement/roadmix = 2",
+    "required_reagents": "/datum/reagent/cement = 1, /datum/reagent/asphalt = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\others.dm"
+  },
+  "reagent_explosion": {
+    "name": "reagent_explosion",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/on_reaction(datum/reagents/holder,": {
+    "name": "reagent_explosion/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/proc/explode(datum/reagents/holder,": {
+    "name": "reagent_explosion/proc/explode(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/nitroglycerin": {
+    "name": "reagent_explosion/nitroglycerin",
+    "results": "/datum/reagent/nitroglycerin = 2",
+    "required_reagents": "/datum/reagent/glycerol = 1, /datum/reagent/toxin/acid/fluacid = 1, /datum/reagent/toxin/acid = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/nitroglycerin/on_reaction(datum/reagents/holder,": {
+    "name": "reagent_explosion/nitroglycerin/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/nitroglycerin_explosion": {
+    "name": "reagent_explosion/nitroglycerin_explosion",
+    "results": null,
+    "required_reagents": "/datum/reagent/nitroglycerin = 1",
+    "required_catalysts": null,
+    "required_temp": "474",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/rdx": {
+    "name": "reagent_explosion/rdx",
+    "results": "/datum/reagent/rdx= 2",
+    "required_reagents": "/datum/reagent/phenol = 2, /datum/reagent/toxin/acid/nitracid = 1, /datum/reagent/acetone_oxide = 1",
+    "required_catalysts": null,
+    "required_temp": "404",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/rdx/on_reaction(datum/reagents/holder,": {
+    "name": "reagent_explosion/rdx/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/rdx_explosion": {
+    "name": "reagent_explosion/rdx_explosion",
+    "results": null,
+    "required_reagents": "/datum/reagent/rdx = 1",
+    "required_catalysts": null,
+    "required_temp": "474",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/rdx_explosion2": {
+    "name": "reagent_explosion/rdx_explosion2",
+    "results": null,
+    "required_reagents": "/datum/reagent/rdx = 1 , /datum/reagent/consumable/liquidelectricity = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/rdx_explosion2/on_reaction(datum/reagents/holder,": {
+    "name": "reagent_explosion/rdx_explosion2/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/rdx_explosion3": {
+    "name": "reagent_explosion/rdx_explosion3",
+    "results": null,
+    "required_reagents": "/datum/reagent/rdx = 1 , /datum/reagent/teslium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/rdx_explosion3/on_reaction(datum/reagents/holder,": {
+    "name": "reagent_explosion/rdx_explosion3/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/tatp": {
+    "name": "reagent_explosion/tatp",
+    "results": "/datum/reagent/tatp= 1",
+    "required_reagents": "/datum/reagent/acetone_oxide = 1, /datum/reagent/toxin/acid/nitracid = 1, /datum/reagent/pentaerythritol = 1",
+    "required_catalysts": null,
+    "required_temp": "450",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/tatp/New()": {
+    "name": "reagent_explosion/tatp/New()",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/tatp/proc/UpdateInfo()": {
+    "name": "reagent_explosion/tatp/proc/UpdateInfo()",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": "450 + rand(-49,49)",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/tatp/on_reaction(datum/reagents/holder,": {
+    "name": "reagent_explosion/tatp/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/tatp_explosion": {
+    "name": "reagent_explosion/tatp_explosion",
+    "results": null,
+    "required_reagents": "/datum/reagent/tatp = 1",
+    "required_catalysts": null,
+    "required_temp": "550",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/tatp_explosion/New()": {
+    "name": "reagent_explosion/tatp_explosion/New()",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/tatp_explosion/on_reaction(datum/reagents/holder,": {
+    "name": "reagent_explosion/tatp_explosion/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/tatp_explosion/proc/UpdateInfo()": {
+    "name": "reagent_explosion/tatp_explosion/proc/UpdateInfo()",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": "550 + rand(-49,49)",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/penthrite_explosion_epinephrine": {
+    "name": "reagent_explosion/penthrite_explosion_epinephrine",
+    "results": null,
+    "required_reagents": "/datum/reagent/medicine/c2/penthrite = 1, /datum/reagent/medicine/epinephrine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/penthrite_explosion_atropine": {
+    "name": "reagent_explosion/penthrite_explosion_atropine",
+    "results": null,
+    "required_reagents": "/datum/reagent/medicine/c2/penthrite = 1, /datum/reagent/medicine/atropine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/potassium_explosion": {
+    "name": "reagent_explosion/potassium_explosion",
+    "results": null,
+    "required_reagents": "/datum/reagent/water = 1, /datum/reagent/potassium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/potassium_explosion/holyboom": {
+    "name": "reagent_explosion/potassium_explosion/holyboom",
+    "results": null,
+    "required_reagents": "/datum/reagent/water/holywater = 1, /datum/reagent/potassium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/potassium_explosion/holyboom/on_reaction(datum/reagents/holder,": {
+    "name": "reagent_explosion/potassium_explosion/holyboom/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "gunpowder": {
+    "name": "gunpowder",
+    "results": "/datum/reagent/gunpowder = 3",
+    "required_reagents": "/datum/reagent/saltpetre = 1, /datum/reagent/medicine/charcoal = 1, /datum/reagent/sulfur = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/gunpowder_explosion": {
+    "name": "reagent_explosion/gunpowder_explosion",
+    "results": null,
+    "required_reagents": "/datum/reagent/gunpowder = 1",
+    "required_catalysts": null,
+    "required_temp": "474",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/gunpowder_explosion/on_reaction(datum/reagents/holder,": {
+    "name": "reagent_explosion/gunpowder_explosion/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "thermite": {
+    "name": "thermite",
+    "results": "/datum/reagent/thermite = 3",
+    "required_reagents": "/datum/reagent/aluminium = 1, /datum/reagent/iron = 1, /datum/reagent/oxygen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "emp_pulse": {
+    "name": "emp_pulse",
+    "results": null,
+    "required_reagents": "/datum/reagent/uranium = 1, /datum/reagent/iron = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "emp_pulse/on_reaction(datum/reagents/holder,": {
+    "name": "emp_pulse/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "beesplosion": {
+    "name": "beesplosion",
+    "results": null,
+    "required_reagents": "/datum/reagent/consumable/honey = 1, /datum/reagent/medicine/strange_reagent = 1, /datum/reagent/uranium/radium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "beesplosion/on_reaction(datum/reagents/holder,": {
+    "name": "beesplosion/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "stabilizing_agent": {
+    "name": "stabilizing_agent",
+    "results": "/datum/reagent/stabilizing_agent = 3",
+    "required_reagents": "/datum/reagent/iron = 1, /datum/reagent/oxygen = 1, /datum/reagent/hydrogen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "clf3": {
+    "name": "clf3",
+    "results": "/datum/reagent/clf3 = 4",
+    "required_reagents": "/datum/reagent/chlorine = 1, /datum/reagent/fluorine = 3",
+    "required_catalysts": null,
+    "required_temp": "424",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "clf3/on_reaction(datum/reagents/holder,": {
+    "name": "clf3/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/methsplosion": {
+    "name": "reagent_explosion/methsplosion",
+    "results": null,
+    "required_reagents": "/datum/reagent/drug/methamphetamine = 1",
+    "required_catalysts": null,
+    "required_temp": "380",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/methsplosion/on_reaction(datum/reagents/holder,": {
+    "name": "reagent_explosion/methsplosion/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/methsplosion/methboom2": {
+    "name": "reagent_explosion/methsplosion/methboom2",
+    "results": null,
+    "required_reagents": "/datum/reagent/diethylamine = 1, /datum/reagent/iodine = 1, /datum/reagent/phosphorus = 1, /datum/reagent/hydrogen = 1",
+    "required_catalysts": null,
+    "required_temp": "300",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "sorium": {
+    "name": "sorium",
+    "results": "/datum/reagent/sorium = 4",
+    "required_reagents": "/datum/reagent/mercury = 1, /datum/reagent/oxygen = 1, /datum/reagent/nitrogen = 1, /datum/reagent/carbon = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "sorium/on_reaction(datum/reagents/holder,": {
+    "name": "sorium/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "sorium_vortex": {
+    "name": "sorium_vortex",
+    "results": null,
+    "required_reagents": "/datum/reagent/sorium = 1",
+    "required_catalysts": null,
+    "required_temp": "474",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "sorium_vortex/on_reaction(datum/reagents/holder,": {
+    "name": "sorium_vortex/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "liquid_dark_matter": {
+    "name": "liquid_dark_matter",
+    "results": "/datum/reagent/liquid_dark_matter = 3",
+    "required_reagents": "/datum/reagent/stable_plasma = 1, /datum/reagent/uranium/radium = 1, /datum/reagent/carbon = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "liquid_dark_matter/on_reaction(datum/reagents/holder,": {
+    "name": "liquid_dark_matter/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "ldm_vortex": {
+    "name": "ldm_vortex",
+    "results": null,
+    "required_reagents": "/datum/reagent/liquid_dark_matter = 1",
+    "required_catalysts": null,
+    "required_temp": "474",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "ldm_vortex/on_reaction(datum/reagents/holder,": {
+    "name": "ldm_vortex/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "flash_powder": {
+    "name": "flash_powder",
+    "results": "/datum/reagent/flash_powder = 3",
+    "required_reagents": "/datum/reagent/aluminium = 1, /datum/reagent/potassium = 1, /datum/reagent/sulfur = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "flash_powder/on_reaction(datum/reagents/holder,": {
+    "name": "flash_powder/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "flash_powder_flash": {
+    "name": "flash_powder_flash",
+    "results": null,
+    "required_reagents": "/datum/reagent/flash_powder = 1",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "flash_powder_flash/on_reaction(datum/reagents/holder,": {
+    "name": "flash_powder_flash/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "smoke_powder": {
+    "name": "smoke_powder",
+    "results": "/datum/reagent/smoke_powder = 3",
+    "required_reagents": "/datum/reagent/potassium = 1, /datum/reagent/consumable/sugar = 1, /datum/reagent/phosphorus = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "smoke_powder/on_reaction(datum/reagents/holder,": {
+    "name": "smoke_powder/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "smoke_powder_smoke": {
+    "name": "smoke_powder_smoke",
+    "results": null,
+    "required_reagents": "/datum/reagent/smoke_powder = 1",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "smoke_powder_smoke/on_reaction(datum/reagents/holder,": {
+    "name": "smoke_powder_smoke/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "dense_smoke_powder": {
+    "name": "dense_smoke_powder",
+    "results": "/datum/reagent/dense_smoke_powder = 4",
+    "required_reagents": "/datum/reagent/smoke_powder = 3, /datum/reagent/carbon = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "dense_smoke_powder_smoke": {
+    "name": "dense_smoke_powder_smoke",
+    "results": null,
+    "required_reagents": "/datum/reagent/dense_smoke_powder = 1",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "dense_smoke_powder_smoke/on_reaction(datum/reagents/holder,": {
+    "name": "dense_smoke_powder_smoke/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "sonic_powder": {
+    "name": "sonic_powder",
+    "results": "/datum/reagent/sonic_powder = 3",
+    "required_reagents": "/datum/reagent/oxygen = 1, /datum/reagent/consumable/space_cola = 1, /datum/reagent/phosphorus = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "sonic_powder/on_reaction(datum/reagents/holder,": {
+    "name": "sonic_powder/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "sonic_powder_deafen": {
+    "name": "sonic_powder_deafen",
+    "results": null,
+    "required_reagents": "/datum/reagent/sonic_powder = 1",
+    "required_catalysts": null,
+    "required_temp": "374",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "sonic_powder_deafen/on_reaction(datum/reagents/holder,": {
+    "name": "sonic_powder_deafen/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "phlogiston": {
+    "name": "phlogiston",
+    "results": "/datum/reagent/phlogiston = 3",
+    "required_reagents": "/datum/reagent/phosphorus = 1, /datum/reagent/toxin/acid = 1, /datum/reagent/stable_plasma = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "phlogiston/on_reaction(datum/reagents/holder,": {
+    "name": "phlogiston/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "napalm": {
+    "name": "napalm",
+    "results": "/datum/reagent/napalm = 3",
+    "required_reagents": "/datum/reagent/fuel/oil = 1, /datum/reagent/fuel = 1, /datum/reagent/consumable/ethanol = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "cryostylane": {
+    "name": "cryostylane",
+    "results": "/datum/reagent/cryostylane = 3",
+    "required_reagents": "/datum/reagent/water = 1, /datum/reagent/stable_plasma = 1, /datum/reagent/nitrogen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "cryostylane/on_reaction(datum/reagents/holder,": {
+    "name": "cryostylane/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "cryostylane_oxygen": {
+    "name": "cryostylane_oxygen",
+    "results": "/datum/reagent/cryostylane = 1",
+    "required_reagents": "/datum/reagent/cryostylane = 1, /datum/reagent/oxygen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "cryostylane_oxygen/on_reaction(datum/reagents/holder,": {
+    "name": "cryostylane_oxygen/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "pyrosium_oxygen": {
+    "name": "pyrosium_oxygen",
+    "results": "/datum/reagent/pyrosium = 1",
+    "required_reagents": "/datum/reagent/pyrosium = 1, /datum/reagent/oxygen = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "pyrosium_oxygen/on_reaction(datum/reagents/holder,": {
+    "name": "pyrosium_oxygen/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "pyrosium": {
+    "name": "pyrosium",
+    "results": "/datum/reagent/pyrosium = 3",
+    "required_reagents": "/datum/reagent/stable_plasma = 1, /datum/reagent/uranium/radium = 1, /datum/reagent/phosphorus = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "pyrosium/on_reaction(datum/reagents/holder,": {
+    "name": "pyrosium/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "teslium": {
+    "name": "teslium",
+    "results": "/datum/reagent/teslium = 3",
+    "required_reagents": "/datum/reagent/stable_plasma = 1, /datum/reagent/silver = 1, /datum/reagent/gunpowder = 1",
+    "required_catalysts": null,
+    "required_temp": "400",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "energized_jelly": {
+    "name": "energized_jelly",
+    "results": "/datum/reagent/teslium/energized_jelly = 2",
+    "required_reagents": "/datum/reagent/toxin/slimejelly = 1, /datum/reagent/teslium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/teslium_lightning": {
+    "name": "reagent_explosion/teslium_lightning",
+    "results": null,
+    "required_reagents": "/datum/reagent/teslium = 1, /datum/reagent/water = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/teslium_lightning/on_reaction(datum/reagents/holder,": {
+    "name": "reagent_explosion/teslium_lightning/on_reaction(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/teslium_lightning/proc/zappy_zappy(datum/reagents/holder,": {
+    "name": "reagent_explosion/teslium_lightning/proc/zappy_zappy(datum/reagents/holder,",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/teslium_lightning/heat": {
+    "name": "reagent_explosion/teslium_lightning/heat",
+    "results": null,
+    "required_reagents": "/datum/reagent/teslium = 1",
+    "required_catalysts": null,
+    "required_temp": "474",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "reagent_explosion/nitrous_oxide": {
+    "name": "reagent_explosion/nitrous_oxide",
+    "results": null,
+    "required_reagents": "/datum/reagent/nitrous_oxide = 1",
+    "required_catalysts": null,
+    "required_temp": "575",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "firefighting_foam": {
+    "name": "firefighting_foam",
+    "results": "/datum/reagent/firefighting_foam = 3",
+    "required_reagents": "/datum/reagent/stabilizing_agent = 1,/datum/reagent/fluorosurfactant = 1,/datum/reagent/carbon = 1",
+    "required_catalysts": null,
+    "required_temp": "200",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\pyrotechnics.dm"
+  },
+  "randomized": {
+    "name": "randomized",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\special.dm"
+  },
+  "randomized/proc/GenerateRecipe()": {
+    "name": "randomized/proc/GenerateRecipe()",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": "rand(min_temp,max_temp)",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\special.dm"
+  },
+  "randomized/proc/GetPossibleReagents(kind)": {
+    "name": "randomized/proc/GetPossibleReagents(kind)",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\special.dm"
+  },
+  "randomized/proc/HasConflicts()": {
+    "name": "randomized/proc/HasConflicts()",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\special.dm"
+  },
+  "R": {
+    "name": "R",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\special.dm"
+  },
+  "randomized/proc/unwrap_reagent_list(list/textreagents)": {
+    "name": "randomized/proc/unwrap_reagent_list(list/textreagents)",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\special.dm"
+  },
+  "randomized/proc/LoadOldRecipe(recipe_data)": {
+    "name": "randomized/proc/LoadOldRecipe(recipe_data)",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": "recipe_data[\"required_temp\"]",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\special.dm"
+  },
+  "randomized/secret_sauce": {
+    "name": "randomized/secret_sauce",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\special.dm"
+  },
+  "randomized/secret_sauce/GetPossibleReagents(kind)": {
+    "name": "randomized/secret_sauce/GetPossibleReagents(kind)",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\special.dm"
+  },
+  "recipe": {
+    "name": "recipe",
+    "results": null,
+    "required_reagents": null,
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\special.dm"
+  },
+  "formaldehyde": {
+    "name": "formaldehyde",
+    "results": "/datum/reagent/toxin/formaldehyde = 3",
+    "required_reagents": "/datum/reagent/consumable/ethanol = 1, /datum/reagent/oxygen = 1, /datum/reagent/silver = 1",
+    "required_catalysts": null,
+    "required_temp": "420",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "fentanyl": {
+    "name": "fentanyl",
+    "results": "/datum/reagent/toxin/fentanyl = 1",
+    "required_reagents": "/datum/reagent/drug/space_drugs = 1",
+    "required_catalysts": null,
+    "required_temp": "674",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "cyanide": {
+    "name": "cyanide",
+    "results": "/datum/reagent/toxin/cyanide = 3",
+    "required_reagents": "/datum/reagent/fuel/oil = 1, /datum/reagent/ammonia = 1, /datum/reagent/oxygen = 1",
+    "required_catalysts": null,
+    "required_temp": "380",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "itching_powder": {
+    "name": "itching_powder",
+    "results": "/datum/reagent/toxin/itching_powder = 3",
+    "required_reagents": "/datum/reagent/fuel = 1, /datum/reagent/ammonia = 1, /datum/reagent/medicine/charcoal = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "sacid": {
+    "name": "sacid",
+    "results": "/datum/reagent/toxin/acid = 7",
+    "required_reagents": "/datum/reagent/sulfur = 1, /datum/reagent/hydrogen = 2, /datum/reagent/oxygen = 4",
+    "required_catalysts": null,
+    "required_temp": "380",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "facid": {
+    "name": "facid",
+    "results": "/datum/reagent/toxin/acid/fluacid = 4",
+    "required_reagents": "/datum/reagent/toxin/acid = 1, /datum/reagent/fluorine = 1, /datum/reagent/hydrogen = 1, /datum/reagent/potassium = 1",
+    "required_catalysts": null,
+    "required_temp": "380",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "nitracid": {
+    "name": "nitracid",
+    "results": "/datum/reagent/toxin/acid/nitracid = 2",
+    "required_reagents": "/datum/reagent/toxin/acid/fluacid = 1, /datum/reagent/nitrogen = 1, /datum/reagent/oxygen = 1",
+    "required_catalysts": null,
+    "required_temp": "380",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "sulfonal": {
+    "name": "sulfonal",
+    "results": "/datum/reagent/toxin/sulfonal = 3",
+    "required_reagents": "/datum/reagent/acetone = 1, /datum/reagent/diethylamine = 1, /datum/reagent/sulfur = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "lipolicide": {
+    "name": "lipolicide",
+    "results": "/datum/reagent/toxin/lipolicide = 3",
+    "required_reagents": "/datum/reagent/mercury = 1, /datum/reagent/diethylamine = 1, /datum/reagent/medicine/ephedrine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "mutagen": {
+    "name": "mutagen",
+    "results": "/datum/reagent/toxin/mutagen = 3",
+    "required_reagents": "/datum/reagent/uranium/radium = 1, /datum/reagent/phosphorus = 1, /datum/reagent/chlorine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "lexorin": {
+    "name": "lexorin",
+    "results": "/datum/reagent/toxin/lexorin = 3",
+    "required_reagents": "/datum/reagent/toxin/plasma = 1, /datum/reagent/hydrogen = 1, /datum/reagent/medicine/salbutamol = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "hot_ice_melt": {
+    "name": "hot_ice_melt",
+    "results": "/datum/reagent/toxin/plasma = 12",
+    "required_reagents": "/datum/reagent/toxin/hot_ice = 1",
+    "required_catalysts": null,
+    "required_temp": "T0C + 30",
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "chloralhydrate": {
+    "name": "chloralhydrate",
+    "results": "/datum/reagent/toxin/chloralhydrate = 1",
+    "required_reagents": "/datum/reagent/consumable/ethanol = 1, /datum/reagent/chlorine = 3, /datum/reagent/water = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "mutetoxin": {
+    "name": "mutetoxin",
+    "results": "/datum/reagent/toxin/mutetoxin = 2",
+    "required_reagents": "/datum/reagent/uranium = 2, /datum/reagent/water = 1, /datum/reagent/carbon = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "zombiepowder": {
+    "name": "zombiepowder",
+    "results": "/datum/reagent/toxin/zombiepowder = 2",
+    "required_reagents": "/datum/reagent/toxin/carpotoxin = 5, /datum/reagent/medicine/morphine = 5, /datum/reagent/copper = 5",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "ghoulpowder": {
+    "name": "ghoulpowder",
+    "results": "/datum/reagent/toxin/ghoulpowder = 2",
+    "required_reagents": "/datum/reagent/toxin/zombiepowder = 1, /datum/reagent/medicine/epinephrine = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "mindbreaker": {
+    "name": "mindbreaker",
+    "results": "/datum/reagent/toxin/mindbreaker = 5",
+    "required_reagents": "/datum/reagent/silicon = 1, /datum/reagent/hydrogen = 1, /datum/reagent/medicine/charcoal = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "heparin": {
+    "name": "heparin",
+    "results": "/datum/reagent/toxin/heparin = 4",
+    "required_reagents": "/datum/reagent/toxin/formaldehyde = 1, /datum/reagent/sodium = 1, /datum/reagent/chlorine = 1, /datum/reagent/lithium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "rotatium": {
+    "name": "rotatium",
+    "results": "/datum/reagent/toxin/rotatium = 3",
+    "required_reagents": "/datum/reagent/toxin/mindbreaker = 1, /datum/reagent/teslium = 1, /datum/reagent/toxin/fentanyl = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "anacea": {
+    "name": "anacea",
+    "results": "/datum/reagent/toxin/anacea = 3",
+    "required_reagents": "/datum/reagent/medicine/haloperidol = 1, /datum/reagent/impedrezene = 1, /datum/reagent/uranium/radium = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "mimesbane": {
+    "name": "mimesbane",
+    "results": "/datum/reagent/toxin/mimesbane = 3",
+    "required_reagents": "/datum/reagent/uranium/radium = 1, /datum/reagent/toxin/mutetoxin = 1, /datum/reagent/consumable/nothing = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  },
+  "bonehurtingjuice": {
+    "name": "bonehurtingjuice",
+    "results": "/datum/reagent/toxin/bonehurtingjuice = 5",
+    "required_reagents": "/datum/reagent/toxin/mutagen = 1, /datum/reagent/toxin/itching_powder = 3, /datum/reagent/consumable/milk = 1",
+    "required_catalysts": null,
+    "required_temp": null,
+    "file": "E:\\GitRepo\\MrCat\\code\\modules\\reagents\\chemistry\\recipes\\toxins.dm"
+  }
+}
