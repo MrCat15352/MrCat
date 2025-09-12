@@ -79,6 +79,7 @@
 #include "autowiki.dm"
 #include "bespoke_id.dm"
 #include "binary_insert.dm"
+#include "bounty_hunter_test.dm"
 #include "combat.dm"
 #include "component_tests.dm"
 #include "connect_loc.dm"
