@@ -1,0 +1,8 @@
+#include "code\orbit_defines.dm"
+#include "code\orbits_subsystem.dm"
+#include "components\orbital_map.dm"
+#include "components\orbital_vector.dm"
+#include "objects\orbital_object.dm"
+#include "objects\basic_objects.dm"
+#include "interface\orbital_map_interface.dm"
+#include "code\ghost_verb.dm"
