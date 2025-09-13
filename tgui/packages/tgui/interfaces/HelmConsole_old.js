@@ -105,40 +105,6 @@ const SharedContent = (_props, context) => {
           ))}
         </Table>
       </Section>
-      
-      {/* Orbital Mode Section */}
-      {(data.can_enter_orbital || data.can_exit_orbital || data.has_local_map) && (
-        <Section title="Орбитальный режим">
-          {data.can_enter_orbital && (
-            <Button
-              fluid
-              content="Орбитальный режим"
-              icon="globe"
-              color="blue"
-              onClick={() => act('enter_orbital_mode')}
-            />
-          )}
-          {data.can_exit_orbital && (
-            <Button
-              fluid
-              content="Выйти из орбитального режима"
-              icon="times"
-              color="red"
-              onClick={() => act('exit_orbital_mode')}
-            />
-          )}
-          {data.has_local_map && (
-            <Button
-              fluid
-              content="Открыть локальную карту"
-              icon="map"
-              color="green"
-              onClick={() => act('open_local_orbital')}
-            />
-          )}
-        </Section>
-      )}
-      
       <Section
         title={
           <Button.Input
@@ -430,6 +396,33 @@ const ShipControlContent = (_props, context) => {
             disabled={aiUser}
             onClick={() => act('toggle_ai_control')}
           />
+          {data.can_enter_orbital && (
+            <Button
+              tooltip="Войти в орбитальный режим"
+              tooltipPosition="left"
+              icon="globe"
+              color="blue"
+              onClick={() => act('enter_orbital_mode')}
+            />
+          )}
+          {data.can_exit_orbital && (
+            <Button
+              tooltip="Выйти из орбитального режима"
+              tooltipPosition="left"
+              icon="times"
+              color="red"
+              onClick={() => act('exit_orbital_mode')}
+            />
+          )}
+          {data.has_local_map && (
+            <Button
+              tooltip="Открыть локальную карту"
+              tooltipPosition="left"
+              icon="map"
+              color="green"
+              onClick={() => act('open_local_orbital')}
+            />
+          )}
         </>
       }
     >

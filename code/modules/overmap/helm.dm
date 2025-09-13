@@ -199,6 +199,14 @@
 	. = list()
 	if(!current_ship)
 		return
+	
+	//Orbital mode data
+	if(istype(current_ship, /datum/overmap/ship/controlled))
+		var/datum/overmap/ship/controlled/controlled_ship = current_ship
+		.["orbital_mode"] = controlled_ship.in_orbital_mode
+		.["can_enter_orbital"] = !controlled_ship.in_orbital_mode
+		.["can_exit_orbital"] = controlled_ship.in_orbital_mode
+		.["has_local_map"] = controlled_ship.in_orbital_mode && controlled_ship.current_local_map
 
 	.["calibrating"] = calibrating
 	// [CELADON-ADD] - CELADON_OVERMAP_ARPA - Это вагабонд насрал
@@ -403,7 +411,7 @@
 		say("Bluespace Jump in progress. Controls suspended.")
 		return
 
-	if(!current_ship.docked_to && !current_ship.docking)
+	if(!current_ship.docked_to && !current_ship.docking && !(istype(current_ship, /datum/overmap/ship/controlled) && current_ship:in_orbital_mode))
 		switch(action)
 			// [CELADON-ADD] - CELADON_OVERMAP_STUFF - Это вагабонд насрал
 			if("rotate_left")
@@ -491,6 +499,24 @@
 			if("dock_empty")
 				current_ship.dock_in_empty_space(usr)
 				return
+			if("enter_orbital_mode")
+				if(istype(current_ship, /datum/overmap/ship/controlled))
+					var/datum/overmap/ship/controlled/controlled_ship = current_ship
+					controlled_ship.enter_orbital_mode()
+					return TRUE
+				return
+			if("exit_orbital_mode")
+				if(istype(current_ship, /datum/overmap/ship/controlled))
+					var/datum/overmap/ship/controlled/controlled_ship = current_ship
+					controlled_ship.exit_orbital_mode()
+					return TRUE
+				return
+			if("open_local_orbital")
+				to_chat(usr, "BUTTON CLICKED: open_local_orbital")
+				//Simple test interface
+				var/datum/simple_test/test = new()
+				test.ui_interact(usr)
+				return TRUE
 	else if(current_ship.docked_to)
 		if(action == "undock")
 			current_ship.calculate_avg_fuel()
