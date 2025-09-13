@@ -87,6 +87,9 @@
 #define SHIP_PLACEMENT_TEST
 #endif
 
+// Orbital system toggle
+#define ORBITAL_SYSTEM_ENABLED
+
 #if defined(OPENDREAM)
 	#if !defined(CIBUILDING)
 		#warn You are building with OpenDream. Remember to build TGUI manually.
