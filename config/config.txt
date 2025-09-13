@@ -562,7 +562,7 @@ RESPAWN_TIMER 600
 
 ## Orbital system mode toggle
 ## Uncomment to enable orbital navigation instead of overmap
-#ORBITAL_MODE_ENABLED
+ORBITAL_MODE_ENABLED
 
 ## If the number of controlled non-subshuttle ships in existence is greater than this number,
 ## the shuttle creator and roundstart menu will stop new ships from being created.

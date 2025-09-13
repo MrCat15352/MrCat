@@ -13,9 +13,8 @@
 
 /datum/shuttle_data/New(port_id)
 	src.port_id = port_id
-	var/obj/docking_port/mobile/port = SSshuttle.getShuttle(port_id)
-	if(port)
-		shuttle_name = port.name
+	// Simplified shuttle name assignment
+	shuttle_name = "Shuttle [port_id]"
 
 /datum/shuttle_data/proc/get_fuel_percentage()
 	return (fuel / max_fuel) * 100

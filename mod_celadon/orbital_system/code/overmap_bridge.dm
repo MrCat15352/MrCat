@@ -2,7 +2,7 @@
 
 /datum/controller/subsystem/overmap/proc/use_orbital_mode()
 	#ifdef ORBITAL_SYSTEM_ENABLED
-	return CONFIG_GET(flag/orbital_mode_enabled)
+	return TRUE
 	#else
 	return FALSE
 	#endif

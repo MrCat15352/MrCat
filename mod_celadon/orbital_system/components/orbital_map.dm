@@ -15,7 +15,7 @@
 		return
 	//Add the orbital body in the correct collision zone
 	var/position_key = "[round(body.position.GetX() / ORBITAL_MAP_ZONE_SIZE)],[round(body.position.GetY() / ORBITAL_MAP_ZONE_SIZE)]"
-	LAZYADDASSOLIST(collision_zone_bodies, position_key, body)
+	LAZYADD(collision_zone_bodies[position_key], body)
 
 /datum/orbital_map/proc/remove_body(datum/orbital_object/body)
 	object_count --
@@ -41,7 +41,7 @@
 	if(pre_position_key == post_position_key)
 		return
 	LAZYREMOVEASSOC(collision_zone_bodies, pre_position_key, body)
-	LAZYADDASSOLIST(collision_zone_bodies, post_position_key, body)
+	LAZYADD(collision_zone_bodies[post_position_key], body)
 
 /datum/orbital_map/proc/get_all_bodies()
 	. = list()
@@ -54,8 +54,11 @@
 	. = list()
 	//Get all orbital bodies on the map.
 	for(var/datum/orbital_object/body as() in get_all_bodies())
-		//Distance check last for optimisations
-		if(body != source && body.relevant_gravity_range && source.position.DistanceTo(body.position) <= body.relevant_gravity_range)
+		if(!body || body == source)
+			continue
+		if(!body.relevant_gravity_range)
+			continue
+		if(source.position.DistanceTo(body.position) <= body.relevant_gravity_range)
 			. += body
 
 //Post setup function that runs after SSorbit init.

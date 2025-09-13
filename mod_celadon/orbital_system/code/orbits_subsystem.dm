@@ -38,7 +38,9 @@ PROCESSING_SUBSYSTEM_DEF(orbits)
 /datum/controller/subsystem/processing/orbits/Initialize(start_timeofday)
 	//Create the main orbital map.
 	orbital_maps[PRIMARY_ORBITAL_MAP] = new /datum/orbital_map()
-	return SS_INIT_SUCCESS
+	//Setup orbits immediately
+	post_load_init()
+	return ..()
 
 /datum/controller/subsystem/processing/orbits/proc/post_load_init()
 	for(var/map_key in orbital_maps)

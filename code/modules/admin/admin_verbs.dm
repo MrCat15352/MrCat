@@ -219,6 +219,10 @@ GLOBAL_PROTECT(admin_verbs_debug)
 	/client/proc/toggle_cdn,
 	/datum/admins/proc/delete_all_missions,
 	/client/proc/cmd_admin_toggle_fov,
+	/client/verb/toggle_orbital_mode,
+	/client/verb/orbital_map_admin,
+	/client/verb/orbital_debug_panel,
+	/client/verb/create_orbital_object,
 	)
 GLOBAL_LIST_INIT(admin_verbs_possess, list(/proc/possess, /proc/release))
 GLOBAL_PROTECT(admin_verbs_possess)
