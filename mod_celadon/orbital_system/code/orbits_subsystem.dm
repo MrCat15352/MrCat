@@ -47,6 +47,7 @@ PROCESSING_SUBSYSTEM_DEF(orbits)
 	orbits_setup = TRUE
 	//Create test objects
 	new /datum/orbital_object/planet(new /datum/orbital_vector(0, 0))
+	new /datum/orbital_object/station(new /datum/orbital_vector(-30, -30))
 	new /datum/orbital_object/beacon(new /datum/orbital_vector(50, 0))
 	new /datum/orbital_object/shuttle(new /datum/orbital_vector(30, 30), new /datum/orbital_vector(0, 1))
 

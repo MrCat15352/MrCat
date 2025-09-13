@@ -6,3 +6,8 @@
 #include "objects\basic_objects.dm"
 #include "interface\orbital_map_interface.dm"
 #include "code\ghost_verb.dm"
+#include "code\overmap_bridge.dm"
+#include "code\navigation_console.dm"
+#include "objects\shuttle_data.dm"
+#include "objects\station_orbital.dm"
+#include "code\admin_verbs.dm"

@@ -560,6 +560,10 @@ AUTO_PROFILE
 ## THIS CONFIG DOES NOT OVERRIDE THE NORESPAWN FLAG
 RESPAWN_TIMER 600
 
+## Orbital system mode toggle
+## Uncomment to enable orbital navigation instead of overmap
+#ORBITAL_MODE_ENABLED
+
 ## If the number of controlled non-subshuttle ships in existence is greater than this number,
 ## the shuttle creator and roundstart menu will stop new ships from being created.
 ## If this is undesired, just set this to an arbitrarily high value.
