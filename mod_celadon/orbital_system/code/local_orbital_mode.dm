@@ -3,19 +3,30 @@
 /datum/overmap/ship/controlled
 	var/in_orbital_mode = FALSE
 	var/datum/local_orbital_map/current_local_map
+	var/saved_x = 0
+	var/saved_y = 0
+	var/saved_icon
+	var/saved_icon_state
 
 /datum/overmap/ship/controlled/proc/enter_orbital_mode()
 	if(in_orbital_mode)
 		return FALSE
 	
 	in_orbital_mode = TRUE
+	//Save current position and appearance
+	saved_x = x
+	saved_y = y
+	saved_icon = token.icon
+	saved_icon_state = token.icon_state
+	
 	//Find or create local orbital map for this sector
 	var/sector_key = "[x],[y]"
 	current_local_map = SSorbits.get_local_map(sector_key, src)
 	
-	//Freeze overmap movement
-	velocity_x = 0
-	velocity_y = 0
+	//Hide ship model and show orbital icon
+	token.icon = 'icons/effects/effects.dmi'
+	token.icon_state = "electricity2"
+	name = "[name] (Орбита)"
 	
 	//Add ship to local orbital map
 	current_local_map.add_ship(src)
@@ -29,6 +40,13 @@
 		return FALSE
 	
 	in_orbital_mode = FALSE
+	
+	//Restore original position and appearance
+	x = saved_x
+	y = saved_y
+	token.icon = saved_icon
+	token.icon_state = saved_icon_state
+	name = real_name
 	
 	//Remove from local map
 	if(current_local_map)

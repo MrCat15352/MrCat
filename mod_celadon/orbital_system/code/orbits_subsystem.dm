@@ -46,7 +46,7 @@ PROCESSING_SUBSYSTEM_DEF(orbits)
 	for(var/map_key in orbital_maps)
 		var/datum/orbital_map/orbital_map = orbital_maps[map_key]
 		orbital_map.post_setup()
-	orbits_setup = TRUE
+	orbits_setup = FALSE
 	//Create test objects
 	new /datum/orbital_object/planet(new /datum/orbital_vector(0, 0))
 	new /datum/orbital_object/station(new /datum/orbital_vector(-30, -30))

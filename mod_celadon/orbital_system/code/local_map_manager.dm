@@ -38,9 +38,9 @@
 	//Process local orbital combat
 	for(var/sector_key in local_orbital_maps)
 		var/datum/local_orbital_map/map = local_orbital_maps[sector_key]
-		map.process()
+		map.process_local_map()
 
-/datum/local_orbital_map/proc/process()
+/datum/local_orbital_map/proc/process_local_map()
 	//Update ship positions
 	for(var/datum/overmap/ship/controlled/ship in ships)
 		//Apply physics, collision detection, etc
