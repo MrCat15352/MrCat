@@ -207,9 +207,3 @@ MARK: 5.56x45mm
 	desc = "Contains one 60-round 5.56x45mm Enhanced Performance ammo."
 	contains = list(/obj/item/storage/box/ammo/a556_box/a856)
 	cost = 650
-
-/datum/supply_pack/faction/inteq/ammo/box556/m903_box
-	name = "5.56x45mm Armour Piercing Ammo Box Crate"
-	desc = "Contains one 60-round 5.56x45mm Armour Piercing ammo."
-	contains = list(/obj/item/storage/box/ammo/a556_box/m903)
-	cost = 1300

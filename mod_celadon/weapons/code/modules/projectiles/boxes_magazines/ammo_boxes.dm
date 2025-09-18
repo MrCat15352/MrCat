@@ -20,19 +20,12 @@ MARK: 5.56x45
 	ammo_type = /obj/item/ammo_casing/a556_45/a856
 	max_ammo = 15
 
-/obj/item/ammo_box/magazine/ammo_stack/prefilled/a556_45/m903
-	ammo_type = /obj/item/ammo_casing/a556_45/m903
-	max_ammo = 15
-
-/obj/item/ammo_box/magazine/ammo_stack/prefilled/a556_45/surplus
-	ammo_type = /obj/item/ammo_casing/a556_45/surplus
-	max_ammo = 15
-
 /obj/item/storage/box/ammo/a556_box
 	name = "ammo box (5.56x45mm)"
 	desc = "A box of standard 5.56x45mm ammo."
 	icon = 'mod_celadon/_storage_icons/icons/items/weapons/ammo/ammo_boxes.dmi'
 	icon_state = "a556_45box_big"
+
 /obj/item/storage/box/ammo/a556_box/PopulateContents()
 	var/static/items_inside = list(
 		/obj/item/ammo_box/magazine/ammo_stack/prefilled/a556_45 = 4)
@@ -42,28 +35,10 @@ MARK: 5.56x45
 	name = "ammo box (5.56x45mm EP)"
 	desc = "A box of 5.56x45mm enhanced-performance ammo."
 	icon_state = "a556_45box_big-ep"
+
 /obj/item/storage/box/ammo/a556_box/a856/PopulateContents()
 	var/static/items_inside = list(
 		/obj/item/ammo_box/magazine/ammo_stack/prefilled/a556_45/a856 = 4)
-	generate_items_inside(items_inside,src)
-
-/obj/item/storage/box/ammo/a556_box/m903
-	name = "ammo box (5.56x45mm AP)"
-	desc = "A box of 5.56x45mm armour-piercing ammo."
-	icon_state = "a556_45box_big-ap"
-/obj/item/storage/box/ammo/a556_box/m903/PopulateContents()
-	var/static/items_inside = list(
-		/obj/item/ammo_box/magazine/ammo_stack/prefilled/a556_45/m903 = 4)
-	generate_items_inside(items_inside,src)
-
-/obj/item/storage/box/ammo/a556_box/surplus
-	name = "surplus ammo box (5.56x45mm)"
-	desc = "A box of standard 5.56x45mm ammo."
-	icon = 'mod_celadon/_storage_icons/icons/items/weapons/ammo/ammo.dmi'
-	icon_state = "a556box_surplus"
-/obj/item/storage/box/ammo/a556_box/surplus/PopulateContents()
-	var/static/items_inside = list(
-		/obj/item/ammo_box/magazine/ammo_stack/prefilled/a556_45/surplus = 4)
 	generate_items_inside(items_inside,src)
 
 //
@@ -137,17 +112,6 @@ MARK: 5.56x45
 		/obj/item/ammo_box/magazine/ammo_stack/prefilled/a308/rubber = 4)
 	generate_items_inside(items_inside,src)
 */
-
-//Тупое название сурплус , будет брак или некачественное исполнение. Снижен урон , минимум пробития - не для продажи
-/obj/item/storage/box/ammo/a308/surplus
-	name = "Коробка бракованных патронов .308"
-	desc = "Не слишком качественные патроны калибра .308, хуже заводских но все еще годны."
-	icon_state = "a308_brak"
-
-/obj/item/storage/box/ammo/a308/surplus/PopulateContents()
-	var/static/items_inside = list(
-		/obj/item/ammo_box/magazine/ammo_stack/prefilled/a308/surplus = 4)
-	generate_items_inside(items_inside,src)
 
 //
 // MARK: 8x58

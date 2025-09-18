@@ -336,22 +336,6 @@ MARK: 5.56x42
 	cost = 575
 
 /*
-MARK: 5.56x45
-*/
-
-// /datum/supply_pack/faction/independent/ammo/box556_box
-// 	name = "5.56x45mm Ammo Box Crate"
-// 	desc = "A box of standard 5.56x45mm ammo."
-// 	contains = list(/obj/item/storage/box/ammo/a556_box)
-// 	cost = 500
-
-// /datum/supply_pack/faction/independent/ammo/box556/a856_box
-// 	name = "5.56x45mm EP Ammo Box Crate"
-// 	desc = "A box of enhanced performance 5.56x45mm ammo."
-// 	contains = list(/obj/item/storage/box/ammo/a556_box/a856)
-// 	cost = 650
-
-/*
 MARK: 7.62x40
 */
 
