@@ -1,0 +1,8 @@
+#ifndef MODPACK_CELADON_SHARK
+#define MODPACK_CELADON_SHARK
+
+#include "_shark.dm"
+
+#include "code/shark.dm"
+
+#endif
