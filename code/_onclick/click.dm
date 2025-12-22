@@ -175,7 +175,7 @@
 						W.afterattack(A, src, proximity, params)
 						RangedAttack(A, params)
 			else
-				W.afterattack(A,src,0,params)
+				//W.afterattack(A,src,0,params)	// [CELADON-REMOVE] - WHAT DOUBLE CLICK
 				if(!proximity || !A.attackby(W, src, params))
 					W.afterattack(A, src, proximity, params)
 					RangedAttack(A, params)
