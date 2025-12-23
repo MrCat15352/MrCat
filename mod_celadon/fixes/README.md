@@ -364,6 +364,7 @@ FIXES_FIRES_OVERLAYES
 
 FIXES_FIRE_IN_THE_WORLD
 - `code/modules/atmospherics/auxgm/gas_types.dm`	: Убираем параметр у газа СО на горение
+
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
