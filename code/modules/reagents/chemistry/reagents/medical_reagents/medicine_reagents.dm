@@ -161,6 +161,7 @@
 	..()
 	. = 1
 
+// [CELADON-EDIT]
 /datum/reagent/medicine/silfrine
 	name = "Silfrine"
 	description = "An extremely aggressive silver-based compound suited best for catalyzing rapid platlet movement, and sealing of wounds. This is an extremely painful process. Overdose causes shortness of breath, and brute damage, as the body tries to seal non-existent wounds."
@@ -174,8 +175,8 @@
 		if(method in list(INGEST, INJECT, PATCH))
 			if(!HAS_TRAIT(M, TRAIT_ANALGESIA))
 				to_chat(M, span_boldwarning("Your body ignites in pain as nerves are rapidly reformed, and flesh is freshly knit!"))
-				M.force_pain_noise(reac_volume*6)
-				M.adjustStaminaLoss(reac_volume*4)
+				//M.force_pain_noise(reac_volume*6)
+				//M.adjustStaminaLoss(reac_volume*4)
 			for(var/owie in paper_cut_victim.all_wounds)
 				var/datum/wound/paper_cut = owie
 				paper_cut.on_silfrine(reac_volume)
@@ -217,7 +218,7 @@
 		M.losebreath++
 	..()
 	. = 1
-
+// [/CELADON-EDIT]
 
 /// BURN REAGENTS ///
 
@@ -249,8 +250,8 @@
 
 /datum/reagent/medicine/alvitane/expose_mob(mob/living/M, method=TOUCH, reac_volume, show_message = 1)
 	M.adjustFireLoss(-reac_volume/2)
-	M.force_pain_noise(reac_volume/2)
-	M.adjustStaminaLoss(reac_volume/2)
+	//M.force_pain_noise(reac_volume/2)
+	//M.adjustStaminaLoss(reac_volume/2)
 	if(iscarbon(M) && M.stat != DEAD)
 		var/mob/living/carbon/burn_ward_attendee = M
 		for(var/owie in burn_ward_attendee.all_wounds)
@@ -329,6 +330,7 @@
 	M.adjust_bodytemperature(-5 * TEMPERATURE_DAMAGE_COEFFICIENT, 50)
 	..()
 
+// [CELADON-EDIT]
 /datum/reagent/medicine/ysiltane
 	name = "Ysiltane"
 	description = "A burn treatment derived from plasma. Application by injection or ingestion causes burns to rapidly repair themselves. The intensity of application causes the user's system to temporarily crash. Overdose causes a toxic crisis within the user's system, and can damage organs."
@@ -341,14 +343,14 @@
 	if(current_cycle > 2 && current_cycle <= 6)
 		M.adjustFireLoss(-10*REM, 0)
 	M.adjustFireLoss(-2*REM, 0)
-	M.adjustStaminaLoss(1*REM, 0)
+	//M.adjustStaminaLoss(1*REM, 0)
 	..()
 	. = 1
 
 /datum/reagent/medicine/ysiltane/expose_mob(mob/living/carbon/M, method=VAPOR, reac_volume)
 	if(method in list(INJECT, INGEST))
 		M.adjustFireLoss(-reac_volume*2)
-		M.adjustStaminaLoss(reac_volume*6)
+		//M.adjustStaminaLoss(reac_volume*6)
 		if(!HAS_TRAIT(M, TRAIT_ANALGESIA))
 			to_chat(M, span_boldwarning("Your nerves ignite in pain as burns start to rapidly regenerate!"))
 			SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "painful_medicine", /datum/mood_event/painful_medicine)
@@ -367,6 +369,7 @@
 	M.adjustFireLoss(3*REM, 0.)
 	M.adjust_bodytemperature(5 * TEMPERATURE_DAMAGE_COEFFICIENT, 330)
 	..()
+// [/CELADON-EDIT]
 
 
 /// TOXIN REAGENTS ///
