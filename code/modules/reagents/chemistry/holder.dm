@@ -258,8 +258,8 @@
 	amount = min(min(amount, src.total_volume), R.maximum_volume-R.total_volume)
 	var/trans_data = null
 	var/transfer_log = list()
-	if(!round_robin)
-		var/part = amount / src.total_volume
+	var/part = amount / src.total_volume
+	if(!round_robin)	//	[CELADON-EDIT]
 		for(var/reagent in cached_reagents)
 			var/datum/reagent/T = reagent
 			if(remove_blacklisted && !T.can_synth)
@@ -270,9 +270,9 @@
 			R.add_reagent(T.type, transfer_amount * multiplier, trans_data, chem_temp, no_react = 1) //we only handle reaction after every reagent has been transfered.
 			if(method)
 				if(istype(target_atom, /obj/item/organ))
-					R.expose_single(T, target, method, transfer_amount, show_message)
+					R.expose_single(T, target, method, part, show_message)	//	[CELADON-EDIT]
 				else
-					R.expose_single(T, target_atom, method, transfer_amount, show_message)
+					R.expose_single(T, target_atom, method, part, show_message)	//	[CELADON-EDIT]
 				T.on_transfer(target_atom, method, transfer_amount * multiplier)
 			remove_reagent(T.type, transfer_amount)
 			transfer_log[T.type] = transfer_amount
@@ -293,9 +293,9 @@
 			to_transfer = max(to_transfer - transfer_amount , 0)
 			if(method)
 				if(istype(target_atom, /obj/item/organ))
-					R.expose_single(T, target, method, transfer_amount, show_message)
+					R.expose_single(T, target, method, part, show_message)	//	[CELADON-EDIT]
 				else
-					R.expose_single(T, target_atom, method, transfer_amount, show_message)
+					R.expose_single(T, target_atom, method, part, show_message)	//	[CELADON-EDIT]
 				T.on_transfer(target_atom, method, transfer_amount * multiplier)
 			remove_reagent(T.type, transfer_amount)
 			transfer_log[T.type] = transfer_amount
