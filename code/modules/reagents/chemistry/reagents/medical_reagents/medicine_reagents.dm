@@ -175,8 +175,8 @@
 		if(method in list(INGEST, INJECT, PATCH))
 			if(!HAS_TRAIT(M, TRAIT_ANALGESIA))
 				to_chat(M, span_boldwarning("Your body ignites in pain as nerves are rapidly reformed, and flesh is freshly knit!"))
-				//M.force_pain_noise(reac_volume*6)
-				//M.adjustStaminaLoss(reac_volume*4)
+				M.force_pain_noise(reac_volume*6)
+				M.adjustStaminaLoss(reac_volume*4)
 			for(var/owie in paper_cut_victim.all_wounds)
 				var/datum/wound/paper_cut = owie
 				paper_cut.on_silfrine(reac_volume)
@@ -343,14 +343,14 @@
 	if(current_cycle > 2 && current_cycle <= 6)
 		M.adjustFireLoss(-10*REM, 0)
 	M.adjustFireLoss(-2*REM, 0)
-	//M.adjustStaminaLoss(1*REM, 0)
+	M.adjustStaminaLoss(1*REM, 0)
 	..()
 	. = 1
 
 /datum/reagent/medicine/ysiltane/expose_mob(mob/living/carbon/M, method=VAPOR, reac_volume)
 	if(method in list(INJECT, INGEST))
 		M.adjustFireLoss(-reac_volume*2)
-		//M.adjustStaminaLoss(reac_volume*6)
+		M.adjustStaminaLoss(reac_volume*6)
 		if(!HAS_TRAIT(M, TRAIT_ANALGESIA))
 			to_chat(M, span_boldwarning("Your nerves ignite in pain as burns start to rapidly regenerate!"))
 			SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "painful_medicine", /datum/mood_event/painful_medicine)
@@ -535,11 +535,13 @@
 	/// We stop increasing stamina damage once we reach this number.
 	var/maximum_od_stamina_damage = 80
 
+/*
 /datum/reagent/medicine/salbutamol/expose_mob(mob/living/M, method = TOUCH, reac_volume, show_message = TRUE, touch_protection = 0)
 	var/datum/status_effect/lung_inflammation/asthma = M.has_status_effect(/datum/status_effect/lung_inflammation)
 	if(asthma)
 		asthma.adjust_salbutamol_levels(reac_volume)
 	return ..()
+*/
 
 /datum/reagent/medicine/salbutamol/on_mob_metabolize(mob/living/affected_mob)
 	. = ..()
