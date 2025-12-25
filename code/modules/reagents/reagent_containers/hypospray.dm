@@ -146,7 +146,7 @@
 	item_state = "stimpen"
 	base_icon_state = "stimpen"
 	desc = "A modified stimulant autoinjector, containing a cocktail of potent nerve excitants and long-release healing chemicals. Designed for use in emergency situations where medical help may be hours or days away."
-	list_reagents = list(/datum/reagent/medicine/stimulants = 5, /datum/reagent/medicine/ephedrine = 5, /datum/reagent/medicine/panacea = 15)
+	list_reagents = list(/datum/reagent/medicine/stimulants = 10, /datum/reagent/medicine/panacea = 10)	// [CELADON-EDIT] - Ебнутые что ли? Какие стимулянты с эпинефрином...
 
 /obj/item/reagent_containers/hypospray/medipen/morphine
 	name = "morphine medipen"
