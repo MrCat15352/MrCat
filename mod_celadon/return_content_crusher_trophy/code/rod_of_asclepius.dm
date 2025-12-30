@@ -60,10 +60,12 @@
 	status_type = STATUS_EFFECT_UNIQUE
 	duration = -1
 	tick_interval = 25
-	examine_text = span_notice("They seem to have an aura of healing and helpfulness about them.")
 	alert_type = null
 	var/hand
 	var/deathTick = 0
+
+/datum/status_effect/antimagic/get_examine_text()
+	return span_notice("They seem to have an aura of healing and helpfulness about them.")
 
 /datum/status_effect/hippocraticOath/on_apply()
 	//Makes the user passive, it's in their oath not to harm!
@@ -163,7 +165,8 @@
 /datum/status_effect/hippocraticOath/proc/consume_owner()
 	owner.visible_message(span_notice("[owner]'s soul is absorbed into the rod, relieving the previous snake of its duty."))
 	var/mob/living/simple_animal/hostile/retaliate/poison/snake/healSnake = new(owner.loc)
-	var/list/chems = list(/datum/reagent/medicine/sal_acid, /datum/reagent/medicine/c2/convermol, /datum/reagent/medicine/oxandrolone)
+	// /datum/reagent/medicine/sal_acid, /datum/reagent/medicine/c2/convermol,  // [RIP] - выпилено
+	var/list/chems = list(/datum/reagent/medicine/ysiltane)
 	healSnake.poison_type = pick(chems)
 	healSnake.name = "Asclepius's Snake"
 	healSnake.real_name = "Asclepius's Snake"

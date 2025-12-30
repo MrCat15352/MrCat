@@ -12,7 +12,7 @@
 	)
 	bolt_wording = "bolt"
 	w_class = WEIGHT_CLASS_BULKY
-	slot_flags = ITEM_SLOT_BACK
+	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_SUITSTORE
 	bolt_type = BOLT_TYPE_STANDARD
 	semi_auto = FALSE
 	internal_magazine = TRUE
@@ -68,7 +68,7 @@
 
 /obj/item/gun/ballistic/rifle/attackby(obj/item/A, mob/user, params)
 	if (!bolt_locked)
-		if(SEND_SIGNAL(src, COMSIG_PARENT_ATTACKBY, A, user, params) & COMPONENT_NO_AFTERATTACK)
+		if(SEND_SIGNAL(src, COMSIG_ATOM_ATTACKBY, A, user, params) & COMPONENT_NO_AFTERATTACK)
 			return TRUE
 		to_chat(user, span_notice("The bolt is closed!"))
 		return

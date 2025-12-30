@@ -109,7 +109,7 @@
 
 /datum/plant_gene/core/potency
 	name = "Potency"
-	value = 10
+	value = 25
 
 /datum/plant_gene/core/potency/apply_stat(obj/item/seeds/S)
 	S.potency = value
@@ -244,7 +244,7 @@
 
 	// Add on any bonus lines on examine
 	if(description)
-		RegisterSignal(our_plant, COMSIG_PARENT_EXAMINE, PROC_REF(examine))
+		RegisterSignal(our_plant, COMSIG_ATOM_EXAMINE, PROC_REF(examine))
 	return TRUE
 
 /*
@@ -624,7 +624,7 @@
 	if(!.)
 		return
 
-	RegisterSignal(our_plant, COMSIG_PARENT_ATTACKBY, PROC_REF(make_battery))
+	RegisterSignal(our_plant, COMSIG_ATOM_ATTACKBY, PROC_REF(make_battery))
 
 /*
  * When a plant with this gene is hit (attackby) with cables, we turn it into a battery.

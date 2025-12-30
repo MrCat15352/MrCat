@@ -112,11 +112,14 @@
 		owner.fireloss *= 10
 		if(iscarbon(owner))
 			var/mob/living/carbon/C = owner
-			for(var/X in C.bodyparts)
-				var/obj/item/bodypart/BP = X
-				BP.max_damage *= 10
-				BP.brute_dam *= 10
-				BP.burn_dam *= 10
+			var/obj/item/bodypart/limb
+			for(var/zone in C.bodyparts)
+				limb = C.bodyparts[zone]
+				if(!limb)
+					continue
+				limb.max_damage *= 10
+				limb.brute_dam *= 10
+				limb.burn_dam *= 10
 		owner.toxloss *= 10
 		owner.oxyloss *= 10
 		owner.cloneloss *= 10
@@ -196,11 +199,14 @@
 	owner.fireloss *= 0.1
 	if(iscarbon(owner))
 		var/mob/living/carbon/C = owner
-		for(var/X in C.bodyparts)
-			var/obj/item/bodypart/BP = X
-			BP.brute_dam *= 0.1
-			BP.burn_dam *= 0.1
-			BP.max_damage /= 10
+		var/obj/item/bodypart/limb
+		for(var/zone in C.bodyparts)
+			limb = C.bodyparts[zone]
+			if(!limb)
+				continue
+			limb.brute_dam *= 0.1
+			limb.burn_dam *= 0.1
+			limb.max_damage /= 10
 	owner.toxloss *= 0.1
 	owner.oxyloss *= 0.1
 	owner.cloneloss *= 0.1
@@ -287,8 +293,8 @@
 
 /datum/status_effect/good_music/tick()
 	if(owner.can_hear())
-		owner.dizziness = max(0, owner.dizziness - 2)
-		owner.adjust_jitter(owner.jitteriness - 2, max = 0)
+		owner.adjust_timed_status_effect(-4 SECONDS, /datum/status_effect/dizziness)
+		owner.adjust_timed_status_effect(-4 SECONDS, /datum/status_effect/jitter)
 		owner.confused = max(0, owner.confused - 1)
 		SEND_SIGNAL(owner, COMSIG_ADD_MOOD_EVENT, "goodmusic", /datum/mood_event/goodmusic)
 
@@ -318,7 +324,11 @@
 /datum/status_effect/antimagic
 	id = "antimagic"
 	duration = 10 SECONDS
-	examine_text = span_notice("They seem to be covered in a dull, grey aura.")
+
+
+/datum/status_effect/antimagic/get_examine_text()
+	return span_notice("They seem to be covered in a dull, grey aura.")
+
 
 /datum/status_effect/antimagic/on_apply()
 	owner.visible_message(span_notice("[owner] is coated with a dull aura!"))
@@ -372,3 +382,21 @@
 	owner.cut_overlay(overcharge)
 	owner.remove_movespeed_mod_immunities(type, /datum/movespeed_modifier/equipment_speedmod)
 	owner.remove_movespeed_mod_immunities(type, /datum/movespeed_modifier/gun)
+
+/datum/status_effect/concealed
+	id = "concealed"
+	var/concealment_power = 75
+	alert_type = /atom/movable/screen/alert/status_effect/concealed
+	tick_interval = 1
+
+/atom/movable/screen/alert/status_effect/concealed
+	name = "Concealed"
+	desc = "You're concealed and harder to hit with projectiles."
+	icon_state = "concealed"
+
+/datum/status_effect/concealed/tick(seconds_per_tick)
+	. = ..()
+	//look for smoke on tile
+	if(locate(/obj/effect/particle_effect/smoke) in get_turf(owner))
+		return TRUE
+	qdel(src) // we didnt find any smoke, so remove status

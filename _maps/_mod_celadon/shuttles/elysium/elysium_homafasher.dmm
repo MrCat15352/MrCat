@@ -247,7 +247,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/firealarm/directional/west,
-/obj/item/clothing/suit/hooded/explorer/old,
+/obj/item/clothing/suit/hooded/explorer,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /obj/item/pickaxe/rusted,
 /obj/item/pickaxe/drill{
@@ -617,7 +617,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/clothing/suit/hooded/explorer/old,
+/obj/item/clothing/suit/hooded/explorer,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /obj/item/pickaxe,
 /obj/item/pickaxe/drill{
@@ -2093,7 +2093,7 @@
 /obj/effect/turf_decal/industrial/hatch/yellow,
 /obj/machinery/light/small/directional/east,
 /obj/structure/rack,
-/obj/item/survey_handheld{
+/obj/item/survey_handheld_rnd{
 	pixel_y = 4;
 	pixel_x = -2
 	},
@@ -2849,7 +2849,7 @@
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/gloves/combat,
 /obj/item/storage/belt/security/webbing/elysium/unload_vest_green,
-/obj/item/clothing/head/helmet/m10_elysium,
+/obj/item/clothing/head/helmet/m10/elysium,
 /obj/item/clothing/suit/armor/vest/security,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/techfloor,
@@ -3212,15 +3212,15 @@
 	pixel_x = -4;
 	pixel_y = -3
 	},
-/obj/item/clothing/head/helmet/m10_elysium{
+/obj/item/clothing/head/helmet/m10/elysium{
 	pixel_x = 12;
 	pixel_y = 11
 	},
-/obj/item/clothing/head/helmet/m10_elysium{
+/obj/item/clothing/head/helmet/m10/elysium{
 	pixel_x = 13;
 	pixel_y = 2
 	},
-/obj/item/clothing/head/helmet/m10_elysium{
+/obj/item/clothing/head/helmet/m10/elysium{
 	pixel_x = 11;
 	pixel_y = -8
 	},
@@ -3815,7 +3815,6 @@
 /obj/item/melee/knife/survival,
 /obj/item/melee/knife/survival,
 /obj/item/melee/knife/survival,
-/obj/item/attachment/sling,
 /obj/item/melee/baton/cattleprod/loaded{
 	pixel_x = 6;
 	pixel_y = -3
