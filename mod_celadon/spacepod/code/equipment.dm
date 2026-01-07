@@ -48,11 +48,11 @@
 /obj/item/spacepod_equipment/weaponry/proc/fire_weapons(target)
 	if(spacepod.next_firetime > world.time)
 		to_chat(usr, span_warning("Your weapons are recharging."))
-		playsound(src, 'mod_celadon/_storge_sounds/sound/effects/gun_dry_fire.ogg', 30, TRUE)
+		playsound(src, 'mod_celadon/_storage_sounds/sound/effects/gun_dry_fire.ogg', 30, TRUE)
 		return
 	if(!spacepod.cell || !spacepod.cell.use(shot_cost))
 		to_chat(usr, span_warning("Insufficient charge to fire the weapons"))
-		playsound(src, 'mod_celadon/_storge_sounds/sound/effects/gun_dry_fire.ogg', 30, TRUE)
+		playsound(src, 'mod_celadon/_storage_sounds/sound/effects/gun_dry_fire.ogg', 30, TRUE)
 		return
 	spacepod.next_firetime = world.time + fire_delay
 	for(var/I in 1 to shots_per)

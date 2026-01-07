@@ -42,16 +42,16 @@
 // 		atom_fix()
 
 /// Handles the integrity of an atom changing. This must be called instead of changing integrity directly.
-/atom/proc/update_integrity(new_value)
-	SHOULD_NOT_OVERRIDE(TRUE)
-	if(!uses_integrity)
-		CRASH("/atom/proc/update_integrity() was called on [src] when it doesnt use integrity!")
-	var/old_value = atom_integrity
-	new_value = max(0, new_value)
-	if(atom_integrity == new_value)
-		return
-	atom_integrity = new_value
-	SEND_SIGNAL(src, COMSIG_ATOM_INTEGRITY_CHANGED, old_value, new_value)
+// /atom/proc/update_integrity(new_value)
+// 	SHOULD_NOT_OVERRIDE(TRUE)
+// 	if(!uses_integrity)
+// 		CRASH("/atom/proc/update_integrity() was called on [src] when it doesnt use integrity!")
+// 	var/old_value = atom_integrity
+// 	new_value = max(0, new_value)
+// 	if(atom_integrity == new_value)
+// 		return
+// 	atom_integrity = new_value
+// 	SEND_SIGNAL(src, COMSIG_ATOM_INTEGRITY_CHANGED, old_value, new_value)
 
 // /// This mostly exists to keep atom_integrity private. Might be useful in the future.
 /atom/proc/get_integrity_pod()
@@ -96,9 +96,9 @@
 // 	return take_damage(damage_amount, damage_type, damage_flag, sound_effect, get_dir(src, user), armor_penetration)
 
 /// Called after the atom takes damage and integrity is below integrity_failure level
-/atom/proc/atom_break(damage_flag)
-	SHOULD_CALL_PARENT(TRUE)
-	SEND_SIGNAL(src, COMSIG_ATOM_BREAK)
+// /atom/proc/atom_break(damage_flag)
+// 	SHOULD_CALL_PARENT(TRUE)
+// 	SEND_SIGNAL(src, COMSIG_ATOM_BREAK)
 
 // /// Called when integrity is repaired above the breaking point having been broken before
 // /atom/proc/atom_fix()

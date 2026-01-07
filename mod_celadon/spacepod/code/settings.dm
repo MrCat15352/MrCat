@@ -24,8 +24,8 @@
 /obj
 	uses_integrity = TRUE
 
-/atom
+// /atom
 	///Current integrity, defaults to max_integrity on init
-	VAR_PRIVATE/atom_integrity
+	// VAR_PRIVATE/atom_integrity
 	///any atom that uses integrity and can be damaged must set this to true, otherwise the integrity procs will throw an error
-	var/uses_integrity = FALSE
+	// var/uses_integrity = FALSE
