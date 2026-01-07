@@ -6,6 +6,7 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 	MODE_KEY_L_HAND = MODE_L_HAND,
 	MODE_KEY_EXOSUIT = MODE_EXOSUIT,
 	MODE_KEY_INTERCOM = MODE_INTERCOM,
+	MODE_KEY_WIDEBAND = MODE_WIDEBAND,
 
 	// Department
 	MODE_KEY_DEPARTMENT = MODE_DEPARTMENT,
@@ -263,7 +264,7 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 
 	//var/understood = TRUE
 	if(!is_custom_emote) // we do not translate emotes
-		//var/untranslated_raw_message = raw_message
+		//var/untranslated_raw_message = raw_message //???? what does this code do????
 		raw_message = lang_treat(speaker, message_language, raw_message, spans, message_mods) // translate
 		//if(raw_message != untranslated_raw_message)
 			//understood = FALSE
@@ -366,7 +367,7 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 			speech_bubble_recipients.Add(M.client)
 	// [CELADON-EDIT] - CELADON_QOL - Меняем бабл эмоута
 	// var/image/I = image('icons/mob/talk.dmi', src, "[bubble_type][say_test(message)]", FLY_LAYER) // CELADON-EDIT -> ORIGIN
-	var/image/I = image('mod_celadon/_storge_icons/icons/assets/qol/talk.dmi', src, "[bubble_type][say_test(message)]", FLY_LAYER)
+	var/image/I = image('mod_celadon/_storage_icons/icons/assets/qol/talk.dmi', src, "[bubble_type][say_test(message)]", FLY_LAYER)
 	// [/CELADON-EDIT]
 	I.appearance_flags = APPEARANCE_UI_IGNORE_ALPHA
 	INVOKE_ASYNC(GLOBAL_PROC, GLOBAL_PROC_REF(flick_overlay_global), I, speech_bubble_recipients, 3 SECONDS)
@@ -495,8 +496,15 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 				exo.radio.talk_into(src, message, , spans, language, message_mods)
 				return ITALICS | REDUCE_RANGE
 
+		// Allows the :i prefix to only work on mounted intercoms, not widebands
 		if(MODE_INTERCOM)
 			for (var/obj/item/radio/intercom/I in view(MODE_RANGE_INTERCOM, null))
+				if (!(istype(I, /obj/item/radio/intercom/wideband)))
+					I.talk_into(src, message, , spans, language, message_mods)
+			return ITALICS | REDUCE_RANGE
+
+		if(MODE_WIDEBAND)
+			for (var/obj/item/radio/intercom/wideband/I in view(MODE_RANGE_INTERCOM, null))
 				I.talk_into(src, message, , spans, language, message_mods)
 			return ITALICS | REDUCE_RANGE
 

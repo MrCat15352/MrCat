@@ -342,7 +342,7 @@ NO_MAG_GUN_HELPER(automatic/pistol/candor/factory)
 	weapon_weight = WEAPON_MEDIUM
 	force = 10
 	flags_1 = CONDUCT_1
-	slot_flags = ITEM_SLOT_BACK
+	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_SUITSTORE
 	default_ammo_type = /obj/item/ammo_box/magazine/internal/shot/dual
 	allowed_ammo_types = list(
 		/obj/item/ammo_box/magazine/internal/shot/dual,
@@ -419,7 +419,7 @@ NO_MAG_GUN_HELPER(automatic/pistol/candor/factory)
 
 /obj/item/gun/ballistic/shotgun/doublebarrel/attackby(obj/item/A, mob/user, params)
 	if (!bolt_locked)
-		if(SEND_SIGNAL(src, COMSIG_PARENT_ATTACKBY, A, user, params) & COMPONENT_NO_AFTERATTACK)
+		if(SEND_SIGNAL(src, COMSIG_ATOM_ATTACKBY, A, user, params) & COMPONENT_NO_AFTERATTACK)
 			return TRUE
 		to_chat(user, span_notice("The [bolt_wording] is shut closed!"))
 		return
@@ -462,7 +462,7 @@ EMPTY_GUN_HELPER(shotgun/doublebarrel)
 	sawn_off = TRUE
 	weapon_weight = WEAPON_MEDIUM
 	w_class = WEIGHT_CLASS_NORMAL
-	slot_flags = ITEM_SLOT_BELT
+	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_SUITSTORE
 
 	wield_slowdown = 0.15
 	wield_delay = 0.3 SECONDS //OP? maybe
@@ -487,6 +487,8 @@ EMPTY_GUN_HELPER(shotgun/doublebarrel/presawn)
 	icon_state = "dshotgun_srm"
 	item_state = "dshotgun_srm"
 	unique_reskin = null
+
+EMPTY_GUN_HELPER(shotgun/doublebarrel/roumain)
 
 /obj/item/gun/ballistic/shotgun/doublebarrel/roumain/sawoff(forced = FALSE)
 	. = ..()
@@ -766,6 +768,8 @@ EMPTY_GUN_HELPER(shotgun/flamingarrow/conflagration)
 	icon_state = "illestren_factory"
 	item_state = "illestren_factory"
 
+EMPTY_GUN_HELPER(rifle/illestren/factory)
+
 /obj/item/gun/ballistic/rifle/illestren/sawoff(forced = FALSE)
 	. = ..()
 	if(.)
@@ -902,6 +906,8 @@ EMPTY_GUN_HELPER(shotgun/flamingarrow)
 	base_icon_state = "flamingbolt"
 	icon_state = "flamingbolt"
 	item_state = "flamingbolt"
+
+EMPTY_GUN_HELPER(shotgun/flamingarrow/bolt)
 
 /obj/item/gun/ballistic/shotgun/flamingarrow/bolt/sawoff(forced = FALSE)
 	. = ..()
@@ -1060,7 +1066,7 @@ EMPTY_GUN_HELPER(shotgun/doublebarrel/beacon)
 	sawn_desc= "A break-action pistol chambered in .45-70. A bit difficult to aim."
 	sawn_off = TRUE
 	w_class = WEIGHT_CLASS_NORMAL
-	slot_flags = ITEM_SLOT_BELT
+	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_SUITSTORE
 
 	weapon_weight = WEAPON_MEDIUM
 
@@ -1155,8 +1161,10 @@ EMPTY_GUN_HELPER(shotgun/doublebarrel/beacon)
 	zoom_amt = 10 //Long range, enough to see in front of you, but no tiles behind you.
 	zoom_out_amt = 5
 
-	recoil = 1
-	recoil_unwielded = 8
+	wield_slowdown = SNIPER_SLOWDOWN
+
+	recoil = 3
+	recoil_unwielded = 10
 
 	manufacturer = MANUFACTURER_HUNTERSPRIDE
 
@@ -1173,7 +1181,7 @@ EMPTY_GUN_HELPER(shotgun/doublebarrel/beacon)
 
 /obj/item/gun/ballistic/automatic/assault/invictus
 	name = "HP Invictus"
-	desc = "An unwieldy automatic rifle fielded by the Saint-Roumain Militia, commonly sold to police forces and private buyers. Chambered in .308."
+	desc = "An unwieldy automatic rifle fielded by the Saint-Roumain Militia, commonly sold to police forces and private buyers. This one has a smooth wood finish and is in pristine condition. Chambered in .308."
 	icon = 'icons/obj/guns/manufacturer/hunterspride/48x32.dmi'
 	lefthand_file = 'icons/obj/guns/manufacturer/hunterspride/lefthand.dmi'
 	righthand_file = 'icons/obj/guns/manufacturer/hunterspride/righthand.dmi'
@@ -1192,7 +1200,7 @@ EMPTY_GUN_HELPER(shotgun/doublebarrel/beacon)
 
 	weapon_weight = WEAPON_MEDIUM
 	w_class = WEIGHT_CLASS_BULKY
-	slot_flags = ITEM_SLOT_BACK
+	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_SUITSTORE
 
 	fire_delay = 0.25 SECONDS
 
@@ -1201,6 +1209,8 @@ EMPTY_GUN_HELPER(shotgun/doublebarrel/beacon)
 
 	recoil = 1
 	recoil_unwielded = 4
+
+	wear_rate = 0.6
 
 	fire_sound = 'sound/weapons/gun/hmg/hmg.ogg'
 
@@ -1223,6 +1233,13 @@ EMPTY_GUN_HELPER(shotgun/doublebarrel/beacon)
 
 EMPTY_GUN_HELPER(automatic/assault/invictus)
 NO_MAG_GUN_HELPER(automatic/assault/invictus)
+
+/obj/item/gun/ballistic/automatic/assault/invictus/old
+	desc = "An unwieldy automatic rifle fielded by the Saint-Roumain Militia, commonly sold to police forces and private buyers. Chambered in .308."
+	icon_state = "invictus_old"
+	item_state = "invictus_old"
+
+	wear_rate = 1
 
 /obj/item/ammo_box/magazine/invictus_308_mag
 	name = "Invictus magazine (.308)"

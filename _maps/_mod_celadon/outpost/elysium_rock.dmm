@@ -16162,15 +16162,9 @@
 /turf/open/floor/marble/black,
 /area/space)
 "Up" = (
-/obj/structure/flora/grass/rockplanet/dead,
-/turf/open/floor/plating/asteroid/snow/safe/lit,
-/area/space)
-"Ur" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/turf/open/floor/plasteel/mono,
-/area/outpost/fraction/solfed)
+/obj/machinery/griddle,
+/turf/open/floor/plating/asteroid/rockplanet/safe/lit,
+/area/outpost/external)
 "Us" = (
 /obj/structure/sign/poster/rilena/ri{
 	pixel_y = 32

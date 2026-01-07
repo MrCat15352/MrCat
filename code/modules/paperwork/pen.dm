@@ -89,7 +89,7 @@
 	throw_speed = 4
 	colour = "crimson"
 	custom_materials = list(/datum/material/gold = 750)
-	sharpness = IS_SHARP
+	sharpness = SHARP_EDGED
 	resistance_flags = FIRE_PROOF
 	unique_reskin = list("Oak" = "pen-fountain-o",
 						"Gold" = "pen-fountain-g",
@@ -120,7 +120,7 @@
 		return
 
 	if(!force)
-		if(M.can_inject(user, 1))
+		if(M.can_inject(user))
 			to_chat(user, span_warning("You stab [M] with the pen."))
 			if(!stealth)
 				to_chat(M, span_danger("You feel a tiny prick!"))
@@ -192,7 +192,7 @@
  */
 /obj/item/pen/edagger
 	attack_verb = list("slashed", "stabbed", "sliced", "torn", "ripped", "diced", "cut") //these wont show up if the pen is off
-	sharpness = IS_SHARP
+	sharpness = SHARP_EDGED
 	var/on = FALSE
 
 /obj/item/pen/edagger/ComponentInitialize()
