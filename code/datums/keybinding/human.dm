@@ -103,7 +103,6 @@
 	slot_item_name = "suit storage slot item"
 	keybind_signal = COMSIG_KB_HUMAN_SUITEQUIP_DOWN
 
-/*
 /datum/keybinding/human/equipment_swap
 	hotkey_keys = list("V")
 	name = "equipment_swap"
@@ -118,4 +117,3 @@
 	var/mob/living/carbon/human/H = user.mob
 	H.equipment_swap()
 	return TRUE
-*/
