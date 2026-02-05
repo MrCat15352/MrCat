@@ -7,10 +7,9 @@
 
 <table>
 <tr><td align="center" width="2000"><b>
-<a href="https://github.com/shiptest-ss13/Shiptest">Upstream</a> • 
-<a href="https://discord.gg/rxsggTJzY3">Discord</a> • 
-<a href="https://wiki.celadon.pro/">Wiki</a> • 
-<a href="https://boosty.to/celadon">Patreon</a>
+<a href="https://github.com/CeladonSS13/Shiptest">Upstream</a> • 
+<a href="https://discord.gg/SmtRVFpJ">Discord</a> • 
+<a href="https://wiki.celadon.pro/">Wiki</a>
 </b></td></tr>
 <tr><td align="center" width="2000"><b>
 <a href="#рекомендации-для-контрибьюторов">Коллаборация</a> • 
@@ -28,7 +27,7 @@
 
 Ожидается, что все пользователи ознакомятся с [`/docs/CODE_OF_CONDUCT.md`](/docs/CODE_OF_CONDUCT.md) перед взаимодействием с репозиторием или другими пользователями.
 
-Для оформления мёрж-рекввестом и для работы с кодом рекумендуется ознакомиться с [документацией по оформлению и работе с PR-ами](https://github.com/CeladonSS13/Shiptest/blob/alpha-stable/.github/CONTRIBUTING.md).
+Для оформления мёрж-рекввестом и для работы с кодом рекумендуется ознакомиться с [документацией по оформлению и работе с PR-ами](https://github.com/MANKIND-Collective/Shiptest/blob/beta-dev/.github/CONTRIBUTING.md).
 
 ---
 
